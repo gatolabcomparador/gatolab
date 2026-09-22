@@ -383,6 +383,46 @@
     if(!entry) return val;
     return entry[LANG] || val;
   }
+  /* Lee un texto editable desde content/site.json (window.SITE_TEXT), por
+     ejemplo siteText("comparador.tituloDuelo", "Comparador 1 vs 1"). Si el
+     archivo no ha cargado todavía, la ruta no existe o el valor está vacío,
+     devuelve el texto de "fallback" (el mismo que ya había escrito a mano
+     en el HTML/JS), así que nunca desaparece contenido de la página. */
+  function siteText(path, fallback){
+    try{
+      let obj = window.SITE_TEXT;
+      const parts = path.split(".");
+      for(let i=0;i<parts.length;i++){
+        if(obj==null) return fallback;
+        obj = obj[parts[i]];
+      }
+      return (obj==null || obj==="") ? fallback : obj;
+    }catch(e){ return fallback; }
+  }
+  /* Aplica a la interfaz los textos editables del panel (colección "TEXTOS
+     DEL SITIO" en /admin/, guardados en content/site.json): cabeceras,
+     párrafos de "Sobre nosotros", contacto y pie de página. Se llama cada
+     vez que se repinta la interfaz (ver applyStaticI18n) — si SITE_TEXT
+     todavía no ha llegado o le falta algún campo, cada elemento conserva el
+     texto que ya tenía. */
+  function applySiteTexts(){
+    const bt = el("#brandTagline"); if(bt) bt.textContent = siteText("general.tagline", bt.textContent);
+    const he = el("#homeEyebrow"); if(he) he.textContent = siteText("inicio.eyebrow", he.textContent);
+    const ae = el("#aboutEyebrow"); if(ae) ae.textContent = siteText("sobreNosotros.eyebrow", ae.textContent);
+    const ct = el("#contactTitle"); if(ct) ct.textContent = siteText("sobreNosotros.contactoTitulo", ct.textContent);
+    const ch = el("#contactHint"); if(ch) ch.textContent = siteText("sobreNosotros.contactoAyuda", ch.textContent);
+    const ac = el("#aboutContent");
+    const parrafos = siteText("sobreNosotros.parrafos", null);
+    if(ac && Array.isArray(parrafos) && parrafos.length){
+      ac.innerHTML = parrafos.map(p => `<p>${escapeXML(p)}</p>`).join("");
+    }
+    STRINGS.duelTitle.es = siteText("comparador.tituloDuelo", STRINGS.duelTitle.es);
+    STRINGS.duelDesc.es = siteText("comparador.descripcionDuelo", STRINGS.duelDesc.es);
+    STRINGS.sizesTitle.es = siteText("comparador.tituloTallas", STRINGS.sizesTitle.es);
+    STRINGS.sizesDesc.es = siteText("comparador.descripcionTallas", STRINGS.sizesDesc.es);
+    STRINGS.sizeDisclaimer.es = siteText("comparador.avisoTallas", STRINGS.sizeDisclaimer.es);
+    STRINGS.footerDisclaimer.es = siteText("footer.disclaimer", STRINGS.footerDisclaimer.es);
+  }
   function labelForFilterValue(kind, opt){
     if(kind==="cierre") return v("cierreTipo", opt);
     if(kind==="nivel") return v("nivel", opt);
@@ -405,8 +445,12 @@
     const p = document.querySelector(".hero p");
     if(!p) return;
     const total = SHOES.length, brands = MARCAS.length;
+    const esFallback = "Descubre, analiza y compara {{total}} modelos de pies de gato de {{marcas}} marcas por cierre, perfil, rigidez, asimetría y uso recomendado — lado a lado, sin marketing de por medio.";  
+    const esTexto = siteText("inicio.introTexto", esFallback)
+      .replace(/\{\{total\}\}/g, `<strong id="heroTotal">${total}</strong>`)
+      .replace(/\{\{marcas\}\}/g, `<strong id="heroBrands">${brands}</strong>`);
     const templates = {
-      es:`Descubre, analiza y compara <strong id="heroTotal">${total}</strong> modelos de pies de gato de <strong id="heroBrands">${brands}</strong> marcas por cierre, perfil, rigidez, asimetría y uso recomendado — lado a lado, sin marketing de por medio.`,
+      es: esTexto,
       ca:`Descobreix, analitza i compara <strong id="heroTotal">${total}</strong> models de peus de gat de <strong id="heroBrands">${brands}</strong> marques per tancament, perfil, rigidesa, asimetria i ús recomanat — costat a costat, sense marketing pel mig.`,
       en:`Discover, analyze and compare <strong id="heroTotal">${total}</strong> climbing shoe models from <strong id="heroBrands">${brands}</strong> brands by closure, shape, stiffness, asymmetry and recommended use — side by side, no marketing involved.`,
       fr:`Découvre, analyse et compare <strong id="heroTotal">${total}</strong> modèles de chaussons d'escalade de <strong id="heroBrands">${brands}</strong> marques par fermeture, profil, rigidité, asymétrie et usage recommandé — côte à côte, sans marketing.`
@@ -414,6 +458,7 @@
     p.innerHTML = templates[LANG] || templates.es;
   }
   function applyStaticI18n(){
+    applySiteTexts();
     el("#navHome").textContent = t("navHome");
     el("#navCompare").textContent = t("navCompare");
     el("#navNews").textContent = t("navNews");
@@ -641,11 +686,11 @@
     const title = el("#duelTitle");
     const desc = el("#duelDesc");
     if(tab === "sizes"){
-      if(eyebrow) eyebrow.textContent = "SIZE MATCH";
+      if(eyebrow) eyebrow.textContent = siteText("comparador.eyebrowTallas", "SIZE MATCH");      
       if(title) title.textContent = t("sizesTitle");
       if(desc) desc.textContent = t("sizesDesc");
     } else {
-      if(eyebrow) eyebrow.textContent = "HEAD TO HEAD";
+      if(eyebrow) eyebrow.textContent = siteText("comparador.eyebrowDuelo", "HEAD TO HEAD");
       if(title) title.textContent = t("duelTitle");
       if(desc) desc.textContent = t("duelDesc");
     }
@@ -1319,13 +1364,16 @@
   setView(parseInitialHash());
   ["a","b"].forEach(renderPicker);
 
-  /* El catálogo real llega de content/shoes.json de forma asíncrona (ver
-     js/data.js). Hasta que llega, todo lo anterior pinta con SHOES=[] (de ahí
-     el aviso "Cargando catálogo…" en renderCatalog). En cuanto la promesa se
-     resuelve, se recalculan los valores derivados del catálogo (rangos,
-     opciones de filtro, marcas), se revalida la bandeja/duelo guardados
-     contra los datos reales, y se repinta toda la interfaz una sola vez. */
-  window.__gatoLabShoesReady.then(function(shoes){
+  /* El catálogo real llega de content/shoes.json y los textos editables de   
+     content/site.json, ambos de forma asíncrona (ver js/data.js). Hasta que
+     lleguen, todo lo anterior pinta con SHOES=[] y los textos por defecto
+     escritos en el HTML (de ahí el aviso "Cargando catálogo…" en
+     renderCatalog). En cuanto ambas promesas se resuelven, se recalculan los
+     valores derivados del catálogo (rangos, opciones de filtro, marcas), se
+     revalida la bandeja/duelo guardados contra los datos reales, y se
+     repinta toda la interfaz (incluidos los textos del panel) una sola vez. */
+  Promise.all([window.__gatoLabShoesReady, window.__gatoLabSiteReady]).then(function(results){
+    const shoes = results[0];
     SHOES = shoes;
     shoesLoaded = true;
     GROSOR_RANGE = computeGrosorRange();

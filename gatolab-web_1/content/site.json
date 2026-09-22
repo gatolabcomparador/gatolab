@@ -1,0 +1,32 @@
+{
+  "general": {
+    "tagline": "Climbing Shoe Database"
+  },
+  "inicio": {
+    "eyebrow": "CLIMBING SHOE DATABASE",
+    "introTexto": "Descubre, analiza y compara {{total}} modelos de pies de gato de {{marcas}} marcas por cierre, perfil, rigidez, asimetría y uso recomendado — lado a lado, sin marketing de por medio."
+  },
+  "comparador": {
+    "eyebrowDuelo": "HEAD TO HEAD",
+    "tituloDuelo": "Comparador 1 vs 1",
+    "descripcionDuelo": "Elige dos modelos y compáralos en detalle: precio, peso, cierre, construcción, asimetría, perfil, rigidez, sensibilidad, suela, volumen, uso y nivel recomendado.",
+    "eyebrowTallas": "SIZE MATCH",
+    "tituloTallas": "Comparador de tallas",
+    "descripcionTallas": "Indica tu marca y tu talla habitual: te decimos la talla equivalente aproximada en las demás marcas, calculada a partir de la longitud de pie (cm) de cada tabla oficial.",
+    "avisoTallas": "Equivalencia orientativa por longitud de pie: cada horma (last) ajusta de forma distinta, así que es habitual subir o bajar media talla al cambiar de marca aunque la longitud de pie coincida. Antes de comprar sin probar, consulta también la guía de tallaje de la tienda."
+  },
+  "sobreNosotros": {
+    "eyebrow": "SOBRE NOSOTROS",
+    "parrafos": [
+      "GATO LAB nació de una pregunta sencilla: ¿por qué es tan difícil comparar pies de gato entre marcas? Cada fabricante mide, describe y fotografía sus modelos a su manera, y acabar elegiendo zapatilla implica abrir quince pestañas y apuntar datos en una libreta.",
+      "Este proyecto reúne en un solo sitio las fichas técnicas de decenas de modelos — cierre, perfil, rigidez, asimetría, uso recomendado, peso y precio de referencia — para que comparar sea tan fácil como filtrar y poner dos zapatillas una junto a la otra.",
+      "GATO LAB es un proyecto independiente y no está afiliado a ninguna de las marcas mostradas. No vendemos zapatillas: los precios y datos son orientativos y pueden variar según tienda, versión y talla.",
+      "¿Encontraste un dato incorrecto, un modelo que falta, o simplemente quieres saludar? Escríbenos."
+    ],
+    "contactoTitulo": "Contacto",
+    "contactoAyuda": "Al enviar se abrirá tu programa de correo con el mensaje ya redactado, listo para mandar a gatolab.comparador@gmail.com."
+  },
+  "footer": {
+    "disclaimer": "GATO LAB ES UNA BASE DE DATOS COMPARATIVA, NO UNA TIENDA: AQUÍ NO SE VENDE NI SE COMPRA NADA. LOS PRECIOS, PESOS Y TALLAS SON ORIENTATIVOS Y PUEDEN VARIAR SEGÚN TIENDA, VERSIÓN Y TALLA. DATOS RECOPILADOS DE FICHAS TÉCNICAS, GUÍAS DE TALLAJE Y BASES DE DATOS DE MATERIAL PÚBLICAS. GATO LAB ES UN PROYECTO INDEPENDIENTE Y NO ESTÁ AFILIADO A LAS MARCAS MOSTRADAS."
+  }
+}

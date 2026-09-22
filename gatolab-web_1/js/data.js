@@ -111,6 +111,26 @@ window.__gatoLabShoesReady = fetch("content/shoes.json", { cache: "no-store" })
     return window.SHOES;
   });
 
+/* Textos editoriales de la web (inicio, comparador, sobre nosotros, pie de
+   página) YA NO viven escritos a mano en el HTML/JS: se leen en tiempo real
+   desde content/site.json, que es el archivo que edita el panel de
+   administración (/admin/, colección "TEXTOS DEL SITIO"). Para cambiar
+   cualquiera de esos textos no hace falta tocar código, solo usar el panel.
+   Si el archivo no carga por lo que sea, la web sigue funcionando con el
+   texto que ya está escrito directamente en index.html como último recurso. */
+window.SITE_TEXT = null;
+window.__gatoLabSiteReady = fetch("content/site.json", { cache: "no-store" })
+  .then(r => { if(!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+  .then(data => {
+    window.SITE_TEXT = data && typeof data === "object" ? data : {};
+    return window.SITE_TEXT;
+  })
+  .catch(err => {
+    console.error("GATO LAB: no se pudo cargar content/site.json —", err);
+    window.SITE_TEXT = {};
+    return window.SITE_TEXT;
+  });
+
 /* Tallas disponibles por marca (orientativo, de guías de tallaje de cada
    marca — no es un dato por modelo, puede variar según la línea/versión). */
 window.TALLAS = {

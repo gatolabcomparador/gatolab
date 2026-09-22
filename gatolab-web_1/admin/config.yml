@@ -24,7 +24,7 @@ backend:
 
 # Dónde se guardan las imágenes que subas desde el editor (galería, imagen
 # principal...). Se guardan dentro del propio repositorio, en /uploads.
-media_folder: "uploads"
+media_folder: "gatolab-web_1/uploads"
 public_folder: "/uploads"
 
 locale: "es"
@@ -35,7 +35,7 @@ collections:
     files:
       - name: "articulos"
         label: "Artículos de NEWS"
-        file: "content/news.json"
+        file: "gatolab-web_1/content/news.json"
         description: "Todos los artículos de la sección NEWS de GATO LAB viven en este único archivo. Añade, edita o borra artículos desde aquí — la web los lee automáticamente, sin tocar código."
         fields:
           - label: "Artículos"
@@ -171,7 +171,7 @@ collections:
     files:
       - name: "modelos"
         label: "Modelos de pies de gato"
-        file: "content/shoes.json"
+        file: "gatolab-web_1/content/shoes.json"
         description: "Todos los modelos del catálogo comparativo viven en este único archivo. Añade, edita o borra modelos desde aquí — la web los lee automáticamente, sin tocar código. Ver también README.md, sección «Panel admin del catálogo»."
         fields:
           - label: "Modelos"

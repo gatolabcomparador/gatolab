@@ -289,12 +289,12 @@ collections:
                 widget: "text"
                 hint: "1 frase que recomienda el perfil de escalador/a ideal para este modelo."
 
-              - label: "Fotos (solo enlaces oficiales de marca)"
+              - label: "Fotos"
                 name: "fotos"
                 widget: "list"
                 required: false
-                hint: "IMPORTANTE: nunca subas fotos propias ni de otras webs aquí — solo pega URLs que apunten directamente a la página oficial del fabricante, para respetar sus derechos de imagen (ver README, sección 6). La primera URL es la foto principal/de portada; las siguientes son fotos adicionales que se podrán elegir con miniaturas y ampliar a pantalla completa en la ficha. Déjalo vacío si no hay una foto oficial fiable — la web mostrará el icono esquemático de siempre."
-                field: { label: "URL de la foto", name: "url", widget: "string" }
+                hint: "Para cada foto tienes dos opciones: subir tu propia imagen desde tu ordenador/galería, o pegar la URL de una foto publicada en la página oficial del fabricante. Si pegas una URL, usa siempre la web oficial de la marca (evita copiar fotos de otras webs que no sean tuyas ni de la marca, para respetar derechos de imagen — ver README, sección 6). La primera foto es la principal/de portada; las siguientes son fotos adicionales que se podrán elegir con miniaturas y ampliar a pantalla completa en la ficha. Déjalo vacío si no tienes ninguna foto — la web mostrará el icono esquemático de siempre."
+                field: { label: "Foto", name: "url", widget: "image" }
 
               - label: "Ajuste manual del gráfico de radar"
                 name: "radarOverride"

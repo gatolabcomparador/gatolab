@@ -1,0 +1,7 @@
+# Cuando tengas tu cuenta de Google AdSense aprobada:
+# 1. Sustituye ADSENSE_CLIENT_ID por tu ID real (el número que aparece como pub-XXXXXXXXXXXXXXXX).
+# 2. Renombra este archivo a "ads.txt" y súbelo a la raíz de tu dominio
+#    (debe quedar accesible en https://www.tu-dominio.example/ads.txt).
+# Esto evita avisos de "ads.txt no encontrado" en tu panel de AdSense.
+
+google.com, pub-ADSENSE_CLIENT_ID, DIRECT, f08c47fec0942fa0

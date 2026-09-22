@@ -1,0 +1,343 @@
+# ============================================================================
+# Panel admin de GATO LAB NEWS — configuración de Decap CMS (antes "Netlify CMS")
+# ----------------------------------------------------------------------------
+# Este archivo define los campos del editor que verás en /admin/. No necesitas
+# tocar este archivo para publicar, editar o borrar noticias: eso se hace
+# desde el panel. Solo tendrías que volver aquí si en el futuro quieres
+# añadir o quitar un campo del editor.
+#
+# Requisitos para que /admin/ funcione de verdad (una sola vez, ver README.md
+# sección "Activar el panel de NEWS"):
+#   1. El proyecto tiene que estar desplegado en Netlify (o similar) y el
+#      código tiene que vivir en un repositorio Git (GitHub/GitLab/Bitbucket).
+#   2. Activar "Identity" en Netlify (para poder iniciar sesión en /admin/).
+#   3. Activar "Git Gateway" dentro de Identity (para que el panel pueda
+#      guardar cambios en el repositorio sin que tengas que dar permisos
+#      de Git a cada persona que use el panel).
+#   4. Invitarte a ti mismo/a como usuario desde Netlify Identity.
+# Hasta que hagas esto, /admin/ se puede abrir pero no podrás iniciar sesión.
+# ============================================================================
+
+backend:
+  name: git-gateway
+  branch: main
+
+# Dónde se guardan las imágenes que subas desde el editor (galería, imagen
+# principal...). Se guardan dentro del propio repositorio, en /uploads.
+media_folder: "uploads"
+public_folder: "/uploads"
+
+locale: "es"
+
+collections:
+  - name: "news"
+    label: "NEWS"
+    files:
+      - name: "articulos"
+        label: "Artículos de NEWS"
+        file: "content/news.json"
+        description: "Todos los artículos de la sección NEWS de GATO LAB viven en este único archivo. Añade, edita o borra artículos desde aquí — la web los lee automáticamente, sin tocar código."
+        fields:
+          - label: "Artículos"
+            name: "articulos"
+            widget: "list"
+            summary: "{{fields.categoria}} · {{fields.fecha}} — {{fields.titulo}}"
+            fields:
+              - label: "URL slug"
+                name: "slug"
+                widget: "string"
+                hint: "Solo minúsculas, números y guiones (sin espacios ni acentos). Define la URL del artículo: tudominio.com/news/este-slug — no lo cambies una vez publicado o romperás enlaces ya compartidos."
+                pattern: ["^[a-z0-9]+(-[a-z0-9]+)*$", "Usa solo minúsculas, números y guiones, sin espacios ni acentos."]
+
+              - label: "Categoría"
+                name: "categoria"
+                widget: "select"
+                options: ["NEW RELEASES", "REVIEWS", "PRODUCT ANALYSIS", "CLIMBING SHOES", "BRANDS"]
+
+              - label: "Fecha de publicación"
+                name: "fecha"
+                widget: "datetime"
+                format: "YYYY-MM-DD"
+                date_format: "YYYY-MM-DD"
+                time_format: false
+                picker_utc: true
+
+              - label: "Título"
+                name: "titulo"
+                widget: "string"
+
+              - label: "Subtítulo / entradilla"
+                name: "subtitulo"
+                widget: "text"
+
+              - label: "Marca"
+                name: "marca"
+                widget: "string"
+                required: false
+                hint: "Ej. La Sportiva, Scarpa, Tenaya... Déjalo vacío si el artículo no habla de una marca concreta."
+
+              - label: "Modelo relacionado (ID interno)"
+                name: "modeloId"
+                widget: "string"
+                required: false
+                hint: "El id exacto del modelo tal como aparece en js/data.js (ej. ls-skwama, sc-drago). Si lo rellenas, el artículo mostrará una ficha del producto con un botón «Ver modelo →» enlazado a esa ficha dentro de GATO LAB, y el modelo mostrará este artículo en «Más NEWS sobre este modelo». Déjalo vacío si el artículo no está ligado a un modelo concreto."
+
+              - label: "Imagen principal"
+                name: "imagenPrincipal"
+                widget: "image"
+                required: false
+
+              - label: "Texto alternativo de la imagen principal"
+                name: "imagenAlt"
+                widget: "string"
+                required: false
+                hint: "Describe la imagen para SEO y accesibilidad (ej. «La Sportiva Skwama en desplome, vista de perfil»)."
+
+              - label: "Galería de imágenes"
+                name: "galeria"
+                widget: "list"
+                required: false
+                field: { label: "Imagen", name: "imagen", widget: "image" }
+
+              - label: "Texto del artículo"
+                name: "texto"
+                widget: "list"
+                hint: "Un párrafo por línea."
+                field: { label: "Párrafo", name: "parrafo", widget: "text" }
+
+              - label: "Ficha técnica"
+                name: "fichaTecnica"
+                widget: "list"
+                hint: "Añade tantas filas como necesites: Peso, Cierre, Construcción, Asimetría, Perfil, Rigidez, Sensibilidad, Suela, Grosor de suela, Volumen, Materiales, Tallas, etc."
+                fields:
+                  - { label: "Campo", name: "campo", widget: "string" }
+                  - { label: "Valor", name: "valor", widget: "string" }
+
+              - label: "Características principales"
+                name: "caracteristicas"
+                widget: "list"
+                field: { label: "Característica", name: "item", widget: "string" }
+
+              - label: "Pros"
+                name: "pros"
+                widget: "list"
+                field: { label: "Punto a favor", name: "item", widget: "string" }
+
+              - label: "Contras"
+                name: "contras"
+                widget: "list"
+                field: { label: "Punto a tener en cuenta", name: "item", widget: "string" }
+
+              - label: "¿Para quién es? (explicación editorial)"
+                name: "paraQuien"
+                widget: "text"
+
+              - label: "Tipo de escalada recomendado"
+                name: "tipoEscalada"
+                widget: "string"
+                required: false
+                hint: "Ej. Bloque, Deportiva, Todoterreno, Gimnasio, Fisura/Trad, Competición."
+
+              - label: "Nivel recomendado"
+                name: "nivelRecomendado"
+                widget: "select"
+                options: ["Iniciación", "Intermedio", "Avanzado"]
+                required: false
+
+              - label: "Enlaces externos"
+                name: "enlaces"
+                widget: "list"
+                required: false
+                fields:
+                  - { label: "Texto del enlace", name: "texto", widget: "string" }
+                  - { label: "URL", name: "url", widget: "string" }
+
+              - label: "Veredicto GATO LAB"
+                name: "veredicto"
+                widget: "text"
+                hint: "Opinión editorial escrita por ti: sensaciones, características y contexto del modelo. No es una puntuación numérica."
+
+              - label: "SEO"
+                name: "seo"
+                widget: "object"
+                collapsed: true
+                hint: "El resto de campos SEO (URL slug, imagen principal, texto alternativo, categoría, modelo relacionado) ya se rellenan más arriba — aquí solo van el título y la descripción pensados para buscadores."
+                fields:
+                  - { label: "SEO title", name: "title", widget: "string", hint: "Ej. «La Sportiva Skwama: ficha técnica y análisis — GATO LAB»" }
+                  - { label: "Meta description", name: "metaDescription", widget: "text" }
+
+  - name: "shoes"
+    label: "CATÁLOGO"
+    files:
+      - name: "modelos"
+        label: "Modelos de pies de gato"
+        file: "content/shoes.json"
+        description: "Todos los modelos del catálogo comparativo viven en este único archivo. Añade, edita o borra modelos desde aquí — la web los lee automáticamente, sin tocar código. Ver también README.md, sección «Panel admin del catálogo»."
+        fields:
+          - label: "Modelos"
+            name: "zapatillas"
+            widget: "list"
+            summary: "{{fields.marca}} {{fields.modelo}}"
+            fields:
+              - label: "ID interno"
+                name: "id"
+                widget: "string"
+                hint: "Identificador único, sin espacios ni acentos (ej. ls-skwama). Se usa en la URL interna de la ficha y para enlazar artículos de NEWS a este modelo — no lo cambies una vez publicado, o romperás esos enlaces."
+                pattern: ["^[a-z0-9]+(-[a-z0-9]+)*$", "Usa solo minúsculas, números y guiones, sin espacios ni acentos."]
+
+              - label: "Marca"
+                name: "marca"
+                widget: "string"
+
+              - label: "Modelo"
+                name: "modelo"
+                widget: "string"
+
+              - label: "Cierre"
+                name: "cierre"
+                widget: "string"
+                hint: "Texto libre: «Velcro», «Cordones», «Slipper elástico», o combinaciones como «Cordones + velcro»."
+
+              - label: "Perfil (forma)"
+                name: "forma"
+                widget: "select"
+                options: ["Plana", "Casi plana", "Casi simétrica", "Moderada", "Moderada-agresiva", "Agresiva", "Muy agresiva"]
+                hint: "Este valor alimenta el eje «agresividad» del gráfico de radar — usa siempre una de estas opciones exactas, nunca texto libre."
+
+              - label: "Asimetría"
+                name: "asimetria"
+                widget: "select"
+                options: ["Baja", "Media", "Alta"]
+
+              - label: "Rigidez"
+                name: "rigidez"
+                widget: "select"
+                options: ["Blanda", "Media", "Rígida"]
+
+              - label: "Goma / compuesto de suela"
+                name: "goma"
+                widget: "string"
+
+              - label: "Grosor de suela (mm)"
+                name: "grosor"
+                widget: "number"
+                value_type: "float"
+                required: false
+                hint: "Deja vacío si no hay un dato fiable — nunca inventes un número."
+
+              - label: "Uso principal"
+                name: "uso"
+                widget: "select"
+                options: ["Rocódromo", "Todoterreno", "Deportiva", "Bloque", "Fisura/Trad", "Competición", "Velocidad"]
+
+              - label: "Nivel"
+                name: "nivel"
+                widget: "select"
+                options: ["Iniciación", "Intermedio", "Avanzado"]
+
+              - label: "Precio de referencia (€)"
+                name: "precio"
+                widget: "number"
+                value_type: "float"
+                hint: "Precio aproximado en euros."
+
+              - label: "Peso (g, un pie)"
+                name: "peso_g"
+                widget: "number"
+                value_type: "int"
+                required: false
+                hint: "Deja vacío si no hay un dato fiable — nunca inventes un número."
+
+              - label: "Talla de referencia del peso"
+                name: "peso_talla"
+                widget: "string"
+                required: false
+                hint: "Ayuda a interpretar peso_g, ya que el peso varía con la talla (ej. «EU 42»). Deja vacío si no aplica."
+
+              - label: "Volumen de horma"
+                name: "volumen"
+                widget: "string"
+                hint: "Texto libre: «Estándar», «Bajo (LV)», «Alto (horma ancha)»..."
+
+              - label: "Forro"
+                name: "forro"
+                widget: "select"
+                options: ["Forrado", "Sin forro", "Parcialmente forrado"]
+                required: false
+                hint: "Deja vacío si no se ha podido verificar."
+
+              - label: "Modelo infantil"
+                name: "infantil"
+                widget: "boolean"
+                required: false
+                default: false
+                hint: "Márcalo solo si es un modelo específico para niños/as."
+
+              - label: "Características técnicas"
+                name: "caracteristicas"
+                widget: "list"
+                hint: "2 a 4 frases cortas con tecnologías o rasgos distintivos reales del modelo."
+                field: { label: "Característica", name: "item", widget: "string" }
+
+              - label: "Resumen editorial"
+                name: "resumen"
+                widget: "text"
+                hint: "2-3 frases para la ficha, la tarjeta de búsqueda y el comparador."
+
+              - label: "¿Para quién es?"
+                name: "para_quien"
+                widget: "text"
+                hint: "1 frase que recomienda el perfil de escalador/a ideal para este modelo."
+
+              - label: "Fotos (solo enlaces oficiales de marca)"
+                name: "fotos"
+                widget: "list"
+                required: false
+                hint: "IMPORTANTE: nunca subas fotos propias ni de otras webs aquí — solo pega URLs que apunten directamente a la página oficial del fabricante, para respetar sus derechos de imagen (ver README, sección 6). La primera URL es la foto principal/de portada; las siguientes son fotos adicionales que se podrán elegir con miniaturas y ampliar a pantalla completa en la ficha. Déjalo vacío si no hay una foto oficial fiable — la web mostrará el icono esquemático de siempre."
+                field: { label: "URL de la foto", name: "url", widget: "string" }
+
+              - label: "Ajuste manual del gráfico de radar"
+                name: "radarOverride"
+                widget: "object"
+                collapsed: true
+                required: false
+                hint: "Por defecto, deja TODOS estos campos vacíos: el gráfico de «Perfil visual» usa siempre el valor calculado automáticamente a partir de perfil/asimetría/rigidez/grosor/volumen. Solo rellena un eje concreto si, mirando la zapatilla real, ves que el cálculo automático no coincide — el resto de ejes seguirán siendo automáticos. Escala de 0 (mínimo) a 4 (máximo)."
+                fields:
+                  - { label: "Agresividad (0-4)", name: "agresividad", widget: "number", value_type: "float", min: 0, max: 4, required: false }
+                  - { label: "Asimetría (0-4)", name: "asimetria", widget: "number", value_type: "float", min: 0, max: 4, required: false }
+                  - { label: "Rigidez (0-4)", name: "rigidez", widget: "number", value_type: "float", min: 0, max: 4, required: false }
+                  - { label: "Sensibilidad (0-4)", name: "sensibilidad", widget: "number", value_type: "float", min: 0, max: 4, required: false }
+                  - { label: "Ajuste / volumen de horma (0-4)", name: "ajuste", widget: "number", value_type: "float", min: 0, max: 4, required: false }
+
+              - label: "Resumen editorial por idioma (opcional)"
+                name: "resumen_i18n"
+                widget: "object"
+                collapsed: true
+                required: false
+                hint: "Traducción del «Resumen editorial» de más arriba a catalán/inglés/francés. Si dejas un idioma vacío, la interfaz usa el texto en castellano. Nunca traduzcas nombres de modelo/marca ni tecnologías propias de cada marca dentro del texto."
+                fields:
+                  - { label: "Català", name: "ca", widget: "text", required: false }
+                  - { label: "English", name: "en", widget: "text", required: false }
+                  - { label: "Français", name: "fr", widget: "text", required: false }
+
+              - label: "Características técnicas por idioma (opcional)"
+                name: "caracteristicas_i18n"
+                widget: "object"
+                collapsed: true
+                required: false
+                hint: "Mismo número de líneas y mismo orden que «Características técnicas» de más arriba, para cada idioma que traduzcas. Si dejas un idioma vacío, la interfaz usa las líneas en castellano."
+                fields:
+                  - { label: "Català", name: "ca", widget: "list", required: false, field: { label: "Característica", name: "item", widget: "string" } }
+                  - { label: "English", name: "en", widget: "list", required: false, field: { label: "Característica", name: "item", widget: "string" } }
+                  - { label: "Français", name: "fr", widget: "list", required: false, field: { label: "Característica", name: "item", widget: "string" } }
+
+              - label: "¿Para quién es? por idioma (opcional)"
+                name: "para_quien_i18n"
+                widget: "object"
+                collapsed: true
+                required: false
+                hint: "Traducción de «¿Para quién es?» de más arriba. Si dejas un idioma vacío, la interfaz usa el texto en castellano."
+                fields:
+                  - { label: "Català", name: "ca", widget: "text", required: false }
+                  - { label: "English", name: "en", widget: "text", required: false }
+                  - { label: "Français", name: "fr", widget: "text", required: false }

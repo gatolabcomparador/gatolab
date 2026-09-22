@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Admin — GATO LAB</title>
+<!--
+  Panel de administración de GATO LAB, con Decap CMS (antes "Netlify CMS").
+  Incluye dos secciones: CATÁLOGO (los modelos de content/shoes.json) y NEWS
+  (los artículos de content/news.json) — ambas se definen en admin/config.yml.
+  No necesitas tocar este archivo. Para activarlo de verdad, sigue los
+  pasos de README.md, sección 7 ("NEWS: activar el panel de administración";
+  la misma activación vale para las dos secciones).
+-->
+</head>
+<body>
+  <!-- Netlify Identity: gestiona el inicio de sesión de /admin/ -->
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
+
+  <!-- Decap CMS (antes Netlify CMS): lee admin/config.yml y genera el editor -->
+  <script src="https://unpkg.com/decap-cms@^3/dist/decap-cms.js"></script>
+</body>
+</html>

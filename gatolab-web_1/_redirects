@@ -1,0 +1,4 @@
+# Netlify: hace que las URL de artículo (ej. /news/skwama-en-gato-lab) carguen
+# index.html en vez de dar un 404. La propia app lee la URL con JavaScript y
+# muestra el artículo correspondiente. Ver README.md, sección "SEO y URLs".
+/news/*  /index.html  200

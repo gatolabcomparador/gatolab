@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gato Lab — Climbing Shoe Database</title>
+<meta name="description" content="Gato Lab es una base de datos para descubrir, analizar y comparar pies de gato de escalada de La Sportiva, Scarpa, Five Ten, Tenaya, Evolv y otras marcas por cierre, perfil, rigidez, asimetría, uso y precio.">
+<link rel="canonical" href="https://www.gatolab.es/">
+
+<!-- Open Graph / redes sociales — la vista previa al compartir el enlace muestra el logo de GATO LAB -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Gato Lab — Climbing Shoe Database">
+<meta property="og:description" content="Descubre, analiza y compara pies de gato de escalada de múltiples marcas por cierre, perfil, rigidez, asimetría y uso recomendado.">
+<meta property="og:url" content="https://www.gatolab.es/">
+<meta property="og:locale" content="es_ES">
+<meta property="og:image" content="https://www.gatolab.es/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="GATO LAB — Climbing Shoe Database">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Gato Lab — Climbing Shoe Database">
+<meta name="twitter:description" content="Descubre, analiza y compara pies de gato de escalada de múltiples marcas por cierre, perfil, rigidez, asimetría y uso recomendado.">
+<meta name="twitter:image" content="https://www.gatolab.es/og-image.png">
+
+<!-- Favicon y iconos de la marca: el logo de GATO LAB en la pestaña del navegador, en marcadores
+     y al añadir la web a la pantalla de inicio (ver README, sección "Favicon"). -->
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 182 200%22><path fill-rule=%22evenodd%22 fill=%22%23111111%22 d=%22M32.38,0 L20.06,25.94 L2.57,75.58 L9.66,123.96 L0,161.46 L4.76,166.36 L29.81,171.96 L76.84,199.11 L83.23,200 L139.16,169.3 L176.67,142.1 L180.97,137.25 L181.53,133.19 L179.33,129.18 L159.32,114.86 L140.7,4.85 L137.35,3.64 L134.36,5.92 L123.44,26.36 L117.24,44.74 L114.72,64.52 L99.98,64.75 L61.77,57.34 L36.39,2.61 Z M127.46,102.4 L133.71,110.94 L136.65,117.33 L138.89,126.34 L138.56,130.3 L137.53,132.35 L134.92,134.69 L131.7,135.67 L110.66,139.26 L104.6,138.23 L101.98,135.85 L100.72,132.26 L101,129.32 L103.34,124.61 L119.29,103.9 L123.4,101.66 Z M42.55,81.13 L54.21,84.81 L60.51,93.4 L64.99,103.99 L73.62,134.22 L64.89,139.26 L40.54,144.48 L35.74,142.52 L31.77,136.51 L29.81,129.13 L29.16,115.37 L32.33,89.43 L36.3,83.23 Z%22/></svg>">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+
+<!--
+  GOOGLE ADSENSE
+  ==============
+  1. Solicita tu cuenta en https://adsense.google.com con este sitio ya publicado
+     en tu dominio (con contenido real, política de privacidad y algo de tráfico).
+  2. Cuando Google te dé tu ID de cliente (ca-pub-XXXXXXXXXXXXXXXX):
+       a) Sustituye ADSENSE_CLIENT_ID en js/app.js (función loadAdsense) y descomenta ese bloque.
+       b) Sustituye ADSENSE_CLIENT_ID también en /ads.txt.example y renómbralo a /ads.txt.
+       c) Si quieres anuncios automáticos en vez de bloques manuales, añade aquí:
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ADSENSE_CLIENT_ID" crossorigin="anonymous"></script>
+  3. No cargues el script de AdSense antes de que la persona acepte cookies
+     (ver banner de consentimiento en js/app.js) — es obligatorio por normativa
+     europea (RGPD / ePrivacy) y Google lo exige a los editores en la UE.
+-->
+</head>
+<body>
+
+<svg style="display:none" aria-hidden="true">
+  <defs>
+    <symbol id="icon-shoe" viewBox="0 0 120 60">
+      <path d="M6 42 C6 30 14 18 30 14 C46 10 66 8 82 12 C96 15 106 22 112 30 C114 34 112 38 106 40 L100 42 C96 44 90 44 86 42 C80 40 74 40 68 42 C58 46 40 47 24 46 C14 45.5 7 44 6 42 Z" fill="currentColor"/>
+      <path d="M56 15 C63 10 74 9 81 12.5 L78.5 21 C71.5 18.5 63.5 18.5 57.5 20.5 Z" fill="currentColor" opacity=".55"/>
+      <path d="M14 40.5 C24 43.5 44 44 60 41.5" stroke="currentColor" stroke-width="2.2" fill="none" opacity=".35" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="icon-mark" viewBox="0 0 182 200">
+      <path fill-rule="evenodd" fill="currentColor" d="M32.38,0 L20.06,25.94 L2.57,75.58 L9.66,123.96 L0,161.46 L4.76,166.36 L29.81,171.96 L76.84,199.11 L83.23,200 L139.16,169.3 L176.67,142.1 L180.97,137.25 L181.53,133.19 L179.33,129.18 L159.32,114.86 L140.7,4.85 L137.35,3.64 L134.36,5.92 L123.44,26.36 L117.24,44.74 L114.72,64.52 L99.98,64.75 L61.77,57.34 L36.39,2.61 Z M127.46,102.4 L133.71,110.94 L136.65,117.33 L138.89,126.34 L138.56,130.3 L137.53,132.35 L134.92,134.69 L131.7,135.67 L110.66,139.26 L104.6,138.23 L101.98,135.85 L100.72,132.26 L101,129.32 L103.34,124.61 L119.29,103.9 L123.4,101.66 Z M42.55,81.13 L54.21,84.81 L60.51,93.4 L64.99,103.99 L73.62,134.22 L64.89,139.26 L40.54,144.48 L35.74,142.52 L31.77,136.51 L29.81,129.13 L29.16,115.37 L32.33,89.43 L36.3,83.23 Z"/>
+    </symbol>
+    <symbol id="icon-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><line x1="21" y1="21" x2="16.2" y2="16.2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="icon-close" viewBox="0 0 24 24"><line x1="5" y1="5" x2="19" y2="19" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><line x1="19" y1="5" x2="5" y2="19" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></symbol>
+    <symbol id="icon-plus" viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><line x1="5" y1="12" x2="19" y2="12" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></symbol>
+    <symbol id="icon-check" viewBox="0 0 24 24"><path d="M4 12.5 L9.5 18 L20 6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="icon-zoom" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><line x1="15.3" y1="15.3" x2="21" y2="21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="10.5" y1="7.5" x2="10.5" y2="13.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><line x1="7.5" y1="10.5" x2="13.5" y2="10.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+    <symbol id="icon-chevron" viewBox="0 0 24 24"><path d="M15 5 L8 12 L15 19" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  </defs>
+</svg>
+
+<div class="page">
+
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark"><svg viewBox="0 0 182 200"><use href="#icon-mark"></use></svg></span>
+      <span class="brand-text">
+        <span class="brand-name">GATO <em>LAB</em></span>
+        <span class="brand-tagline">Climbing Shoe Database</span>
+      </span>
+    </div>
+    <nav class="main-nav">
+      <button type="button" id="navHome" aria-current="true">Home</button>
+      <button type="button" id="navCompare" aria-current="false">Comparador</button>
+      <button type="button" id="navNews" aria-current="false">News</button>
+      <button type="button" id="navAbout" aria-current="false">Sobre nosotros</button>
+    </nav>
+    <div class="searchbox" id="homeSearchbox">
+      <svg viewBox="0 0 24 24"><use href="#icon-search"></use></svg>
+      <input id="search" type="search" placeholder="Busca marca o modelo… (ej. “Miura”, “Scarpa”)" autocomplete="off">
+    </div>
+    <button type="button" class="search-toggle" id="searchToggle" aria-label="Buscar" aria-expanded="false">
+      <svg viewBox="0 0 24 24"><use href="#icon-search"></use></svg>
+    </button>
+    <div class="lang-switch" id="langSwitch" role="group" aria-label="Idioma">
+      <button type="button" data-lang="es" aria-pressed="true">ES</button>
+      <button type="button" data-lang="ca" aria-pressed="false">CA</button>
+      <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      <button type="button" data-lang="fr" aria-pressed="false">FR</button>
+    </div>
+  </header>
+
+  <!-- ============================== HOME ============================== -->
+  <main id="homeView">
+
+    <section class="hero">
+      <div class="eyebrow">CLIMBING SHOE DATABASE</div>
+      <h1 class="display">GATO <em>LAB</em></h1>
+      <p>Descubre, analiza y compara <strong id="heroTotal">0</strong> modelos de pies de gato de <strong id="heroBrands">0</strong> marcas por cierre, perfil, rigidez, asimetría y uso recomendado — lado a lado, sin marketing de por medio.</p>
+      <div class="hero-chips" id="quickUso"></div>
+    </section>
+
+    <div class="ad-slot ad-leaderboard" aria-hidden="true" data-ad-suffix=" (Google AdSense · 728×90)">Espacio publicitario (Google AdSense · 728×90)</div>
+
+    <div class="layout">
+      <button class="filters-toggle" id="filtersToggle" aria-expanded="false">
+        <span id="filtersToggleLabel">Filtros</span><span id="filtersToggleIcon">▾</span>
+      </button>
+
+      <aside class="filters collapsed" id="filters">
+        <h2 id="filtersTitle">Filtros</h2>
+        <div class="filter-group"><h3 id="filterLabelMarca">Marca</h3><div id="brandFilters"></div></div>
+        <div class="filter-group"><h3 id="filterLabelNivel">Nivel</h3><div class="chipset" id="levelFilters"></div></div>
+        <div class="filter-group"><h3 id="filterLabelCierre">Cierre</h3><div class="chipset" id="closureFilters"></div></div>
+        <div class="filter-group"><h3 id="filterLabelPerfil">Perfil</h3><div class="chipset" id="shapeFilters"></div></div>
+        <button id="resetFilters">Quitar todos los filtros</button>
+      </aside>
+
+      <section class="catalog" id="catalog"></section>
+    </div>
+
+    <div class="ad-slot ad-infeed" aria-hidden="true" data-ad-suffix=" (Google AdSense · formato nativo)">Espacio publicitario (Google AdSense · formato nativo)</div>
+  </main>
+
+  <!-- ============================= COMPARADOR ============================= -->
+  <main id="compareView" hidden>
+
+    <section class="duel-hero">
+      <div class="eyebrow" id="compareEyebrow">HEAD TO HEAD</div>
+      <h1 class="display" id="duelTitle">Comparador 1 vs 1</h1>
+      <p id="duelDesc">Elige dos modelos y compáralos en detalle: precio, peso, cierre, construcción, asimetría, perfil, rigidez, sensibilidad, suela, volumen, uso y nivel recomendado.</p>
+    </section>
+
+    <div class="compare-tabs" id="compareTabs" role="tablist">
+      <button type="button" class="compare-tab" id="compareTabDuel" data-tab="duel" role="tab" aria-selected="true">1 VS 1</button>
+      <button type="button" class="compare-tab" id="compareTabSizes" data-tab="sizes" role="tab" aria-selected="false">TALLAS</button>
+    </div>
+
+    <div id="compareDuelPanel">
+      <div class="picker-row">
+        <div class="picker" data-slot="a">
+          <div class="picker-label" id="pickerLabelA">Select model 01</div>
+          <div class="picker-search">
+            <input type="search" class="picker-input" data-slot="a" placeholder="Busca marca, modelo, uso…" autocomplete="off">
+            <div class="picker-suggestions" data-slot="a" hidden></div>
+          </div>
+          <div class="picker-chosen" data-slot="a" hidden></div>
+        </div>
+        <div class="picker-vs">VS</div>
+        <div class="picker" data-slot="b">
+          <div class="picker-label" id="pickerLabelB">Select model 02</div>
+          <div class="picker-search">
+            <input type="search" class="picker-input" data-slot="b" placeholder="Busca marca, modelo, uso…" autocomplete="off">
+            <div class="picker-suggestions" data-slot="b" hidden></div>
+          </div>
+          <div class="picker-chosen" data-slot="b" hidden></div>
+        </div>
+      </div>
+
+      <div id="duelResult"></div>
+    </div>
+
+    <div id="compareSizesPanel" hidden>
+      <div class="picker-row" id="sizesPickerRow">
+        <div class="picker">
+          <div class="picker-label" id="sizesBrandLabel">Marca</div>
+          <select id="sizeBrandSelect" class="size-select"></select>
+        </div>
+        <div class="picker">
+          <div class="picker-label" id="sizesValueLabel">Talla</div>
+          <select id="sizeValueSelect" class="size-select"></select>
+        </div>
+      </div>
+
+      <div id="sizeResults" class="size-results"></div>
+
+      <p class="size-disclaimer" id="sizeDisclaimer">Equivalencia orientativa por longitud de pie: cada horma (last) ajusta de forma distinta, así que es habitual subir o bajar media talla al cambiar de marca aunque la longitud de pie coincida. Antes de comprar sin probar, consulta también la guía de tallaje de la tienda.</p>
+    </div>
+
+    <div class="ad-slot ad-infeed" aria-hidden="true" data-ad-suffix=" (Google AdSense · formato nativo)">Espacio publicitario (Google AdSense · formato nativo)</div>
+  </main>
+
+  <!-- ================================ NEWS ================================ -->
+  <main id="newsView" hidden>
+    <div id="newsBody"></div>
+  </main>
+
+  <!-- ============================ SOBRE NOSOTROS ============================ -->
+  <main id="aboutView" hidden>
+
+    <section class="hero" style="padding-block:34px 8px;">
+      <div class="eyebrow">SOBRE NOSOTROS</div>
+      <h1 class="display">GATO <em>LAB</em></h1>
+    </section>
+
+    <div class="about-content" id="aboutContent">
+      <p>GATO LAB nació de una pregunta sencilla: ¿por qué es tan difícil comparar pies de gato entre marcas? Cada fabricante mide, describe y fotografía sus modelos a su manera, y acabar elegiendo zapatilla implica abrir quince pestañas y apuntar datos en una libreta.</p>
+      <p>Este proyecto reúne en un solo sitio las fichas técnicas de decenas de modelos — cierre, perfil, rigidez, asimetría, uso recomendado, peso y precio de referencia — para que comparar sea tan fácil como filtrar y poner dos zapatillas una junto a la otra.</p>
+      <p>GATO LAB es un proyecto independiente y no está afiliado a ninguna de las marcas mostradas. No vendemos zapatillas: los precios y datos son orientativos y pueden variar según tienda, versión y talla.</p>
+      <p>¿Encontraste un dato incorrecto, un modelo que falta, o simplemente quieres saludar? Escríbenos.</p>
+    </div>
+
+    <form class="contact-form" id="contactForm">
+      <h2 id="contactTitle">Contacto</h2>
+      <div class="contact-row">
+        <label for="contactName">Nombre</label>
+        <input type="text" id="contactName" name="name" required autocomplete="name">
+      </div>
+      <div class="contact-row">
+        <label for="contactEmail">Tu email</label>
+        <input type="email" id="contactEmail" name="email" required autocomplete="email">
+      </div>
+      <div class="contact-row">
+        <label for="contactMessage">Mensaje</label>
+        <textarea id="contactMessage" name="message" rows="5" required></textarea>
+      </div>
+      <button type="submit" class="btn-primary" id="contactSubmit">Enviar mensaje</button>
+      <p class="contact-hint" id="contactHint">Al enviar se abrirá tu programa de correo con el mensaje ya redactado, listo para mandar a gatolab.comparador@gmail.com.</p>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-brand">
+      <span class="footer-mark"><svg viewBox="0 0 182 200"><use href="#icon-mark"></use></svg></span>
+      <span class="footer-brand-name">GATO <em>LAB</em></span>
+    </div>
+    <p id="footerDisclaimer">GATO LAB ES UNA BASE DE DATOS COMPARATIVA, NO UNA TIENDA: AQUÍ NO SE VENDE NI SE COMPRA NADA. LOS PRECIOS, PESOS Y TALLAS SON ORIENTATIVOS Y PUEDEN VARIAR SEGÚN TIENDA, VERSIÓN Y TALLA. DATOS RECOPILADOS DE FICHAS TÉCNICAS, GUÍAS DE TALLAJE Y BASES DE DATOS DE MATERIAL PÚBLICAS. GATO LAB ES UN PROYECTO INDEPENDIENTE Y NO ESTÁ AFILIADO A LAS MARCAS MOSTRADAS.</p>
+    <nav><a href="privacidad.html">Política de privacidad</a><a href="mailto:gatolab.comparador@gmail.com">Contacto</a></nav>
+    <div class="ad-slot ad-footer" aria-hidden="true" data-ad-suffix=" (Google AdSense · footer)">Espacio publicitario (Google AdSense · footer)</div>
+  </footer>
+
+  <div class="modal-overlay" id="detailOverlay" hidden>
+    <div class="modal" id="detailModal" role="dialog" aria-modal="true"></div>
+  </div>
+
+  <div class="compare-tray" id="compareTray" hidden>
+    <div class="tray-items" id="trayItems"></div>
+    <span class="tray-hint" id="trayHint">Elige hasta 4 para comparar</span>
+    <button class="btn-primary" id="openCompare"><span id="compareBtnLabel">Comparar</span> (<span id="trayCount">0</span>)</button>
+  </div>
+
+  <div class="modal-overlay" id="compareOverlay" hidden>
+    <div class="modal modal-wide" id="compareModal" role="dialog" aria-modal="true"></div>
+  </div>
+
+  <div class="modal-overlay lightbox-overlay" id="lightboxOverlay" hidden>
+    <div class="lightbox" id="lightboxModal" role="dialog" aria-modal="true"></div>
+  </div>
+
+</div>
+
+<script src="js/data.js"></script>
+<script src="js/sizes.js"></script>
+<script src="js/app.js"></script>
+<script src="js/news.js"></script>
+
+<!--
+  NETLIFY IDENTITY (invitaciones y recuperación de contraseña)
+  ==============================================================
+  Solo hace falta este script aquí (fuera de /admin/) para que los enlaces
+  de invitación / recuperación de contraseña que llegan por email funcionen
+  también si se abren sobre la home en vez de sobre /admin/. Si nunca vas a
+  usar el panel de NEWS puedes borrar este bloque sin que afecte al resto
+  de la web.
+-->
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {});
+    document.addEventListener("DOMContentLoaded", () => {
+      if (location.hash && location.hash.match(/invite_token|recovery_token|confirmation_token/)) {
+        window.netlifyIdentity.open();
+      }
+    });
+  }
+</script>
+</body>
+</html>

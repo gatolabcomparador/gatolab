@@ -341,3 +341,101 @@ collections:
                   - { label: "Català", name: "ca", widget: "text", required: false }
                   - { label: "English", name: "en", widget: "text", required: false }
                   - { label: "Français", name: "fr", widget: "text", required: false }
+  - name: "sitio"
+    label: "TEXTOS DEL SITIO"
+    files:
+      - name: "textos"
+        label: "Inicio, Comparador, Sobre nosotros y pie de página"
+        file: "gatolab-web_1/content/site.json"
+        description: "Todos los textos fijos de la web (los que no son ni modelos del catálogo ni artículos de NEWS) viven en este único archivo, agrupados por la sección de la web donde aparecen. Cambia lo que necesites y publica — la web lo lee automáticamente, sin tocar código."
+        fields:
+          - label: "General (cabecera de la web)"
+            name: "general"
+            widget: "object"
+            hint: "Se ve en la cabecera, debajo del logo GATO LAB, en todas las páginas."
+            fields:
+              - label: "Lema bajo el logo"
+                name: "tagline"
+                widget: "string"
+
+          - label: "Inicio (pantalla principal)"
+            name: "inicio"
+            widget: "object"
+            fields:
+              - label: "Texto pequeño encima del título"
+                name: "eyebrow"
+                widget: "string"
+                hint: "Ej. «CLIMBING SHOE DATABASE». Normalmente en mayúsculas."
+
+              - label: "Texto de introducción"
+                name: "introTexto"
+                widget: "text"
+                hint: "El párrafo bajo el título GATO LAB de la portada. Usa exactamente {{total}} donde quieras que aparezca el número de modelos, y {{marcas}} donde quieras el número de marcas — la web los sustituye automáticamente y los resalta en negrita. No borres esas dos llaves dobles, pero puedes mover el resto de la frase como quieras."
+
+          - label: "Comparador"
+            name: "comparador"
+            widget: "object"
+            fields:
+              - label: "Texto pequeño — pestaña 1 vs 1"
+                name: "eyebrowDuelo"
+                widget: "string"
+                hint: "Ej. «HEAD TO HEAD». Normalmente en mayúsculas."
+
+              - label: "Título — pestaña 1 vs 1"
+                name: "tituloDuelo"
+                widget: "string"
+
+              - label: "Descripción — pestaña 1 vs 1"
+                name: "descripcionDuelo"
+                widget: "text"
+
+              - label: "Texto pequeño — pestaña Tallas"
+                name: "eyebrowTallas"
+                widget: "string"
+                hint: "Ej. «SIZE MATCH». Normalmente en mayúsculas."
+
+              - label: "Título — pestaña Tallas"
+                name: "tituloTallas"
+                widget: "string"
+
+              - label: "Descripción — pestaña Tallas"
+                name: "descripcionTallas"
+                widget: "text"
+
+              - label: "Aviso legal de tallas"
+                name: "avisoTallas"
+                widget: "text"
+                hint: "El aviso pequeño bajo la tabla de equivalencia de tallas."
+
+          - label: "Sobre nosotros"
+            name: "sobreNosotros"
+            widget: "object"
+            fields:
+              - label: "Texto pequeño encima del título"
+                name: "eyebrow"
+                widget: "string"
+                hint: "Ej. «SOBRE NOSOTROS». Normalmente en mayúsculas."
+
+              - label: "Párrafos"
+                name: "parrafos"
+                widget: "list"
+                hint: "Un párrafo por línea, en el orden en que quieres que aparezcan. Añade, borra o reordena párrafos con los botones de cada fila."
+                field: { label: "Párrafo", name: "texto", widget: "text" }
+
+              - label: "Título del formulario de contacto"
+                name: "contactoTitulo"
+                widget: "string"
+
+              - label: "Texto de ayuda del formulario de contacto"
+                name: "contactoAyuda"
+                widget: "text"
+                hint: "El texto pequeño bajo el botón «Enviar mensaje»."
+
+          - label: "Pie de página"
+            name: "footer"
+            widget: "object"
+            fields:
+              - label: "Aviso legal del pie de página"
+                name: "disclaimer"
+                widget: "text"
+                hint: "El texto en mayúsculas que aparece en todas las páginas, justo encima de los enlaces de política de privacidad y contacto."

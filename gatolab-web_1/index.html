@@ -260,6 +260,9 @@
 
 </div>
 
+<script>
+window.__gatoAuthHash = location.hash;
+</script>
 <script src="js/data.js"></script>
 <script src="js/sizes.js"></script>
 <script src="js/app.js"></script>
@@ -274,12 +277,18 @@
   usar el panel de NEWS puedes borrar este bloque sin que afecte al resto
   de la web.
 -->
+<script>
+if (window.__gatoAuthHash && /invite_token|recovery_token|confirmation_token/.test(window.__gatoAuthHash)) {
+location.hash = window.__gatoAuthHash;
+}
+</script>
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 <script>
   if (window.netlifyIdentity) {
     window.netlifyIdentity.on("init", user => {});
     document.addEventListener("DOMContentLoaded", () => {
-      if (location.hash && location.hash.match(/invite_token|recovery_token|confirmation_token/)) {
+      var h = window.__gatoAuthHash || location.hash;
+      if (h && h.match(/invite_token|recovery_token|confirmation_token/)) {
         window.netlifyIdentity.open();
       }
     });

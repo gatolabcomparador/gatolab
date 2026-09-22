@@ -45,6 +45,7 @@
   var items = this.props.widgetsFor("zapatillas");
   if (!items) return h("div", {style:{padding:"20px"}}, "Cargando...");
   var cards = items.map(function (item, i) {
+if (!item) { return null; }
   var d = item.data;
   if (!d) return null;
   var fotos = d.get("fotos");

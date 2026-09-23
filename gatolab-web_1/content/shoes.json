@@ -7360,7 +7360,7 @@
    "nivel": "Avanzado",
    "asimetria": "Alta",
    "forro": null,
-   "cierre": "Velcro",
+   "cierre": "Velcro (triple correa)",
    "modelo": "Django 3.0",
    "peso_talla": "40",
    "precio": 95,
@@ -7420,7 +7420,7 @@
    "nivel": "Intermedio",
    "asimetria": "Alta",
    "forro": null,
-   "cierre": "Velcro",
+   "cierre": "Velcro (Z)",
    "modelo": "Guardian 3.0",
    "peso_talla": "40",
    "precio": 70,
@@ -7480,7 +7480,7 @@
    "nivel": "Iniciación",
    "asimetria": "Baja",
    "forro": null,
-   "cierre": "Velcro",
+   "cierre": "Velcro (doble correa)",
    "modelo": "Electron 3.0",
    "peso_talla": "40",
    "precio": 90,
@@ -7540,7 +7540,7 @@
    "nivel": "Avanzado",
    "asimetria": "Alta",
    "forro": null,
-   "cierre": "Velcro",
+   "cierre": "Velcro (mono correa)",
    "modelo": "Nebula 3.0",
    "peso_talla": "40",
    "precio": 135,
@@ -7585,7 +7585,7 @@
    "volumen": "Estándar",
    "peso_g": 430,
    "id": "eb-nebula",
-   "goma": "EB DS Max / Daytona",
+   "goma": "EB DS Max",
    "resumen_i18n": {
     "ca": "El Nebula 3.0 és el model més flexible d'EB, sense mitjasola, que combina l'agilitat d'una sabatilla de ballet amb horma agressiva. Pensat per a búlder de dificultat al rocòdrom, roca i competició, prioritza sensibilitat i precisió en preses petites per sobre de la rigidesa.",
     "en": "The Nebula 3.0 is EB's most flexible model, with no midsole, combining the agility of a ballet slipper with an aggressive last. Built for hard bouldering at the gym, on rock and in competition, it prioritizes sensitivity and precision on small holds over stiffness.",
@@ -7600,7 +7600,7 @@
    "nivel": "Intermedio",
    "asimetria": "Alta",
    "forro": null,
-   "cierre": "Velcro",
+   "cierre": "Velcro (doble correa)",
    "modelo": "Red",
    "peso_talla": "40",
    "precio": 85,
@@ -8567,7 +8567,7 @@
    "asimetria": "Baja",
    "forro": "Forrado",
    "cierre": "Velcro (doble correa)",
-   "modelo": "Néo Kid",
+   "modelo": "Néo Kid 3.0",
    "peso_talla": "32",
    "precio": 55,
    "infantil": true,
@@ -11743,6 +11743,306 @@
    },
    "marca": "Boreal",
    "forma": "Muy agresiva"
+  },
+  {
+   "rigidez": "Media",
+   "resumen": "Jarvis Velcro es el modelo más versátil de la gama Elite de EB: rinde igual de bien en rocódromo, bloque y vías largas. Su suela DS Max de 4 mm y su horma que respeta la forma natural del pie ofrecen precisión sin sacrificar comodidad.",
+   "nivel": "Intermedio",
+   "asimetria": "Alta",
+   "forro": null,
+   "cierre": "Velcro",
+   "modelo": "Jarvis Velcro",
+   "peso_talla": "40",
+   "precio": null,
+   "caracteristicas": [
+    "Corte en microfibra EVO que sigue la forma natural del pie",
+    "Suela EB DS Max de 4 mm de máxima adherencia",
+    "Cierre de velcro para un calzado rápido y preciso",
+    "Rendimiento equilibrado entre bloque, vías y multilargo"
+   ],
+   "para_quien_i18n": {
+    "ca": "Escaladors de tots els nivells que busquen un model tot terreny igual d'eficaç en rocòdrom, roca i bloc.",
+    "en": "Climbers of all levels wanting an all-round shoe equally effective in the gym, outdoors and on boulders.",
+    "fr": "Grimpeurs de tous niveaux recherchant un modèle polyvalent aussi efficace en salle, en falaise qu'en bloc."
+   },
+   "para_quien": "Escaladores de todos los niveles que buscan un modelo todoterreno igual de eficaz en rocódromo, roca y bloque.",
+   "fotos": [
+    "https://eb-climbing.com/wp-content/uploads/2025/02/JARVIS-chausson-escalade.jpg",
+    "https://eb-climbing.com/wp-content/uploads/2025/02/j-velcro.jpg"
+   ],
+   "uso": "Todoterreno",
+   "grosor": 4,
+   "caracteristicas_i18n": {
+    "ca": [
+     "Tall en microfibra EVO que segueix la forma natural del peu",
+     "Sola EB DS Max de 4 mm de màxima adherència",
+     "Tancament de velcro per a un calçat ràpid i precís",
+     "Rendiment equilibrat entre bloc, vies i multilarg"
+    ],
+    "en": [
+     "EVO microfiber upper that follows the foot's natural shape",
+     "4 mm EB DS Max sole for maximum grip",
+     "Velcro closure for a quick, precise fit",
+     "Balanced performance across bouldering, routes and multi-pitch"
+    ],
+    "fr": [
+     "Tige en microfibre EVO qui suit la forme naturelle du pied",
+     "Semelle EB DS Max de 4 mm pour une adhérence maximale",
+     "Fermeture velcro pour un chaussage rapide et précis",
+     "Performance équilibrée entre bloc, voies et grande voie"
+    ]
+   },
+   "volumen": "Estándar",
+   "peso_g": 430,
+   "id": "eb-jarvis-velcro",
+   "goma": "EB DS Max",
+   "resumen_i18n": {
+    "ca": "Jarvis Velcro és el model més versàtil de la gamma Elite d'EB: rendeix igual de bé en rocòdrom, bloc i vies llargues. La seva sola DS Max de 4 mm i la seva horma que respecta la forma natural del peu ofereixen precisió sense sacrificar comoditat.",
+    "en": "Jarvis Velcro is the most versatile model in EB's Elite range: it performs equally well in the gym, on boulders and on long routes. Its 4 mm DS Max sole and a last that respects the foot's natural shape deliver precision without sacrificing comfort.",
+    "fr": "Jarvis Velcro est le modèle le plus polyvalent de la gamme Elite d'EB : il performe aussi bien en salle, en bloc que sur les grandes voies. Sa semelle DS Max de 4 mm et sa forme qui respecte la morphologie naturelle du pied offrent précision sans sacrifier le confort."
+   },
+   "marca": "EB",
+   "forma": "Agresiva"
+  },
+  {
+   "rigidez": "Media",
+   "resumen": "Jarvis Lace incorpora el sistema Rapid-lace de EB para un ajuste milimétrico en toda la longitud del pie. Su cierre híbrido de cordones aporta una estabilidad muy superior en vías técnicas, sin perder la versatilidad del Jarvis Velcro.",
+   "nivel": "Intermedio",
+   "asimetria": "Alta",
+   "forro": null,
+   "cierre": "Cordones",
+   "modelo": "Jarvis Lace",
+   "peso_talla": "40",
+   "precio": null,
+   "caracteristicas": [
+    "Sistema Rapid-lace para un ajuste milimétrico y progresivo",
+    "Suela EB DS Max de 4 mm de máxima adherencia",
+    "Cierre híbrido de cordones que se adapta a cambios de volumen del pie",
+    "Igual de eficaz en roca, bloque y vías largas"
+   ],
+   "para_quien_i18n": {
+    "ca": "Escaladors que busquen la versatilitat del Jarvis amb un ajust de precisió mil·limètrica mitjançant cordons.",
+    "en": "Climbers who want the Jarvis's versatility with a millimetric, lace-adjustable fit.",
+    "fr": "Grimpeurs recherchant la polyvalence du Jarvis avec un chaussant de précision millimétrique grâce aux lacets."
+   },
+   "para_quien": "Escaladores que buscan la versatilidad del Jarvis con un ajuste de precisión milimétrica mediante cordones.",
+   "fotos": [
+    "https://eb-climbing.com/wp-content/uploads/2025/02/JARVIS-lacet-elite.jpg",
+    "https://eb-climbing.com/wp-content/uploads/2025/02/j-laces1.jpg"
+   ],
+   "uso": "Todoterreno",
+   "grosor": 4,
+   "caracteristicas_i18n": {
+    "ca": [
+     "Sistema Rapid-lace per a un ajust mil·limètric i progressiu",
+     "Sola EB DS Max de 4 mm de màxima adherència",
+     "Tancament híbrid de cordons que s'adapta a canvis de volum del peu",
+     "Igual d'eficaç en roca, bloc i vies llargues"
+    ],
+    "en": [
+     "Rapid-lace system for a millimetric, progressive fit",
+     "4 mm EB DS Max sole for maximum grip",
+     "Hybrid lace closure that adapts to changes in foot volume",
+     "Equally effective on rock, boulders and long routes"
+    ],
+    "fr": [
+     "Système Rapid-lace pour un ajustement millimétrique et progressif",
+     "Semelle EB DS Max de 4 mm pour une adhérence maximale",
+     "Fermeture hybride à lacets qui s'adapte aux variations de volume du pied",
+     "Aussi efficace en falaise, en bloc que sur les grandes voies"
+    ]
+   },
+   "volumen": "Estándar",
+   "peso_g": 430,
+   "id": "eb-jarvis-lace",
+   "goma": "EB DS Max",
+   "resumen_i18n": {
+    "ca": "Jarvis Lace incorpora el sistema Rapid-lace d'EB per a un ajust mil·limètric en tota la longitud del peu. El seu tancament híbrid de cordons aporta una estabilitat molt superior en vies tècniques, sense perdre la versatilitat del Jarvis Velcro.",
+    "en": "Jarvis Lace features EB's Rapid-lace system for a millimetric fit along the whole length of the foot. Its hybrid lace closure delivers far greater stability on technical routes, without losing the versatility of the Jarvis Velcro.",
+    "fr": "Jarvis Lace intègre le système Rapid-lace d'EB pour un ajustement millimétrique sur toute la longueur du pied. Sa fermeture hybride à lacets apporte une stabilité bien supérieure sur les voies techniques, sans perdre la polyvalence du Jarvis Velcro."
+   },
+   "marca": "EB",
+   "forma": "Moderada-agresiva"
+  },
+  {
+   "rigidez": "Media",
+   "resumen": "Black Opium 3.0 es el pie de gato de EB diseñado específicamente para el pie femenino, a partir de estudios de podología deportiva. Horma asimétrica con soporte de arco y una puntera menos agresiva sobre el dedo pequeño para evitar molestias como el hallux valgus.",
+   "nivel": "Intermedio",
+   "asimetria": "Alta",
+   "forro": null,
+   "cierre": "Velcro (doble correa)",
+   "modelo": "Black Opium 3.0",
+   "peso_talla": "38",
+   "precio": null,
+   "caracteristicas": [
+    "Corte en microfibra EVO adaptable y transpirable",
+    "Espaciador específico que sostiene el dedo gordo con buen brazo de palanca",
+    "Rand más fino en el borde del pie para aliviar el dedo pequeño",
+    "Doble correa de velcro para un ajuste preciso del pie"
+   ],
+   "para_quien_i18n": {
+    "ca": "Escaladores, de nivell recreatiu o avançat, que busquen un peu de gat pensat específicament per a la morfologia del peu femení.",
+    "en": "Female climbers, recreational or advanced, looking for a shoe designed specifically for female foot morphology.",
+    "fr": "Grimpeuses, du niveau loisir à avancé, recherchant un chausson pensé spécifiquement pour la morphologie du pied féminin."
+   },
+   "para_quien": "Escaladoras, de nivel recreativo o avanzado, que buscan un pie de gato pensado específicamente para la morfología del pie femenino.",
+   "fotos": [
+    "https://eb-climbing.com/wp-content/uploads/2022/12/black-opium2023.jpg",
+    "https://eb-climbing.com/wp-content/uploads/2022/12/chausson-esclade-black-opium.jpg"
+   ],
+   "uso": "Todoterreno",
+   "grosor": 5,
+   "caracteristicas_i18n": {
+    "ca": [
+     "Tall en microfibra EVO adaptable i transpirable",
+     "Espaiador específic que sosté el dit gros amb bon braç de palanca",
+     "Rand més fi a la vora del peu per alleujar el dit petit",
+     "Doble corretja de velcro per a un ajust precís del peu"
+    ],
+    "en": [
+     "Adaptable, breathable EVO microfiber upper",
+     "Specific spacer supporting the big toe with a good lever arm",
+     "Thinner rand on the edge of the foot to relieve the little toe",
+     "Double velcro strap for a precise foot fit"
+    ],
+    "fr": [
+     "Tige en microfibre EVO adaptable et respirante",
+     "Espaceur spécifique soutenant le gros orteil avec un bon bras de levier",
+     "Rand plus fin sur le bord du pied pour soulager le petit orteil",
+     "Double sangle velcro pour un chaussant précis du pied"
+    ]
+   },
+   "volumen": "Bajo",
+   "peso_g": 370,
+   "id": "eb-black-opium",
+   "goma": "EB Daytona",
+   "resumen_i18n": {
+    "ca": "Black Opium 3.0 és el peu de gat d'EB dissenyat específicament per al peu femení, a partir d'estudis de podologia esportiva. Horma asimètrica amb suport d'arc i una puntera menys agressiva sobre el dit petit per evitar molèsties com l'hallux valgus.",
+    "en": "Black Opium 3.0 is EB's climbing shoe designed specifically for the female foot, based on sports podiatry research. Asymmetric last with arch support and a less aggressive toe box over the little toe to avoid issues such as hallux valgus.",
+    "fr": "Black Opium 3.0 est le chausson d'EB conçu spécifiquement pour le pied féminin, à partir d'études de podologie sportive. Forme asymétrique avec soutien de la voûte plantaire et une pointe moins agressive sur le petit orteil pour éviter des gênes comme l'hallux valgus."
+   },
+   "marca": "EB",
+   "forma": "Moderada-agresiva"
+  },
+  {
+   "rigidez": "Media",
+   "resumen": "Mojo 3.0 es el modelo de acceso a la escalada de EB: horma plana, muy poca asimetría y máximo confort para progresar rápido tanto en el rocódromo como en las primeras salidas a roca.",
+   "nivel": "Iniciación",
+   "asimetria": "Baja",
+   "forro": null,
+   "cierre": "Velcro",
+   "modelo": "Mojo 3.0",
+   "peso_talla": "40",
+   "precio": null,
+   "caracteristicas": [
+    "Corte en microfibra Dynamic muy cómodo desde el primer uso",
+    "Suela EB Optima de 4 mm, resistente al desgaste",
+    "Horma plana con asimetría mínima ideal para iniciarse",
+    "Cierre de velcro fácil de calzar y ajustar"
+   ],
+   "para_quien_i18n": {
+    "ca": "Escaladors que comencen i busquen un primer peu de gat còmode per progressar al rocòdrom i en les seves primeres sortides a roca.",
+    "en": "Beginner climbers looking for a comfortable first shoe to progress at the gym and on their first outdoor outings.",
+    "fr": "Grimpeurs débutants recherchant un premier chausson confortable pour progresser en salle et lors de leurs premières sorties en falaise."
+   },
+   "para_quien": "Escaladores que empiezan y buscan un primer pie de gato cómodo para progresar en el rocódromo y en sus primeras salidas a roca.",
+   "fotos": [
+    "https://eb-climbing.com/wp-content/uploads/2021/06/mojo-eb-1200x800.jpg",
+    "https://eb-climbing.com/wp-content/uploads/2019/01/MOJO-e.jpg"
+   ],
+   "uso": "Rocódromo",
+   "grosor": 4,
+   "caracteristicas_i18n": {
+    "ca": [
+     "Tall en microfibra Dynamic molt còmode des del primer ús",
+     "Sola EB Optima de 4 mm, resistent al desgast",
+     "Horma plana amb asimetria mínima ideal per iniciar-se",
+     "Tancament de velcro fàcil de calçar i ajustar"
+    ],
+    "en": [
+     "Dynamic microfiber upper, very comfortable from the first use",
+     "4 mm EB Optima sole, resistant to wear",
+     "Flat last with minimal asymmetry, ideal for starting out",
+     "Velcro closure, easy to put on and adjust"
+    ],
+    "fr": [
+     "Tige en microfibre Dynamic très confortable dès la première utilisation",
+     "Semelle EB Optima de 4 mm, résistante à l'usure",
+     "Forme plate à asymétrie minimale, idéale pour débuter",
+     "Fermeture velcro facile à chausser et à ajuster"
+    ]
+   },
+   "volumen": "Estándar",
+   "peso_g": 405,
+   "id": "eb-mojo",
+   "goma": "EB Optima",
+   "resumen_i18n": {
+    "ca": "Mojo 3.0 és el model d'accés a l'escalada d'EB: horma plana, molt poca asimetria i màxim confort per progressar ràpid tant al rocòdrom com en les primeres sortides a roca.",
+    "en": "Mojo 3.0 is EB's entry-level climbing shoe: flat last, very little asymmetry and maximum comfort to progress quickly both at the gym and on early outdoor outings.",
+    "fr": "Mojo 3.0 est le chausson d'entrée de gamme d'EB : forme plate, très peu d'asymétrie et un confort maximal pour progresser rapidement, aussi bien en salle que lors des premières sorties en falaise."
+   },
+   "marca": "EB",
+   "forma": "Plana"
+  },
+  {
+   "rigidez": "Media",
+   "resumen": "Torch Lace 3.0 combina una horma de baja asimetría y poca caída con un cierre de cordones que arranca muy abajo en la puntera, lo que le da un ajuste excelente tanto a pies anchos como estrechos. Pensado para rutas largas y también para montaña.",
+   "nivel": "Intermedio",
+   "asimetria": "Baja",
+   "forro": null,
+   "cierre": "Cordones",
+   "modelo": "Torch Lace 3.0",
+   "peso_talla": "40",
+   "precio": null,
+   "caracteristicas": [
+    "Corte en microfibra Dynamic de gran comodidad",
+    "Suela EB Optima de 4 mm, robusta y versátil sobre roca",
+    "Cordón que arranca muy bajo en la puntera para pies anchos o estrechos",
+    "Horma de baja asimetría y poca caída, apta para largas jornadas"
+   ],
+   "para_quien_i18n": {
+    "ca": "Escaladors que busquen comoditat i versatilitat en vies llargues, tant en roca com en muntanya.",
+    "en": "Climbers seeking comfort and versatility on long routes, both on rock and in the mountains.",
+    "fr": "Grimpeurs recherchant confort et polyvalence sur les grandes voies, aussi bien en falaise qu'en montagne."
+   },
+   "para_quien": "Escaladores que buscan comodidad y versatilidad en rutas largas, tanto en roca como en montaña.",
+   "fotos": [
+    "https://eb-climbing.com/wp-content/uploads/2022/01/torch-lace-2022d.jpg",
+    "https://eb-climbing.com/wp-content/uploads/2022/01/torch-lace-2022b.jpg"
+   ],
+   "uso": "Todoterreno",
+   "grosor": 4,
+   "caracteristicas_i18n": {
+    "ca": [
+     "Tall en microfibra Dynamic de gran comoditat",
+     "Sola EB Optima de 4 mm, robusta i versàtil sobre roca",
+     "Cordó que arrenca molt avall a la puntera per a peus amples o estrets",
+     "Horma de baixa asimetria i poca caiguda, apta per a llargues jornades"
+    ],
+    "en": [
+     "Dynamic microfiber upper for great comfort",
+     "4 mm EB Optima sole, robust and versatile on rock",
+     "Lacing that starts very low on the toe box, for wide or narrow feet",
+     "Low-asymmetry, low-downturn last, suited to long days out"
+    ],
+    "fr": [
+     "Tige en microfibre Dynamic pour un grand confort",
+     "Semelle EB Optima de 4 mm, robuste et polyvalente sur la roche",
+     "Laçage démarrant très bas sur la pointe, pour pieds larges ou étroits",
+     "Forme à faible asymétrie et peu cambrée, adaptée aux longues journées"
+    ]
+   },
+   "volumen": "Estándar",
+   "peso_g": 460,
+   "id": "eb-torch-lace",
+   "goma": "EB Optima",
+   "resumen_i18n": {
+    "ca": "Torch Lace 3.0 combina una horma de baixa asimetria i poca caiguda amb un tancament de cordons que arrenca molt avall a la puntera, el que li dona un ajust excel·lent tant a peus amples com estrets. Pensat per a vies llargues i també per a muntanya.",
+    "en": "Torch Lace 3.0 combines a low-asymmetry, low-downturn last with a lace closure that starts very low on the toe box, giving it an excellent fit for both wide and narrow feet. Built for long routes and also for mountaineering.",
+    "fr": "Torch Lace 3.0 combine une forme à faible asymétrie et peu cambrée avec un laçage qui démarre très bas sur l'avant du chausson, lui donnant un excellent chaussant pour les pieds larges comme étroits. Pensé pour les grandes voies et aussi la montagne."
+   },
+   "marca": "EB",
+   "forma": "Casi plana"
   }
  ]
 }

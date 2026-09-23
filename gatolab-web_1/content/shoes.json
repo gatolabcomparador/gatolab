@@ -2752,120 +2752,6 @@
       "forma": "Plana"
     },
     {
-      "rigidez": "Rígida",
-      "resumen": "El Altura es el zapato de trad y fisura de Butora: horma moderada, muy rígida y con una suela Neo Fuse pensada para aguantar el roce constante contra la roca en jamming. El forro de cáñamo orgánico y el cierre de cordones con lengüeta de piel completan un diseño pensado para durar. Actualmente descatalogado, ya no aparece en el catálogo oficial de la marca.",
-      "nivel": "Avanzado",
-      "asimetria": "Media",
-      "forro": "Forrado",
-      "cierre": "Cordones",
-      "modelo": "Altura",
-      "peso_talla": null,
-      "precio": 180,
-      "caracteristicas": [
-        "Suela Neo Fuse notablemente gruesa, pensada para durabilidad",
-        "Cierre de cordones con lengüeta de piel protectora",
-        "Forro interior de cáñamo orgánico",
-        "Descatalogado: ya no figura en el catálogo oficial de Butora"
-      ],
-      "para_quien_i18n": {
-        "ca": "Escaladors de trad i fissura avançats que prioritzen la durabilitat i el suport per davant de la sensibilitat.",
-        "en": "Advanced trad and crack climbers who prioritize durability and support over sensitivity.",
-        "fr": "Grimpeurs de trad et de fissure avancés qui privilégient la durabilité et le soutien plutôt que la sensibilité."
-      },
-      "para_quien": "Escaladores de trad y fisura avanzados que priorizan durabilidad y soporte frente a sensibilidad.",
-      "fotos": [],
-      "uso": "Fisura/Trad",
-      "grosor": 4,
-      "caracteristicas_i18n": {
-        "ca": [
-          "Sola Neo Fuse notablement gruixuda, pensada per a la durabilitat",
-          "Tancament de cordons amb llengüeta de pell protectora",
-          "Folre interior de cànem orgànic",
-          "Descatalogat: ja no figura al catàleg oficial de Butora"
-        ],
-        "en": [
-          "Notably thick Neo Fuse sole, built for durability",
-          "Lace closure with a protective leather tongue",
-          "Organic hemp interior lining",
-          "Discontinued: no longer listed in Butora's official catalogue"
-        ],
-        "fr": [
-          "Semelle Neo Fuse nettement épaisse, pensée pour la durabilité",
-          "Laçage avec languette en cuir protectrice",
-          "Doublure intérieure en chanvre biologique",
-          "Discontinué : ne figure plus au catalogue officiel de Butora"
-        ]
-      },
-      "volumen": "Estándar",
-      "peso_g": null,
-      "id": "bt-altura",
-      "goma": "Neo Fuse",
-      "resumen_i18n": {
-        "ca": "El Altura és la sabatilla de trad i fissura de Butora: forma moderada, molt rígida i amb una sola Neo Fuse pensada per aguantar el fregament constant contra la roca en jamming. El folre de cànem orgànic i el tancament de cordons amb llengüeta de pell completen un disseny pensat per durar. Actualment descatalogat, ja no apareix al catàleg oficial de la marca.",
-        "en": "The Altura is Butora's crack and trad shoe: a moderate, very stiff last with a Neo Fuse sole built to withstand constant scraping against rock during jamming. The organic hemp lining and lace closure with a leather tongue round out a design built to last. Currently discontinued, it no longer appears in the brand's official catalogue.",
-        "fr": "L'Altura est le chausson de trad et de fissure de Butora : forme modérée, très rigide, avec une semelle Neo Fuse pensée pour résister au frottement constant contre la roche lors du jamming. La doublure en chanvre biologique et le laçage avec languette en cuir complètent une conception pensée pour durer. Actuellement discontinué, il ne figure plus au catalogue officiel de la marque."
-      },
-      "marca": "Butora",
-      "forma": "Moderada"
-    },
-    {
-      "rigidez": "Rígida",
-      "resumen": "El Mantra es el histórico modelo de trad de Butora, con una construcción Board Lasted que le da rigidez y soporte para clavar el pie en grietas y contrafuertes. Su cierre de cordones hasta la puntera permite un ajuste muy preciso, y la goma Neo Fuse aporta agarre fiable en roca natural. Actualmente ya no aparece en el catálogo oficial de la marca.",
-      "nivel": "Avanzado",
-      "asimetria": "Media",
-      "forro": "Forrado",
-      "cierre": "Cordones",
-      "modelo": "Mantra",
-      "peso_talla": null,
-      "precio": 170,
-      "caracteristicas": [
-        "Construcción Board Lasted, típica de zapatos de fisura",
-        "Cierre de cordones hasta la puntera",
-        "Goma Neo Fuse de la marca",
-        "Descatalogado: ya no figura en el catálogo oficial de Butora"
-      ],
-      "para_quien_i18n": {
-        "ca": "Escaladors de trad i alpinisme que busquen una sabata clàssica, rígida i molt duradora per a grans vies.",
-        "en": "Trad and alpine climbers looking for a classic, stiff, and very durable shoe for big routes.",
-        "fr": "Grimpeurs de trad et d'alpinisme cherchant un chausson classique, rigide et très résistant pour les grandes voies."
-      },
-      "para_quien": "Escaladores de trad y alpinismo que buscan un zapato clásico, rígido y muy duradero para grandes vías.",
-      "fotos": [],
-      "uso": "Fisura/Trad",
-      "grosor": null,
-      "caracteristicas_i18n": {
-        "ca": [
-          "Construcció Board Lasted, típica de sabates de fissura",
-          "Tancament de cordons fins a la puntera",
-          "Goma Neo Fuse de la marca",
-          "Descatalogat: ja no figura al catàleg oficial de Butora"
-        ],
-        "en": [
-          "Board Lasted construction, typical of crack-climbing shoes",
-          "Lace closure running to the toe",
-          "Neo Fuse rubber, the brand's own compound",
-          "Discontinued: no longer listed in Butora's official catalogue"
-        ],
-        "fr": [
-          "Construction Board Lasted, typique des chaussons de fissure",
-          "Fermeture à lacets jusqu'à la pointe",
-          "Gomme Neo Fuse, le compound propre à la marque",
-          "Retiré du catalogue : n'apparaît plus au catalogue officiel de Butora"
-        ]
-      },
-      "volumen": "Estándar",
-      "peso_g": null,
-      "id": "bt-mantra",
-      "goma": "Neo Fuse",
-      "resumen_i18n": {
-        "ca": "El Mantra és el model històric de trad de Butora, amb una construcció Board Lasted que li dona rigidesa i suport per encaixar el peu en fissures i contraforts. El seu tancament de cordons fins a la puntera permet un ajust molt precís, i la goma Neo Fuse aporta una adherència fiable en roca natural. Actualment ja no apareix al catàleg oficial de la marca.",
-        "en": "The Mantra is Butora's historic trad model, built with a Board Lasted construction that gives it stiffness and support for jamming the foot into cracks and corners. Its lace closure running all the way to the toe allows for a very precise fit, and the Neo Fuse rubber provides reliable grip on natural rock. It is no longer listed in the brand's official catalogue.",
-        "fr": "Le Mantra est le modèle historique de trad de Butora, avec une construction Board Lasted qui lui donne rigidité et soutien pour coincer le pied dans les fissures et les becquets. Sa fermeture à lacets jusqu'à la pointe permet un chaussage très précis, et la gomme Neo Fuse offre une adhérence fiable sur rocher naturel. Il n'apparaît plus actuellement au catalogue officiel de la marque."
-      },
-      "marca": "Butora",
-      "forma": "Moderada"
-    },
-    {
       "rigidez": "Media",
       "resumen": "El Fusion es el modelo todoterreno de Red Chili, con horma moderadamente asimétrica y goma RX-1 Allround que equilibra fricción, sensibilidad y durabilidad. Su cierre híbrido de cordones y velcro con lengüeta de neopreno permite un ajuste preciso sin sacrificar comodidad. Destaca en escalada deportiva y en roca variada durante sesiones largas.",
       "nivel": "Intermedio",
@@ -6022,10 +5908,10 @@
       "nivel": "Iniciación",
       "asimetria": "Media",
       "forro": null,
-      "cierre": "Velcro (2 correas)",
+      "cierre": "Velcro (correa única)",
       "modelo": "Komet",
       "peso_talla": null,
-      "precio": 110,
+      "precio": 85,
       "caracteristicas": [
         "Horma técnica de asimetría moderada con suela NEO Rubber sticky de 4 mm y goma de rand más blanda en la zona del talón",
         "Entresuela ABS de longitud completa que aporta soporte en gimnasio para quien empieza",
@@ -6085,7 +5971,7 @@
       "cierre": "Velcro (2 correas, formato slipper)",
       "modelo": "Rubicon",
       "peso_talla": null,
-      "precio": 150,
+      "precio": 135,
       "caracteristicas": [
         "Diseño tipo slipper con doble correa de velcro y entresuela dividida (split-sole) de inyección ABS",
         "Mediasuela convexa moldeada bajo la puntera para más precisión en muros verticales y desplomes suaves",
@@ -6145,7 +6031,7 @@
       "cierre": "Velcro (1 correa, cierre triple horquilla)",
       "modelo": "Acro Comp",
       "peso_talla": null,
-      "precio": 200,
+      "precio": 150,
       "caracteristicas": [
         "Versión mucho más blanda y down-turned del Acro clásico, orientada a bloque de competición y muros muy desplomados",
         "Amplio parche de goma NEO Fuse fina y sensible en la puntera, pensado para toe-hooks",
@@ -8308,67 +8194,6 @@
       },
       "marca": "Five Ten",
       "forma": "Moderada"
-    },
-    {
-      "rigidez": "Blanda",
-      "resumen": "El Brava es el pie de gato infantil de Butora: upper de punto transpirable, midsole de EVA acolchado y una apertura de velcro muy ancha para ponerlo y quitarlo sin luchar con él. Está pensado para que los más pequeños puedan llevarlo puesto toda la clase con comodidad, sin buscar precisión de competición.",
-      "nivel": "Iniciación",
-      "asimetria": "Baja",
-      "forro": null,
-      "cierre": "Velcro (correa única, apertura ancha)",
-      "modelo": "Brava",
-      "peso_talla": null,
-      "precio": 70,
-      "infantil": true,
-      "caracteristicas": [
-        "Upper de punto sintético transpirable pensado para llevarlo puesto toda la sesión",
-        "Midsole de EVA acolchado que prioriza la comodidad sobre la precisión",
-        "Apertura ancha de una sola solapa con velcro para calzarlo en segundos",
-        "Goma Butora NEO en toda la suela"
-      ],
-      "para_quien_i18n": {
-        "ca": "Nens i nenes de qualsevol nivell que comencen al rocòdrom i necessiten un peu de gat còmode de portar posat tota la sessió.",
-        "en": "Kids of any level starting out at the gym who need a shoe comfortable enough to wear through the whole session.",
-        "fr": "Les enfants de tout niveau qui débutent en salle et ont besoin d'un chausson assez confortable pour toute la séance."
-      },
-      "para_quien": "Niños y niñas de cualquier nivel que empiezan en el rocódromo y necesitan un pie de gato cómodo de llevar puesto durante toda la sesión.",
-      "fotos": [
-        "https://butorausa.com/cdn/shop/files/Butora_Rubicon_and_advance-291.jpg?v=1788390492",
-        "https://butorausa.com/cdn/shop/files/Butora_Rubicon_and_advance-287.jpg?v=1788390459"
-      ],
-      "uso": "Rocódromo",
-      "grosor": null,
-      "caracteristicas_i18n": {
-        "ca": [
-          "Upper de punt sintètic transpirable pensat per portar-lo posat tota la sessió",
-          "Midsole d'EVA encoixinat que prioritza la comoditat per sobre de la precisió",
-          "Obertura ampla d'una sola solapa amb velcro per calçar-lo en segons",
-          "Goma Butora NEO a tota la sola"
-        ],
-        "en": [
-          "Breathable synthetic knit upper built to stay comfortable for a whole session",
-          "Cushioned EVA midsole that favors comfort over precision",
-          "Wide single-flap hook-and-loop opening for a fast, easy fit",
-          "Butora NEO rubber across the whole sole"
-        ],
-        "fr": [
-          "Tige en tricot synthétique respirant pensée pour rester confortable toute la séance",
-          "Semelle intermédiaire EVA rembourrée qui privilégie le confort à la précision",
-          "Large ouverture à rabat unique avec velcro pour chausser en quelques secondes",
-          "Gomme Butora NEO sur toute la semelle"
-        ]
-      },
-      "volumen": "Estándar",
-      "peso_g": null,
-      "id": "bt-brava",
-      "goma": "Butora NEO",
-      "resumen_i18n": {
-        "ca": "El Brava és el peu de gat infantil de Butora: upper de punt transpirable, midsole d'EVA encoixinat i una obertura de velcro molt ampla per posar-se'l i treure'l sense lluitar-hi. Està pensat perquè els més petits el puguin portar posat tota la classe amb comoditat, sense buscar precisió de competició.",
-        "en": "The Brava is Butora's kids' climbing shoe: a breathable knit upper, cushioned EVA midsole, and a wide single-flap hook-and-loop opening that goes on and off without a fight. It's built so younger climbers can wear it comfortably through a whole session rather than chasing competition-level precision.",
-        "fr": "La Brava est le chausson enfant de Butora : tige en tricot respirant, semelle intermédiaire en EVA rembourrée et une large ouverture à velcro à rabat unique qui se chausse et se déchausse sans effort. Elle est pensée pour que les plus jeunes la portent confortablement toute la séance, sans viser la précision d'un chausson de compétition."
-      },
-      "marca": "Butora",
-      "forma": "Plana"
     },
     {
       "rigidez": "Blanda",
@@ -10895,6 +10720,187 @@
         "https://oberalp.imgix.net/d947b697-d0e8-43d3-9a37-ae8ddcfa4315.png?type=still&auto=format&fit=clip&w=628&cs=srgb",
         "https://oberalp.imgix.net/57a545f9-0520-4127-97e4-9041c954bff6.png?type=still&auto=format&fit=clip&w=628&cs=srgb"
       ]
+    },
+    {
+      "rigidez": "Blanda",
+      "resumen": "El Nix es la propuesta de Butora en formato slipper: sin cordones ni velcro, se ajusta al pie como un guante y transmite cada apoyo con precisión. El upper de piel alemana aguanta bien el roce de las fisuras y una lámina de nylon de longitud completa evita que el pie ruede dentro del zapato. Su ligero camber le da algo más de rendimiento en desplome que otros slippers del mercado, y funciona igual de bien en rocódromo, deportiva de placa o fisura.",
+      "nivel": "Intermedio",
+      "asimetria": "Media",
+      "forro": "Sin forro",
+      "cierre": "Sin cierre (slipper)",
+      "modelo": "Nix",
+      "peso_talla": null,
+      "precio": 99,
+      "caracteristicas": [
+        "Diseño tipo slipper sin cordones ni velcro, para máxima sensibilidad y transmisión del apoyo",
+        "Upper de piel alemana muy duradero, resistente al roce en jamming de fisuras",
+        "Lámina de nylon de longitud completa que evita que el pie ruede dentro del zapato",
+        "Ligero camber pensado para rendir mejor en desplome que otros slippers del mercado"
+      ],
+      "para_quien_i18n": {
+        "ca": "Escaladors que volen provar el format slipper i busquen la màxima sensibilitat en una sabata versàtil per a rocòdrom, esportiva i fissura.",
+        "en": "Climbers who want to try the slipper format and are looking for maximum sensitivity in a versatile shoe for the gym, sport climbing, and cracks.",
+        "fr": "Grimpeurs qui veulent essayer le format slipper et recherchent une sensibilité maximale dans un chausson polyvalent pour la salle, l'escalade sportive et la fissure."
+      },
+      "para_quien": "Escaladores que quieren probar el formato slipper y buscan sensibilidad máxima en un zapato versátil para rocódromo, deportiva y fisura.",
+      "fotos": [
+        "https://butorausa.com/cdn/shop/files/Nix_Feature.jpg?v=1788994772",
+        "https://butorausa.com/cdn/shop/files/Nix_Front_3_4.jpg?v=1788994820"
+      ],
+      "uso": "Todoterreno",
+      "grosor": null,
+      "caracteristicas_i18n": {
+        "ca": [
+          "Disseny tipus slipper sense cordons ni velcro, per a la màxima sensibilitat i transmissió del recolzament",
+          "Upper de pell alemanya molt durador, resistent al fregament en jamming de fissures",
+          "Làmina de niló de longitud completa que evita que el peu roti dins la sabata",
+          "Lleuger camber pensat per rendir millor en desplom que altres slippers del mercat"
+        ],
+        "en": [
+          "Slipper-style design with no laces or Velcro, for maximum sensitivity and foothold feedback",
+          "Very durable German leather upper, resistant to friction from crack jamming",
+          "Full-length nylon sheet that keeps the foot from rolling inside the shoe",
+          "Slight camber built to perform better on overhangs than other slippers on the market"
+        ],
+        "fr": [
+          "Design type slipper sans lacets ni Velcro, pour une sensibilité et une transmission d'appui maximales",
+          "Tige en cuir allemand très durable, résistante au frottement du jamming en fissure",
+          "Feuille de nylon pleine longueur qui empêche le pied de rouler à l'intérieur du chausson",
+          "Légère cambrure pensée pour mieux performer en dévers que d'autres slippers du marché"
+        ]
+      },
+      "volumen": "Medio-alto (unisex)",
+      "peso_g": null,
+      "id": "bt-nix",
+      "goma": "Neo Fuse",
+      "resumen_i18n": {
+        "ca": "El Nix és la proposta de Butora en format slipper: sense cordons ni velcro, s'ajusta al peu com un guant i transmet cada recolzament amb precisió. L'upper de pell alemanya aguanta bé el fregament de les fissures i una làmina de niló de longitud completa evita que el peu roti dins la sabata. El seu lleuger camber li dona una mica més de rendiment en desplom que altres slippers del mercat, i funciona igual de bé en rocòdrom, esportiva de placa o fissura.",
+        "en": "The Nix is Butora's slipper-style shoe: with no laces or Velcro, it wraps the foot like a glove and transmits every foothold with precision. The German leather upper holds up well against the friction of crack climbing, and a full-length nylon sheet keeps the foot from rolling inside the shoe. Its slight camber gives it a bit more performance on overhangs than other slippers on the market, and it works just as well at the gym, on slab sport routes, or in cracks.",
+        "fr": "Le Nix est la proposition de Butora au format slipper : sans lacets ni Velcro, il enveloppe le pied comme un gant et transmet chaque appui avec précision. La tige en cuir allemand résiste bien au frottement des fissures, et une feuille de nylon pleine longueur empêche le pied de rouler à l'intérieur du chausson. Sa légère cambrure lui donne un peu plus de rendement en dévers que d'autres slippers du marché, et il fonctionne aussi bien en salle, en dalle qu'en fissure."
+      },
+      "marca": "Butora",
+      "forma": "Moderada"
+    },
+    {
+      "rigidez": "Media",
+      "resumen": "El Komet Lace es la versión con cordones del Komet, pensada para quien quiere un ajuste más preciso sin renunciar a la comodidad de la gama Comfort de Butora. El mismo upper de microfibra italiana se combina con un sistema de cordones reforzado con TPU que permite ceñir el pie para ganar control en el canteo, especialmente útil en vías largas al aire libre.",
+      "nivel": "Iniciación",
+      "asimetria": "Media",
+      "forro": null,
+      "cierre": "Cordones",
+      "modelo": "Komet Lace",
+      "peso_talla": null,
+      "precio": 95,
+      "caracteristicas": [
+        "Misma horma que el Komet pero con cierre de cordones y refuerzo de TPU para mayor precisión",
+        "Sistema de cordones que permite ajustar el apriete a lo largo de todo el pie",
+        "Upper de microfibra italiana con lengüeta de punto, transpirable y de bajo mantenimiento",
+        "Se vende en horma ancha (volumen alto) y estrecha (volumen bajo) como modelos separados"
+      ],
+      "para_quien_i18n": {
+        "ca": "Escaladors que ja coneixen el Komet i volen un ajust més cenyit i personalitzable gràcies als cordons, sense perdre la comoditat de la gamma Comfort.",
+        "en": "Climbers who already know the Komet and want a snugger, more customizable fit thanks to the laces, without losing the comfort of the Comfort range.",
+        "fr": "Grimpeurs qui connaissent déjà le Komet et veulent un chaussant plus ajusté et personnalisable grâce au laçage, sans perdre le confort de la gamme Comfort."
+      },
+      "para_quien": "Escaladores que ya conocen el Komet y quieren un ajuste más ceñido y personalizable gracias a los cordones, sin perder la comodidad de la gama Comfort.",
+      "fotos": [
+        "https://i0.wp.com/butoraeurope.com/wp-content/uploads/2022/07/KometLaceROut.png?fit=600,450&ssl=1",
+        "https://i0.wp.com/butoraeurope.com/wp-content/uploads/2022/07/KometLaceRFront.png?fit=600,800&ssl=1"
+      ],
+      "uso": "Todoterreno",
+      "grosor": null,
+      "caracteristicas_i18n": {
+        "ca": [
+          "Mateixa forma que el Komet però amb tancament de cordons i reforç de TPU per a més precisió",
+          "Sistema de cordons que permet ajustar l'estrenyiment al llarg de tot el peu",
+          "Upper de microfibra italiana amb llengüeta de punt, transpirable i de baix manteniment",
+          "Es ven en forma ampla (volum alt) i estreta (volum baix) com a models separats"
+        ],
+        "en": [
+          "Same last as the Komet but with a lace closure and TPU support for extra precision",
+          "Lacing system that lets you adjust tightness along the whole length of the foot",
+          "Italian microfiber upper with a knit tongue, breathable and low-maintenance",
+          "Sold in wide (high-volume) and narrow (low-volume) fits as separate models"
+        ],
+        "fr": [
+          "Même forme que le Komet mais avec fermeture à lacets et renfort TPU pour plus de précision",
+          "Système de laçage qui permet d'ajuster le serrage sur toute la longueur du pied",
+          "Tige en microfibre italienne avec languette en maille, respirante et facile d'entretien",
+          "Vendu en version large (volume élevé) et étroite (volume faible) comme deux modèles distincts"
+        ]
+      },
+      "volumen": "Disponible en horma ancha (volumen alto) y estrecha (volumen bajo/narrow)",
+      "peso_g": null,
+      "id": "bt-komet-lace",
+      "goma": "Neo Rubber",
+      "resumen_i18n": {
+        "ca": "El Komet Lace és la versió amb cordons del Komet, pensada per a qui vol un ajust més precís sense renunciar a la comoditat de la gamma Comfort de Butora. El mateix upper de microfibra italiana es combina amb un sistema de cordons reforçat amb TPU que permet cenyir el peu per guanyar control en el cantell, especialment útil en vies llargues a l'aire lliure.",
+        "en": "The Komet Lace is the laced version of the Komet, built for climbers who want a more precise fit without giving up the comfort of Butora's Comfort range. The same Italian microfiber upper is paired with a TPU-supported lacing system that lets you snug the foot down for extra edging control, especially useful on long outdoor routes.",
+        "fr": "Le Komet Lace est la version à lacets du Komet, pensée pour qui veut un chaussant plus précis sans renoncer au confort de la gamme Comfort de Butora. La même tige en microfibre italienne se combine à un système de laçage renforcé par du TPU qui permet de resserrer le pied pour gagner en contrôle sur les réglettes, particulièrement utile sur les longues voies en extérieur."
+      },
+      "marca": "Butora",
+      "forma": "Moderada"
+    },
+    {
+      "rigidez": "Blanda",
+      "resumen": "El Komet kid's es el pie de gato infantil de Butora en el mercado europeo (conocido como Brava en EE. UU.): upper de punto transpirable y un cierre de solapa única de velcro con apertura muy ancha para ponerlo y quitarlo sin luchar con él. Está pensado para que los más pequeños puedan llevarlo puesto toda la clase con comodidad, sin buscar precisión de competición.",
+      "nivel": "Iniciación",
+      "asimetria": "Baja",
+      "forro": null,
+      "cierre": "Velcro (solapa única, apertura ancha)",
+      "modelo": "Komet kid's",
+      "peso_talla": null,
+      "precio": 59,
+      "caracteristicas": [
+        "Upper de punto transpirable pensado para llevarlo puesto toda la sesión",
+        "Cierre de solapa única de velcro con apertura ancha para calzarlo en segundos",
+        "Goma Neo Rubber en toda la suela",
+        "Sustituye al antiguo Brava en el catálogo europeo de Butora, con especificaciones muy similares"
+      ],
+      "para_quien_i18n": {
+        "ca": "Nens i nenes de qualsevol nivell que comencen al rocòdrom i necessiten un peu de gat còmode de portar posat tota la sessió.",
+        "en": "Kids of any level starting out at the gym who need a shoe comfortable enough to wear through the whole session.",
+        "fr": "Les enfants de tout niveau qui débutent en salle et ont besoin d'un chausson assez confortable pour toute la séance."
+      },
+      "para_quien": "Niños y niñas de cualquier nivel que empiezan en el rocódromo y necesitan un pie de gato cómodo de llevar puesto durante toda la sesión.",
+      "fotos": [
+        "https://butorausa.com/cdn/shop/files/Butora_Rubicon_and_advance-291.jpg?v=1788390492",
+        "https://butorausa.com/cdn/shop/files/Butora_Rubicon_and_advance-287.jpg?v=1788390459"
+      ],
+      "uso": "Rocódromo",
+      "grosor": null,
+      "caracteristicas_i18n": {
+        "ca": [
+          "Upper de punt transpirable pensat per portar-lo posat tota la sessió",
+          "Tancament de solapa única de velcro amb obertura ampla per calçar-lo en segons",
+          "Goma Neo Rubber a tota la sola",
+          "Substitueix l'antic Brava al catàleg europeu de Butora, amb especificacions molt similars"
+        ],
+        "en": [
+          "Breathable knit upper built to stay comfortable for a whole session",
+          "Wide single-flap Velcro closure for a fast, easy fit",
+          "Neo Rubber across the whole sole",
+          "Replaces the former Brava in Butora's European catalogue, with very similar specs"
+        ],
+        "fr": [
+          "Tige en tricot respirant pensée pour rester confortable toute la séance",
+          "Fermeture à rabat unique en Velcro à large ouverture pour chausser en quelques secondes",
+          "Gomme Neo Rubber sur toute la semelle",
+          "Remplace l'ancien Brava au catalogue européen de Butora, avec des caractéristiques très similaires"
+        ]
+      },
+      "volumen": "Estándar",
+      "peso_g": null,
+      "id": "bt-komet-kids",
+      "goma": "Neo Rubber",
+      "resumen_i18n": {
+        "ca": "El Komet kid's és el peu de gat infantil de Butora al mercat europeu (conegut com Brava als EUA): upper de punt transpirable i un tancament de solapa única de velcro amb obertura molt ampla per posar-se'l i treure'l sense lluitar-hi. Està pensat perquè els més petits el puguin portar posat tota la classe amb comoditat, sense buscar precisió de competició.",
+        "en": "The Komet kid's is Butora's children's climbing shoe for the European market (known as the Brava in the US): a breathable knit upper and a wide single-flap Velcro closure that goes on and off without a fight. It's built so younger climbers can wear it comfortably through a whole session rather than chasing competition-level precision.",
+        "fr": "La Komet kid's est le chausson d'escalade enfant de Butora sur le marché européen (appelé Brava aux États-Unis) : tige en tricot respirant et fermeture à rabat unique en Velcro très large qui se chausse et se déchausse sans effort. Elle est pensée pour que les plus jeunes la portent confortablement toute la séance, sans viser la précision d'un chausson de compétition."
+      },
+      "marca": "Butora",
+      "forma": "Plana",
+      "infantil": true
     }
   ]
 }

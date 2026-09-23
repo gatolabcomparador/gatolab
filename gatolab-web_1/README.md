@@ -259,18 +259,25 @@ CATÁLOGO funciona automáticamente en cuanto abras `/admin/`, sin ningún paso
 adicional. Si todavía no la has activado, sigue los 5 pasos de la sección 7:
 valen igual para las dos secciones del panel.
 
-**Fotos: solo enlaces oficiales de marca.** A diferencia del campo "Imagen
-principal" de NEWS (que sí sube archivos a `/uploads`), el campo "Fotos" del
-catálogo es una lista de **URLs de texto**, no un subidor de imágenes — y es
-así a propósito. Nunca subas ni enlaces fotos propias ni copiadas de otras
-webs: pega solo URLs que apunten directamente a la ficha de producto de la
-página oficial del fabricante, para respetar sus derechos de imagen (ver
-sección 6). La primera URL de la lista es siempre la foto principal/de
+**Fotos: tu propia foto o un enlace oficial de marca.** El campo "Fotos" del
+catálogo admite, para cada foto, dos opciones: subir tu propia imagen desde
+tu ordenador/galería (se guarda en `/uploads`, igual que el campo "Imagen
+principal" de NEWS) o pegar una URL que apunte directamente a la ficha de
+producto de la página oficial del fabricante. Si pegas una URL, usa siempre
+la web oficial de la marca — nunca copies fotos de otras webs que no sean
+tuyas ni de la marca, para respetar sus derechos de imagen (ver sección 6).
+Cada pulsación de «Añadir fotos» sube o enlaza una sola foto: si quieres
+varias, pulsa «Añadir fotos» una vez por cada una (el selector no permite
+elegir más de un archivo a la vez). Formatos que se reconocen al subir tu
+propia foto: JPG, PNG, WEBP, GIF, BMP, TIFF y SVG — si una foto hecha con el
+móvil no se reconoce, casi siempre es porque se guardó en HEIC (el formato
+por defecto del iPhone); conviértela a JPG o PNG antes de subirla, o cambia
+el iPhone a Ajustes → Cámara → Formatos → «Más compatible» para que las
+guarde ya en JPEG. La primera foto de la lista es siempre la principal/de
 portada; las siguientes se podrán elegir con miniaturas y ampliar a pantalla
-completa en la ficha de cada modelo. Si no tienes una URL oficial fiable,
-deja la lista vacía — la web mostrará el icono esquemático de siempre, y
-siempre puedes añadir la foto más adelante sin tener que volver a publicar
-nada más.
+completa en la ficha de cada modelo. Si no tienes ninguna foto, deja la
+lista vacía — la web mostrará el icono esquemático de siempre, y siempre
+puedes añadirla más adelante sin tener que volver a publicar nada más.
 
 **Ajuste manual del gráfico de radar.** El gráfico de "Perfil visual" de
 cada ficha se calcula siempre automáticamente a partir de otros campos

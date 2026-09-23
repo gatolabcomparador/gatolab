@@ -9324,6 +9324,66 @@
       },
       "marca": "La Sportiva",
       "forma": "Plana"
+    },
+    {
+      "rigidez": "Blanda",
+      "resumen": "El Hiangle Pro Competition actualiza la silueta del Hiangle clásico con una suela de goma envolvente y sin costuras, que maximiza la superficie de contacto en presas pequeñas y movimientos de compresión. Su mediasuela minimalista en la puntera prioriza la sensibilidad sin renunciar a la estabilidad, pensado para bloque exigente y competición.",
+      "nivel": "Avanzado",
+      "asimetria": "Alta",
+      "forro": "Sin forro",
+      "cierre": "Velcro (correa ancha)",
+      "modelo": "Hiangle Pro Competition",
+      "peso_talla": null,
+      "precio": 200,
+      "caracteristicas": [
+        "Suela de goma Stealth C4 con diseño envolvente sin costuras, para más superficie de contacto en movimientos de compresión",
+        "Horma cóncava de perfil agresivo con puntera envolvente reforzada, pensada para ganchos y presas pequeñas",
+        "Cierre de una sola correa de velcro ancha para un ajuste ceñido y rápido",
+        "Mediasuela minimalista en la zona de la puntera que prioriza la sensibilidad sin perder estabilidad"
+      ],
+      "para_quien_i18n": {
+        "ca": "Escaladors de bloc i competició que busquen el màxim agafament en preses petites i moviments de compressió, amb un tancament de velcro cenyit i ràpid de posar.",
+        "en": "Boulderers and competition climbers looking for maximum grip on small holds and compression moves, with a snug, quick-to-put-on Velcro closure.",
+        "fr": "Grimpeurs de bloc et de compétition en quête d'une adhérence maximale sur les petites prises et les mouvements de compression, avec une fermeture Velcro ajustée et rapide à mettre."
+      },
+      "para_quien": "Escaladores de bloque y competición que buscan el máximo agarre en presas pequeñas y movimientos de compresión, con un cierre de velcro ceñido y rápido de poner.",
+      "fotos": [
+        "https://assets.adidas.com/images/w_500,f_auto,q_auto/b3fdb476c3e4479fb467aca90089da75_9366/Pie_de_gato_Five_Ten_Hiangle_Pro_Competition_Negro_FV4744_DM1.jpg",
+        "https://assets.adidas.com/images/w_500,f_auto,q_auto/a50bf634157248c99dbcac02007a8d9f_9366/Pie_de_gato_Five_Ten_Hiangle_Pro_Competition_Negro_FV4744_01_standard.jpg"
+      ],
+      "uso": "Competición",
+      "grosor": null,
+      "caracteristicas_i18n": {
+        "ca": [
+          "Sola de goma Stealth C4 amb disseny embolicat sense costures, per a més superfície de contacte en moviments de compressió",
+          "Forma còncava de perfil agressiu amb puntera embolicada reforçada, pensada per a ganxos i preses petites",
+          "Tancament d'una sola tira ampla de velcro per a un ajust cenyit i ràpid",
+          "Mitjasola minimalista a la zona de la puntera que prioritza la sensibilitat sense perdre estabilitat"
+        ],
+        "en": [
+          "Stealth C4 rubber sole with a seamless wrap-around design for more contact surface on compression moves",
+          "Concave, aggressive-profile last with a reinforced wrap-around toe box, built for hooking and small holds",
+          "Single wide Velcro strap closure for a snug, quick-to-put-on fit",
+          "Minimalist midsole under the toe area that prioritizes sensitivity without losing stability"
+        ],
+        "fr": [
+          "Semelle en gomme Stealth C4 au design enveloppant sans coutures, pour plus de surface de contact sur les mouvements de compression",
+          "Forme concave à profil agressif avec pointe enveloppante renforcée, pensée pour les toe hooks et les petites prises",
+          "Fermeture à une seule sangle Velcro large pour un chaussant ajusté et rapide à mettre",
+          "Semi-semelle minimaliste au niveau de la pointe qui privilégie la sensibilité sans perdre en stabilité"
+        ]
+      },
+      "volumen": "Estándar",
+      "peso_g": null,
+      "id": "ft-hiangle-pro",
+      "goma": "Stealth C4",
+      "resumen_i18n": {
+        "ca": "El Hiangle Pro Competition actualitza la silueta del Hiangle clàssic amb una sola de goma embolicada i sense costures, que maximitza la superfície de contacte en preses petites i moviments de compressió. La seva mitjasola minimalista a la puntera prioritza la sensibilitat sense renunciar a l'estabilitat, pensat per a bloc exigent i competició.",
+        "en": "The Hiangle Pro Competition updates the classic Hiangle silhouette with a seamless, wrap-around rubber sole that maximizes contact surface on small holds and compression moves. Its minimalist toe midsole prioritizes sensitivity without giving up stability, built for demanding bouldering and competition.",
+        "fr": "Le Hiangle Pro Competition modernise la silhouette du Hiangle classique avec une semelle en gomme enveloppante et sans coutures, qui maximise la surface de contact sur les petites prises et les mouvements de compression. Sa semi-semelle minimaliste au niveau de la pointe privilégie la sensibilité sans sacrifier la stabilité, pensé pour le bloc exigeant et la compétition."
+      },
+      "marca": "Five Ten",
+      "forma": "Agresiva"
     }
   ]
 }

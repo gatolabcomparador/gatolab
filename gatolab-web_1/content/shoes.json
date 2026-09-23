@@ -67,7 +67,7 @@
    "asimetria": "Media",
    "forro": "Forrado",
    "cierre": "Cordones",
-   "modelo": "Katana Lace",
+   "modelo": "Katana Laces",
    "peso_talla": null,
    "precio": 170,
    "caracteristicas": [
@@ -667,7 +667,7 @@
    "asimetria": "Baja",
    "forro": "Sin forro",
    "cierre": "Slipper elástico",
-   "modelo": "Cobra 4:99",
+   "modelo": "Cobra 4.99",
    "peso_talla": null,
    "precio": 130,
    "caracteristicas": [
@@ -12043,6 +12043,726 @@
    },
    "marca": "EB",
    "forma": "Casi plana"
+  },
+  {
+   "rigidez": "Media",
+   "resumen": "Skwama Lite es la versión de acceso de la familia Skwama: horma con arqueo moderado y puntera espaciosa pensada para escaladores intermedios que quieren perfeccionar su técnica sin sacrificar comodidad. La suela FriXion Black de 4 mm aporta sensibilidad y agarre sin resultar exigente.",
+   "nivel": "Intermedio",
+   "asimetria": "Media",
+   "forro": "Sin forro",
+   "cierre": "Velcro",
+   "modelo": "Skwama Lite",
+   "peso_talla": null,
+   "precio": 130,
+   "caracteristicas": [
+    "Horma con arqueo moderado y puntera espaciosa para mayor comodidad",
+    "Suela FriXion Black de 4 mm con gran sensibilidad y agarre",
+    "Cierre de velcro de ajuste rápido y sencillo",
+    "Fabricado íntegramente en Italia"
+   ],
+   "para_quien_i18n": {
+    "ca": "Escaladors de nivell intermedi que volen fer el salt a vies més exigents al rocòdrom i a la roca, sense renunciar a la comoditat.",
+    "en": "Intermediate climbers wanting to move up to more demanding routes at the gym and outdoors, without giving up comfort.",
+    "fr": "Grimpeurs de niveau intermédiaire qui veulent passer à des voies plus exigeantes en salle et en extérieur, sans renoncer au confort."
+   },
+   "para_quien": "Escaladores de nivel intermedio que quieren dar el salto a vías más exigentes en rocódromo y roca, sin renunciar a la comodidad.",
+   "fotos": [
+    "https://www.lasportiva.com/media/catalog/product/Z/F/ZFCS152_K00Y00_ZFCS152.jpg",
+    "https://www.lasportiva.com/media/catalog/product/Z/F/ZFCS152_K00Y00_ZFCS152K00Y0037.jpg"
+   ],
+   "uso": "Rocódromo",
+   "grosor": 4,
+   "caracteristicas_i18n": {
+    "ca": [
+     "Horma amb arqueig moderat i puntera espaiosa per a més comoditat",
+     "Sola FriXion Black de 4 mm amb gran sensibilitat i agafada",
+     "Tancament de velcro d'ajust ràpid i senzill",
+     "Fabricat íntegrament a Itàlia"
+    ],
+    "en": [
+     "Moderately arched last with a roomy toe box for extra comfort",
+     "4 mm FriXion Black sole with great sensitivity and grip",
+     "Quick, simple velcro closure",
+     "Made entirely in Italy"
+    ],
+    "fr": [
+     "Forme à cambrure modérée et pointe spacieuse pour plus de confort",
+     "Semelle FriXion Black de 4 mm avec une grande sensibilité et adhérence",
+     "Fermeture velcro à ajustement rapide et simple",
+     "Fabriqué entièrement en Italie"
+    ]
+   },
+   "volumen": "Estándar",
+   "peso_g": 215,
+   "id": "ls-skwama-lite",
+   "goma": "La Sportiva FriXion Black",
+   "resumen_i18n": {
+    "ca": "Skwama Lite és la versió d'accés de la família Skwama: horma amb arqueig moderat i puntera espaiosa pensada per a escaladors intermedis que volen perfeccionar la seva tècnica sense sacrificar comoditat. La sola FriXion Black de 4 mm aporta sensibilitat i agafada sense resultar exigent.",
+    "en": "Skwama Lite is the entry point into the Skwama family: a moderately arched last with a roomy toe box designed for intermediate climbers looking to refine their technique without sacrificing comfort. The 4 mm FriXion Black sole delivers sensitivity and grip without being demanding.",
+    "fr": "Skwama Lite est la version d'accès de la famille Skwama : forme à cambrure modérée et pointe spacieuse pensée pour les grimpeurs intermédiaires qui veulent perfectionner leur technique sans sacrifier le confort. La semelle FriXion Black de 4 mm apporte sensibilité et adhérence sans être exigeante."
+   },
+   "marca": "La Sportiva",
+   "forma": "Moderada"
+  },
+  {
+   "rigidez": "Blanda",
+   "resumen": "Desarrollado con el soporte técnico de Adam Ondra, Ondra Comp está diseñado para las tres situaciones más comunes del búlder moderno: presas de agarre, enganches de dedos y desplomes. La tecnología SenseGrip en mediasuela y puntera maximiza la adaptabilidad a cualquier tipo de apoyo.",
+   "nivel": "Avanzado",
+   "asimetria": "Alta",
+   "forro": "Sin forro",
+   "cierre": "Velcro",
+   "modelo": "Ondra Comp",
+   "peso_talla": null,
+   "precio": 195,
+   "caracteristicas": [
+    "Desarrollado con el soporte técnico de Adam Ondra",
+    "Tecnología patentada SenseGrip en mediasuela y puntera",
+    "Suela Vibram XS Grip2 de 3,5 mm de máxima adherencia",
+    "Horma muy agresiva pensada para el búlder más dinámico"
+   ],
+   "para_quien_i18n": {
+    "ca": "Escaladors de bloc de nivell avançat que busquen el màxim rendiment en els moviments més dinàmics i exigents.",
+    "en": "Advanced boulderers looking for maximum performance on the most dynamic and demanding moves.",
+    "fr": "Grimpeurs de bloc de niveau avancé recherchant une performance maximale sur les mouvements les plus dynamiques et exigeants."
+   },
+   "para_quien": "Escaladores de bloque de nivel avanzado que buscan el máximo rendimiento en los movimientos más dinámicos y exigentes.",
+   "fotos": [
+    "https://www.lasportiva.com/media/catalog/product/Z/F/ZFCS046_K00Y00_ZFCS046.jpg",
+    "https://www.lasportiva.com/media/catalog/product/Z/F/ZFCS046_K00Y00_ZFCS046K00Y00445.jpg"
+   ],
+   "uso": "Bloque",
+   "grosor": 3.5,
+   "caracteristicas_i18n": {
+    "ca": [
+     "Desenvolupat amb el suport tècnic d'Adam Ondra",
+     "Tecnologia patentada SenseGrip a la mitjasola i la puntera",
+     "Sola Vibram XS Grip2 de 3,5 mm de màxima adherència",
+     "Horma molt agressiva pensada per al búlder més dinàmic"
+    ],
+    "en": [
+     "Developed with technical input from Adam Ondra",
+     "Patented SenseGrip technology in the midsole and toe",
+     "3.5 mm Vibram XS Grip2 sole for maximum grip",
+     "Very aggressive last built for the most dynamic bouldering"
+    ],
+    "fr": [
+     "Développé avec le soutien technique d'Adam Ondra",
+     "Technologie brevetée SenseGrip au niveau de la médiane et de la pointe",
+     "Semelle Vibram XS Grip2 de 3,5 mm pour une adhérence maximale",
+     "Forme très agressive pensée pour le bloc le plus dynamique"
+    ]
+   },
+   "volumen": "Estándar",
+   "peso_g": 210,
+   "id": "ls-ondra-comp",
+   "goma": "Vibram XS Grip2",
+   "resumen_i18n": {
+    "ca": "Desenvolupat amb el suport tècnic d'Adam Ondra, Ondra Comp està dissenyat per a les tres situacions més comunes del búlder modern: preses d'agafada, enganxades de dits i desplomats. La tecnologia SenseGrip a la mitjasola i la puntera maximitza l'adaptabilitat a qualsevol tipus de suport.",
+    "en": "Developed with technical input from Adam Ondra, Ondra Comp is designed for the three most common situations in modern bouldering: grip holds, toe hooks and steep overhangs. SenseGrip technology in the midsole and toe rubber maximizes adaptability to any type of foothold.",
+    "fr": "Développé avec le soutien technique d'Adam Ondra, Ondra Comp est conçu pour les trois situations les plus courantes du bloc moderne : préhensions, crochetages de pieds et dévers. La technologie SenseGrip au niveau de la médiane et de la pointe maximise l'adaptabilité à tout type d'appui."
+   },
+   "marca": "La Sportiva",
+   "forma": "Muy agresiva"
+  },
+  {
+   "rigidez": "Media",
+   "resumen": "Lo último de la familia No-Edge de La Sportiva. Mandala maximiza la precisión en el talón y ofrece una gran área de goma de ultra agarre en la punta para facilitar los enganches de dedos, con un espesor mínimo entre el pie y la roca para máxima sensibilidad.",
+   "nivel": "Avanzado",
+   "asimetria": "Alta",
+   "forro": "Parcialmente forrado",
+   "cierre": "Velcro",
+   "modelo": "Mandala",
+   "peso_talla": null,
+   "precio": 170,
+   "caracteristicas": [
+    "Sistema No-Edge para una adaptabilidad total de la puntera",
+    "Gran área de goma de ultra agarre en la punta para enganches de dedos",
+    "Espesor mínimo entre pie y roca para máxima sensibilidad",
+    "Tecnología P3 que mantiene la forma del zapato con el tiempo"
+   ],
+   "para_quien_i18n": {
+    "ca": "Escaladors de bloc avançats que busquen màxima sensibilitat i precisió en projectes complexos.",
+    "en": "Advanced boulderers seeking maximum sensitivity and precision on complex projects.",
+    "fr": "Grimpeurs de bloc avancés recherchant une sensibilité et une précision maximales sur des projets complexes."
+   },
+   "para_quien": "Escaladores de bloque avanzados que buscan máxima sensibilidad y precisión en proyectos complejos.",
+   "fotos": [
+    "https://www.lasportiva.com/media/catalog/product/Z/F/ZFCS041_W04W04_ZFCS041.jpg",
+    "https://www.lasportiva.com/media/catalog/product/Z/F/ZFCS041_W04W04_ZFCS041W04W0438.jpg"
+   ],
+   "uso": "Bloque",
+   "grosor": 3,
+   "caracteristicas_i18n": {
+    "ca": [
+     "Sistema No-Edge per a una adaptabilitat total de la puntera",
+     "Gran àrea de goma d'ultra agafada a la punta per a enganxades de dits",
+     "Gruix mínim entre peu i roca per a màxima sensibilitat",
+     "Tecnologia P3 que manté la forma de la sabata amb el temps"
+    ],
+    "en": [
+     "No-Edge system for total toe-box adaptability",
+     "Large area of ultra-grippy rubber at the toe for toe hooks",
+     "Minimal thickness between foot and rock for maximum sensitivity",
+     "P3 technology that keeps the shoe's shape over time"
+    ],
+    "fr": [
+     "Système No-Edge pour une adaptabilité totale de la pointe",
+     "Grande zone de gomme ultra-adhérente à la pointe pour les crochetages",
+     "Épaisseur minimale entre le pied et la roche pour une sensibilité maximale",
+     "Technologie P3 qui conserve la forme du chausson dans le temps"
+    ]
+   },
+   "volumen": "Estándar",
+   "peso_g": 220,
+   "id": "ls-mandala",
+   "goma": "Vibram XS Grip2",
+   "resumen_i18n": {
+    "ca": "L'últim de la família No-Edge de La Sportiva. Mandala maximitza la precisió al taló i ofereix una gran àrea de goma d'ultra agafada a la punta per facilitar els enganxades de dits, amb un gruix mínim entre el peu i la roca per a màxima sensibilitat.",
+    "en": "The latest addition to La Sportiva's No-Edge family. Mandala maximizes heel precision and offers a large area of ultra-grippy rubber at the toe to ease toe hooks, with minimal thickness between foot and rock for maximum sensitivity.",
+    "fr": "Le dernier-né de la famille No-Edge de La Sportiva. Mandala maximise la précision du talon et offre une grande zone de gomme ultra-adhérente à la pointe pour faciliter les crochetages de pieds, avec une épaisseur minimale entre le pied et la roche pour une sensibilité maximale."
+   },
+   "marca": "La Sportiva",
+   "forma": "Muy agresiva"
+  },
+  {
+   "rigidez": "Blanda",
+   "resumen": "La bailarina por excelencia de La Sportiva, vestida de blanco. Mantra maximiza la fluidez y naturalidad de movimientos en vías indoor modernas gracias a un espesor extremadamente reducido y a la construcción D-Tech, que envuelve el antepié sin bordes.",
+   "nivel": "Avanzado",
+   "asimetria": "Baja",
+   "forro": "Sin forro",
+   "cierre": "Slipper (sin cierre)",
+   "modelo": "Mantra",
+   "peso_talla": null,
+   "precio": 145,
+   "caracteristicas": [
+    "Construcción slipper sin cierre, tipo bailarina",
+    "Espesor extremadamente reducido para máxima sensibilidad",
+    "Construcción patentada D-Tech que envuelve el antepié sin bordes",
+    "Suela Vibram XS Grip2 de 1,8 mm"
+   ],
+   "para_quien_i18n": {
+    "ca": "Escaladors avançats que busquen sensibilitat extrema al rocòdrom, sense cap tipus de tancament que interfereixi en el moviment.",
+    "en": "Advanced climbers seeking extreme sensitivity at the gym, with no closure at all to get in the way of movement.",
+    "fr": "Grimpeurs avancés recherchant une sensibilité extrême en salle, sans aucune fermeture qui puisse gêner le mouvement."
+   },
+   "para_quien": "Escaladores avanzados que buscan sensibilidad extrema en rocódromo, sin ningún tipo de cierre que interfiera en el movimiento.",
+   "fotos": [
+    "https://www.lasportiva.com/media/catalog/product/Z/F/ZFCS043_W04W04_ZFCS043.jpg",
+    "https://www.lasportiva.com/media/catalog/product/Z/F/ZFCS043_W04W04_ZFCS043W04W0435.jpg"
+   ],
+   "uso": "Bloque",
+   "grosor": 1.8,
+   "caracteristicas_i18n": {
+    "ca": [
+     "Construcció slipper sense tancament, tipus bailarina",
+     "Gruix extremadament reduït per a màxima sensibilitat",
+     "Construcció patentada D-Tech que embolcalla l'avantpeu sense vores",
+     "Sola Vibram XS Grip2 de 1,8 mm"
+    ],
+    "en": [
+     "Slipper construction with no closure, ballet-flat style",
+     "Extremely thin sole for maximum sensitivity",
+     "Patented D-Tech construction wrapping the forefoot with no edges",
+     "1.8 mm Vibram XS Grip2 sole"
+    ],
+    "fr": [
+     "Construction slipper sans fermeture, façon ballerine",
+     "Épaisseur extrêmement réduite pour une sensibilité maximale",
+     "Construction brevetée D-Tech qui enveloppe l'avant-pied sans bords",
+     "Semelle Vibram XS Grip2 de 1,8 mm"
+    ]
+   },
+   "volumen": "Estándar",
+   "peso_g": 200,
+   "id": "ls-mantra",
+   "goma": "Vibram XS Grip2",
+   "resumen_i18n": {
+    "ca": "La bailarina per excel·lència de La Sportiva, vestida de blanc. Mantra maximitza la fluïdesa i naturalitat de moviments en vies indoor modernes gràcies a un gruix extremadament reduït i a la construcció D-Tech, que embolcalla l'avantpeu sense vores.",
+    "en": "La Sportiva's ultimate slipper, dressed in white. Mantra maximizes fluid, natural movement on modern indoor routes thanks to an extremely thin sole and the D-Tech construction, which wraps the forefoot with no edges.",
+    "fr": "La ballerine par excellence de La Sportiva, habillée de blanc. Mantra maximise la fluidité et le naturel des mouvements sur les voies indoor modernes grâce à une épaisseur extrêmement réduite et à la construction D-Tech, qui enveloppe l'avant-pied sans bords."
+   },
+   "marca": "La Sportiva",
+   "forma": "Casi plana"
+  },
+  {
+   "rigidez": "Blanda",
+   "resumen": "HyperEZ está diseñado desde cero por y para escaladores principiantes que quieren evitar el dolor de pies mientras aprenden. El mayor volumen en las zonas de presión, el cuello acolchado y el doble cierre de velcro cruzado ofrecen un ajuste envolvente y sin dolor desde el primer día.",
+   "nivel": "Iniciación",
+   "asimetria": "Baja",
+   "forro": "Forrado",
+   "cierre": "Velcro (doble correa cruzada)",
+   "modelo": "HyperEZ",
+   "peso_talla": null,
+   "precio": 120,
+   "caracteristicas": [
+    "Diseñado desde cero por y para escaladores principiantes",
+    "Mayor volumen en las zonas clave de presión para evitar el dolor",
+    "Doble cierre de velcro cruzado de ajuste rápido y  envolvente",
+    "Cuello acolchado y refuerzo de goma en el talón"
+   ],
+   "para_quien_i18n": {
+    "ca": "Escaladors principiants que prioritzen la comoditat sobre el rendiment mentre aprenen tècnica bàsica.",
+    "en": "Beginner climbers who prioritize comfort over performance while learning basic technique.",
+    "fr": "Grimpeurs débutants qui privilégient le confort à la performance pendant l'apprentissage des bases techniques."
+   },
+   "para_quien": "Escaladores principiantes que priorizan la comodidad sobre el rendimiento mientras aprenden técnica básica.",
+   "fotos": [
+    "https://www.lasportiva.com/media/catalog/product/Z/F/ZFCS149_K00Y00_09_ZFCS149.jpg",
+    "https://www.lasportiva.com/media/catalog/product/Z/F/ZFCS149_K00Y00_09_ZFCS149K00Y0034.jpg"
+   ],
+   "uso": "Todoterreno",
+   "grosor": 4,
+   "caracteristicas_i18n": {
+    "ca": [
+     "Dissenyat des de zero per i per a escaladors principiants",
+     "Major volum a les zones clau de pressió per evitar el dolor",
+     "Doble tancament de velcro creuat d'ajust ràpid i envolupant",
+     "Coll encoixinat i reforç de goma al taló"
+    ],
+    "en": [
+     "Designed from the ground up by and for beginner climbers",
+     "Extra volume in key pressure zones to avoid pain",
+     "Double cross-strap velcro closure for a quick, wrapping fit",
+     "Padded collar and rubber heel reinforcement"
+    ],
+    "fr": [
+     "Conçu de zéro par et pour les grimpeurs débutants",
+     "Volume accru dans les zones de pression clés pour éviter la douleur",
+     "Double fermeture velcro croisée pour un chaussant rapide et enveloppant",
+     "Col rembourré et renfort en gomme au talon"
+    ]
+   },
+   "volumen": "Alto (horma ancha)",
+   "peso_g": 235,
+   "id": "ls-hyperez",
+   "goma": "La Sportiva FriXion White",
+   "resumen_i18n": {
+    "ca": "HyperEZ està dissenyat des de zero per i per a escaladors principiants que volen evitar el dolor de peus mentre aprenen. El major volum a les zones de pressió, el coll encoixinat i el doble tancament de velcro creuat ofereixen un ajust envolupant i sense dolor des del primer dia.",
+    "en": "HyperEZ is designed from the ground up by and for beginner climbers who want to avoid foot pain while they learn. Extra volume in key pressure zones, a padded collar and a double cross-strap velcro closure deliver a wrapping, pain-free fit from day one.",
+    "fr": "HyperEZ est conçu de zéro par et pour les grimpeurs débutants qui veulent éviter les douleurs aux pieds pendant l'apprentissage. Un volume accru dans les zones de pression clés, un col rembourré et une double fermeture velcro croisée offrent un chaussant enveloppant et sans douleur dès le premier jour."
+   },
+   "marca": "La Sportiva",
+   "forma": "Plana"
+  },
+  {
+   "rigidez": "Media",
+   "resumen": "El pie de gato No-Edge más polivalente de toda la gama La Sportiva. Futura combina comodidad y sensibilidad con gran rendimiento tanto en interiores como en exteriores, gracias al cierre patentado Fast Lacing System que sincroniza perfectamente pie y zapato.",
+   "nivel": "Avanzado",
+   "asimetria": "Media",
+   "forro": "Sin forro",
+   "cierre": "Cordón rápido (Fast Lacing System)",
+   "modelo": "Futura",
+   "peso_talla": null,
+   "precio": 165,
+   "caracteristicas": [
+    "Sistema No-Edge que reduce la barrera entre pie y roca",
+    "Cierre patentado Fast Lacing System de ajuste milimétrico",
+    "Suela Vibram XS Grip2 de 3 mm de gran adherencia",
+    "Rendimiento equilibrado en interior y exterior"
+   ],
+   "para_quien_i18n": {
+    "ca": "Escaladors avançats que busquen un únic model polivalent per a rocòdrom, roca i bloc.",
+    "en": "Advanced climbers looking for a single versatile shoe for the gym, rock and bouldering.",
+    "fr": "Grimpeurs avancés recherchant un modèle unique et polyvalent pour la salle, la falaise et le bloc."
+   },
+   "para_quien": "Escaladores avanzados que buscan un único modelo polivalente para rocódromo, roca y bloque.",
+   "fotos": [
+    "https://www.lasportiva.com/media/catalog/product/Z/F/ZFCS166_W04W04_ZFCS166.jpg",
+    "https://www.lasportiva.com/media/catalog/product/Z/F/ZFCS166_W04W04_ZFCS166W04W0433.jpg"
+   ],
+   "uso": "Todoterreno",
+   "grosor": 3,
+   "caracteristicas_i18n": {
+    "ca": [
+     "Sistema No-Edge que redueix la barrera entre peu i roca",
+     "Tancament patentat Fast Lacing System d'ajust mil·limètric",
+     "Sola Vibram XS Grip2 de 3 mm de gran adherència",
+     "Rendiment equilibrat en interior i exterior"
+    ],
+    "en": [
+     "No-Edge system reducing the barrier between foot and rock",
+     "Patented Fast Lacing System closure for a millimetric fit",
+     "3 mm Vibram XS Grip2 sole with great grip",
+     "Balanced performance indoors and outdoors"
+    ],
+    "fr": [
+     "Système No-Edge qui réduit la barrière entre le pied et la roche",
+     "Fermeture brevetée Fast Lacing System pour un ajustement millimétrique",
+     "Semelle Vibram XS Grip2 de 3 mm avec une grande adhérence",
+     "Performance équilibrée en intérieur et en extérieur"
+    ]
+   },
+   "volumen": "Estándar",
+   "peso_g": 225,
+   "id": "ls-futura",
+   "goma": "Vibram XS Grip2",
+   "resumen_i18n": {
+    "ca": "El peu de gat No-Edge més polivalent de tota la gamma La Sportiva. Futura combina comoditat i sensibilitat amb gran rendiment tant en interiors com en exteriors, gràcies al tancament patentat Fast Lacing System que sincronitza perfectament peu i sabata.",
+    "en": "The most versatile No-Edge climbing shoe in the whole La Sportiva range. Futura combines comfort and sensitivity with great performance both indoors and outdoors, thanks to the patented Fast Lacing System closure that keeps foot and shoe perfectly in sync.",
+    "fr": "Le chausson No-Edge le plus polyvalent de toute la gamme La Sportiva. Futura combine confort et sensibilité avec une grande performance en intérieur comme en extérieur, grâce à la fermeture brevetée Fast Lacing System qui synchronise parfaitement le pied et le chausson."
+   },
+   "marca": "La Sportiva",
+   "forma": "Moderada-agresiva"
+  },
+  {
+   "rigidez": "Blanda",
+   "resumen": "La versión 100% libre de materiales de origen animal de la Skwama. El upper de microfibra con base SkinLike ofrece transpirabilidad y adaptabilidad al pie totalmente comparables al cuero tradicional, con la misma carcasa S-Heel y la misma suela Vibram XS Grip2 orientada al rendimiento en bloque.",
+   "nivel": "Avanzado",
+   "asimetria": "Media",
+   "forro": "Parcialmente forrado",
+   "cierre": "Velcro",
+   "modelo": "Skwama Vegan",
+   "peso_talla": null,
+   "precio": 165,
+   "caracteristicas": [
+    "Construido en su totalidad sin materiales de origen animal",
+    "Upper de microfibra con base SkinLike comparable al cuero tradicional",
+    "Talón con carcasa S-Heel para estabilidad a la torsión en bloque",
+    "Suela Vibram XS Grip2 de 3,5 mm de máximo agarre"
+   ],
+   "para_quien_i18n": {
+    "ca": "Escaladors de bloc avançats que busquen el rendiment de la Skwama amb materials vegans.",
+    "en": "Advanced boulderers seeking the Skwama's performance in a fully vegan construction.",
+    "fr": "Grimpeurs de bloc avancés recherchant la performance de la Skwama dans une construction végane."
+   },
+   "para_quien": "Escaladores de bloque avanzados que buscan el rendimiento de la Skwama con materiales veganos.",
+   "fotos": [
+    "https://www.lasportiva.com/media/catalog/product/Z/F/ZFCS032_K00E24_ZFCS032.jpg",
+    "https://www.lasportiva.com/media/catalog/product/Z/F/ZFCS032_K00E24_ZFCS032K00E2434.jpg"
+   ],
+   "uso": "Bloque",
+   "grosor": 3.5,
+   "caracteristicas_i18n": {
+    "ca": [
+     "Construït íntegrament sense materials d'origen animal",
+     "Upper de microfibra amb base SkinLike comparable al cuir tradicional",
+     "Taló amb carcassa S-Heel per a estabilitat a la torsió en bloc",
+     "Sola Vibram XS Grip2 de 3,5 mm de màxima agafada"
+    ],
+    "en": [
+     "Built entirely without animal-derived materials",
+     "SkinLike-based microfiber upper comparable to traditional leather",
+     "S-Heel shell heel for torsional stability in bouldering",
+     "3.5 mm Vibram XS Grip2 sole for maximum grip"
+    ],
+    "fr": [
+     "Construit entièrement sans matières d'origine animale",
+     "Tige en microfibre à base SkinLike comparable au cuir traditionnel",
+     "Talon à coque S-Heel pour la stabilité en torsion en bloc",
+     "Semelle Vibram XS Grip2 de 3,5 mm pour une adhérence maximale"
+    ]
+   },
+   "volumen": "Estándar",
+   "peso_g": 210,
+   "id": "ls-skwama-vegan",
+   "goma": "Vibram XS Grip2",
+   "resumen_i18n": {
+    "ca": "La versió 100% lliure de materials d'origen animal de la Skwama. L'upper de microfibra amb base SkinLike ofereix transpirabilitat i adaptabilitat al peu totalment comparables al cuir tradicional, amb la mateixa carcassa S-Heel i la mateixa sola Vibram XS Grip2 orientada al rendiment en bloc.",
+    "en": "The 100% animal-material-free version of the Skwama. The SkinLike-based microfiber upper offers breathability and foot adaptability fully comparable to traditional leather, with the same S-Heel shell and the same performance-oriented Vibram XS Grip2 sole for bouldering.",
+    "fr": "La version 100% sans matières d'origine animale de la Skwama. La tige en microfibre à base SkinLike offre une respirabilité et une adaptabilité au pied tout à fait comparables au cuir traditionnel, avec la même coque S-Heel et la même semelle Vibram XS Grip2 orientée performance en bloc."
+   },
+   "marca": "La Sportiva",
+   "forma": "Agresiva"
+  },
+  {
+   "rigidez": "Blanda",
+   "resumen": "La bailarina clásica de La Sportiva, fácil de calzar y de adaptar a cualquier forma de roca. Cobra es sensible y adherente, ideal para escalada indoor y de velocidad, con una fina mediasuela que ofrece un apoyo óptimo en fisuras sin restar sensibilidad.",
+   "nivel": "Avanzado",
+   "asimetria": "Baja",
+   "forro": "Sin forro",
+   "cierre": "Slipper (sin cierre)",
+   "modelo": "Cobra",
+   "peso_talla": null,
+   "precio": 100,
+   "caracteristicas": [
+    "Construcción slipper sin cierre, fácil de calzar",
+    "Fina mediasuela con apoyo óptimo en fisuras",
+    "Suela Vibram XS Grip2 de 3,5 mm",
+    "Upper de piel de ante con construcción tubular"
+   ],
+   "para_quien_i18n": {
+    "ca": "Escaladors avançats que busquen una bailarina senzilla i econòmica per a rocòdrom i escalada de velocitat.",
+    "en": "Advanced climbers looking for a simple, affordable slipper for the gym and speed climbing.",
+    "fr": "Grimpeurs avancés recherchant une ballerine simple et économique pour la salle et l'escalade de vitesse."
+   },
+   "para_quien": "Escaladores avanzados que buscan una bailarina sencilla y económica para rocódromo y escalada de velocidad.",
+   "fotos": [
+    "https://www.lasportiva.com/media/catalog/product/Z/F/ZFCS008_O00O00_ZFCS008.jpg",
+    "https://www.lasportiva.com/media/catalog/product/Z/F/ZFCS008_O00O00_ZFCS008O00O0033.jpg"
+   ],
+   "uso": "Rocódromo",
+   "grosor": 3.5,
+   "caracteristicas_i18n": {
+    "ca": [
+     "Construcció slipper sense tancament, fàcil de calçar",
+     "Fina mitjasola amb suport òptim en fissures",
+     "Sola Vibram XS Grip2 de 3,5 mm",
+     "Upper de pell d'ante amb construcció tubular"
+    ],
+    "en": [
+     "Slipper construction with no closure, easy to put on",
+     "Thin midsole giving optimal support in cracks",
+     "3.5 mm Vibram XS Grip2 sole",
+     "Suede upper with tubular construction"
+    ],
+    "fr": [
+     "Construction slipper sans fermeture, facile à chausser",
+     "Médiane fine offrant un appui optimal dans les fissures",
+     "Semelle Vibram XS Grip2 de 3,5 mm",
+     "Tige en daim à construction tubulaire"
+    ]
+   },
+   "volumen": "Estándar",
+   "peso_g": 205,
+   "id": "ls-cobra",
+   "goma": "Vibram XS Grip2",
+   "resumen_i18n": {
+    "ca": "La bailarina clàssica de La Sportiva, fàcil de calçar i d'adaptar a qualsevol forma de roca. Cobra és sensible i adherent, ideal per a escalada indoor i de velocitat, amb una fina mitjasola que ofereix un suport òptim en fissures sense restar sensibilitat.",
+    "en": "La Sportiva's classic slipper, easy to put on and adapt to any rock shape. Cobra is sensitive and grippy, ideal for indoor and speed climbing, with a thin midsole that gives optimal support in cracks without sacrificing sensitivity.",
+    "fr": "La ballerine classique de La Sportiva, facile à chausser et à adapter à toute forme de roche. Cobra est sensible et adhérente, idéale pour l'escalade indoor et de vitesse, avec une fine médiane qui offre un appui optimal dans les fissures sans réduire la sensibilité."
+   },
+   "marca": "La Sportiva",
+   "forma": "Plana"
+  },
+  {
+   "rigidez": "Blanda",
+   "resumen": "El mito. La versión clásica original del Mythos, prácticamente cosido al pie. Es el modelo más versátil de La Sportiva porque se adapta a todo tipo de roca, con el ya probado sistema de lazado y la rigidez de mediasuela justa para el mejor equilibrio entre sensibilidad y adherencia.",
+   "nivel": "Intermedio",
+   "asimetria": "Baja",
+   "forro": "Sin forro",
+   "cierre": "Cordones (sistema de cordino patentado Mythos)",
+   "modelo": "Mythos",
+   "peso_talla": null,
+   "precio": 125,
+   "caracteristicas": [
+    "Versión clásica original, previa a la reedición Eco",
+    "Sistema de lazado Mythos probado durante décadas",
+    "Suela Vibram XS Edge de 4 mm",
+    "Upper de piel de ante de horma slip-lasted"
+   ],
+   "para_quien_i18n": {
+    "ca": "Escaladors de vies llargues i jornades prolongades que busquen el confort i la versatilitat del Mythos original, sense components reciclats.",
+    "en": "Climbers of long routes and long days out looking for the comfort and versatility of the original Mythos, without recycled components.",
+    "fr": "Grimpeurs de grandes voies et de longues journées recherchant le confort et la polyvalence du Mythos original, sans composants recyclés."
+   },
+   "para_quien": "Escaladores de vías largas y jornadas prolongadas que buscan el confort y la versatilidad del Mythos original, sin componentes reciclados.",
+   "fotos": [
+    "https://www.lasportiva.com/media/catalog/product/Z/F/ZFCS001_N17N17_ZFCS001.jpg",
+    "https://www.lasportiva.com/media/catalog/product/Z/F/ZFCS001_N17N17_ZFCS001N17N1733.jpg"
+   ],
+   "uso": "Fisura/Trad",
+   "grosor": 4,
+   "caracteristicas_i18n": {
+    "ca": [
+     "Versió clàssica original, prèvia a la reedició Eco",
+     "Sistema de lligat Mythos provat durant dècades",
+     "Sola Vibram XS Edge de 4 mm",
+     "Upper de pell d'ante d'horma slip-lasted"
+    ],
+    "en": [
+     "Original classic version, predating the Eco reissue",
+     "Mythos lacing system proven over decades",
+     "4 mm Vibram XS Edge sole",
+     "Slip-lasted suede leather upper"
+    ],
+    "fr": [
+     "Version classique originale, antérieure à la réédition Eco",
+     "Système de laçage Mythos éprouvé depuis des décennies",
+     "Semelle Vibram XS Edge de 4 mm",
+     "Tige en cuir daim à montage slip-lasted"
+    ]
+   },
+   "volumen": "Estándar",
+   "peso_g": 233,
+   "id": "ls-mythos",
+   "goma": "Vibram XS Edge",
+   "resumen_i18n": {
+    "ca": "El mite. La versió clàssica original del Mythos, pràcticament cosit al peu. És el model més versàtil de La Sportiva perquè s'adapta a tot tipus de roca, amb el ja provat sistema de lligat i la rigidesa de mitjasola justa per al millor equilibri entre sensibilitat i adherència.",
+    "en": "The legend. The original classic version of the Mythos, practically stitched to the foot. It's La Sportiva's most versatile model because it adapts to any type of rock, with its proven lacing system and just the right midsole stiffness for the best balance between sensitivity and grip.",
+    "fr": "Le mythe. La version classique originale du Mythos, pratiquement cousue au pied. C'est le modèle le plus polyvalent de La Sportiva car il s'adapte à tout type de roche, avec son système de laçage éprouvé et une rigidité de médiane parfaitement dosée pour le meilleur équilibre entre sensibilité et adhérence."
+   },
+   "marca": "La Sportiva",
+   "forma": "Casi plana"
+  },
+  {
+   "rigidez": "Media",
+   "resumen": "Update estético del Tarantula clásico: un pie de gato polivalente ideal para quienes se acercan al mundo de la escalada y su uso en rocódromos. Cierre de correa de velcro rápido y funcional, forma neutra adecuada para todo tipo de pie, con suela FriXion Black de 4 mm extra gruesa.",
+   "nivel": "Iniciación",
+   "asimetria": "Baja",
+   "forro": "Parcialmente forrado",
+   "cierre": "Velcro (1 correa)",
+   "modelo": "Tarantula",
+   "peso_talla": null,
+   "precio": 95,
+   "caracteristicas": [
+    "Cierre de correa de velcro rápido y funcional",
+    "Forma neutra adecuada para todo tipo de pie",
+    "Suela FriXion Black de 4 mm extra gruesa y duradera",
+    "Lengüeta antisudor de dos capas para uso prolongado en interiores"
+   ],
+   "para_quien_i18n": {
+    "ca": "Escaladors que s'inicien en l'escalada i busquen un model de velcro senzill i durador per al rocòdrom.",
+    "en": "Climbers just starting out who want a simple, durable velcro shoe for the gym.",
+    "fr": "Grimpeurs débutants recherchant un modèle velcro simple et durable pour la salle."
+   },
+   "para_quien": "Escaladores que se inician en la escalada y buscan un modelo de velcro sencillo y duradero para el rocódromo.",
+   "fotos": [
+    "https://www.lasportiva.com/media/catalog/product/Z/F/ZFCS146_B23O05_ZFCS146.jpg",
+    "https://www.lasportiva.com/media/catalog/product/Z/F/ZFCS146_B23O05_ZFCS146B23O0540.jpg"
+   ],
+   "uso": "Rocódromo",
+   "grosor": 4,
+   "caracteristicas_i18n": {
+    "ca": [
+     "Tancament de corretja de velcro ràpid i funcional",
+     "Forma neutra adequada per a tot tipus de peu",
+     "Sola FriXion Black de 4 mm extra gruixuda i duradora",
+     "Llengüeta antisuor de dues capes per a ús prolongat en interiors"
+    ],
+    "en": [
+     "Quick, functional velcro strap closure",
+     "Neutral shape suited to all foot types",
+     "Extra-thick, durable 4 mm FriXion Black sole",
+     "Two-layer sweat-absorbing tongue for prolonged indoor use"
+    ],
+    "fr": [
+     "Fermeture velcro rapide et fonctionnelle",
+     "Forme neutre adaptée à tous les types de pied",
+     "Semelle FriXion Black de 4 mm extra épaisse et durable",
+     "Languette anti-transpiration à deux couches pour un usage prolongé en intérieur"
+    ]
+   },
+   "volumen": "Estándar",
+   "peso_g": 240,
+   "id": "ls-tarantula",
+   "goma": "La Sportiva FriXion Black",
+   "resumen_i18n": {
+    "ca": "Actualització estètica del Tarantula clàssic: un peu de gat polivalent ideal per a qui s'acosta al món de l'escalada i el seu ús en rocòdroms. Tancament de corretja de velcro ràpid i funcional, forma neutra adequada per a tot tipus de peu, amb sola FriXion Black de 4 mm extra gruixuda.",
+    "en": "An aesthetic update of the classic Tarantula: a versatile climbing shoe ideal for those approaching the world of climbing and gym use. Quick, functional velcro strap closure, neutral shape suited to all foot types, with an extra-thick 4 mm FriXion Black sole.",
+    "fr": "Mise à jour esthétique du Tarantula classique : un chausson polyvalent idéal pour ceux qui découvrent le monde de l'escalade et la pratique en salle. Fermeture velcro rapide et fonctionnelle, forme neutre adaptée à tous les types de pied, avec une semelle FriXion Black de 4 mm extra épaisse."
+   },
+   "marca": "La Sportiva",
+   "forma": "Plana"
+  },
+  {
+   "rigidez": "Media",
+   "resumen": "El pie de gato para principiantes desarrollado especialmente para el búlder indoor. Su cierre de doble correa contrapuesta es rápido y funcional, y el talón está pensado específicamente para asegurar la adherencia en las presas y volúmenes del bloque en rocódromo.",
+   "nivel": "Iniciación",
+   "asimetria": "Baja",
+   "forro": "Parcialmente forrado",
+   "cierre": "Velcro (doble correa contrapuesta)",
+   "modelo": "Tarantula Boulder",
+   "peso_talla": null,
+   "precio": 100,
+   "caracteristicas": [
+    "Cierre de doble correa contrapuesta, rápido y funcional",
+    "Talón desarrollado específicamente para presas y volúmenes de bloque",
+    "Forma neutra adecuada para todo tipo de pie",
+    "Puntera de caucho que optimiza los apoyos con los dedos"
+   ],
+   "para_quien_i18n": {
+    "ca": "Escaladors principiants que s'inicien específicament en la disciplina del búlder indoor.",
+    "en": "Beginner climbers starting out specifically in indoor bouldering.",
+    "fr": "Grimpeurs débutants qui découvrent spécifiquement la discipline du bloc indoor."
+   },
+   "para_quien": "Escaladores principiantes que se inician específicamente en la disciplina del boulder indoor.",
+   "fotos": [
+    "https://www.lasportiva.com/media/catalog/product/Z/F/ZFCS143_G17R19_ZFCS143.jpg",
+    "https://www.lasportiva.com/media/catalog/product/Z/F/ZFCS143_G17R19_ZFCS143G17R19375.jpg"
+   ],
+   "uso": "Bloque",
+   "grosor": 4,
+   "caracteristicas_i18n": {
+    "ca": [
+     "Tancament de doble corretja contraposada, ràpid i funcional",
+     "Taló desenvolupat específicament per a preses i volums de bloc",
+     "Forma neutra adequada per a tot tipus de peu",
+     "Puntera de cautxú que optimitza els suports amb els dits"
+    ],
+    "en": [
+     "Double opposed-strap closure, quick and functional",
+     "Heel specifically developed for bouldering holds and volumes",
+     "Neutral shape suited to all foot types",
+     "Rubber toe box that optimizes toe holds"
+    ],
+    "fr": [
+     "Fermeture à double sangle opposée, rapide et fonctionnelle",
+     "Talon développé spécifiquement pour les prises et volumes de bloc",
+     "Forme neutre adaptée à tous les types de pied",
+     "Pointe en caoutchouc qui optimise les appuis sur les orteils"
+    ]
+   },
+   "volumen": "Estándar",
+   "peso_g": 250,
+   "id": "ls-tarantula-boulder",
+   "goma": "La Sportiva FriXion Black",
+   "resumen_i18n": {
+    "ca": "El peu de gat per a principiants desenvolupat especialment per al búlder indoor. El seu tancament de doble corretja contraposada és ràpid i funcional, i el taló està pensat específicament per assegurar l'adherència a les preses i volums del bloc al rocòdrom.",
+    "en": "The beginner's climbing shoe developed specifically for indoor bouldering. Its double opposed-strap closure is quick and functional, and the heel is specifically designed to ensure grip on the holds and volumes found in gym bouldering.",
+    "fr": "Le chausson pour débutants développé spécialement pour le bloc indoor. Sa fermeture à double sangle opposée est rapide et fonctionnelle, et le talon est spécifiquement conçu pour assurer l'adhérence sur les prises et volumes du bloc en salle."
+   },
+   "marca": "La Sportiva",
+   "forma": "Plana"
+  },
+  {
+   "rigidez": "Media",
+   "resumen": "El equilibrio perfecto entre sensibilidad, precisión y soporte de peso. Katana es el zapato polivalente por excelencia, con doble lazada a contraste y entresuela con sistema P3 que mejora el rendimiento y mantiene la forma del zapato inalterable con el tiempo. Más de 20 años de referencia.",
+   "nivel": "Intermedio",
+   "asimetria": "Media",
+   "forro": "Forrado",
+   "cierre": "Cordones (doble lazada a contraste)",
+   "modelo": "Katana",
+   "peso_talla": null,
+   "precio": 150,
+   "caracteristicas": [
+    "Doble lazada a contraste para un ajuste preciso",
+    "Entresuela con sistema patentado P3 que mantiene la forma del zapato",
+    "Suela Vibram XS Edge de 4 mm",
+    "Más de 20 años como referencia todoterreno de La Sportiva"
+   ],
+   "para_quien_i18n": {
+    "ca": "Escaladors de nivell intermedi que busquen un model de cordons polivalent i durador per a tot tipus de terreny.",
+    "en": "Intermediate climbers looking for a versatile, durable lace-up shoe for all types of terrain.",
+    "fr": "Grimpeurs de niveau intermédiaire recherchant un modèle à lacets polyvalent et durable pour tout type de terrain."
+   },
+   "para_quien": "Escaladores de nivel intermedio que buscan un modelo de cordones polivalente y duradero para todo tipo de terreno.",
+   "fotos": [
+    "https://www.lasportiva.com/media/catalog/product/Z/F/ZFCS080_Y00K00_ZFCS080.jpg",
+    "https://www.lasportiva.com/media/catalog/product/Z/F/ZFCS080_Y00K00_ZFCS080Y00K0035.jpg"
+   ],
+   "uso": "Todoterreno",
+   "grosor": 4,
+   "caracteristicas_i18n": {
+    "ca": [
+     "Doble lligat a contrast per a un ajust precís",
+     "Entresola amb sistema patentat P3 que manté la forma de la sabata",
+     "Sola Vibram XS Edge de 4 mm",
+     "Més de 20 anys com a referència tot terreny de La Sportiva"
+    ],
+    "en": [
+     "Contrasting double lacing for a precise fit",
+     "Midsole with patented P3 system keeping the shoe's shape",
+     "4 mm Vibram XS Edge sole",
+     "Over 20 years as La Sportiva's all-terrain benchmark"
+    ],
+    "fr": [
+     "Double laçage contrasté pour un chaussant précis",
+     "Médiane au système brevet P3 qui préserve la forme du chausson",
+     "Semelle Vibram XS Edge de 4 mm",
+     "Plus de 20 ans comme référence tout-terrain de La Sportiva"
+    ]
+   },
+   "volumen": "Estándar",
+   "peso_g": 245,
+   "id": "ls-katana",
+   "goma": "Vibram XS Edge",
+   "resumen_i18n": {
+    "ca": "L'equilibri perfecte entre sensibilitat, precisió i suport de pes. Katana és la sabata polivalent per excel·lència, amb doble lligat a contrast i entresola amb sistema P3 que millora el rendiment i manté la forma de la sabata inalterable amb el temps. Més de 20 anys de referència.",
+    "en": "The perfect balance between sensitivity, precision and weight support. Katana is the all-round shoe par excellence, with contrasting double lacing and a midsole featuring the P3 system that improves performance and keeps the shoe's shape unchanged over time. Over 20 years as a benchmark.",
+    "fr": "L'équilibre parfait entre sensibilité, précision et soutien du poids. Katana est le chausson polyvalent par excellence, avec un double laçage contrasté et une médiane intégrant le système P3 qui améliore la performance et préserve la forme du chausson dans le temps. Plus de 20 ans de référence."
+   },
+   "marca": "La Sportiva",
+   "forma": "Moderada"
   }
  ]
 }

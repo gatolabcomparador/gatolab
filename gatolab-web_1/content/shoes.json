@@ -1739,63 +1739,6 @@
       "forma": "Agresiva"
     },
     {
-      "rigidez": "Blanda",
-      "resumen": "El Team VXi es el slipper más ligero y sensible de Five Ten, con goma Mi6 extremadamente blanda que prioriza la fricción sobre el canteo duro. Pensado para bloque de competición, su ajuste tipo calcetín ofrece una propiocepción casi descalza. Actualmente descatalogado del catálogo activo de adidas Five Ten.",
-      "nivel": "Avanzado",
-      "asimetria": "Alta",
-      "forro": "Sin forro",
-      "cierre": "Velcro",
-      "modelo": "Team VXi",
-      "peso_talla": "US 9",
-      "precio": 175,
-      "caracteristicas": [
-        "Slipper de una sola correa descrito como un calcetín de escalada",
-        "Goma Stealth Mi6 ultra blanda para fricción en volúmenes",
-        "Uno de los pies de gato más ligeros del mercado (163 g)",
-        "Puntera y empeine envueltos en goma para ganchos"
-      ],
-      "para_quien_i18n": {
-        "ca": "Boulderers avançats i competidors que busquen la màxima sensibilitat en volums per sobre del canteig pur.",
-        "en": "Advanced boulderers and competitors looking for maximum sensitivity on volumes over pure edging.",
-        "fr": "Grimpeurs de bloc avancés et compétiteurs recherchant une sensibilité maximale sur les volumes, plutôt que le carre pur."
-      },
-      "para_quien": "Boulderers avanzados y competidores que buscan máxima sensibilidad en volúmenes por encima del canteo puro.",
-      "fotos": [],
-      "uso": "Bloque",
-      "grosor": null,
-      "caracteristicas_i18n": {
-        "ca": [
-          "Slipper d'una sola tira descrit com un mitjó d'escalada",
-          "Goma Stealth Mi6 ultra tova per a fricció en volums",
-          "Un dels peus de gat més lleugers del mercat (163 g)",
-          "Puntera i empenya embolicades en goma per a ganxos"
-        ],
-        "en": [
-          "Single-strap slipper described as a climbing sock",
-          "Ultra-soft Stealth Mi6 rubber for friction on volumes",
-          "One of the lightest climbing shoes on the market (163 g)",
-          "Rubber-wrapped toe and instep for hooking"
-        ],
-        "fr": [
-          "Slipper à une seule sangle décrit comme une chaussette d'escalade",
-          "Gomme Stealth Mi6 ultra-souple pour la friction sur les volumes",
-          "L'un des chaussons d'escalade les plus légers du marché (163 g)",
-          "Pointe et cou-de-pied enveloppés de gomme pour les hooks"
-        ]
-      },
-      "volumen": "Estándar",
-      "peso_g": 163,
-      "id": "ft-team-vxi",
-      "goma": "Stealth Mi6",
-      "resumen_i18n": {
-        "ca": "El Team VXi és el slipper més lleuger i sensible de Five Ten, amb goma Mi6 extremadament tova que prioritza la fricció per sobre del canteig dur. Pensat per a bloc de competició, el seu ajust tipus mitjó ofereix una propiocepció gairebé descalça. Actualment descatalogat del catàleg actiu d'adidas Five Ten.",
-        "en": "The Team VXi is Five Ten's lightest, most sensitive slipper, with extremely soft Mi6 rubber that favors friction over hard edging. Built for competition bouldering, its sock-like fit gives an almost barefoot feel. Currently discontinued from adidas Five Ten's active lineup.",
-        "fr": "Le Team VXi est le slipper le plus léger et le plus sensible de Five Ten, avec une gomme Mi6 extrêmement souple qui privilégie la friction plutôt que le carre dur. Pensé pour le bloc de compétition, son chaussant type chausson-chaussette offre une proprioception quasi pieds nus. Actuellement retiré du catalogue actif d'adidas Five Ten."
-      },
-      "marca": "Five Ten",
-      "forma": "Muy agresiva"
-    },
-    {
       "rigidez": "Media",
       "resumen": "El Rogue VCS es la puerta de entrada de Five Ten a la escalada deportiva, con horma plana y poca asimetría heredada del Anasazi pero sin su agresividad. Cómodo para sesiones largas de rocódromo y vía fácil. Actualmente descatalogado del catálogo activo.",
       "nivel": "Iniciación",
@@ -5012,7 +4955,7 @@
       "cierre": "Doble velcro con sistema de tensión activa (V-Tension)",
       "modelo": "Force V",
       "peso_talla": null,
-      "precio": null,
+      "precio": 100,
       "caracteristicas": [
         "Horma plana de baja agresividad pensada para comodidad en sesiones largas",
         "Randing de baja tensión que conserva energía en el pie durante todo el día",
@@ -5131,7 +5074,7 @@
       "cierre": "Doble velcro cruzado",
       "modelo": "Quantic",
       "peso_talla": "EU 40.5",
-      "precio": null,
+      "precio": 110,
       "caracteristicas": [
         "Horma FKS ligeramente asimétrica con ligero downturn y puntera de ángulo medio-alto",
         "Sistema HT-Tension de tensión continua entre talón y puntera",
@@ -5953,7 +5896,7 @@
       "cierre": "Velcro",
       "modelo": "Elektra",
       "peso_talla": null,
-      "precio": null,
+      "precio": 70,
       "caracteristicas": [
         "Rand de espesor variable (VTR) que refuerza puntera y talón para mayor durabilidad en uso frecuente",
         "Puntera redondeada y perfil ligeramente asimétrico pensado para comodidad prolongada en rocódromo",
@@ -6189,7 +6132,7 @@
       "cierre": "Cordones (sistema de cordón descentrado con tensores V2 Rand en el talón)",
       "modelo": "Lynx",
       "peso_talla": "UK 6",
-      "precio": null,
+      "precio": 110,
       "caracteristicas": [
         "Perfil ligeramente entredoblado con asimetría media, versátil entre placas de fricción y filos pequeños",
         "Suela Zenith de alta adherencia combinada con una entresuela anti-deformación que mantiene la geometría del zapato con el uso",
@@ -6726,59 +6669,6 @@
     },
     {
       "rigidez": "Media",
-      "resumen": "El Durango VCR es la propuesta de entrada de Red Chili para rocódromos y escuelas de escalada: prioriza la durabilidad y la comodidad frente a la precisión, con un rendimiento correcto hasta grados moderados.",
-      "nivel": "Iniciación",
-      "asimetria": "Media",
-      "forro": null,
-      "cierre": "2 velcros",
-      "modelo": "Durango VCR",
-      "peso_talla": null,
-      "precio": null,
-      "caracteristicas": [
-        "Suela de 4,2 mm en goma RX 1 de Red Chili, pensada para aguantar el uso intensivo de rocódromo",
-        "Upper sintético que apenas se deforma con el uso, con doble velcro para un calzado rápido",
-        "Lengüeta de malla transpirable y horma ancha, cómoda para sesiones largas de escuela o guiaje"
-      ],
-      "para_quien_i18n": {
-        "ca": "Principiants, escoles d'escalada i guies que busquen un peu resistent, ample i de tancament ràpid.",
-        "en": "Beginners, climbing schools and guides looking for a tough, wide shoe with a quick closure.",
-        "fr": "Débutants, écoles d'escalade et guides qui cherchent un chausson résistant, large et à fermeture rapide."
-      },
-      "para_quien": "Principiantes, escuelas de escalada y guías que buscan un pie resistente, ancho y de cierre rápido.",
-      "fotos": [],
-      "uso": "Todoterreno",
-      "grosor": 4.2,
-      "caracteristicas_i18n": {
-        "ca": [
-          "Sola de 4,2 mm en goma RX 1 de Red Chili, pensada per aguantar l'ús intensiu de rocòdrom",
-          "Upper sintètic que gairebé no es deforma amb l'ús, amb doble velcro per a un calçat ràpid",
-          "Llengüeta de malla transpirable i forma ampla, còmoda per a sessions llargues d'escola o guiatge"
-        ],
-        "en": [
-          "4.2mm sole in Red Chili's RX 1 rubber, built to withstand heavy gym use",
-          "Synthetic upper that barely deforms with use, with a double Velcro closure for quick on and off",
-          "Breathable mesh tongue and a wide last, comfortable for long sessions with a climbing school or guide"
-        ],
-        "fr": [
-          "Semelle de 4,2 mm en gomme RX 1 de Red Chili, pensée pour supporter un usage intensif en salle",
-          "Tige synthétique qui se déforme très peu avec l'usage, avec double Velcro pour un chaussage rapide",
-          "Languette en maille respirante et chaussant large, confortable pour les longues séances en école ou en encadrement"
-        ]
-      },
-      "volumen": "Ancho",
-      "peso_g": null,
-      "id": "rc-durango",
-      "goma": "RX 1",
-      "resumen_i18n": {
-        "ca": "El Durango VCR és la proposta d'entrada de Red Chili per a rocòdroms i escoles d'escalada: prioritza la durabilitat i la comoditat per davant de la precisió, amb un rendiment correcte fins a graus moderats.",
-        "en": "The Durango VCR is Red Chili's entry-level offering for gyms and climbing schools: it prioritizes durability and comfort over precision, performing adequately up to moderate grades.",
-        "fr": "Le Durango VCR est la proposition d'entrée de gamme de Red Chili pour les salles et les écoles d'escalade : il privilégie la durabilité et le confort à la précision, avec une performance correcte jusqu'à des niveaux modérés."
-      },
-      "marca": "Red Chili",
-      "forma": "Casi plana"
-    },
-    {
-      "rigidez": "Media",
       "resumen": "Durante años el modelo técnico de referencia de Red Chili, el Corona VCR combina una horma arqueada con una construcción minimalista pensada para transmitir sensibilidad sobre roca.",
       "nivel": "Intermedio",
       "asimetria": "Media",
@@ -6839,7 +6729,7 @@
       "cierre": "Doble velcro",
       "modelo": "Session 4",
       "peso_talla": null,
-      "precio": null,
+      "precio": 60,
       "caracteristicas": [
         "Diseñado originalmente como pie de alquiler para escuelas y rocódromos, con una construcción especialmente robusta",
         "Suela plana de 4,0 mm en goma RX-1 Allround, sin pretensión, pensada para aguantar muchas horas de uso seguidas",
@@ -7115,7 +7005,7 @@
       "cierre": "2 velcros",
       "modelo": "Striker QC",
       "peso_talla": null,
-      "precio": null,
+      "precio": 80,
       "caracteristicas": [
         "Suela plana de 4,0 mm en goma CAT 1.1, la más blanda del catálogo de Ocun, orientada a la comodidad",
         "Horma de baja asimetría que se adapta a distintos tipos de pie sin apretar en la puntera",
@@ -8716,7 +8606,7 @@
       "cierre": "Slipper elástico + velcro",
       "modelo": "Rival Kids",
       "peso_talla": null,
-      "precio": null,
+      "precio": 30,
       "infantil": true,
       "caracteristicas": [
         "Construcción tipo slipper con banda elástica y un velcro de refuerzo",
@@ -9138,7 +9028,7 @@
       "cierre": "Velcro (doble correa)",
       "modelo": "Néo Kid",
       "peso_talla": "32",
-      "precio": null,
+      "precio": 55,
       "infantil": true,
       "caracteristicas": [
         "Doble correa de velcro que reparte mejor el ajuste que un cierre único",
@@ -9199,7 +9089,7 @@
       "cierre": "Velcro (2 correas)",
       "modelo": "Easy Up Jr",
       "peso_talla": null,
-      "precio": null,
+      "precio": 55,
       "infantil": true,
       "caracteristicas": [
         "Plantilla extraíble que permite ajustar la talla sin cambiar de zapato",

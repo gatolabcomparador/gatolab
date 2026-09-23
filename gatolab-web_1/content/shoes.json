@@ -3567,7 +3567,7 @@
           "Semelle intermédiaire semi-rigide pour les voies verticales"
         ]
       },
-      "volumen": "Estándar (también disponible en horma femenina, de menor volumen)",
+      "volumen": "Estándar",
       "peso_g": null,
       "id": "bd-method",
       "goma": "Black Label Fuse",
@@ -9388,6 +9388,67 @@
       },
       "marca": "Black Diamond",
       "forma": "Plana"
+    },
+    {
+      "rigidez": "Rígida",
+      "resumen": "Versión femenina del Method de Black Diamond, con la misma goma Black Label Fuse y downturn moderado, pero con una horma específica de menor volumen pensada para pie de mujer. Ideal para dar el salto a vías verticales o ligeramente desplomadas más exigentes.",
+      "nivel": "Intermedio",
+      "asimetria": "Baja",
+      "forro": "Forrado",
+      "cierre": "Velcro (doble correa)",
+      "modelo": "Method Mujer",
+      "peso_talla": null,
+      "precio": 175,
+      "caracteristicas": [
+        "Horma específica de mujer, de menor volumen que la versión estándar",
+        "Doble velcro para ajuste firme y rápido",
+        "Goma Black Label Fuse de 4 mm para canto en vertical",
+        "Downturn moderado, casi imperceptible"
+      ],
+      "para_quien_i18n": {
+        "ca": "Escaladores de nivell intermedi que progressen cap a vies més tècniques i busquen una primera sabata de rendiment còmoda, amb horma de menor volum.",
+        "en": "Intermediate climbers progressing toward more technical routes who want a comfortable first performance shoe, with a lower-volume last.",
+        "fr": "Grimpeuses de niveau intermédiaire progressant vers des voies plus techniques et cherchant un premier chausson de performance confortable, avec une forme de moindre volume."
+      },
+      "para_quien": "Escaladoras de nivel intermedio que progresan hacia vías más técnicas y buscan un primer zapato de rendimiento cómodo, con horma de menor volumen.",
+      "fotos": [
+        "https://blackdiamondequipment.com/cdn/shop/files/570121_3045_W_METHOD_CLIMBING_SHOES_Patina_01.jpg?v=1742402529",
+        "https://blackdiamondequipment.com/cdn/shop/files/570121_3045_W_METHOD_CLIMBING_SHOES_Patina_02.jpg?v=1742402529",
+        "https://blackdiamondequipment.com/cdn/shop/files/570121_3045_W_METHOD_CLIMBING_SHOES_Patina_03.jpg?v=1742402529"
+      ],
+      "uso": "Deportiva",
+      "grosor": 4,
+      "caracteristicas_i18n": {
+        "ca": [
+          "Horma específica de dona, de menor volum que la versió estàndard",
+          "Doble velcro per a un ajust ferm i ràpid",
+          "Goma Black Label Fuse de 4 mm per a cantell en vertical",
+          "Downturn moderat, gairebé imperceptible"
+        ],
+        "en": [
+          "Women's-specific last, lower volume than the standard version",
+          "Double velcro for a firm, quick fit",
+          "4 mm Black Label Fuse rubber for edging on vertical terrain",
+          "Moderate downturn, almost imperceptible"
+        ],
+        "fr": [
+          "Forme spécifique femme, de moindre volume que la version standard",
+          "Double velcro pour un chaussage ferme et rapide",
+          "Gomme Black Label Fuse de 4 mm pour la réglette en vertical",
+          "Downturn modéré, presque imperceptible"
+        ]
+      },
+      "volumen": "Bajo (horma femenina)",
+      "peso_g": null,
+      "id": "bd-method-mujer",
+      "goma": "Black Label Fuse",
+      "resumen_i18n": {
+        "ca": "Versió femenina del Method de Black Diamond, amb la mateixa goma Black Label Fuse i downturn moderat, però amb una horma específica de menor volum pensada per a peu de dona. Ideal per fer el salt cap a vies verticals o lleugerament desplomades més exigents.",
+        "en": "The women's version of Black Diamond's Method, with the same Black Label Fuse rubber and moderate downturn, but with a women's-specific, lower-volume last. Ideal for stepping up to more demanding vertical or slightly overhanging routes.",
+        "fr": "Version féminine du Method de Black Diamond, avec la même gomme Black Label Fuse et un downturn modéré, mais avec une forme spécifique de moindre volume pensée pour le pied féminin. Idéal pour passer à des voies verticales ou légèrement déversantes plus exigeantes."
+      },
+      "marca": "Black Diamond",
+      "forma": "Moderada"
     }
   ]
 }

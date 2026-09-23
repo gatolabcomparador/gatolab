@@ -293,7 +293,7 @@ collections:
                 name: "fotos"
                 widget: "list"
                 required: false
-                hint: "Para cada foto tienes dos opciones: subir tu propia imagen desde tu ordenador/galería, o pegar la URL de una foto publicada en la página oficial del fabricante. Si pegas una URL, usa siempre la web oficial de la marca (evita copiar fotos de otras webs que no sean tuyas ni de la marca, para respetar derechos de imagen — ver README, sección 6). La primera foto es la principal/de portada; las siguientes son fotos adicionales que se podrán elegir con miniaturas y ampliar a pantalla completa en la ficha. Déjalo vacío si no tienes ninguna foto — la web mostrará el icono esquemático de siempre."
+                hint: "Para cada foto tienes dos opciones: subir tu propia imagen desde tu ordenador/galería, o pegar la URL de una foto publicada en la página oficial del fabricante. Si pegas una URL, usa siempre la web oficial de la marca (evita copiar fotos de otras webs que no sean tuyas ni de la marca, para respetar derechos de imagen — ver README, sección 6). Cada vez que pulsas «Añadir fotos» solo se sube o enlaza UNA foto — si quieres varias, pulsa «Añadir fotos» otra vez por cada una (no se puede seleccionar más de un archivo a la vez en el selector). La primera foto es la principal/de portada; las siguientes son fotos adicionales que se podrán elegir con miniaturas y ampliar a pantalla completa en la ficha. Formatos que se reconocen al subir tu propia foto: JPG, PNG, WEBP, GIF, BMP, TIFF y SVG. Si el panel no reconoce una foto hecha con el móvil, casi siempre es porque se guardó en HEIC (formato por defecto del iPhone) — conviértela a JPG o PNG antes de subirla (en Fotos: compartir → «Guardar como JPEG»), o cambia el iPhone a Ajustes → Cámara → Formatos → «Más compatible» para que a partir de ahora guarde siempre en JPEG. Déjalo vacío si no tienes ninguna foto — la web mostrará el icono esquemático de siempre."
                 field: { label: "Foto", name: "url", widget: "image" }
 
               - label: "Ajuste manual del gráfico de radar"
@@ -341,6 +341,7 @@ collections:
                   - { label: "Català", name: "ca", widget: "text", required: false }
                   - { label: "English", name: "en", widget: "text", required: false }
                   - { label: "Français", name: "fr", widget: "text", required: false }
+
   - name: "sitio"
     label: "TEXTOS DEL SITIO"
     files:

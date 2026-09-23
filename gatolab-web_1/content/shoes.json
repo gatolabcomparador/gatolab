@@ -1699,7 +1699,9 @@
         "fr": "Grimpeurs avancés au pied étroit ou à faible volume qui privilégient le heel hook et la friction sur roche lisse."
       },
       "para_quien": "Escaladores avanzados de pie estrecho o bajo volumen que priorizan el gancho de talón y la fricción en roca lisa.",
-      "fotos": [],
+      "fotos": [
+        "https://www.bfgcdn.com/600_600_90/301-0206/five-ten-blackwing-pies-de-gato.jpg"
+      ],
       "uso": "Deportiva",
       "grosor": null,
       "caracteristicas_i18n": {

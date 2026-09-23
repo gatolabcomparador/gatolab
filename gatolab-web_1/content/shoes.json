@@ -12763,6 +12763,126 @@
    },
    "marca": "La Sportiva",
    "forma": "Moderada"
+  },
+  {
+   "rigidez": "Blanda",
+   "resumen": "Versión femenina de la Skwama, con idéntica horma, suela Vibram XS Grip2 y sistema S-Heel para estabilidad a la torsión. Extremadamente sensible y flexible, pensada para rendir tanto en desplomes como en losas, en interior y exterior.",
+   "nivel": "Avanzado",
+   "asimetria": "Media",
+   "forro": "Parcialmente forrado",
+   "cierre": "Velcro",
+   "modelo": "Skwama Woman",
+   "peso_talla": null,
+   "precio": 160,
+   "caracteristicas": [
+    "Misma horma y construcción que la Skwama de hombre",
+    "Talón con sistema patentado S-Heel para estabilidad a la torsión",
+    "Goma ultra pegajosa en la puntera resistente a la abrasión",
+    "Suela Vibram XS Grip2 de 3,5 mm de máximo agarre"
+   ],
+   "para_quien_i18n": {
+    "ca": "Escaladores avançades que busquen el mateix rendiment de l'Skwama en desplomats, lloses i bloc, indoor i outdoor.",
+    "en": "Advanced female climbers seeking the same Skwama performance on overhangs, slabs and boulders, indoors and outdoors.",
+    "fr": "Grimpeuses avancées recherchant la même performance de la Skwama en dévers, en dalle et en bloc, en intérieur comme en extérieur."
+   },
+   "para_quien": "Escaladoras avanzadas que buscan el mismo rendimiento de la Skwama en desplomes, losas y bloque, indoor y outdoor.",
+   "fotos": [
+    "https://www.lasportiva.com/media/catalog/product/Z/F/ZFCS012_E05B13_ZFCS012.jpg",
+    "https://www.lasportiva.com/media/catalog/product/Z/F/ZFCS012_E05B13_ZFCS012E05B1333.jpg"
+   ],
+   "uso": "Bloque",
+   "grosor": 3.5,
+   "caracteristicas_i18n": {
+    "ca": [
+     "Mateixa horma i construcció que l'Skwama d'home",
+     "Taló amb sistema patentat S-Heel per a estabilitat a la torsió",
+     "Goma ultra enganxosa a la puntera resistent a l'abrasió",
+     "Sola Vibram XS Grip2 de 3,5 mm de màxima agafada"
+    ],
+    "en": [
+     "Same last and construction as the men's Skwama",
+     "Heel with patented S-Heel system for torsional stability",
+     "Ultra-sticky toe rubber resistant to abrasion",
+     "3.5 mm Vibram XS Grip2 sole for maximum grip"
+    ],
+    "fr": [
+     "Même forme et construction que la Skwama homme",
+     "Talon au système brevet S-Heel pour la stabilité en torsion",
+     "Gomme ultra-collante à la pointe résistante à l'abrasion",
+     "Semelle Vibram XS Grip2 de 3,5 mm pour une adhérence maximale"
+    ]
+   },
+   "volumen": "Estándar",
+   "peso_g": 210,
+   "id": "ls-skwama-woman",
+   "goma": "Vibram XS Grip2",
+   "resumen_i18n": {
+    "ca": "Versió femenina de l'Skwama, amb idèntica horma, sola Vibram XS Grip2 i sistema S-Heel per a estabilitat a la torsió. Extremadament sensible i flexible, pensada per rendir tant en desplomats com en lloses, en interior i exterior.",
+    "en": "The women's version of the Skwama, with the identical last, Vibram XS Grip2 sole and S-Heel system for torsional stability. Extremely sensitive and flexible, built to perform on both overhangs and slabs, indoors and outdoors.",
+    "fr": "Version féminine de la Skwama, avec la même forme, la semelle Vibram XS Grip2 et le système S-Heel pour la stabilité en torsion. Extrêmement sensible et flexible, pensée pour performer aussi bien en dévers qu'en dalle, en intérieur comme en extérieur."
+   },
+   "marca": "La Sportiva",
+   "forma": "Agresiva"
+  },
+  {
+   "rigidez": "Media",
+   "resumen": "Versión femenina de la clásica Miura: precisa, firme y estructurada, sin ninguna concesión en el rendimiento. Monta la misma horma que la versión de hombre pero con suela Vibram XS Grip2, un compuesto más adherente y adaptado a las escaladoras más exigentes.",
+   "nivel": "Avanzado",
+   "asimetria": "Media",
+   "forro": "Forrado",
+   "cierre": "Cordones",
+   "modelo": "Miura Woman",
+   "peso_talla": null,
+   "precio": 150,
+   "caracteristicas": [
+    "Misma horma que la Miura de hombre, precisa y estructurada",
+    "Suela Vibram XS Grip2 de 4 mm, más adherente que la versión de hombre",
+    "Upper de piel de ante con construcción tubular",
+    "Cierre de cordones para un ajuste firme y preciso"
+   ],
+   "para_quien_i18n": {
+    "ca": "Escaladores avançades que busquen un model de cordons estructurat i d'alt rendiment en escalada esportiva.",
+    "en": "Advanced female climbers looking for a structured, high-performance lace-up shoe for sport climbing.",
+    "fr": "Grimpeuses avancées recherchant un modèle à lacets structuré et haute performance pour l'escalade sportive."
+   },
+   "para_quien": "Escaladoras avanzadas que buscan un modelo de cordones estructurado y de alto rendimiento en escalada deportiva.",
+   "fotos": [
+    "https://www.lasportiva.com/media/catalog/product/Z/F/ZFCS011_W00E04_ZFCS011.jpg",
+    "https://www.lasportiva.com/media/catalog/product/Z/F/ZFCS011_W00E04_ZFCS011W00E0433.jpg"
+   ],
+   "uso": "Deportiva",
+   "grosor": 4,
+   "caracteristicas_i18n": {
+    "ca": [
+     "Mateixa horma que la Miura d'home, precisa i estructurada",
+     "Sola Vibram XS Grip2 de 4 mm, més adherent que la versió d'home",
+     "Upper de pell d'ante amb construcció tubular",
+     "Tancament de cordons per a un ajust ferm i precís"
+    ],
+    "en": [
+     "Same last as the men's Miura, precise and structured",
+     "4 mm Vibram XS Grip2 sole, grippier than the men's version",
+     "Suede leather upper with tubular construction",
+     "Lace closure for a firm, precise fit"
+    ],
+    "fr": [
+     "Même forme que la Miura homme, précise et structurée",
+     "Semelle Vibram XS Grip2 de 4 mm, plus adhérente que la version homme",
+     "Tige en cuir daim à construction tubulaire",
+     "Fermeture à lacets pour un chaussant ferme et précis"
+    ]
+   },
+   "volumen": "Estándar",
+   "peso_g": 239,
+   "id": "ls-miura-woman",
+   "goma": "Vibram XS Grip2",
+   "resumen_i18n": {
+    "ca": "Versió femenina de la clàssica Miura: precisa, ferma i estructurada, sense cap concessió en el rendiment. Munta la mateixa horma que la versió d'home però amb sola Vibram XS Grip2, un compost més adherent i adaptat a les escaladores més exigents.",
+    "en": "The women's version of the classic Miura: precise, firm and structured, with no compromise on performance. It shares the same last as the men's version but with a Vibram XS Grip2 sole, a grippier compound tuned for the most demanding female climbers.",
+    "fr": "Version féminine de la Miura classique : précise, ferme et structurée, sans aucune concession sur la performance. Elle reprend la même forme que la version homme mais avec une semelle Vibram XS Grip2, un composé plus adhérent adapté aux grimpeuses les plus exigeantes."
+   },
+   "marca": "La Sportiva",
+   "forma": "Plana"
   }
  ]
 }

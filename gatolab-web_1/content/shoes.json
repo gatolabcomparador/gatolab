@@ -1739,63 +1739,6 @@
       "forma": "Agresiva"
     },
     {
-      "rigidez": "Media",
-      "resumen": "El Rogue VCS es la puerta de entrada de Five Ten a la escalada deportiva, con horma plana y poca asimetría heredada del Anasazi pero sin su agresividad. Cómodo para sesiones largas de rocódromo y vía fácil. Actualmente descatalogado del catálogo activo.",
-      "nivel": "Iniciación",
-      "asimetria": "Baja",
-      "forro": "Forrado",
-      "cierre": "Doble correa",
-      "modelo": "Rogue VCS",
-      "peso_talla": "US 9",
-      "precio": 95,
-      "caracteristicas": [
-        "Horma plana Comfort construida sobre la horma del Anasazi",
-        "Doble velcro con talón Slingshot y refuerzo Active Arch",
-        "Suela Stealth C4 de 3,5 mm con rand Slingshot",
-        "Upper de piel Split-Grain perforada para transpiración"
-      ],
-      "para_quien_i18n": {
-        "ca": "Escaladors que comencen i busquen un primer peu de gat còmode per a gimnàs i vies fàcils; avui descatalogat.",
-        "en": "Beginner climbers looking for a comfortable first shoe for the gym and easy routes; now discontinued.",
-        "fr": "Grimpeurs débutants en quête d'un premier chausson confortable pour la salle et les voies faciles ; aujourd'hui discontinué."
-      },
-      "para_quien": "Escaladores que empiezan y buscan un primer pie de gato cómodo para gimnasio y vías fáciles; hoy descatalogado.",
-      "fotos": [],
-      "uso": "Todoterreno",
-      "grosor": 3.5,
-      "caracteristicas_i18n": {
-        "ca": [
-          "Forma plana Comfort construïda sobre la forma de l'Anasazi",
-          "Doble velcro amb taló Slingshot i reforç Active Arch",
-          "Sola Stealth C4 de 3,5 mm amb rand Slingshot",
-          "Empenya de pell Split-Grain perforada per a la transpiració"
-        ],
-        "en": [
-          "Flat Comfort last built on the Anasazi's last",
-          "Double Velcro with Slingshot heel and Active Arch reinforcement",
-          "3.5 mm Stealth C4 sole with a Slingshot rand",
-          "Perforated Split-Grain leather upper for breathability"
-        ],
-        "fr": [
-          "Forme plate Comfort construite sur la forme de l'Anasazi",
-          "Double Velcro avec talon Slingshot et renfort Active Arch",
-          "Semelle Stealth C4 de 3,5 mm avec renfort Slingshot",
-          "Tige en cuir Split-Grain perforé pour la respirabilité"
-        ]
-      },
-      "volumen": "Estándar",
-      "peso_g": 224,
-      "id": "ft-rogue-vcs",
-      "goma": "Stealth C4",
-      "resumen_i18n": {
-        "ca": "El Rogue VCS és la porta d'entrada de Five Ten a l'escalada esportiva, amb forma plana i poca asimetria heretada de l'Anasazi però sense la seva agressivitat. Còmode per a sessions llargues de rocòdrom i via fàcil. Actualment descatalogat del catàleg actiu.",
-        "en": "The Rogue VCS is Five Ten's entry point into sport climbing, with a flat, only mildly asymmetric last inherited from the Anasazi but without its aggressiveness. Comfortable for long gym sessions and easy routes. Currently discontinued from the active lineup.",
-        "fr": "Le Rogue VCS est la porte d'entrée de Five Ten vers l'escalade sportive, avec une forme plate et peu asymétrique héritée de l'Anasazi mais sans son agressivité. Confortable pour de longues séances en salle et des voies faciles. Actuellement retiré du catalogue actif."
-      },
-      "marca": "Five Ten",
-      "forma": "Plana"
-    },
-    {
       "rigidez": "Rígida",
       "resumen": "El NIAD Lace recupera la horma y el espíritu del histórico Anasazi Lace, pero con goma Stealth C4 en lugar de la Onyxx original. Su cierre de cordones permite un ajuste progresivo ideal para fisura y roca de agarres variados.",
       "nivel": "Intermedio",

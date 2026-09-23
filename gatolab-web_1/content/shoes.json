@@ -1640,7 +1640,9 @@
         "fr": "Grimpeurs aux pieds larges ou à fort volume qui recherchent un agressif polyvalent ; aujourd'hui discontinué et difficile à trouver."
       },
       "para_quien": "Escaladores de pie ancho o alto volumen que buscan un agresivo todoterreno; actualmente descatalogado y difícil de encontrar.",
-      "fotos": [],
+      "fotos": [
+        "/uploads/five-ten-quantum-vcs-climbing-shoes.jpg"
+      ],
       "uso": "Todoterreno",
       "grosor": 4.2,
       "caracteristicas_i18n": {

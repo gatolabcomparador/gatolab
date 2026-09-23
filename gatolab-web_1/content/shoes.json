@@ -3580,63 +3580,6 @@
       "forma": "Moderada"
     },
     {
-      "rigidez": "Rígida",
-      "resumen": "Focus fue el modelo de gama alta de Black Diamond para escalada deportiva vertical y ligeramente desplomada, con entresuela rígida y la goma propia NeoFriction Force para precisión en canto. Actualmente no aparece en el catálogo vigente de Black Diamond y probablemente está descatalogado.",
-      "nivel": "Avanzado",
-      "asimetria": "Media",
-      "forro": "Forrado",
-      "cierre": "Doble correa (velcro opuesto)",
-      "modelo": "Focus",
-      "peso_talla": null,
-      "precio": 165,
-      "caracteristicas": [
-        "Doble velcro opuesto para ajuste firme",
-        "Goma NeoFriction Force de 4.3 mm, rígida y precisa",
-        "Horma asimétrica con downturn moderado-alto",
-        "Orientado a canto fino en vertical y ligero desplome"
-      ],
-      "para_quien_i18n": {
-        "ca": "Escaladors avançats d'esportiva vertical que prioritzen la precisió de cantell, si encara troben estoc disponible.",
-        "en": "Advanced vertical sport climbers who prioritize edging precision, if they can still find stock available.",
-        "fr": "Grimpeurs avancés en escalade sportive verticale qui privilégient la précision en réglette, s'ils trouvent encore du stock disponible."
-      },
-      "para_quien": "Escaladores avanzados de deportiva vertical que priorizan precisión de canto, si aún encuentran stock disponible.",
-      "fotos": [],
-      "uso": "Deportiva",
-      "grosor": 4.3,
-      "caracteristicas_i18n": {
-        "ca": [
-          "Doble velcro oposat per a un ajust ferm",
-          "Goma NeoFriction Force de 4,3 mm, rígida i precisa",
-          "Horma asimètrica amb downturn moderat-alt",
-          "Orientat a cantell fi en vertical i lleuger desploma"
-        ],
-        "en": [
-          "Opposing double velcro for a firm fit",
-          "4.3 mm NeoFriction Force rubber, stiff and precise",
-          "Asymmetric last with a moderate-to-high downturn",
-          "Geared toward fine edging on vertical terrain and slight overhangs"
-        ],
-        "fr": [
-          "Double velcro opposé pour un chaussage ferme",
-          "Gomme NeoFriction Force de 4,3 mm, rigide et précise",
-          "Forme asymétrique avec un downturn moyen à élevé",
-          "Orienté vers la réglette fine en vertical et léger dévers"
-        ]
-      },
-      "volumen": "Estándar",
-      "peso_g": null,
-      "id": "bd-focus",
-      "goma": "NeoFriction Force",
-      "resumen_i18n": {
-        "ca": "Focus va ser el model de gamma alta de Black Diamond per a escalada esportiva vertical i lleugerament desplomada, amb entresola rígida i la goma pròpia NeoFriction Force per a precisió de cantell. Actualment no apareix al catàleg vigent de Black Diamond i probablement està descatalogat.",
-        "en": "Focus was Black Diamond's high-end model for vertical and slightly overhanging sport climbing, with a stiff midsole and the brand's own NeoFriction Force rubber for edging precision. It is not currently listed in Black Diamond's catalogue and is likely discontinued.",
-        "fr": "Focus était le modèle haut de gamme de Black Diamond pour l'escalade sportive verticale et légèrement déversante, avec une semelle intermédiaire rigide et la gomme propre NeoFriction Force pour la précision en réglette. Il n'apparaît pas actuellement au catalogue de Black Diamond et est probablement retiré du catalogue."
-      },
-      "marca": "Black Diamond",
-      "forma": "Agresiva"
-    },
-    {
       "rigidez": "Media",
       "resumen": "Aspect es el zapato neutro de Black Diamond pensado para escalada tradicional y de fisura, con horma plana y goma NeoFriction Force optimizada para apoyos de canto. Su construcción forrada en piel prioriza la comodidad en jornadas largas.",
       "nivel": "Intermedio",
@@ -9384,6 +9327,67 @@
       },
       "marca": "Five Ten",
       "forma": "Agresiva"
+    },
+    {
+      "rigidez": "Blanda",
+      "resumen": "Momentum Lace es la versión con cordones del Momentum de iniciación de Black Diamond, con el mismo upper de punto transpirable y horma neutra, pero con un cierre de cordones que permite un ajuste más progresivo que el velcro. Pensado para rocódromo y primeras vías, con un refuerzo de goma en la puntera para mayor durabilidad.",
+      "nivel": "Iniciación",
+      "asimetria": "Baja",
+      "forro": "Parcialmente forrado",
+      "cierre": "Cordones",
+      "modelo": "Momentum Lace",
+      "peso_talla": null,
+      "precio": 90,
+      "caracteristicas": [
+        "Cierre de cordones para un ajuste progresivo y personalizable",
+        "Goma NeoFriction en la suela, blanda y duradera para uso frecuente",
+        "Upper de punto (knit) transpirable con refuerzo de goma en la puntera",
+        "Horma neutra y plana pensada para comodidad en sesiones largas"
+      ],
+      "para_quien_i18n": {
+        "ca": "Persones que comencen a escalar i prefereixen un tancament de cordons ajustable en lloc del velcro, per a rocòdrom i vies moderades.",
+        "en": "People starting out in climbing who prefer an adjustable lace closure over velcro, for the gym and moderate routes.",
+        "fr": "Personnes qui débutent en escalade et préfèrent une fermeture à lacets ajustable plutôt que le velcro, pour la salle et les voies modérées."
+      },
+      "para_quien": "Personas que empiezan a escalar y prefieren un cierre de cordones ajustable frente al velcro, para rocódromo y vías moderadas.",
+      "fotos": [
+        "https://blackdiamondequipment.com/cdn/shop/files/570005_9731_M_MOMENTUM_LACE_CLIMBING_SHOES_Moonstone_Black_01.jpg?v=1767917947",
+        "https://blackdiamondequipment.com/cdn/shop/files/570005_9731_M_MOMENTUM_LACE_CLIMBING_SHOES_Moonstone_Black_02.jpg?v=1767917949",
+        "https://blackdiamondequipment.com/cdn/shop/files/570005_9731_M_MOMENTUM_LACE_CLIMBING_SHOES_Moonstone_Black_03.jpg?v=1767917950"
+      ],
+      "uso": "Rocódromo",
+      "grosor": 4.3,
+      "caracteristicas_i18n": {
+        "ca": [
+          "Tancament de cordons per a un ajust progressiu i personalitzable",
+          "Goma NeoFriction a la sola, tova i duradora per a ús freqüent",
+          "Upper de punt (knit) transpirable amb reforç de goma a la puntera",
+          "Horma neutra i plana pensada per a la comoditat en sessions llargues"
+        ],
+        "en": [
+          "Lace closure for a progressive, customizable fit",
+          "NeoFriction rubber sole, soft and durable for frequent use",
+          "Breathable knit upper with a rubber toe reinforcement",
+          "Neutral, flat last built for comfort during long sessions"
+        ],
+        "fr": [
+          "Fermeture à lacets pour un chaussant progressif et personnalisable",
+          "Semelle en gomme NeoFriction, souple et durable pour un usage fréquent",
+          "Tige en tricot respirante avec un renfort en gomme à la pointe",
+          "Forme neutre et plate pensée pour le confort lors de longues séances"
+        ]
+      },
+      "volumen": "Estándar",
+      "peso_g": null,
+      "id": "bd-momentum-lace",
+      "goma": "NeoFriction",
+      "resumen_i18n": {
+        "ca": "Momentum Lace és la versió amb cordons del Momentum d'iniciació de Black Diamond, amb el mateix upper de punt transpirable i horma neutra, però amb un tancament de cordons que permet un ajust més progressiu que el velcro. Pensat per a rocòdrom i primeres vies, amb un reforç de goma a la puntera per a més durabilitat.",
+        "en": "Momentum Lace is the laced version of Black Diamond's entry-level Momentum, sharing the same breathable knit upper and neutral last, but with a lace closure that allows a more gradual fit than velcro. Built for the gym and early routes, with a rubber toe reinforcement for extra durability.",
+        "fr": "Momentum Lace est la version à lacets du Momentum d'initiation de Black Diamond, avec le même tige en tricot respirant et la même forme neutre, mais avec une fermeture à lacets qui permet un chaussant plus progressif que le velcro. Pensé pour la salle et les premières voies, avec un renfort en gomme à la pointe pour plus de durabilité."
+      },
+      "marca": "Black Diamond",
+      "forma": "Plana"
     }
   ]
 }

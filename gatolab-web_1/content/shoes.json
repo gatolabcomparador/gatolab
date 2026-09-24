@@ -3842,122 +3842,6 @@
     },
     {
       "rigidez": "Media",
-      "resumen": "El Rock Up Evo es el zapato de cordones de entrada de Millet, con horma casi simétrica que prioriza la comodidad sobre la agresividad. Su suela 4 Points Grip Plus ofrece un agarre fiable tanto en rocódromo como en roca, ideal para quien progresa desde cero.",
-      "nivel": "Iniciación",
-      "asimetria": "Baja",
-      "forro": "Sin forro",
-      "cierre": "Cordones",
-      "modelo": "Rock Up Evo",
-      "peso_talla": null,
-      "precio": 100,
-      "caracteristicas": [
-        "Upper de cuero serraje suave y flexible",
-        "Tecnología Progressive Fit para ajuste gradual",
-        "Suela 4 Points Grip Plus de 4,5mm con resina de agarre",
-        "Trabillas en la lengüeta para facilitar el calzado"
-      ],
-      "para_quien_i18n": {
-        "ca": "Escaladors principiants-intermedis que busquen una sabata de cordons còmoda per progressar al rocòdrom i en roca.",
-        "en": "Beginner-to-intermediate climbers looking for a comfortable lace-up shoe to progress at the gym and on rock.",
-        "fr": "Grimpeurs débutants à intermédiaires cherchant un chausson à lacets confortable pour progresser en salle et sur rocher."
-      },
-      "para_quien": "Escaladores principiantes-intermedios que buscan un zapato de cordones cómodo para progresar en rocódromo y en roca.",
-      "fotos": [],
-      "uso": "Todoterreno",
-      "grosor": 4.5,
-      "caracteristicas_i18n": {
-        "ca": [
-          "Upper de cuir serratge suau i flexible",
-          "Tecnologia Progressive Fit per a un ajust gradual",
-          "Sola 4 Points Grip Plus de 4,5 mm amb resina d'adherència",
-          "Passadors a la llengüeta per facilitar el calçat"
-        ],
-        "en": [
-          "Soft, flexible suede leather upper",
-          "Progressive Fit technology for a gradual fit",
-          "4.5 mm 4 Points Grip Plus sole with grip resin",
-          "Pull loops on the tongue to make it easier to put on"
-        ],
-        "fr": [
-          "Tige en cuir suédé souple et flexible",
-          "Technologie Progressive Fit pour un chaussage progressif",
-          "Semelle 4 Points Grip Plus de 4,5 mm avec résine d'adhérence",
-          "Tirants sur la languette pour faciliter le chaussage"
-        ]
-      },
-      "volumen": "Estándar (pie normal/volumen medio)",
-      "peso_g": 260,
-      "id": "ml-rockup-evo",
-      "goma": "4 Points Grip Plus",
-      "resumen_i18n": {
-        "ca": "El Rock Up Evo és la sabata de cordons d'entrada de Millet, amb horma gairebé simètrica que prioritza la comoditat per davant de l'agressivitat. La seva sola 4 Points Grip Plus ofereix una adherència fiable tant al rocòdrom com en roca, ideal per a qui progressa des de zero.",
-        "en": "The Rock Up Evo is Millet's entry-level lace-up shoe, with an almost symmetric last that prioritizes comfort over aggressiveness. Its 4 Points Grip Plus sole offers reliable grip both at the climbing gym and on rock, ideal for those starting from scratch.",
-        "fr": "Le Rock Up Evo est le chausson à lacets d'entrée de gamme de Millet, avec une forme presque symétrique qui privilégie le confort à l'agressivité. Sa semelle 4 Points Grip Plus offre une adhérence fiable aussi bien en salle que sur rocher, idéale pour qui progresse à partir de zéro."
-      },
-      "marca": "Millet",
-      "forma": "Casi simétrica"
-    },
-    {
-      "rigidez": "Blanda",
-      "resumen": "El Easy Up es el modelo más accesible de Millet, con horma recta, sin tensión agresiva y suela blanda pensada para las primeras sesiones en rocódromo. Prioriza la comodidad inmediata, aunque tiende a ablandarse con el uso prolongado.",
-      "nivel": "Iniciación",
-      "asimetria": "Baja",
-      "forro": null,
-      "cierre": "Velcro",
-      "modelo": "Easy Up",
-      "peso_talla": null,
-      "precio": 85,
-      "caracteristicas": [
-        "Cierre de doble velcro para entrada rápida",
-        "Suela blanda 4 Points Grip de 4,5mm sin tensión agresiva",
-        "Horma recta y neutra muy cómoda para principiantes",
-        "Trabillas en la lengüeta para facilitar el calzado"
-      ],
-      "para_quien_i18n": {
-        "ca": "Escaladors que comencen des de zero i prioritzen la comoditat per sobre de la precisió tècnica.",
-        "en": "Climbers starting from scratch who prioritize comfort over technical precision.",
-        "fr": "Grimpeurs qui débutent et privilégient le confort à la précision technique."
-      },
-      "para_quien": "Escaladores que empiezan desde cero y priorizan la comodidad sobre la precisión técnica.",
-      "fotos": [
-        "https://www.tradeinn.com/f/14111/141117539/millet-pies-de-gato-easy-up.jpg"
-      ],
-      "uso": "Rocódromo",
-      "grosor": 4.5,
-      "caracteristicas_i18n": {
-        "ca": [
-          "Tancament de doble velcro per a una entrada ràpida",
-          "Sola tova 4 Points Grip de 4,5 mm sense tensió agressiva",
-          "Horma recta i neutra molt còmoda per a principiants",
-          "Baguetes a la llengüeta per facilitar el calçat"
-        ],
-        "en": [
-          "Double velcro closure for quick entry",
-          "Soft 4.5mm 4 Points Grip sole with no aggressive tension",
-          "Straight, neutral last that's very comfortable for beginners",
-          "Pull loops on the tongue to make it easier to put on"
-        ],
-        "fr": [
-          "Fermeture à double velcro pour enfiler rapidement",
-          "Semelle souple 4 Points Grip de 4,5 mm sans tension agressive",
-          "Forme droite et neutre très confortable pour les débutants",
-          "Tirants sur la languette pour faciliter le chaussage"
-        ]
-      },
-      "volumen": "Estándar",
-      "peso_g": 245,
-      "id": "ml-easyup",
-      "goma": "4 Points Grip",
-      "resumen_i18n": {
-        "ca": "L'Easy Up és el model més accessible de Millet, amb horma recta, sense tensió agressiva i sola tova pensada per a les primeres sessions al rocòdrom. Prioritza la comoditat immediata, encara que tendeix a estovar-se amb l'ús prolongat.",
-        "en": "The Easy Up is Millet's most accessible model, with a straight last, no aggressive tension and a soft sole designed for early sessions at the climbing gym. It prioritizes immediate comfort, though it tends to soften with prolonged use.",
-        "fr": "Le Easy Up est le modèle le plus accessible de Millet, avec une forme droite, sans tension agressive et une semelle souple pensée pour les premières séances en salle. Il privilégie le confort immédiat, même s'il tend à s'assouplir davantage avec un usage prolongé."
-      },
-      "marca": "Millet",
-      "forma": "Casi simétrica"
-    },
-    {
-      "rigidez": "Media",
       "resumen": "El Finale es el pie de gato polivalente de entrada-intermedio de La Sportiva: horma con asimetría media y suela Vibram XS Edge de 5 mm que prioriza durabilidad y soporte sobre precisión extrema. Funciona bien tanto en rocódromo como en roca de dificultad baja-media, aunque se queda corto en vías muy técnicas o con presas diminutas.",
       "nivel": "Intermedio",
       "asimetria": "Media",
@@ -8365,7 +8249,9 @@
         "fr": "Les enfants qui débutent sur les voies sportives et ont besoin d'un chausson assez confortable pour de longues séances."
       },
       "para_quien": "Niños y niñas que empiezan a escalar vías deportivas y necesitan un pie de gato cómodo para llevar puesto sesiones largas.",
-      "fotos": [],
+      "fotos": [
+        "https://www.millet.com/visuels/original/MIG1817_N3004_MKT_0.png?auto=webp&format=pjpg&bg-color=f0eeef&width=1600&height=2000&fit=cover"
+      ],
       "uso": "Deportiva",
       "grosor": 4.5,
       "caracteristicas_i18n": {

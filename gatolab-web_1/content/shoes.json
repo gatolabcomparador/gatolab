@@ -3919,7 +3919,9 @@
         "fr": "Grimpeurs qui débutent et privilégient le confort à la précision technique."
       },
       "para_quien": "Escaladores que empiezan desde cero y priorizan la comodidad sobre la precisión técnica.",
-      "fotos": [],
+      "fotos": [
+        "https://www.tradeinn.com/f/14111/141117539/millet-pies-de-gato-easy-up.jpg"
+      ],
       "uso": "Rocódromo",
       "grosor": 4.5,
       "caracteristicas_i18n": {
@@ -7923,6 +7925,7 @@
       "modelo": "Mad Monkey 3",
       "peso_talla": null,
       "precio": 48,
+      "infantil": true,
       "caracteristicas": [
         "Upper de Syn Flex con footbed Rima",
         "Cierre de velcro rápido y ajustable al pie infantil",
@@ -7972,8 +7975,7 @@
         "fr": "Le Mad Monkey 3 est le chausson d'escalade enfant de Mad Rock, avec une fermeture velcro ajustable et une pointe moulée en 3D pour protéger les petits pieds pendant l'apprentissage de l'escalade."
       },
       "marca": "Mad Rock",
-      "forma": "Plana",
-      "infantil": true
+      "forma": "Plana"
     },
     {
       "rigidez": "Media",
@@ -8825,34 +8827,33 @@
       "forma": "Moderada"
     },
     {
-      "id": "ev-phantom-pro",
-      "marca": "Evolv",
-      "modelo": "Phantom Pro",
-      "precio": 180,
-      "goma": "Evo-74",
-      "grosor": 3.5,
-      "cierre": "Velcro (calcetín EvoWrap + correa)",
       "rigidez": "Blanda",
+      "resumen": "El Phantom Pro es la evolución más potente del Phantom: conserva la horma muy descolgada y la asimetría alta del modelo original, pero sustituye el cordón por un calcetín EvoWrap tensado con una correa ajustable, y estrena la goma Evo-74 -más pegajosa que la Trax SAS- en una suela de 3.5mm. Pensado para los movimientos más duros de bloque y desplome.",
       "nivel": "Avanzado",
       "asimetria": "Alta",
       "forro": "Sin forro",
-      "forma": "Muy agresiva",
-      "uso": "Bloque",
-      "volumen": "Estándar",
+      "cierre": "Velcro (calcetín EvoWrap + correa)",
+      "modelo": "Phantom Pro",
       "peso_talla": null,
-      "peso_g": null,
-      "resumen": "El Phantom Pro es la evolución más potente del Phantom: conserva la horma muy descolgada y la asimetría alta del modelo original, pero sustituye el cordón por un calcetín EvoWrap tensado con una correa ajustable, y estrena la goma Evo-74 -más pegajosa que la Trax SAS- en una suela de 3.5mm. Pensado para los movimientos más duros de bloque y desplome.",
-      "resumen_i18n": {
-        "ca": "El Phantom Pro és l'evolució més potent del Phantom: conserva la forma molt descolgada i l'asimetria alta del model original, però substitueix el cordó per un mitjó EvoWrap tensat amb una tira ajustable, i estrena la goma Evo-74 -més enganxosa que la Trax SAS- en una sola de 3.5mm. Pensat per als moviments més durs de bloc i desplom.",
-        "en": "The Phantom Pro is the more powerful evolution of the Phantom: it keeps the heavily downturned last and high asymmetry of the original, but swaps the lace for a tensioned EvoWrap sock with an adjustable strap, and debuts Evo-74 rubber -stickier than Trax SAS- on a 3.5mm sole. Built for the hardest moves on steep boulder problems and overhangs.",
-        "fr": "Le Phantom Pro est l'évolution la plus puissante du Phantom : il conserve la forme très cambrée et l'asymétrie élevée du modèle original, mais remplace le laçage par une chaussette EvoWrap tendue avec une sangle réglable, et inaugure la gomme Evo-74 -plus adhérente que la Trax SAS- sur une semelle de 3.5mm. Pensé pour les mouvements les plus durs en bloc et en dévers."
-      },
+      "precio": 180,
       "caracteristicas": [
         "Calcetín EvoWrap tensado con correa ajustable, sin cordones",
         "Goma Evo-74 de 3.5mm, más pegajosa que la Trax SAS habitual de Evolv",
         "Horma muy descolgada heredada del Phantom, orientada a bloque exigente",
         "Construcción sin forro en material sintético 100% vegano"
       ],
+      "para_quien_i18n": {
+        "ca": "Escaladors avançats de bloc i desplom que ja coneixen el Phantom i busquen encara més potència i agafament en preses petites.",
+        "en": "Advanced boulderers and overhang climbers who already know the Phantom and want even more power and grip on small holds.",
+        "fr": "Grimpeurs avancés de bloc et de dévers qui connaissent déjà le Phantom et recherchent encore plus de puissance et d'adhérence sur les petites prises."
+      },
+      "para_quien": "Escaladores avanzados de bloque y desplome que ya conocen el Phantom y buscan aún más potencia y agarre en presas pequeñas.",
+      "fotos": [
+        "https://oberalp.imgix.net/38127d9d-de74-462b-a764-fd260d823bed.png?type=still&auto=format&fit=clip&w=628&cs=srgb",
+        "https://oberalp.imgix.net/2ccaf153-e6a0-43ce-aa79-941d17851c7b.png?type=still&auto=format&fit=clip&w=628&cs=srgb"
+      ],
+      "uso": "Bloque",
+      "grosor": 3.5,
       "caracteristicas_i18n": {
         "ca": [
           "Mitjó EvoWrap tensat amb tira ajustable, sense cordons",
@@ -8873,46 +8874,46 @@
           "Construction non doublée en matière synthétique 100% vegan"
         ]
       },
-      "para_quien": "Escaladores avanzados de bloque y desplome que ya conocen el Phantom y buscan aún más potencia y agarre en presas pequeñas.",
-      "para_quien_i18n": {
-        "ca": "Escaladors avançats de bloc i desplom que ja coneixen el Phantom i busquen encara més potència i agafament en preses petites.",
-        "en": "Advanced boulderers and overhang climbers who already know the Phantom and want even more power and grip on small holds.",
-        "fr": "Grimpeurs avancés de bloc et de dévers qui connaissent déjà le Phantom et recherchent encore plus de puissance et d'adhérence sur les petites prises."
+      "volumen": "Estándar",
+      "peso_g": null,
+      "id": "ev-phantom-pro",
+      "goma": "Evo-74",
+      "resumen_i18n": {
+        "ca": "El Phantom Pro és l'evolució més potent del Phantom: conserva la forma molt descolgada i l'asimetria alta del model original, però substitueix el cordó per un mitjó EvoWrap tensat amb una tira ajustable, i estrena la goma Evo-74 -més enganxosa que la Trax SAS- en una sola de 3.5mm. Pensat per als moviments més durs de bloc i desplom.",
+        "en": "The Phantom Pro is the more powerful evolution of the Phantom: it keeps the heavily downturned last and high asymmetry of the original, but swaps the lace for a tensioned EvoWrap sock with an adjustable strap, and debuts Evo-74 rubber -stickier than Trax SAS- on a 3.5mm sole. Built for the hardest moves on steep boulder problems and overhangs.",
+        "fr": "Le Phantom Pro est l'évolution la plus puissante du Phantom : il conserve la forme très cambrée et l'asymétrie élevée du modèle original, mais remplace le laçage par une chaussette EvoWrap tendue avec une sangle réglable, et inaugure la gomme Evo-74 -plus adhérente que la Trax SAS- sur une semelle de 3.5mm. Pensé pour les mouvements les plus durs en bloc et en dévers."
       },
-      "fotos": [
-        "https://oberalp.imgix.net/38127d9d-de74-462b-a764-fd260d823bed.png?type=still&auto=format&fit=clip&w=628&cs=srgb",
-        "https://oberalp.imgix.net/2ccaf153-e6a0-43ce-aa79-941d17851c7b.png?type=still&auto=format&fit=clip&w=628&cs=srgb"
-      ]
+      "marca": "Evolv",
+      "forma": "Muy agresiva"
     },
     {
-      "id": "ev-phantom-pro-lv",
-      "marca": "Evolv",
-      "modelo": "Phantom Pro LV",
-      "precio": 180,
-      "goma": "Evo-74",
-      "grosor": 3.5,
-      "cierre": "Velcro (calcetín EvoWrap + correa)",
       "rigidez": "Blanda",
+      "resumen": "Versión de horma estrecha del Phantom Pro, con el mismo calcetín EvoWrap tensado, correa ajustable y goma Evo-74 de 3.5mm, pero pensada para pies estrechos o para quien busca una tensión aún mayor en presas pequeñas.",
       "nivel": "Avanzado",
       "asimetria": "Alta",
       "forro": "Sin forro",
-      "forma": "Muy agresiva",
-      "uso": "Bloque",
-      "volumen": "Bajo (LV, pie estrecho o mayor tensión)",
+      "cierre": "Velcro (calcetín EvoWrap + correa)",
+      "modelo": "Phantom Pro LV",
       "peso_talla": null,
-      "peso_g": null,
-      "resumen": "Versión de horma estrecha del Phantom Pro, con el mismo calcetín EvoWrap tensado, correa ajustable y goma Evo-74 de 3.5mm, pero pensada para pies estrechos o para quien busca una tensión aún mayor en presas pequeñas.",
-      "resumen_i18n": {
-        "ca": "Versió de forma estreta del Phantom Pro, amb el mateix mitjó EvoWrap tensat, tira ajustable i goma Evo-74 de 3.5mm, però pensada per a peus estrets o per a qui busca una tensió encara més gran en preses petites.",
-        "en": "The narrow-fit version of the Phantom Pro, with the same tensioned EvoWrap sock, adjustable strap and 3.5mm Evo-74 rubber, but built for narrow feet or for climbers who want even more tension on small holds.",
-        "fr": "Version étroite du Phantom Pro, avec la même chaussette EvoWrap tendue, sangle réglable et gomme Evo-74 de 3.5mm, mais pensée pour les pieds étroits ou pour qui recherche une tension encore plus grande sur les petites prises."
-      },
+      "precio": 180,
       "caracteristicas": [
         "Horma de bajo volumen (LV) para pies estrechos o mayor tensión",
         "Calcetín EvoWrap tensado con correa ajustable, sin cordones",
         "Goma Evo-74 de 3.5mm, más pegajosa que la Trax SAS habitual de Evolv",
         "Construcción sin forro en material sintético 100% vegano"
       ],
+      "para_quien_i18n": {
+        "ca": "Escaladors avançats de peu estret que volen la potència del Phantom Pro amb un ajust encara més cenyit.",
+        "en": "Advanced narrow-footed climbers who want the Phantom Pro's power with an even snugger fit.",
+        "fr": "Grimpeurs avancés au pied étroit qui veulent la puissance du Phantom Pro avec un chaussant encore plus ajusté."
+      },
+      "para_quien": "Escaladores avanzados de pie estrecho que quieren la potencia del Phantom Pro con un ajuste aún más ceñido.",
+      "fotos": [
+        "https://oberalp.imgix.net/0a444015-bbb5-413e-920f-eeca770ecee9.png?type=still&auto=format&fit=clip&w=628&cs=srgb",
+        "https://oberalp.imgix.net/c8b9381a-31b2-484f-8ae2-e5587abf30d7.png?type=still&auto=format&fit=clip&w=628&cs=srgb"
+      ],
+      "uso": "Bloque",
+      "grosor": 3.5,
       "caracteristicas_i18n": {
         "ca": [
           "Forma de baix volum (LV) per a peus estrets o més tensió",
@@ -8933,46 +8934,46 @@
           "Construction non doublée en matière synthétique 100% vegan"
         ]
       },
-      "para_quien": "Escaladores avanzados de pie estrecho que quieren la potencia del Phantom Pro con un ajuste aún más ceñido.",
-      "para_quien_i18n": {
-        "ca": "Escaladors avançats de peu estret que volen la potència del Phantom Pro amb un ajust encara més cenyit.",
-        "en": "Advanced narrow-footed climbers who want the Phantom Pro's power with an even snugger fit.",
-        "fr": "Grimpeurs avancés au pied étroit qui veulent la puissance du Phantom Pro avec un chaussant encore plus ajusté."
+      "volumen": "Bajo (LV, pie estrecho o mayor tensión)",
+      "peso_g": null,
+      "id": "ev-phantom-pro-lv",
+      "goma": "Evo-74",
+      "resumen_i18n": {
+        "ca": "Versió de forma estreta del Phantom Pro, amb el mateix mitjó EvoWrap tensat, tira ajustable i goma Evo-74 de 3.5mm, però pensada per a peus estrets o per a qui busca una tensió encara més gran en preses petites.",
+        "en": "The narrow-fit version of the Phantom Pro, with the same tensioned EvoWrap sock, adjustable strap and 3.5mm Evo-74 rubber, but built for narrow feet or for climbers who want even more tension on small holds.",
+        "fr": "Version étroite du Phantom Pro, avec la même chaussette EvoWrap tendue, sangle réglable et gomme Evo-74 de 3.5mm, mais pensée pour les pieds étroits ou pour qui recherche une tension encore plus grande sur les petites prises."
       },
-      "fotos": [
-        "https://oberalp.imgix.net/0a444015-bbb5-413e-920f-eeca770ecee9.png?type=still&auto=format&fit=clip&w=628&cs=srgb",
-        "https://oberalp.imgix.net/c8b9381a-31b2-484f-8ae2-e5587abf30d7.png?type=still&auto=format&fit=clip&w=628&cs=srgb"
-      ]
+      "marca": "Evolv",
+      "forma": "Muy agresiva"
     },
     {
-      "id": "ev-shaman-pro",
-      "marca": "Evolv",
-      "modelo": "Shaman Pro",
-      "precio": 180,
-      "goma": "Trax SAS",
-      "grosor": 4.2,
-      "cierre": "Velcro",
       "rigidez": "Blanda",
+      "resumen": "El Shaman Pro estrena la tecnología Wrap de Evolv: sujeta el pie por el empeine en vez de forzarlo contra la puntera, evitando el downsizing doloroso. Con la misma horma que el Shaman Lace y el Shaman de correas pero un midsole 'love bump' mucho más fino, es una versión más blanda y sensible pensada para bloque de competición y vías de plomo.",
       "nivel": "Avanzado",
       "asimetria": "Alta",
       "forro": "Sin forro",
-      "forma": "Agresiva",
-      "uso": "Bloque",
-      "volumen": "Estándar",
+      "cierre": "Velcro",
+      "modelo": "Shaman Pro",
       "peso_talla": null,
-      "peso_g": null,
-      "resumen": "El Shaman Pro estrena la tecnología Wrap de Evolv: sujeta el pie por el empeine en vez de forzarlo contra la puntera, evitando el downsizing doloroso. Con la misma horma que el Shaman Lace y el Shaman de correas pero un midsole 'love bump' mucho más fino, es una versión más blanda y sensible pensada para bloque de competición y vías de plomo.",
-      "resumen_i18n": {
-        "ca": "El Shaman Pro estrena la tecnologia Wrap d'Evolv: subjecta el peu per l'empenya en lloc de forçar-lo contra la puntera, evitant el downsizing dolorós. Amb la mateixa forma que el Shaman Lace i el Shaman de tires però un midsole 'love bump' molt més fi, és una versió més tova i sensible pensada per a bloc de competició i vies de plom.",
-        "en": "The Shaman Pro debuts Evolv's Wrap technology: it holds the foot around the instep instead of forcing the toes forward, avoiding painful downsizing. Sharing its last with the Shaman Lace and strap Shaman but with a much thinner 'love bump' midsole, it's a softer, more sensitive shoe built for comp-style bouldering and lead routes.",
-        "fr": "Le Shaman Pro inaugure la technologie Wrap d'Evolv : elle maintient le pied au niveau du cou-de-pied plutôt que de forcer les orteils vers l'avant, évitant ainsi le downsizing douloureux. Partageant sa forme avec le Shaman Lace et le Shaman à sangles mais avec un midsole 'love bump' bien plus fin, c'est une version plus souple et sensible pensée pour le bloc de compétition et les voies en tête."
-      },
+      "precio": 180,
       "caracteristicas": [
         "Tecnología Wrap: sujeción por el empeine sin downsizing doloroso",
         "Midsole 'love bump' muy fino para máxima sensibilidad",
         "Goma Trax SAS de 4.2mm en toda la suela",
         "Misma horma que el Shaman Lace y el Shaman clásico de correas"
       ],
+      "para_quien_i18n": {
+        "ca": "Boulderers de competició i escaladors de plom que volen la sensibilitat del Shaman en una versió més tova i sense downsizing agressiu.",
+        "en": "Competition boulderers and lead climbers who want the Shaman's sensitivity in a softer version without aggressive downsizing.",
+        "fr": "Grimpeurs de bloc en compétition et grimpeurs en tête qui veulent la sensibilité du Shaman dans une version plus souple, sans downsizing agressif."
+      },
+      "para_quien": "Boulderers de competición y escaladores de plomo que quieren la sensibilidad del Shaman en una versión más blanda y sin downsizing agresivo.",
+      "fotos": [
+        "https://oberalp.imgix.net/737c6a7a-cc3d-478c-954a-f4c75fc710a3.png?type=still&auto=format&fit=clip&w=628&cs=srgb",
+        "https://oberalp.imgix.net/a05e8f49-fffc-4adb-a903-d16d5bfacdc6.png?type=still&auto=format&fit=clip&w=628&cs=srgb"
+      ],
+      "uso": "Bloque",
+      "grosor": 4.2,
       "caracteristicas_i18n": {
         "ca": [
           "Tecnologia Wrap: subjecció per l'empenya sense downsizing dolorós",
@@ -8993,46 +8994,46 @@
           "Même forme que le Shaman Lace et le Shaman classique à sangles"
         ]
       },
-      "para_quien": "Boulderers de competición y escaladores de plomo que quieren la sensibilidad del Shaman en una versión más blanda y sin downsizing agresivo.",
-      "para_quien_i18n": {
-        "ca": "Boulderers de competició i escaladors de plom que volen la sensibilitat del Shaman en una versió més tova i sense downsizing agressiu.",
-        "en": "Competition boulderers and lead climbers who want the Shaman's sensitivity in a softer version without aggressive downsizing.",
-        "fr": "Grimpeurs de bloc en compétition et grimpeurs en tête qui veulent la sensibilité du Shaman dans une version plus souple, sans downsizing agressif."
+      "volumen": "Estándar",
+      "peso_g": null,
+      "id": "ev-shaman-pro",
+      "goma": "Trax SAS",
+      "resumen_i18n": {
+        "ca": "El Shaman Pro estrena la tecnologia Wrap d'Evolv: subjecta el peu per l'empenya en lloc de forçar-lo contra la puntera, evitant el downsizing dolorós. Amb la mateixa forma que el Shaman Lace i el Shaman de tires però un midsole 'love bump' molt més fi, és una versió més tova i sensible pensada per a bloc de competició i vies de plom.",
+        "en": "The Shaman Pro debuts Evolv's Wrap technology: it holds the foot around the instep instead of forcing the toes forward, avoiding painful downsizing. Sharing its last with the Shaman Lace and strap Shaman but with a much thinner 'love bump' midsole, it's a softer, more sensitive shoe built for comp-style bouldering and lead routes.",
+        "fr": "Le Shaman Pro inaugure la technologie Wrap d'Evolv : elle maintient le pied au niveau du cou-de-pied plutôt que de forcer les orteils vers l'avant, évitant ainsi le downsizing douloureux. Partageant sa forme avec le Shaman Lace et le Shaman à sangles mais avec un midsole 'love bump' bien plus fin, c'est une version plus souple et sensible pensée pour le bloc de compétition et les voies en tête."
       },
-      "fotos": [
-        "https://oberalp.imgix.net/737c6a7a-cc3d-478c-954a-f4c75fc710a3.png?type=still&auto=format&fit=clip&w=628&cs=srgb",
-        "https://oberalp.imgix.net/a05e8f49-fffc-4adb-a903-d16d5bfacdc6.png?type=still&auto=format&fit=clip&w=628&cs=srgb"
-      ]
+      "marca": "Evolv",
+      "forma": "Agresiva"
     },
     {
-      "id": "ev-shaman-pro-lv",
-      "marca": "Evolv",
-      "modelo": "Shaman Pro LV",
-      "precio": 180,
-      "goma": "Trax SAS",
-      "grosor": 4.2,
-      "cierre": "Velcro",
       "rigidez": "Blanda",
+      "resumen": "El Shaman Pro LV estrena la tecnología Wrap de Evolv: sujeta el pie por el empeine en vez de forzarlo contra la puntera, evitando el downsizing doloroso. Con la misma horma que el Shaman Lace y el Shaman de correas pero un midsole 'love bump' mucho más fino, es una versión más blanda y sensible pensada para bloque de competición y vías de plomo.",
       "nivel": "Avanzado",
       "asimetria": "Alta",
       "forro": "Sin forro",
-      "forma": "Agresiva",
-      "uso": "Bloque",
-      "volumen": "Bajo (LV)",
+      "cierre": "Velcro",
+      "modelo": "Shaman Pro LV",
       "peso_talla": null,
-      "peso_g": null,
-      "resumen": "El Shaman Pro LV estrena la tecnología Wrap de Evolv: sujeta el pie por el empeine en vez de forzarlo contra la puntera, evitando el downsizing doloroso. Con la misma horma que el Shaman Lace y el Shaman de correas pero un midsole 'love bump' mucho más fino, es una versión más blanda y sensible pensada para bloque de competición y vías de plomo.",
-      "resumen_i18n": {
-        "ca": "El Shaman Pro LV estrena la tecnologia Wrap d'Evolv: subjecta el peu per l'empenya en lloc de forçar-lo contra la puntera, evitant el downsizing dolorós. Amb la mateixa forma que el Shaman Lace i el Shaman de tires però un midsole 'love bump' molt més fi, és una versió més tova i sensible pensada per a bloc de competició i vies de plom.",
-        "en": "The Shaman Pro LV debuts Evolv's Wrap technology: it holds the foot around the instep instead of forcing the toes forward, avoiding painful downsizing. Sharing its last with the Shaman Lace and strap Shaman but with a much thinner 'love bump' midsole, it's a softer, more sensitive shoe built for comp-style bouldering and lead routes.",
-        "fr": "Le Shaman Pro LV inaugure la technologie Wrap d'Evolv : elle maintient le pied au niveau du cou-de-pied plutôt que de forcer les orteils vers l'avant, évitant ainsi le downsizing douloureux. Partageant sa forme avec le Shaman Lace et le Shaman à sangles mais avec un midsole 'love bump' bien plus fin, c'est une version plus souple et sensible pensée pour le bloc de compétition et les voies en tête."
-      },
+      "precio": 180,
       "caracteristicas": [
         "Tecnología Wrap: sujeción por el empeine sin downsizing doloroso",
         "Midsole 'love bump' muy fino para máxima sensibilidad",
         "Goma Trax SAS de 4.2mm en toda la suela",
         "Horma de bajo volumen (LV) para pies estrechos"
       ],
+      "para_quien_i18n": {
+        "ca": "Boulderers de competició i escaladors de plom que volen la sensibilitat del Shaman en una versió més tova i sense downsizing agressiu, amb forma estreta.",
+        "en": "Competition boulderers and lead climbers who want the Shaman's sensitivity in a softer version without aggressive downsizing, in a narrow last.",
+        "fr": "Grimpeurs de bloc en compétition et grimpeurs en tête qui veulent la sensibilité du Shaman dans une version plus souple, sans downsizing agressif, avec une forme étroite."
+      },
+      "para_quien": "Boulderers de competición y escaladores de plomo que quieren la sensibilidad del Shaman en una versión más blanda y sin downsizing agresivo, con horma estrecha.",
+      "fotos": [
+        "https://oberalp.imgix.net/7ddd2604-5f0d-4139-a64a-ad6eb4be355c.png?type=still&auto=format&fit=clip&w=628&cs=srgb",
+        "https://oberalp.imgix.net/e24bc139-41bd-45f2-a4ca-ac3a11c43bc3.png?type=still&auto=format&fit=clip&w=628&cs=srgb"
+      ],
+      "uso": "Bloque",
+      "grosor": 4.2,
       "caracteristicas_i18n": {
         "ca": [
           "Tecnologia Wrap: subjecció per l'empenya sense downsizing dolorós",
@@ -9053,46 +9054,46 @@
           "Forme à faible volume (LV) pour pieds étroits"
         ]
       },
-      "para_quien": "Boulderers de competición y escaladores de plomo que quieren la sensibilidad del Shaman en una versión más blanda y sin downsizing agresivo, con horma estrecha.",
-      "para_quien_i18n": {
-        "ca": "Boulderers de competició i escaladors de plom que volen la sensibilitat del Shaman en una versió més tova i sense downsizing agressiu, amb forma estreta.",
-        "en": "Competition boulderers and lead climbers who want the Shaman's sensitivity in a softer version without aggressive downsizing, in a narrow last.",
-        "fr": "Grimpeurs de bloc en compétition et grimpeurs en tête qui veulent la sensibilité du Shaman dans une version plus souple, sans downsizing agressif, avec une forme étroite."
+      "volumen": "Bajo (LV)",
+      "peso_g": null,
+      "id": "ev-shaman-pro-lv",
+      "goma": "Trax SAS",
+      "resumen_i18n": {
+        "ca": "El Shaman Pro LV estrena la tecnologia Wrap d'Evolv: subjecta el peu per l'empenya en lloc de forçar-lo contra la puntera, evitant el downsizing dolorós. Amb la mateixa forma que el Shaman Lace i el Shaman de tires però un midsole 'love bump' molt més fi, és una versió més tova i sensible pensada per a bloc de competició i vies de plom.",
+        "en": "The Shaman Pro LV debuts Evolv's Wrap technology: it holds the foot around the instep instead of forcing the toes forward, avoiding painful downsizing. Sharing its last with the Shaman Lace and strap Shaman but with a much thinner 'love bump' midsole, it's a softer, more sensitive shoe built for comp-style bouldering and lead routes.",
+        "fr": "Le Shaman Pro LV inaugure la technologie Wrap d'Evolv : elle maintient le pied au niveau du cou-de-pied plutôt que de forcer les orteils vers l'avant, évitant ainsi le downsizing douloureux. Partageant sa forme avec le Shaman Lace et le Shaman à sangles mais avec un midsole 'love bump' bien plus fin, c'est une version plus souple et sensible pensée pour le bloc de compétition et les voies en tête."
       },
-      "fotos": [
-        "https://oberalp.imgix.net/7ddd2604-5f0d-4139-a64a-ad6eb4be355c.png?type=still&auto=format&fit=clip&w=628&cs=srgb",
-        "https://oberalp.imgix.net/e24bc139-41bd-45f2-a4ca-ac3a11c43bc3.png?type=still&auto=format&fit=clip&w=628&cs=srgb"
-      ]
+      "marca": "Evolv",
+      "forma": "Agresiva"
     },
     {
-      "id": "ev-yosemite-bum",
-      "marca": "Evolv",
-      "modelo": "Yosemite Bum",
-      "precio": 185,
-      "goma": "Trax SAS",
-      "grosor": 4.2,
-      "cierre": "Cordones",
       "rigidez": "Rígida",
+      "resumen": "El Yosemite Bum es el instrumento de Evolv para fisura y multitraza: lengüeta partida que se abre por completo para entrar y salir del zapato sin pelear, cordones fáciles de reajustar durante el día, y una horma de volumen medio con camber neutro que resulta más natural que la de otros zapatos de fisura ultra-estrechos. Cada par incluye una resuela gratuita.",
       "nivel": "Avanzado",
       "asimetria": "Baja",
       "forro": "Forrado",
-      "forma": "Neutra",
-      "uso": "Fisura",
-      "volumen": "Estándar",
+      "cierre": "Cordones",
+      "modelo": "Yosemite Bum",
       "peso_talla": null,
-      "peso_g": null,
-      "resumen": "El Yosemite Bum es el instrumento de Evolv para fisura y multitraza: lengüeta partida que se abre por completo para entrar y salir del zapato sin pelear, cordones fáciles de reajustar durante el día, y una horma de volumen medio con camber neutro que resulta más natural que la de otros zapatos de fisura ultra-estrechos. Cada par incluye una resuela gratuita.",
-      "resumen_i18n": {
-        "ca": "El Yosemite Bum és l'instrument d'Evolv per a fissura i multitraça: llengüeta partida que s'obre completament per entrar i sortir de la sabata sense lluitar, cordons fàcils de reajustar durant el dia, i una forma de volum mitjà amb camber neutre que resulta més natural que la d'altres sabates de fissura ultraestretes. Cada parell inclou una resola gratuïta.",
-        "en": "The Yosemite Bum is Evolv's instrument for crack and multi-pitch climbing: a split tongue that opens all the way for easy on/off, laces that are easy to re-tune through the day, and a medium-volume, neutral-camber last that feels more natural than other ultra-narrow crack shoes. Each pair comes with one free resole.",
-        "fr": "Le Yosemite Bum est l'instrument d'Evolv pour la fissure et les grandes voies : languette fendue qui s'ouvre complètement pour chausser et déchausser facilement, laçage facile à réajuster en cours de journée, et une forme à volume moyen avec cambrure neutre plus naturelle que celle d'autres chaussons de fissure ultra-étroits. Chaque paire est vendue avec un ressemelage gratuit."
-      },
+      "precio": 185,
       "caracteristicas": [
         "Lengüeta partida (split tongue) para entrar y salir con facilidad",
         "Cordones fáciles de reajustar durante sesiones largas de multitraza",
         "Horma de camber neutro, más natural que otros zapatos de fisura",
         "Incluye una resuela gratuita por par"
       ],
+      "para_quien_i18n": {
+        "ca": "Escaladors de fissura i multitraça que passen moltes hores calçats i volen una entrada fàcil i un ajust natural.",
+        "en": "Crack and multi-pitch climbers who spend hours in their shoes and want easy entry and a natural fit.",
+        "fr": "Grimpeurs de fissure et de grandes voies qui passent de longues heures chaussés et veulent un chaussage facile et un chaussant naturel."
+      },
+      "para_quien": "Escaladores de fisura y multitraza que pasan muchas horas calzados y quieren una entrada fácil y un ajuste natural.",
+      "fotos": [
+        "https://oberalp.imgix.net/16843e61-efbf-422f-a42f-eb6bacce1d8f.png?type=still&auto=format&fit=clip&w=628&cs=srgb",
+        "https://oberalp.imgix.net/d34822d7-4297-45ad-9f41-2c024ac97da4.png?type=still&auto=format&fit=clip&w=628&cs=srgb"
+      ],
+      "uso": "Fisura",
+      "grosor": 4.2,
       "caracteristicas_i18n": {
         "ca": [
           "Llengüeta partida (split tongue) per entrar i sortir amb facilitat",
@@ -9113,46 +9114,46 @@
           "Un ressemelage gratuit inclus par paire"
         ]
       },
-      "para_quien": "Escaladores de fisura y multitraza que pasan muchas horas calzados y quieren una entrada fácil y un ajuste natural.",
-      "para_quien_i18n": {
-        "ca": "Escaladors de fissura i multitraça que passen moltes hores calçats i volen una entrada fàcil i un ajust natural.",
-        "en": "Crack and multi-pitch climbers who spend hours in their shoes and want easy entry and a natural fit.",
-        "fr": "Grimpeurs de fissure et de grandes voies qui passent de longues heures chaussés et veulent un chaussage facile et un chaussant naturel."
+      "volumen": "Estándar",
+      "peso_g": null,
+      "id": "ev-yosemite-bum",
+      "goma": "Trax SAS",
+      "resumen_i18n": {
+        "ca": "El Yosemite Bum és l'instrument d'Evolv per a fissura i multitraça: llengüeta partida que s'obre completament per entrar i sortir de la sabata sense lluitar, cordons fàcils de reajustar durant el dia, i una forma de volum mitjà amb camber neutre que resulta més natural que la d'altres sabates de fissura ultraestretes. Cada parell inclou una resola gratuïta.",
+        "en": "The Yosemite Bum is Evolv's instrument for crack and multi-pitch climbing: a split tongue that opens all the way for easy on/off, laces that are easy to re-tune through the day, and a medium-volume, neutral-camber last that feels more natural than other ultra-narrow crack shoes. Each pair comes with one free resole.",
+        "fr": "Le Yosemite Bum est l'instrument d'Evolv pour la fissure et les grandes voies : languette fendue qui s'ouvre complètement pour chausser et déchausser facilement, laçage facile à réajuster en cours de journée, et une forme à volume moyen avec cambrure neutre plus naturelle que celle d'autres chaussons de fissure ultra-étroits. Chaque paire est vendue avec un ressemelage gratuit."
       },
-      "fotos": [
-        "https://oberalp.imgix.net/16843e61-efbf-422f-a42f-eb6bacce1d8f.png?type=still&auto=format&fit=clip&w=628&cs=srgb",
-        "https://oberalp.imgix.net/d34822d7-4297-45ad-9f41-2c024ac97da4.png?type=still&auto=format&fit=clip&w=628&cs=srgb"
-      ]
+      "marca": "Evolv",
+      "forma": "Neutra"
     },
     {
-      "id": "ev-yosemite-bum-lv",
-      "marca": "Evolv",
-      "modelo": "Yosemite Bum LV",
-      "precio": 185,
-      "goma": "Trax SAS",
-      "grosor": 4.2,
-      "cierre": "Cordones",
       "rigidez": "Rígida",
+      "resumen": "El Yosemite Bum es el instrumento de Evolv para fisura y multitraza: lengüeta partida que se abre por completo para entrar y salir del zapato sin pelear, cordones fáciles de reajustar durante el día, y una horma de volumen medio con camber neutro que resulta más natural que la de otros zapatos de fisura ultra-estrechos. Versión de bajo volumen para pie estrecho.",
       "nivel": "Avanzado",
       "asimetria": "Baja",
       "forro": "Forrado",
-      "forma": "Neutra",
-      "uso": "Fisura",
-      "volumen": "Bajo (LV)",
+      "cierre": "Cordones",
+      "modelo": "Yosemite Bum LV",
       "peso_talla": null,
-      "peso_g": null,
-      "resumen": "El Yosemite Bum es el instrumento de Evolv para fisura y multitraza: lengüeta partida que se abre por completo para entrar y salir del zapato sin pelear, cordones fáciles de reajustar durante el día, y una horma de volumen medio con camber neutro que resulta más natural que la de otros zapatos de fisura ultra-estrechos. Versión de bajo volumen para pie estrecho.",
-      "resumen_i18n": {
-        "ca": "El Yosemite Bum és l'instrument d'Evolv per a fissura i multitraça: llengüeta partida que s'obre completament per entrar i sortir de la sabata sense lluitar, cordons fàcils de reajustar durant el dia, i una forma de volum mitjà amb camber neutre que resulta més natural que la d'altres sabates de fissura ultraestretes. Versió de baix volum per a peu estret.",
-        "en": "The Yosemite Bum is Evolv's instrument for crack and multi-pitch climbing: a split tongue that opens all the way for easy on/off, laces that are easy to re-tune through the day, and a medium-volume, neutral-camber last that feels more natural than other ultra-narrow crack shoes. Low-volume version for narrow feet.",
-        "fr": "Le Yosemite Bum est l'instrument d'Evolv pour la fissure et les grandes voies : languette fendue qui s'ouvre complètement pour chausser et déchausser facilement, laçage facile à réajuster en cours de journée, et une forme à volume moyen avec cambrure neutre plus naturelle que celle d'autres chaussons de fissure ultra-étroits. Version à faible volume pour pieds étroits."
-      },
+      "precio": 185,
       "caracteristicas": [
         "Lengüeta partida (split tongue) para entrar y salir con facilidad",
         "Cordones fáciles de reajustar durante sesiones largas de multitraza",
         "Horma de camber neutro, más natural que otros zapatos de fisura",
         "Horma de bajo volumen (LV) para pie estrecho"
       ],
+      "para_quien_i18n": {
+        "ca": "Escaladors de fissura i multitraça que passen moltes hores calçats i volen una entrada fàcil i un ajust natural, amb peu estret.",
+        "en": "Crack and multi-pitch climbers who spend hours in their shoes and want easy entry and a natural fit, with narrow feet.",
+        "fr": "Grimpeurs de fissure et de grandes voies qui passent de longues heures chaussés et veulent un chaussage facile et un chaussant naturel, avec un pied étroit."
+      },
+      "para_quien": "Escaladores de fisura y multitraza que pasan muchas horas calzados y quieren una entrada fácil y un ajuste natural, con pie estrecho.",
+      "fotos": [
+        "https://oberalp.imgix.net/eb982c7b-d182-4f7b-bf8b-de2e38c2ac83.png?type=still&auto=format&fit=clip&w=628&cs=srgb",
+        "https://oberalp.imgix.net/cf10cfcc-4eeb-4100-a96c-15c39a8c7285.png?type=still&auto=format&fit=clip&w=628&cs=srgb"
+      ],
+      "uso": "Fisura",
+      "grosor": 4.2,
       "caracteristicas_i18n": {
         "ca": [
           "Llengüeta partida (split tongue) per entrar i sortir amb facilitat",
@@ -9173,46 +9174,46 @@
           "Forme à faible volume (LV) pour pieds étroits"
         ]
       },
-      "para_quien": "Escaladores de fisura y multitraza que pasan muchas horas calzados y quieren una entrada fácil y un ajuste natural, con pie estrecho.",
-      "para_quien_i18n": {
-        "ca": "Escaladors de fissura i multitraça que passen moltes hores calçats i volen una entrada fàcil i un ajust natural, amb peu estret.",
-        "en": "Crack and multi-pitch climbers who spend hours in their shoes and want easy entry and a natural fit, with narrow feet.",
-        "fr": "Grimpeurs de fissure et de grandes voies qui passent de longues heures chaussés et veulent un chaussage facile et un chaussant naturel, avec un pied étroit."
+      "volumen": "Bajo (LV)",
+      "peso_g": null,
+      "id": "ev-yosemite-bum-lv",
+      "goma": "Trax SAS",
+      "resumen_i18n": {
+        "ca": "El Yosemite Bum és l'instrument d'Evolv per a fissura i multitraça: llengüeta partida que s'obre completament per entrar i sortir de la sabata sense lluitar, cordons fàcils de reajustar durant el dia, i una forma de volum mitjà amb camber neutre que resulta més natural que la d'altres sabates de fissura ultraestretes. Versió de baix volum per a peu estret.",
+        "en": "The Yosemite Bum is Evolv's instrument for crack and multi-pitch climbing: a split tongue that opens all the way for easy on/off, laces that are easy to re-tune through the day, and a medium-volume, neutral-camber last that feels more natural than other ultra-narrow crack shoes. Low-volume version for narrow feet.",
+        "fr": "Le Yosemite Bum est l'instrument d'Evolv pour la fissure et les grandes voies : languette fendue qui s'ouvre complètement pour chausser et déchausser facilement, laçage facile à réajuster en cours de journée, et une forme à volume moyen avec cambrure neutre plus naturelle que celle d'autres chaussons de fissure ultra-étroits. Version à faible volume pour pieds étroits."
       },
-      "fotos": [
-        "https://oberalp.imgix.net/eb982c7b-d182-4f7b-bf8b-de2e38c2ac83.png?type=still&auto=format&fit=clip&w=628&cs=srgb",
-        "https://oberalp.imgix.net/cf10cfcc-4eeb-4100-a96c-15c39a8c7285.png?type=still&auto=format&fit=clip&w=628&cs=srgb"
-      ]
+      "marca": "Evolv",
+      "forma": "Neutra"
     },
     {
-      "id": "ev-geshido",
-      "marca": "Evolv",
-      "modelo": "Geshido",
-      "precio": 160,
-      "goma": "Trax SAS",
-      "grosor": 4.2,
-      "cierre": "Velcro (2 correas)",
       "rigidez": "Media",
+      "resumen": "El Geshido es la propuesta de Evolv para escalar bien en cualquier terreno, de desplomes a vías verticales, durante sesiones largas. Su upper sintético vegano de una sola capa mantiene el zapato ceñido con el tiempo, y el doble velcro facilita calzarse y descalzarse. El talón, con un canto fino que cede en desplome pero una zona central rígida, da potencia en la puntera cuando hace falta.",
       "nivel": "Intermedio",
       "asimetria": "Media",
       "forro": "Sin forro",
-      "forma": "Moderada",
-      "uso": "Todoterreno",
-      "volumen": "Estándar",
+      "cierre": "Velcro (2 correas)",
+      "modelo": "Geshido",
       "peso_talla": null,
-      "peso_g": null,
-      "resumen": "El Geshido es la propuesta de Evolv para escalar bien en cualquier terreno, de desplomes a vías verticales, durante sesiones largas. Su upper sintético vegano de una sola capa mantiene el zapato ceñido con el tiempo, y el doble velcro facilita calzarse y descalzarse. El talón, con un canto fino que cede en desplome pero una zona central rígida, da potencia en la puntera cuando hace falta.",
-      "resumen_i18n": {
-        "ca": "El Geshido és la proposta d'Evolv per escalar bé en qualsevol terreny, de desploms a vies verticals, durant sessions llargues. El seu upper sintètic vegà d'una sola capa manté la sabata cenyida amb el temps, i el doble velcro facilita calçar-se i descalçar-se. El taló, amb un cantell fi que cedeix en desplom però una zona central rígida, dona potència a la puntera quan cal.",
-        "en": "The Geshido is Evolv's all-rounder for climbing well on any terrain, from overhangs to vertical faces, over long sessions. Its single-layer vegan synthetic upper keeps the shoe snug over time, and the double Velcro closure makes it easy to put on and take off. A thin heel rand that yields on overhangs, paired with a stiffer central midsole, gives toe power when it's needed.",
-        "fr": "Le Geshido est la proposition d'Evolv pour bien grimper sur tous les terrains, du dévers à la voie verticale, lors de longues séances. Sa tige synthétique vegan monocouche garde le chausson ajusté avec le temps, et le double Velcro facilite le chaussage et le déchaussage. Le talon, avec un renfort fin qui cède en dévers mais une zone centrale rigide, donne de la puissance à la pointe quand il le faut."
-      },
+      "precio": 160,
       "caracteristicas": [
         "Upper sintético vegano de una sola capa, mantiene el ajuste con el uso",
         "Cierre de doble velcro para calzarse y descalzarse rápido",
         "Midsole de plástico de 1.2mm en toda la longitud",
         "Talón de canto fino en desplome con zona central rígida para potencia"
       ],
+      "para_quien_i18n": {
+        "ca": "Escaladors intermedis que busquen una sabata versàtil per a tot tipus de terreny i sessions llargues.",
+        "en": "Intermediate climbers looking for a versatile shoe for all kinds of terrain and long sessions.",
+        "fr": "Grimpeurs intermédiaires en quête d'un chausson polyvalent pour tous types de terrain et de longues séances."
+      },
+      "para_quien": "Escaladores intermedios que buscan un zapato versátil para todo tipo de terreno y sesiones largas.",
+      "fotos": [
+        "https://oberalp.imgix.net/2b9bdf90-77df-44c2-9ccb-41490e8e3319.png?type=still&auto=format&fit=clip&w=628&cs=srgb",
+        "https://oberalp.imgix.net/cb1db775-5ded-485c-9f72-1f93d39c5f60.png?type=still&auto=format&fit=clip&w=628&cs=srgb"
+      ],
+      "uso": "Todoterreno",
+      "grosor": 4.2,
       "caracteristicas_i18n": {
         "ca": [
           "Upper sintètic vegà d'una sola capa, manté l'ajust amb l'ús",
@@ -9233,46 +9234,46 @@
           "Talon fin qui cède en dévers, avec une zone centrale plus rigide pour la puissance"
         ]
       },
-      "para_quien": "Escaladores intermedios que buscan un zapato versátil para todo tipo de terreno y sesiones largas.",
-      "para_quien_i18n": {
-        "ca": "Escaladors intermedis que busquen una sabata versàtil per a tot tipus de terreny i sessions llargues.",
-        "en": "Intermediate climbers looking for a versatile shoe for all kinds of terrain and long sessions.",
-        "fr": "Grimpeurs intermédiaires en quête d'un chausson polyvalent pour tous types de terrain et de longues séances."
+      "volumen": "Estándar",
+      "peso_g": null,
+      "id": "ev-geshido",
+      "goma": "Trax SAS",
+      "resumen_i18n": {
+        "ca": "El Geshido és la proposta d'Evolv per escalar bé en qualsevol terreny, de desploms a vies verticals, durant sessions llargues. El seu upper sintètic vegà d'una sola capa manté la sabata cenyida amb el temps, i el doble velcro facilita calçar-se i descalçar-se. El taló, amb un cantell fi que cedeix en desplom però una zona central rígida, dona potència a la puntera quan cal.",
+        "en": "The Geshido is Evolv's all-rounder for climbing well on any terrain, from overhangs to vertical faces, over long sessions. Its single-layer vegan synthetic upper keeps the shoe snug over time, and the double Velcro closure makes it easy to put on and take off. A thin heel rand that yields on overhangs, paired with a stiffer central midsole, gives toe power when it's needed.",
+        "fr": "Le Geshido est la proposition d'Evolv pour bien grimper sur tous les terrains, du dévers à la voie verticale, lors de longues séances. Sa tige synthétique vegan monocouche garde le chausson ajusté avec le temps, et le double Velcro facilite le chaussage et le déchaussage. Le talon, avec un renfort fin qui cède en dévers mais une zone centrale rigide, donne de la puissance à la pointe quand il le faut."
       },
-      "fotos": [
-        "https://oberalp.imgix.net/2b9bdf90-77df-44c2-9ccb-41490e8e3319.png?type=still&auto=format&fit=clip&w=628&cs=srgb",
-        "https://oberalp.imgix.net/cb1db775-5ded-485c-9f72-1f93d39c5f60.png?type=still&auto=format&fit=clip&w=628&cs=srgb"
-      ]
+      "marca": "Evolv",
+      "forma": "Moderada"
     },
     {
-      "id": "ev-geshido-lv",
-      "marca": "Evolv",
-      "modelo": "Geshido LV",
-      "precio": 160,
-      "goma": "Trax SAS",
-      "grosor": 4.2,
-      "cierre": "Velcro (2 correas)",
       "rigidez": "Media",
+      "resumen": "El Geshido es la propuesta de Evolv para escalar bien en cualquier terreno, de desplomes a vías verticales, durante sesiones largas. Su upper sintético vegano de una sola capa mantiene el zapato ceñido con el tiempo, y el doble velcro facilita calzarse y descalzarse. El talón, con un canto fino que cede en desplome pero una zona central rígida, da potencia en la puntera cuando hace falta. Versión de bajo volumen para pie estrecho.",
       "nivel": "Intermedio",
       "asimetria": "Media",
       "forro": "Sin forro",
-      "forma": "Moderada",
-      "uso": "Todoterreno",
-      "volumen": "Bajo (LV)",
+      "cierre": "Velcro (2 correas)",
+      "modelo": "Geshido LV",
       "peso_talla": null,
-      "peso_g": null,
-      "resumen": "El Geshido es la propuesta de Evolv para escalar bien en cualquier terreno, de desplomes a vías verticales, durante sesiones largas. Su upper sintético vegano de una sola capa mantiene el zapato ceñido con el tiempo, y el doble velcro facilita calzarse y descalzarse. El talón, con un canto fino que cede en desplome pero una zona central rígida, da potencia en la puntera cuando hace falta. Versión de bajo volumen para pie estrecho.",
-      "resumen_i18n": {
-        "ca": "El Geshido és la proposta d'Evolv per escalar bé en qualsevol terreny, de desploms a vies verticals, durant sessions llargues. El seu upper sintètic vegà d'una sola capa manté la sabata cenyida amb el temps, i el doble velcro facilita calçar-se i descalçar-se. El taló, amb un cantell fi que cedeix en desplom però una zona central rígida, dona potència a la puntera quan cal. Versió de baix volum per a peu estret.",
-        "en": "The Geshido is Evolv's all-rounder for climbing well on any terrain, from overhangs to vertical faces, over long sessions. Its single-layer vegan synthetic upper keeps the shoe snug over time, and the double Velcro closure makes it easy to put on and take off. A thin heel rand that yields on overhangs, paired with a stiffer central midsole, gives toe power when it's needed. Low-volume version for narrow feet.",
-        "fr": "Le Geshido est la proposition d'Evolv pour bien grimper sur tous les terrains, du dévers à la voie verticale, lors de longues séances. Sa tige synthétique vegan monocouche garde le chausson ajusté avec le temps, et le double Velcro facilite le chaussage et le déchaussage. Le talon, avec un renfort fin qui cède en dévers mais une zone centrale rigide, donne de la puissance à la pointe quand il le faut. Version à faible volume pour pieds étroits."
-      },
+      "precio": 160,
       "caracteristicas": [
         "Upper sintético vegano de una sola capa, mantiene el ajuste con el uso",
         "Cierre de doble velcro para calzarse y descalzarse rápido",
         "Midsole de plástico de 1.2mm en toda la longitud",
         "Horma de bajo volumen (LV) para pie estrecho"
       ],
+      "para_quien_i18n": {
+        "ca": "Escaladors intermedis que busquen una sabata versàtil per a tot tipus de terreny i sessions llargues, amb peu estret.",
+        "en": "Intermediate climbers looking for a versatile shoe for all kinds of terrain and long sessions, with narrow feet.",
+        "fr": "Grimpeurs intermédiaires en quête d'un chausson polyvalent pour tous types de terrain et de longues séances, avec un pied étroit."
+      },
+      "para_quien": "Escaladores intermedios que buscan un zapato versátil para todo tipo de terreno y sesiones largas, con pie estrecho.",
+      "fotos": [
+        "https://oberalp.imgix.net/fb798a0c-f366-411c-a847-ed1a7078818b.png?type=still&auto=format&fit=clip&w=628&cs=srgb",
+        "https://oberalp.imgix.net/8888578a-3fa0-4f92-8958-cf4647668fdd.png?type=still&auto=format&fit=clip&w=628&cs=srgb"
+      ],
+      "uso": "Todoterreno",
+      "grosor": 4.2,
       "caracteristicas_i18n": {
         "ca": [
           "Upper sintètic vegà d'una sola capa, manté l'ajust amb l'ús",
@@ -9293,46 +9294,45 @@
           "Forme à faible volume (LV) pour pieds étroits"
         ]
       },
-      "para_quien": "Escaladores intermedios que buscan un zapato versátil para todo tipo de terreno y sesiones largas, con pie estrecho.",
-      "para_quien_i18n": {
-        "ca": "Escaladors intermedis que busquen una sabata versàtil per a tot tipus de terreny i sessions llargues, amb peu estret.",
-        "en": "Intermediate climbers looking for a versatile shoe for all kinds of terrain and long sessions, with narrow feet.",
-        "fr": "Grimpeurs intermédiaires en quête d'un chausson polyvalent pour tous types de terrain et de longues séances, avec un pied étroit."
+      "volumen": "Bajo (LV)",
+      "peso_g": null,
+      "id": "ev-geshido-lv",
+      "goma": "Trax SAS",
+      "resumen_i18n": {
+        "ca": "El Geshido és la proposta d'Evolv per escalar bé en qualsevol terreny, de desploms a vies verticals, durant sessions llargues. El seu upper sintètic vegà d'una sola capa manté la sabata cenyida amb el temps, i el doble velcro facilita calçar-se i descalçar-se. El taló, amb un cantell fi que cedeix en desplom però una zona central rígida, dona potència a la puntera quan cal. Versió de baix volum per a peu estret.",
+        "en": "The Geshido is Evolv's all-rounder for climbing well on any terrain, from overhangs to vertical faces, over long sessions. Its single-layer vegan synthetic upper keeps the shoe snug over time, and the double Velcro closure makes it easy to put on and take off. A thin heel rand that yields on overhangs, paired with a stiffer central midsole, gives toe power when it's needed. Low-volume version for narrow feet.",
+        "fr": "Le Geshido est la proposition d'Evolv pour bien grimper sur tous les terrains, du dévers à la voie verticale, lors de longues séances. Sa tige synthétique vegan monocouche garde le chausson ajusté avec le temps, et le double Velcro facilite le chaussage et le déchaussage. Le talon, avec un renfort fin qui cède en dévers mais une zone centrale rigide, donne de la puissance à la pointe quand il le faut. Version à faible volume pour pieds étroits."
       },
-      "fotos": [
-        "https://oberalp.imgix.net/fb798a0c-f366-411c-a847-ed1a7078818b.png?type=still&auto=format&fit=clip&w=628&cs=srgb",
-        "https://oberalp.imgix.net/8888578a-3fa0-4f92-8958-cf4647668fdd.png?type=still&auto=format&fit=clip&w=628&cs=srgb"
-      ]
+      "marca": "Evolv",
+      "forma": "Moderada"
     },
     {
-      "id": "ev-shaman-lace",
-      "marca": "Evolv",
-      "modelo": "Shaman Lace",
-      "precio": 105,
-      "goma": "Trax SAS",
-      "grosor": 4.2,
-      "cierre": "Cordones (asimétricos)",
       "rigidez": "Media",
+      "resumen": "El Shaman Lace está pensado para una sola cosa: potencia de canteo. El upper sintético y el talón rígido empujan los dedos hacia una posición de potencia, mientras el midsole 'love bump' y la caja de nudillos evitan el espacio muerto bajo los dedos sin aplastarlos. El cordón asimétrico permite un ajuste a medida para distintas formas de pie.",
       "nivel": "Intermedio",
       "asimetria": "Alta",
       "forro": "Sin forro",
-      "forma": "Agresiva",
-      "uso": "Bloque",
-      "volumen": "Estándar",
+      "cierre": "Cordones (asimétricos)",
+      "modelo": "Shaman Lace",
       "peso_talla": null,
-      "peso_g": null,
-      "resumen": "El Shaman Lace está pensado para una sola cosa: potencia de canteo. El upper sintético y el talón rígido empujan los dedos hacia una posición de potencia, mientras el midsole 'love bump' y la caja de nudillos evitan el espacio muerto bajo los dedos sin aplastarlos. El cordón asimétrico permite un ajuste a medida para distintas formas de pie.",
-      "resumen_i18n": {
-        "ca": "El Shaman Lace està pensat per a una sola cosa: potència de cantell. L'upper sintètic i el taló rígid empenyen els dits cap a una posició de potència, mentre el midsole 'love bump' i la caixa de nusos eviten l'espai mort sota els dits sense aixafar-los. El cordó asimètric permet un ajust a mida per a diferents formes de peu.",
-        "en": "The Shaman Lace is built for one thing: edging power. The synthetic upper and stiff heel rand push the toes into a power position, while the 'love bump' midsole and knuckle box remove dead space under the toes without crushing them. The asymmetric lacing gives a custom fit for a wide range of foot shapes.",
-        "fr": "Le Shaman Lace est pensé pour une seule chose : la puissance de réglette. La tige synthétique et le talon rigide poussent les orteils dans une position de puissance, tandis que le midsole 'love bump' et le 'knuckle box' suppriment l'espace mort sous les orteils sans les écraser. Le laçage asymétrique permet un chaussant sur mesure pour différentes formes de pied."
-      },
+      "precio": 105,
       "caracteristicas": [
         "Cordón asimétrico para un ajuste a medida según la forma del pie",
         "Midsole 'love bump' que elimina el espacio muerto bajo los dedos",
         "Talón rígido que empuja los dedos a posición de potencia",
         "Goma Trax SAS de 4.2mm"
       ],
+      "para_quien_i18n": {
+        "ca": "Escaladors que prioritzen la potència de cantell en cara vertical i desplom, i prefereixen cordons a velcro.",
+        "en": "Climbers who prioritize edging power on vertical faces and overhangs, and prefer laces to Velcro.",
+        "fr": "Grimpeurs qui privilégient la puissance de réglette en face verticale et en dévers, et préfèrent les lacets au Velcro."
+      },
+      "para_quien": "Escaladores que priorizan la potencia de canteo en cara vertical y desplome, y prefieren cordones a velcro.",
+      "fotos": [
+        "https://oberalp.imgix.net/f0145ad2-d8d6-4f8e-9759-390ac7da5293.png?type=still&auto=format&fit=clip&w=628&cs=srgb"
+      ],
+      "uso": "Bloque",
+      "grosor": 4.2,
       "caracteristicas_i18n": {
         "ca": [
           "Cordó asimètric per a un ajust a mida segons la forma del peu",
@@ -9353,45 +9353,46 @@
           "Gomme Trax SAS de 4.2mm"
         ]
       },
-      "para_quien": "Escaladores que priorizan la potencia de canteo en cara vertical y desplome, y prefieren cordones a velcro.",
-      "para_quien_i18n": {
-        "ca": "Escaladors que prioritzen la potència de cantell en cara vertical i desplom, i prefereixen cordons a velcro.",
-        "en": "Climbers who prioritize edging power on vertical faces and overhangs, and prefer laces to Velcro.",
-        "fr": "Grimpeurs qui privilégient la puissance de réglette en face verticale et en dévers, et préfèrent les lacets au Velcro."
+      "volumen": "Estándar",
+      "peso_g": null,
+      "id": "ev-shaman-lace",
+      "goma": "Trax SAS",
+      "resumen_i18n": {
+        "ca": "El Shaman Lace està pensat per a una sola cosa: potència de cantell. L'upper sintètic i el taló rígid empenyen els dits cap a una posició de potència, mentre el midsole 'love bump' i la caixa de nusos eviten l'espai mort sota els dits sense aixafar-los. El cordó asimètric permet un ajust a mida per a diferents formes de peu.",
+        "en": "The Shaman Lace is built for one thing: edging power. The synthetic upper and stiff heel rand push the toes into a power position, while the 'love bump' midsole and knuckle box remove dead space under the toes without crushing them. The asymmetric lacing gives a custom fit for a wide range of foot shapes.",
+        "fr": "Le Shaman Lace est pensé pour une seule chose : la puissance de réglette. La tige synthétique et le talon rigide poussent les orteils dans une position de puissance, tandis que le midsole 'love bump' et le 'knuckle box' suppriment l'espace mort sous les orteils sans les écraser. Le laçage asymétrique permet un chaussant sur mesure pour différentes formes de pied."
       },
-      "fotos": [
-        "https://oberalp.imgix.net/f0145ad2-d8d6-4f8e-9759-390ac7da5293.png?type=still&auto=format&fit=clip&w=628&cs=srgb"
-      ]
+      "marca": "Evolv",
+      "forma": "Agresiva"
     },
     {
-      "id": "ev-shaman-lace-lv",
-      "marca": "Evolv",
-      "modelo": "Shaman Lace LV",
-      "precio": 105,
-      "goma": "Trax SAS",
-      "grosor": 4.2,
-      "cierre": "Cordones (asimétricos)",
       "rigidez": "Media",
+      "resumen": "El Shaman Lace está pensado para una sola cosa: potencia de canteo. El upper sintético y el talón rígido empujan los dedos hacia una posición de potencia, mientras el midsole 'love bump' y la caja de nudillos evitan el espacio muerto bajo los dedos sin aplastarlos. El cordón asimétrico permite un ajuste a medida para distintas formas de pie. Versión de bajo volumen.",
       "nivel": "Intermedio",
       "asimetria": "Alta",
       "forro": "Sin forro",
-      "forma": "Agresiva",
-      "uso": "Bloque",
-      "volumen": "Bajo (LV)",
+      "cierre": "Cordones (asimétricos)",
+      "modelo": "Shaman Lace LV",
       "peso_talla": null,
-      "peso_g": null,
-      "resumen": "El Shaman Lace está pensado para una sola cosa: potencia de canteo. El upper sintético y el talón rígido empujan los dedos hacia una posición de potencia, mientras el midsole 'love bump' y la caja de nudillos evitan el espacio muerto bajo los dedos sin aplastarlos. El cordón asimétrico permite un ajuste a medida para distintas formas de pie. Versión de bajo volumen.",
-      "resumen_i18n": {
-        "ca": "El Shaman Lace està pensat per a una sola cosa: potència de cantell. L'upper sintètic i el taló rígid empenyen els dits cap a una posició de potència, mentre el midsole 'love bump' i la caixa de nusos eviten l'espai mort sota els dits sense aixafar-los. El cordó asimètric permet un ajust a mida per a diferents formes de peu. Versió de baix volum.",
-        "en": "The Shaman Lace is built for one thing: edging power. The synthetic upper and stiff heel rand push the toes into a power position, while the 'love bump' midsole and knuckle box remove dead space under the toes without crushing them. The asymmetric lacing gives a custom fit for a wide range of foot shapes. Low-volume version.",
-        "fr": "Le Shaman Lace est pensé pour une seule chose : la puissance de réglette. La tige synthétique et le talon rigide poussent les orteils dans une position de puissance, tandis que le midsole 'love bump' et le 'knuckle box' suppriment l'espace mort sous les orteils sans les écraser. Le laçage asymétrique permet un chaussant sur mesure pour différentes formes de pied. Version à faible volume."
-      },
+      "precio": 105,
       "caracteristicas": [
         "Cordón asimétrico para un ajuste a medida según la forma del pie",
         "Midsole 'love bump' que elimina el espacio muerto bajo los dedos",
         "Talón rígido que empuja los dedos a posición de potencia",
         "Horma de bajo volumen (LV)"
       ],
+      "para_quien_i18n": {
+        "ca": "Escaladors que prioritzen la potència de cantell en cara vertical i desplom, i prefereixen cordons a velcro, amb peu estret.",
+        "en": "Climbers who prioritize edging power on vertical faces and overhangs, and prefer laces to Velcro, with narrow feet.",
+        "fr": "Grimpeurs qui privilégient la puissance de réglette en face verticale et en dévers, et préfèrent les lacets au Velcro, avec un pied étroit."
+      },
+      "para_quien": "Escaladores que priorizan la potencia de canteo en cara vertical y desplome, y prefieren cordones a velcro, con pie estrecho.",
+      "fotos": [
+        "https://oberalp.imgix.net/328f7876-66c3-4c4c-b3b4-501cf5b0c4c2.png?type=still&auto=format&fit=clip&w=628&cs=srgb",
+        "https://oberalp.imgix.net/17c8ebe4-7739-427e-8399-50bde23102e5.png?type=still&auto=format&fit=clip&w=628&cs=srgb"
+      ],
+      "uso": "Bloque",
+      "grosor": 4.2,
       "caracteristicas_i18n": {
         "ca": [
           "Cordó asimètric per a un ajust a mida segons la forma del peu",
@@ -9412,46 +9413,46 @@
           "Forme à faible volume (LV)"
         ]
       },
-      "para_quien": "Escaladores que priorizan la potencia de canteo en cara vertical y desplome, y prefieren cordones a velcro, con pie estrecho.",
-      "para_quien_i18n": {
-        "ca": "Escaladors que prioritzen la potència de cantell en cara vertical i desplom, i prefereixen cordons a velcro, amb peu estret.",
-        "en": "Climbers who prioritize edging power on vertical faces and overhangs, and prefer laces to Velcro, with narrow feet.",
-        "fr": "Grimpeurs qui privilégient la puissance de réglette en face verticale et en dévers, et préfèrent les lacets au Velcro, avec un pied étroit."
+      "volumen": "Bajo (LV)",
+      "peso_g": null,
+      "id": "ev-shaman-lace-lv",
+      "goma": "Trax SAS",
+      "resumen_i18n": {
+        "ca": "El Shaman Lace està pensat per a una sola cosa: potència de cantell. L'upper sintètic i el taló rígid empenyen els dits cap a una posició de potència, mentre el midsole 'love bump' i la caixa de nusos eviten l'espai mort sota els dits sense aixafar-los. El cordó asimètric permet un ajust a mida per a diferents formes de peu. Versió de baix volum.",
+        "en": "The Shaman Lace is built for one thing: edging power. The synthetic upper and stiff heel rand push the toes into a power position, while the 'love bump' midsole and knuckle box remove dead space under the toes without crushing them. The asymmetric lacing gives a custom fit for a wide range of foot shapes. Low-volume version.",
+        "fr": "Le Shaman Lace est pensé pour une seule chose : la puissance de réglette. La tige synthétique et le talon rigide poussent les orteils dans une position de puissance, tandis que le midsole 'love bump' et le 'knuckle box' suppriment l'espace mort sous les orteils sans les écraser. Le laçage asymétrique permet un chaussant sur mesure pour différentes formes de pied. Version à faible volume."
       },
-      "fotos": [
-        "https://oberalp.imgix.net/328f7876-66c3-4c4c-b3b4-501cf5b0c4c2.png?type=still&auto=format&fit=clip&w=628&cs=srgb",
-        "https://oberalp.imgix.net/17c8ebe4-7739-427e-8399-50bde23102e5.png?type=still&auto=format&fit=clip&w=628&cs=srgb"
-      ]
+      "marca": "Evolv",
+      "forma": "Agresiva"
     },
     {
-      "id": "ev-shaman-lv",
-      "marca": "Evolv",
-      "modelo": "Shaman LV",
-      "precio": 160,
-      "goma": "Trax SAS",
-      "grosor": 4.2,
-      "cierre": "Velcro",
       "rigidez": "Blanda",
+      "resumen": "Versión de horma estrecha del Shaman clásico: la misma horma muy agresiva, el talón tensado y el midsole 'love bump' que colocan los dedos en posición de potencia, pero ajustados a un volumen menor para pies estrechos o quienes buscan más tensión.",
       "nivel": "Avanzado",
       "asimetria": "Alta",
       "forro": "Parcialmente forrado",
-      "forma": "Muy agresiva",
-      "uso": "Bloque",
-      "volumen": "Bajo (LV)",
+      "cierre": "Velcro",
+      "modelo": "Shaman LV",
       "peso_talla": null,
-      "peso_g": null,
-      "resumen": "Versión de horma estrecha del Shaman clásico: la misma horma muy agresiva, el talón tensado y el midsole 'love bump' que colocan los dedos en posición de potencia, pero ajustados a un volumen menor para pies estrechos o quienes buscan más tensión.",
-      "resumen_i18n": {
-        "ca": "Versió de forma estreta del Shaman clàssic: la mateixa forma molt agressiva, el taló tensat i el midsole 'love bump' que col·loquen els dits en posició de potència, però ajustats a un volum menor per a peus estrets o per a qui busca més tensió.",
-        "en": "The narrow-fit version of the classic Shaman: the same very aggressive last, tensioned heel, and 'love bump' midsole that put the toes into a power position, but built to a lower volume for narrow feet or extra tension.",
-        "fr": "Version étroite du Shaman classique : la même forme très agressive, le talon tendu et le midsole 'love bump' qui placent les orteils en position de puissance, mais ajustés à un volume moindre pour les pieds étroits ou pour plus de tension."
-      },
+      "precio": 160,
       "caracteristicas": [
         "Horma de bajo volumen (LV) del Shaman clásico",
         "Talón tensado con goma Trax SAS de 4.2mm",
         "Midsole 'love bump' que coloca los dedos en posición de potencia",
         "Upper sintético vegano sin forro exterior"
       ],
+      "para_quien_i18n": {
+        "ca": "Boulderers avançats de peu estret que busquen la potència del Shaman amb un ajust més cenyit.",
+        "en": "Advanced narrow-footed boulderers looking for the Shaman's power with a snugger fit.",
+        "fr": "Grimpeurs de bloc avancés au pied étroit qui recherchent la puissance du Shaman avec un chaussant plus ajusté."
+      },
+      "para_quien": "Boulderers avanzados de pie estrecho que buscan la potencia del Shaman con un ajuste más ceñido.",
+      "fotos": [
+        "https://oberalp.imgix.net/1d1c78e3-f8ba-4d01-a8dd-8cc5ba00078f.png?type=still&auto=format&fit=clip&w=628&cs=srgb",
+        "https://oberalp.imgix.net/ed1d6e6f-84df-48e5-b73c-95b9a5ad0122.png?type=still&auto=format&fit=clip&w=628&cs=srgb"
+      ],
+      "uso": "Bloque",
+      "grosor": 4.2,
       "caracteristicas_i18n": {
         "ca": [
           "Forma de baix volum (LV) del Shaman clàssic",
@@ -9472,46 +9473,46 @@
           "Tige synthétique vegan non doublée à l'extérieur"
         ]
       },
-      "para_quien": "Boulderers avanzados de pie estrecho que buscan la potencia del Shaman con un ajuste más ceñido.",
-      "para_quien_i18n": {
-        "ca": "Boulderers avançats de peu estret que busquen la potència del Shaman amb un ajust més cenyit.",
-        "en": "Advanced narrow-footed boulderers looking for the Shaman's power with a snugger fit.",
-        "fr": "Grimpeurs de bloc avancés au pied étroit qui recherchent la puissance du Shaman avec un chaussant plus ajusté."
+      "volumen": "Bajo (LV)",
+      "peso_g": null,
+      "id": "ev-shaman-lv",
+      "goma": "Trax SAS",
+      "resumen_i18n": {
+        "ca": "Versió de forma estreta del Shaman clàssic: la mateixa forma molt agressiva, el taló tensat i el midsole 'love bump' que col·loquen els dits en posició de potència, però ajustats a un volum menor per a peus estrets o per a qui busca més tensió.",
+        "en": "The narrow-fit version of the classic Shaman: the same very aggressive last, tensioned heel, and 'love bump' midsole that put the toes into a power position, but built to a lower volume for narrow feet or extra tension.",
+        "fr": "Version étroite du Shaman classique : la même forme très agressive, le talon tendu et le midsole 'love bump' qui placent les orteils en position de puissance, mais ajustés à un volume moindre pour les pieds étroits ou pour plus de tension."
       },
-      "fotos": [
-        "https://oberalp.imgix.net/1d1c78e3-f8ba-4d01-a8dd-8cc5ba00078f.png?type=still&auto=format&fit=clip&w=628&cs=srgb",
-        "https://oberalp.imgix.net/ed1d6e6f-84df-48e5-b73c-95b9a5ad0122.png?type=still&auto=format&fit=clip&w=628&cs=srgb"
-      ]
+      "marca": "Evolv",
+      "forma": "Muy agresiva"
     },
     {
-      "id": "ev-v6",
-      "marca": "Evolv",
-      "modelo": "V6 (Medium Volume)",
-      "precio": 155,
-      "goma": "Trax SAS",
-      "grosor": 4.2,
-      "cierre": "Velcro",
       "rigidez": "Media",
+      "resumen": "El V6 busca que los escaladores progresen rápido en cualquier terreno: cierre de una correa ajustable con lengüeta partida de entrada fácil, puntera descolgada para precisión en desplome, un parche amplio para toe-hooking y un talón tensado para heel-hooking seguro. La suela de una pieza facilita el smearing. También disponible en horma de bajo volumen (LV).",
       "nivel": "Intermedio",
       "asimetria": "Media",
       "forro": "Sin forro",
-      "forma": "Moderada",
-      "uso": "Todoterreno",
-      "volumen": "Estándar",
+      "cierre": "Velcro",
+      "modelo": "V6 (Medium Volume)",
       "peso_talla": null,
-      "peso_g": 260,
-      "resumen": "El V6 busca que los escaladores progresen rápido en cualquier terreno: cierre de una correa ajustable con lengüeta partida de entrada fácil, puntera descolgada para precisión en desplome, un parche amplio para toe-hooking y un talón tensado para heel-hooking seguro. La suela de una pieza facilita el smearing. También disponible en horma de bajo volumen (LV).",
-      "resumen_i18n": {
-        "ca": "El V6 busca que els escaladors progressin ràpid en qualsevol terreny: tancament d'una tira ajustable amb llengüeta partida d'entrada fàcil, puntera descolgada per a precisió en desplom, un pedaç ampli per al toe-hooking i un taló tensat per a heel-hooking segur. La sola d'una peça facilita el smearing. També disponible en forma de baix volum (LV).",
-        "en": "The V6 is built to help climbers progress quickly on any terrain: an adjustable single-strap closure with an easy-entry split tongue, a downturned toe for precision on overhangs, a large toe patch for toe-hooking, and a tensioned heel for secure heel-hooking. The full-length outsole flexes evenly for easy smearing. Also available in a low-volume (LV) last.",
-        "fr": "Le V6 est pensé pour permettre aux grimpeurs de progresser vite sur tous les terrains : fermeture à sangle réglable avec languette fendue à chaussage facile, pointe cambrée pour la précision en dévers, large patch d'accroche pour le toe-hook et talon tendu pour un heel-hook sûr. La semelle pleine longueur fléchit uniformément pour faciliter le smear. Également disponible en forme à faible volume (LV)."
-      },
+      "precio": 155,
       "caracteristicas": [
         "Cierre de correa única ajustable con lengüeta partida de entrada fácil",
         "Puntera descolgada con parche amplio para toe-hooking",
         "Talón tensado para heel-hooking seguro",
         "Goma Trax SAS de 4.2mm en toda la suela, materiales 100% veganos"
       ],
+      "para_quien_i18n": {
+        "ca": "Escaladors intermedis que volen progressar ràpid i còmodament en tot tipus de terreny.",
+        "en": "Intermediate climbers who want to progress quickly and comfortably across all kinds of terrain.",
+        "fr": "Grimpeurs intermédiaires qui veulent progresser vite et confortablement sur tous les terrains."
+      },
+      "para_quien": "Escaladores intermedios que quieren progresar rápido y de forma cómoda en todo tipo de terreno.",
+      "fotos": [
+        "https://oberalp.imgix.net/a6704c22-0b76-4ec6-a1be-0575baa36906.png?type=still&auto=format&fit=clip&w=628&cs=srgb",
+        "https://oberalp.imgix.net/6fc227a0-9d75-4ef0-848b-3948c0bb3ca3.png?type=still&auto=format&fit=clip&w=628&cs=srgb"
+      ],
+      "uso": "Todoterreno",
+      "grosor": 4.2,
       "caracteristicas_i18n": {
         "ca": [
           "Tancament d'una tira ajustable amb llengüeta partida d'entrada fàcil",
@@ -9532,46 +9533,46 @@
           "Gomme Trax SAS de 4.2mm sur toute la semelle, matières 100% vegan"
         ]
       },
-      "para_quien": "Escaladores intermedios que quieren progresar rápido y de forma cómoda en todo tipo de terreno.",
-      "para_quien_i18n": {
-        "ca": "Escaladors intermedis que volen progressar ràpid i còmodament en tot tipus de terreny.",
-        "en": "Intermediate climbers who want to progress quickly and comfortably across all kinds of terrain.",
-        "fr": "Grimpeurs intermédiaires qui veulent progresser vite et confortablement sur tous les terrains."
+      "volumen": "Estándar",
+      "peso_g": 260,
+      "id": "ev-v6",
+      "goma": "Trax SAS",
+      "resumen_i18n": {
+        "ca": "El V6 busca que els escaladors progressin ràpid en qualsevol terreny: tancament d'una tira ajustable amb llengüeta partida d'entrada fàcil, puntera descolgada per a precisió en desplom, un pedaç ampli per al toe-hooking i un taló tensat per a heel-hooking segur. La sola d'una peça facilita el smearing. També disponible en forma de baix volum (LV).",
+        "en": "The V6 is built to help climbers progress quickly on any terrain: an adjustable single-strap closure with an easy-entry split tongue, a downturned toe for precision on overhangs, a large toe patch for toe-hooking, and a tensioned heel for secure heel-hooking. The full-length outsole flexes evenly for easy smearing. Also available in a low-volume (LV) last.",
+        "fr": "Le V6 est pensé pour permettre aux grimpeurs de progresser vite sur tous les terrains : fermeture à sangle réglable avec languette fendue à chaussage facile, pointe cambrée pour la précision en dévers, large patch d'accroche pour le toe-hook et talon tendu pour un heel-hook sûr. La semelle pleine longueur fléchit uniformément pour faciliter le smear. Également disponible en forme à faible volume (LV)."
       },
-      "fotos": [
-        "https://oberalp.imgix.net/a6704c22-0b76-4ec6-a1be-0575baa36906.png?type=still&auto=format&fit=clip&w=628&cs=srgb",
-        "https://oberalp.imgix.net/6fc227a0-9d75-4ef0-848b-3948c0bb3ca3.png?type=still&auto=format&fit=clip&w=628&cs=srgb"
-      ]
+      "marca": "Evolv",
+      "forma": "Moderada"
     },
     {
-      "id": "ev-v6-lv",
-      "marca": "Evolv",
-      "modelo": "V6 (Low Volume)",
-      "precio": 155,
-      "goma": "Trax SAS",
-      "grosor": 4.2,
-      "cierre": "Velcro",
       "rigidez": "Media",
+      "resumen": "El V6 busca que los escaladores progresen rápido en cualquier terreno: cierre de una correa ajustable con lengüeta partida de entrada fácil, puntera descolgada para precisión en desplome, un parche amplio para toe-hooking y un talón tensado para heel-hooking seguro. La suela de una pieza facilita el smearing. Versión de bajo volumen, un 6% menos que la estándar.",
       "nivel": "Intermedio",
       "asimetria": "Media",
       "forro": "Sin forro",
-      "forma": "Moderada",
-      "uso": "Todoterreno",
-      "volumen": "Bajo (LV)",
+      "cierre": "Velcro",
+      "modelo": "V6 (Low Volume)",
       "peso_talla": null,
-      "peso_g": 260,
-      "resumen": "El V6 busca que los escaladores progresen rápido en cualquier terreno: cierre de una correa ajustable con lengüeta partida de entrada fácil, puntera descolgada para precisión en desplome, un parche amplio para toe-hooking y un talón tensado para heel-hooking seguro. La suela de una pieza facilita el smearing. Versión de bajo volumen, un 6% menos que la estándar.",
-      "resumen_i18n": {
-        "ca": "El V6 busca que els escaladors progressin ràpid en qualsevol terreny: tancament d'una tira ajustable amb llengüeta partida d'entrada fàcil, puntera descolgada per a precisió en desplom, un pedaç ampli per al toe-hooking i un taló tensat per a heel-hooking segur. La sola d'una peça facilita el smearing. Versió de baix volum, un 6% menys que l'estàndard.",
-        "en": "The V6 is built to help climbers progress quickly on any terrain: an adjustable single-strap closure with an easy-entry split tongue, a downturned toe for precision on overhangs, a large toe patch for toe-hooking, and a tensioned heel for secure heel-hooking. The full-length outsole flexes evenly for easy smearing. Low-volume version, 6% less volume than the standard V6.",
-        "fr": "Le V6 est pensé pour permettre aux grimpeurs de progresser vite sur tous les terrains : fermeture à sangle réglable avec languette fendue à chaussage facile, pointe cambrée pour la précision en dévers, large patch d'accroche pour le toe-hook et talon tendu pour un heel-hook sûr. La semelle pleine longueur fléchit uniformément pour faciliter le smear. Version à faible volume, 6% de volume en moins que la version standard."
-      },
+      "precio": 155,
       "caracteristicas": [
         "Cierre de correa única ajustable con lengüeta partida de entrada fácil",
         "Puntera descolgada con parche amplio para toe-hooking",
         "Talón tensado para heel-hooking seguro",
         "Horma de bajo volumen (LV), un 6% menos que la estándar"
       ],
+      "para_quien_i18n": {
+        "ca": "Escaladors intermedis que volen progressar ràpid i còmodament en tot tipus de terreny, amb peu estret.",
+        "en": "Intermediate climbers who want to progress quickly and comfortably across all kinds of terrain, with narrow feet.",
+        "fr": "Grimpeurs intermédiaires qui veulent progresser vite et confortablement sur tous les terrains, avec un pied étroit."
+      },
+      "para_quien": "Escaladores intermedios que quieren progresar rápido y de forma cómoda en todo tipo de terreno, con pie estrecho.",
+      "fotos": [
+        "https://oberalp.imgix.net/91556b86-69c6-419a-bbfe-2c55cf896696.png?type=still&auto=format&fit=clip&w=628&cs=srgb",
+        "https://oberalp.imgix.net/ae58453d-89bf-4c03-a5a7-a45f66516d2a.png?type=still&auto=format&fit=clip&w=628&cs=srgb"
+      ],
+      "uso": "Todoterreno",
+      "grosor": 4.2,
       "caracteristicas_i18n": {
         "ca": [
           "Tancament d'una tira ajustable amb llengüeta partida d'entrada fàcil",
@@ -9592,46 +9593,46 @@
           "Forme à faible volume (LV), 6% de volume en moins que le V6 standard"
         ]
       },
-      "para_quien": "Escaladores intermedios que quieren progresar rápido y de forma cómoda en todo tipo de terreno, con pie estrecho.",
-      "para_quien_i18n": {
-        "ca": "Escaladors intermedis que volen progressar ràpid i còmodament en tot tipus de terreny, amb peu estret.",
-        "en": "Intermediate climbers who want to progress quickly and comfortably across all kinds of terrain, with narrow feet.",
-        "fr": "Grimpeurs intermédiaires qui veulent progresser vite et confortablement sur tous les terrains, avec un pied étroit."
+      "volumen": "Bajo (LV)",
+      "peso_g": 260,
+      "id": "ev-v6-lv",
+      "goma": "Trax SAS",
+      "resumen_i18n": {
+        "ca": "El V6 busca que els escaladors progressin ràpid en qualsevol terreny: tancament d'una tira ajustable amb llengüeta partida d'entrada fàcil, puntera descolgada per a precisió en desplom, un pedaç ampli per al toe-hooking i un taló tensat per a heel-hooking segur. La sola d'una peça facilita el smearing. Versió de baix volum, un 6% menys que l'estàndard.",
+        "en": "The V6 is built to help climbers progress quickly on any terrain: an adjustable single-strap closure with an easy-entry split tongue, a downturned toe for precision on overhangs, a large toe patch for toe-hooking, and a tensioned heel for secure heel-hooking. The full-length outsole flexes evenly for easy smearing. Low-volume version, 6% less volume than the standard V6.",
+        "fr": "Le V6 est pensé pour permettre aux grimpeurs de progresser vite sur tous les terrains : fermeture à sangle réglable avec languette fendue à chaussage facile, pointe cambrée pour la précision en dévers, large patch d'accroche pour le toe-hook et talon tendu pour un heel-hook sûr. La semelle pleine longueur fléchit uniformément pour faciliter le smear. Version à faible volume, 6% de volume en moins que la version standard."
       },
-      "fotos": [
-        "https://oberalp.imgix.net/91556b86-69c6-419a-bbfe-2c55cf896696.png?type=still&auto=format&fit=clip&w=628&cs=srgb",
-        "https://oberalp.imgix.net/ae58453d-89bf-4c03-a5a7-a45f66516d2a.png?type=still&auto=format&fit=clip&w=628&cs=srgb"
-      ]
+      "marca": "Evolv",
+      "forma": "Moderada"
     },
     {
-      "id": "ev-shaman-trance",
-      "marca": "Evolv",
-      "modelo": "Shaman Trance",
-      "precio": 180,
-      "goma": "Evo-74",
-      "grosor": 3.5,
-      "cierre": "Velcro (upper híbrido de calcetín)",
       "rigidez": "Media",
+      "resumen": "Un zapato para todo: el Shaman Trance combina potencia y sensibilidad para no tener que elegir entre un zapato de bloque agresivo y uno de vías cómodo. Con midsole EVOWRAP tensado y goma Evo-74 de 3.5mm en la puntera, resuelve bien bloques duros en tabla, smears altos, deportiva desplomada y sesiones de bloque indoor y outdoor. Resuelable y duradero.",
       "nivel": "Avanzado",
       "asimetria": "Alta",
       "forro": "Parcialmente forrado",
-      "forma": "Agresiva",
-      "uso": "Todoterreno",
-      "volumen": "Estándar",
+      "cierre": "Velcro (upper híbrido de calcetín)",
+      "modelo": "Shaman Trance",
       "peso_talla": null,
-      "peso_g": 276,
-      "resumen": "Un zapato para todo: el Shaman Trance combina potencia y sensibilidad para no tener que elegir entre un zapato de bloque agresivo y uno de vías cómodo. Con midsole EVOWRAP tensado y goma Evo-74 de 3.5mm en la puntera, resuelve bien bloques duros en tabla, smears altos, deportiva desplomada y sesiones de bloque indoor y outdoor. Resuelable y duradero.",
-      "resumen_i18n": {
-        "ca": "Una sabata per a tot: el Shaman Trance combina potència i sensibilitat per no haver de triar entre una sabata de bloc agressiva i una de vies còmoda. Amb midsole EVOWRAP tensat i goma Evo-74 de 3.5mm a la puntera, resol bé blocs durs en taula, smears alts, esportiva desplomada i sessions de bloc indoor i outdoor. Resolable i durador.",
-        "en": "One shoe for everything: the Shaman Trance blends power and sensitivity so you don't have to choose between an aggressive bouldering shoe and a comfortable route shoe. With a tensioned EVOWRAP midsole and 3.5mm Evo-74 rubber under the toe, it handles hard board problems, high-ball smears, overhanging sport routes, and indoor/outdoor bouldering alike. Resoleable and built to last.",
-        "fr": "Un chausson pour tout : le Shaman Trance combine puissance et sensibilité pour ne pas avoir à choisir entre un chausson de bloc agressif et un chausson de voie confortable. Avec un midsole EVOWRAP tendu et une gomme Evo-74 de 3.5mm sous la pointe, il gère aussi bien les blocs durs sur planche, les smears en hauteur, les voies sportives en dévers et le bloc en salle comme en extérieur. Ressemelable et durable."
-      },
+      "precio": 180,
       "caracteristicas": [
         "Midsole EVOWRAP tensado que combina potencia y sensibilidad",
         "Goma Evo-74 de 3.5mm en la zona frontal de la suela",
         "Upper híbrido tipo calcetín con cierre de velcro",
         "Diseño resoleable pensado para durar"
       ],
+      "para_quien_i18n": {
+        "ca": "Escaladors avançats que volen una única sabata versàtil per a bloc, taula i esportiva desplomada.",
+        "en": "Advanced climbers who want a single versatile shoe for bouldering, boards, and overhanging sport routes.",
+        "fr": "Grimpeurs avancés qui veulent un seul chausson polyvalent pour le bloc, la planche et les voies sportives en dévers."
+      },
+      "para_quien": "Escaladores avanzados que quieren un único zapato versátil para bloque, tabla y deportiva desplomada.",
+      "fotos": [
+        "https://oberalp.imgix.net/42febf9c-f6ec-423c-90d7-8a0cdc107978.png?type=still&auto=format&fit=clip&w=628&cs=srgb",
+        "https://oberalp.imgix.net/4607bee7-c810-4589-8f97-70fa1024a5e7.png?type=still&auto=format&fit=clip&w=628&cs=srgb"
+      ],
+      "uso": "Todoterreno",
+      "grosor": 3.5,
       "caracteristicas_i18n": {
         "ca": [
           "Midsole EVOWRAP tensat que combina potència i sensibilitat",
@@ -9652,46 +9653,46 @@
           "Conception ressemelable pensée pour durer"
         ]
       },
-      "para_quien": "Escaladores avanzados que quieren un único zapato versátil para bloque, tabla y deportiva desplomada.",
-      "para_quien_i18n": {
-        "ca": "Escaladors avançats que volen una única sabata versàtil per a bloc, taula i esportiva desplomada.",
-        "en": "Advanced climbers who want a single versatile shoe for bouldering, boards, and overhanging sport routes.",
-        "fr": "Grimpeurs avancés qui veulent un seul chausson polyvalent pour le bloc, la planche et les voies sportives en dévers."
+      "volumen": "Estándar",
+      "peso_g": 276,
+      "id": "ev-shaman-trance",
+      "goma": "Evo-74",
+      "resumen_i18n": {
+        "ca": "Una sabata per a tot: el Shaman Trance combina potència i sensibilitat per no haver de triar entre una sabata de bloc agressiva i una de vies còmoda. Amb midsole EVOWRAP tensat i goma Evo-74 de 3.5mm a la puntera, resol bé blocs durs en taula, smears alts, esportiva desplomada i sessions de bloc indoor i outdoor. Resolable i durador.",
+        "en": "One shoe for everything: the Shaman Trance blends power and sensitivity so you don't have to choose between an aggressive bouldering shoe and a comfortable route shoe. With a tensioned EVOWRAP midsole and 3.5mm Evo-74 rubber under the toe, it handles hard board problems, high-ball smears, overhanging sport routes, and indoor/outdoor bouldering alike. Resoleable and built to last.",
+        "fr": "Un chausson pour tout : le Shaman Trance combine puissance et sensibilité pour ne pas avoir à choisir entre un chausson de bloc agressif et un chausson de voie confortable. Avec un midsole EVOWRAP tendu et une gomme Evo-74 de 3.5mm sous la pointe, il gère aussi bien les blocs durs sur planche, les smears en hauteur, les voies sportives en dévers et le bloc en salle comme en extérieur. Ressemelable et durable."
       },
-      "fotos": [
-        "https://oberalp.imgix.net/42febf9c-f6ec-423c-90d7-8a0cdc107978.png?type=still&auto=format&fit=clip&w=628&cs=srgb",
-        "https://oberalp.imgix.net/4607bee7-c810-4589-8f97-70fa1024a5e7.png?type=still&auto=format&fit=clip&w=628&cs=srgb"
-      ]
+      "marca": "Evolv",
+      "forma": "Agresiva"
     },
     {
-      "id": "ev-shaman-trance-lv",
-      "marca": "Evolv",
-      "modelo": "Shaman Trance LV",
-      "precio": 180,
-      "goma": "Evo-74",
-      "grosor": 3.5,
-      "cierre": "Velcro (upper híbrido de calcetín)",
       "rigidez": "Media",
+      "resumen": "Un zapato para todo: el Shaman Trance combina potencia y sensibilidad para no tener que elegir entre un zapato de bloque agresivo y uno de vías cómodo. Con midsole EVOWRAP tensado y goma Evo-74 de 3.5mm en la puntera, resuelve bien bloques duros en tabla, smears altos, deportiva desplomada y sesiones de bloque indoor y outdoor. Resuelable y duradero. Versión de bajo volumen.",
       "nivel": "Avanzado",
       "asimetria": "Alta",
       "forro": "Parcialmente forrado",
-      "forma": "Agresiva",
-      "uso": "Todoterreno",
-      "volumen": "Bajo (LV)",
+      "cierre": "Velcro (upper híbrido de calcetín)",
+      "modelo": "Shaman Trance LV",
       "peso_talla": null,
-      "peso_g": 276,
-      "resumen": "Un zapato para todo: el Shaman Trance combina potencia y sensibilidad para no tener que elegir entre un zapato de bloque agresivo y uno de vías cómodo. Con midsole EVOWRAP tensado y goma Evo-74 de 3.5mm en la puntera, resuelve bien bloques duros en tabla, smears altos, deportiva desplomada y sesiones de bloque indoor y outdoor. Resuelable y duradero. Versión de bajo volumen.",
-      "resumen_i18n": {
-        "ca": "Una sabata per a tot: el Shaman Trance combina potència i sensibilitat per no haver de triar entre una sabata de bloc agressiva i una de vies còmoda. Amb midsole EVOWRAP tensat i goma Evo-74 de 3.5mm a la puntera, resol bé blocs durs en taula, smears alts, esportiva desplomada i sessions de bloc indoor i outdoor. Resolable i durador. Versió de baix volum.",
-        "en": "One shoe for everything: the Shaman Trance blends power and sensitivity so you don't have to choose between an aggressive bouldering shoe and a comfortable route shoe. With a tensioned EVOWRAP midsole and 3.5mm Evo-74 rubber under the toe, it handles hard board problems, high-ball smears, overhanging sport routes, and indoor/outdoor bouldering alike. Resoleable and built to last. Low-volume version.",
-        "fr": "Un chausson pour tout : le Shaman Trance combine puissance et sensibilité pour ne pas avoir à choisir entre un chausson de bloc agressif et un chausson de voie confortable. Avec un midsole EVOWRAP tendu et une gomme Evo-74 de 3.5mm sous la pointe, il gère aussi bien les blocs durs sur planche, les smears en hauteur, les voies sportives en dévers et le bloc en salle comme en extérieur. Ressemelable et durable. Version à faible volume."
-      },
+      "precio": 180,
       "caracteristicas": [
         "Midsole EVOWRAP tensado que combina potencia y sensibilidad",
         "Goma Evo-74 de 3.5mm en la zona frontal de la suela",
         "Upper híbrido tipo calcetín con cierre de velcro",
         "Horma de bajo volumen (LV)"
       ],
+      "para_quien_i18n": {
+        "ca": "Escaladors avançats que volen una única sabata versàtil per a bloc, taula i esportiva desplomada, amb peu estret.",
+        "en": "Advanced climbers who want a single versatile shoe for bouldering, boards, and overhanging sport routes, with narrow feet.",
+        "fr": "Grimpeurs avancés qui veulent un seul chausson polyvalent pour le bloc, la planche et les voies sportives en dévers, avec un pied étroit."
+      },
+      "para_quien": "Escaladores avanzados que quieren un único zapato versátil para bloque, tabla y deportiva desplomada, con pie estrecho.",
+      "fotos": [
+        "https://oberalp.imgix.net/f94a4451-6b7d-451f-beae-72a4f688be0f.png?type=still&auto=format&fit=clip&w=628&cs=srgb",
+        "https://oberalp.imgix.net/f54c4603-7e13-44fe-af38-49d29e939ecc.png?type=still&auto=format&fit=clip&w=628&cs=srgb"
+      ],
+      "uso": "Todoterreno",
+      "grosor": 3.5,
       "caracteristicas_i18n": {
         "ca": [
           "Midsole EVOWRAP tensat que combina potència i sensibilitat",
@@ -9712,46 +9713,46 @@
           "Forme à faible volume (LV)"
         ]
       },
-      "para_quien": "Escaladores avanzados que quieren un único zapato versátil para bloque, tabla y deportiva desplomada, con pie estrecho.",
-      "para_quien_i18n": {
-        "ca": "Escaladors avançats que volen una única sabata versàtil per a bloc, taula i esportiva desplomada, amb peu estret.",
-        "en": "Advanced climbers who want a single versatile shoe for bouldering, boards, and overhanging sport routes, with narrow feet.",
-        "fr": "Grimpeurs avancés qui veulent un seul chausson polyvalent pour le bloc, la planche et les voies sportives en dévers, avec un pied étroit."
+      "volumen": "Bajo (LV)",
+      "peso_g": 276,
+      "id": "ev-shaman-trance-lv",
+      "goma": "Evo-74",
+      "resumen_i18n": {
+        "ca": "Una sabata per a tot: el Shaman Trance combina potència i sensibilitat per no haver de triar entre una sabata de bloc agressiva i una de vies còmoda. Amb midsole EVOWRAP tensat i goma Evo-74 de 3.5mm a la puntera, resol bé blocs durs en taula, smears alts, esportiva desplomada i sessions de bloc indoor i outdoor. Resolable i durador. Versió de baix volum.",
+        "en": "One shoe for everything: the Shaman Trance blends power and sensitivity so you don't have to choose between an aggressive bouldering shoe and a comfortable route shoe. With a tensioned EVOWRAP midsole and 3.5mm Evo-74 rubber under the toe, it handles hard board problems, high-ball smears, overhanging sport routes, and indoor/outdoor bouldering alike. Resoleable and built to last. Low-volume version.",
+        "fr": "Un chausson pour tout : le Shaman Trance combine puissance et sensibilité pour ne pas avoir à choisir entre un chausson de bloc agressif et un chausson de voie confortable. Avec un midsole EVOWRAP tendu et une gomme Evo-74 de 3.5mm sous la pointe, il gère aussi bien les blocs durs sur planche, les smears en hauteur, les voies sportives en dévers et le bloc en salle comme en extérieur. Ressemelable et durable. Version à faible volume."
       },
-      "fotos": [
-        "https://oberalp.imgix.net/f94a4451-6b7d-451f-beae-72a4f688be0f.png?type=still&auto=format&fit=clip&w=628&cs=srgb",
-        "https://oberalp.imgix.net/f54c4603-7e13-44fe-af38-49d29e939ecc.png?type=still&auto=format&fit=clip&w=628&cs=srgb"
-      ]
+      "marca": "Evolv",
+      "forma": "Agresiva"
     },
     {
-      "id": "ev-v6-2026",
-      "marca": "Evolv",
-      "modelo": "2026 V6",
-      "precio": 150,
-      "goma": "Evo-74",
-      "grosor": 4.2,
-      "cierre": "Velcro",
       "rigidez": "Media",
+      "resumen": "Rediseño de 2026 del V6, con upper completamente nuevo y la goma Evo-74, más pegajosa. Pensado como el siguiente paso para quien viene de su primer zapato de escalada y quiere rendir en cualquier disciplina: entrada de lengüeta partida, suela de una pieza para estabilidad torsional, el mismo midsole que el Shaman Pro para potencia en desplome, y un parche de puntera de estilo competición.",
       "nivel": "Intermedio",
       "asimetria": "Media",
       "forro": "Sin forro",
-      "forma": "Moderada",
-      "uso": "Todoterreno",
-      "volumen": "Estándar",
+      "cierre": "Velcro",
+      "modelo": "2026 V6",
       "peso_talla": null,
-      "peso_g": 260,
-      "resumen": "Rediseño de 2026 del V6, con upper completamente nuevo y la goma Evo-74, más pegajosa. Pensado como el siguiente paso para quien viene de su primer zapato de escalada y quiere rendir en cualquier disciplina: entrada de lengüeta partida, suela de una pieza para estabilidad torsional, el mismo midsole que el Shaman Pro para potencia en desplome, y un parche de puntera de estilo competición.",
-      "resumen_i18n": {
-        "ca": "Redisseny de 2026 del V6, amb upper completament nou i la goma Evo-74, més enganxosa. Pensat com el pas següent per a qui ve del seu primer zapata d'escalada i vol rendir en qualsevol disciplina: entrada de llengüeta partida, sola d'una peça per a estabilitat torsional, el mateix midsole que el Shaman Pro per a potència en desplom, i un pedaç de puntera d'estil competició.",
-        "en": "A 2026 redesign of the V6, with a completely new upper and stickier Evo-74 rubber. Built as the next step for climbers moving up from their first pair, ready to perform across disciplines: a split-tongue entry, a full-length outsole for torsional stability, the same midsole as the Shaman Pro for downturn power, and a comp-style toe patch.",
-        "fr": "Refonte 2026 du V6, avec une tige entièrement nouvelle et la gomme Evo-74, plus adhérente. Pensé comme l'étape suivante pour qui vient de son premier chausson d'escalade et veut performer sur toutes les disciplines : chaussage à languette fendue, semelle pleine longueur pour la stabilité en torsion, même midsole que le Shaman Pro pour la puissance en cambrure, et patch de pointe façon compétition."
-      },
+      "precio": 150,
       "caracteristicas": [
         "Upper completamente rediseñado para 2026",
         "Goma Evo-74, más pegajosa que la Trax SAS habitual",
         "Entrada de lengüeta partida y suela de una pieza para torsión",
         "Parche de puntera de estilo competición"
       ],
+      "para_quien_i18n": {
+        "ca": "Escaladors intermedis que busquen una sabata versàtil de nova generació per progressar en diferents disciplines.",
+        "en": "Intermediate climbers looking for a versatile, next-generation shoe to progress across disciplines.",
+        "fr": "Grimpeurs intermédiaires en quête d'un chausson polyvalent nouvelle génération pour progresser dans plusieurs disciplines."
+      },
+      "para_quien": "Escaladores intermedios que buscan un zapato versátil de nueva generación para progresar en distintas disciplinas.",
+      "fotos": [
+        "https://oberalp.imgix.net/8ede125b-ef9d-4375-82a9-88da8ddf0245.png?type=still&auto=format&fit=clip&w=628&cs=srgb",
+        "https://oberalp.imgix.net/bf5d7bff-637c-4bfc-8383-6efaaad7fdb0.png?type=still&auto=format&fit=clip&w=628&cs=srgb"
+      ],
+      "uso": "Todoterreno",
+      "grosor": 4.2,
       "caracteristicas_i18n": {
         "ca": [
           "Upper completament redissenyat per al 2026",
@@ -9772,46 +9773,46 @@
           "Patch de pointe façon compétition"
         ]
       },
-      "para_quien": "Escaladores intermedios que buscan un zapato versátil de nueva generación para progresar en distintas disciplinas.",
-      "para_quien_i18n": {
-        "ca": "Escaladors intermedis que busquen una sabata versàtil de nova generació per progressar en diferents disciplines.",
-        "en": "Intermediate climbers looking for a versatile, next-generation shoe to progress across disciplines.",
-        "fr": "Grimpeurs intermédiaires en quête d'un chausson polyvalent nouvelle génération pour progresser dans plusieurs disciplines."
+      "volumen": "Estándar",
+      "peso_g": 260,
+      "id": "ev-v6-2026",
+      "goma": "Evo-74",
+      "resumen_i18n": {
+        "ca": "Redisseny de 2026 del V6, amb upper completament nou i la goma Evo-74, més enganxosa. Pensat com el pas següent per a qui ve del seu primer zapata d'escalada i vol rendir en qualsevol disciplina: entrada de llengüeta partida, sola d'una peça per a estabilitat torsional, el mateix midsole que el Shaman Pro per a potència en desplom, i un pedaç de puntera d'estil competició.",
+        "en": "A 2026 redesign of the V6, with a completely new upper and stickier Evo-74 rubber. Built as the next step for climbers moving up from their first pair, ready to perform across disciplines: a split-tongue entry, a full-length outsole for torsional stability, the same midsole as the Shaman Pro for downturn power, and a comp-style toe patch.",
+        "fr": "Refonte 2026 du V6, avec une tige entièrement nouvelle et la gomme Evo-74, plus adhérente. Pensé comme l'étape suivante pour qui vient de son premier chausson d'escalade et veut performer sur toutes les disciplines : chaussage à languette fendue, semelle pleine longueur pour la stabilité en torsion, même midsole que le Shaman Pro pour la puissance en cambrure, et patch de pointe façon compétition."
       },
-      "fotos": [
-        "https://oberalp.imgix.net/8ede125b-ef9d-4375-82a9-88da8ddf0245.png?type=still&auto=format&fit=clip&w=628&cs=srgb",
-        "https://oberalp.imgix.net/bf5d7bff-637c-4bfc-8383-6efaaad7fdb0.png?type=still&auto=format&fit=clip&w=628&cs=srgb"
-      ]
+      "marca": "Evolv",
+      "forma": "Moderada"
     },
     {
-      "id": "ev-v6-2026-lv",
-      "marca": "Evolv",
-      "modelo": "2026 V6 LV",
-      "precio": 150,
-      "goma": "Evo-74",
-      "grosor": 4.2,
-      "cierre": "Velcro",
       "rigidez": "Media",
+      "resumen": "Rediseño de 2026 del V6, con upper completamente nuevo y la goma Evo-74, más pegajosa. Pensado como el siguiente paso para quien viene de su primer zapato de escalada y quiere rendir en cualquier disciplina: entrada de lengüeta partida, suela de una pieza para estabilidad torsional, el mismo midsole que el Shaman Pro para potencia en desplome, y un parche de puntera de estilo competición. Versión de bajo volumen.",
       "nivel": "Intermedio",
       "asimetria": "Media",
       "forro": "Sin forro",
-      "forma": "Moderada",
-      "uso": "Todoterreno",
-      "volumen": "Bajo (LV, un 6% menos que la estándar)",
+      "cierre": "Velcro",
+      "modelo": "2026 V6 LV",
       "peso_talla": null,
-      "peso_g": 260,
-      "resumen": "Rediseño de 2026 del V6, con upper completamente nuevo y la goma Evo-74, más pegajosa. Pensado como el siguiente paso para quien viene de su primer zapato de escalada y quiere rendir en cualquier disciplina: entrada de lengüeta partida, suela de una pieza para estabilidad torsional, el mismo midsole que el Shaman Pro para potencia en desplome, y un parche de puntera de estilo competición. Versión de bajo volumen.",
-      "resumen_i18n": {
-        "ca": "Redisseny de 2026 del V6, amb upper completament nou i la goma Evo-74, més enganxosa. Pensat com el pas següent per a qui ve del seu primer zapata d'escalada i vol rendir en qualsevol disciplina: entrada de llengüeta partida, sola d'una peça per a estabilitat torsional, el mateix midsole que el Shaman Pro per a potència en desplom, i un pedaç de puntera d'estil competició. Versió de baix volum.",
-        "en": "A 2026 redesign of the V6, with a completely new upper and stickier Evo-74 rubber. Built as the next step for climbers moving up from their first pair, ready to perform across disciplines: a split-tongue entry, a full-length outsole for torsional stability, the same midsole as the Shaman Pro for downturn power, and a comp-style toe patch. Low-volume version.",
-        "fr": "Refonte 2026 du V6, avec une tige entièrement nouvelle et la gomme Evo-74, plus adhérente. Pensé comme l'étape suivante pour qui vient de son premier chausson d'escalade et veut performer sur toutes les disciplines : chaussage à languette fendue, semelle pleine longueur pour la stabilité en torsion, même midsole que le Shaman Pro pour la puissance en cambrure, et patch de pointe façon compétition. Version à faible volume."
-      },
+      "precio": 150,
       "caracteristicas": [
         "Upper completamente rediseñado para 2026",
         "Goma Evo-74, más pegajosa que la Trax SAS habitual",
         "Entrada de lengüeta partida y suela de una pieza para torsión",
         "Horma de bajo volumen (LV), un 6% menos que la estándar"
       ],
+      "para_quien_i18n": {
+        "ca": "Escaladors intermedis que busquen una sabata versàtil de nova generació per progressar en diferents disciplines, amb peu estret.",
+        "en": "Intermediate climbers looking for a versatile, next-generation shoe to progress across disciplines, with narrow feet.",
+        "fr": "Grimpeurs intermédiaires en quête d'un chausson polyvalent nouvelle génération pour progresser dans plusieurs disciplines, avec un pied étroit."
+      },
+      "para_quien": "Escaladores intermedios que buscan un zapato versátil de nueva generación para progresar en distintas disciplinas, con pie estrecho.",
+      "fotos": [
+        "https://oberalp.imgix.net/3d05be66-e06a-4922-ac2b-c97f7032e5a0.png?type=still&auto=format&fit=clip&w=628&cs=srgb",
+        "https://oberalp.imgix.net/30e013d7-3d71-42d5-aeb9-ee323121fc83.png?type=still&auto=format&fit=clip&w=628&cs=srgb"
+      ],
+      "uso": "Todoterreno",
+      "grosor": 4.2,
       "caracteristicas_i18n": {
         "ca": [
           "Upper completament redissenyat per al 2026",
@@ -9832,46 +9833,46 @@
           "Forme à faible volume (LV), 6% de volume en moins que la version standard"
         ]
       },
-      "para_quien": "Escaladores intermedios que buscan un zapato versátil de nueva generación para progresar en distintas disciplinas, con pie estrecho.",
-      "para_quien_i18n": {
-        "ca": "Escaladors intermedis que busquen una sabata versàtil de nova generació per progressar en diferents disciplines, amb peu estret.",
-        "en": "Intermediate climbers looking for a versatile, next-generation shoe to progress across disciplines, with narrow feet.",
-        "fr": "Grimpeurs intermédiaires en quête d'un chausson polyvalent nouvelle génération pour progresser dans plusieurs disciplines, avec un pied étroit."
+      "volumen": "Bajo (LV, un 6% menos que la estándar)",
+      "peso_g": 260,
+      "id": "ev-v6-2026-lv",
+      "goma": "Evo-74",
+      "resumen_i18n": {
+        "ca": "Redisseny de 2026 del V6, amb upper completament nou i la goma Evo-74, més enganxosa. Pensat com el pas següent per a qui ve del seu primer zapata d'escalada i vol rendir en qualsevol disciplina: entrada de llengüeta partida, sola d'una peça per a estabilitat torsional, el mateix midsole que el Shaman Pro per a potència en desplom, i un pedaç de puntera d'estil competició. Versió de baix volum.",
+        "en": "A 2026 redesign of the V6, with a completely new upper and stickier Evo-74 rubber. Built as the next step for climbers moving up from their first pair, ready to perform across disciplines: a split-tongue entry, a full-length outsole for torsional stability, the same midsole as the Shaman Pro for downturn power, and a comp-style toe patch. Low-volume version.",
+        "fr": "Refonte 2026 du V6, avec une tige entièrement nouvelle et la gomme Evo-74, plus adhérente. Pensé comme l'étape suivante pour qui vient de son premier chausson d'escalade et veut performer sur toutes les disciplines : chaussage à languette fendue, semelle pleine longueur pour la stabilité en torsion, même midsole que le Shaman Pro pour la puissance en cambrure, et patch de pointe façon compétition. Version à faible volume."
       },
-      "fotos": [
-        "https://oberalp.imgix.net/3d05be66-e06a-4922-ac2b-c97f7032e5a0.png?type=still&auto=format&fit=clip&w=628&cs=srgb",
-        "https://oberalp.imgix.net/30e013d7-3d71-42d5-aeb9-ee323121fc83.png?type=still&auto=format&fit=clip&w=628&cs=srgb"
-      ]
+      "marca": "Evolv",
+      "forma": "Moderada"
     },
     {
-      "id": "ev-shaman-2s",
-      "marca": "Evolv",
-      "modelo": "Shaman 2S",
-      "precio": 160,
-      "goma": "Evo-74",
-      "grosor": 3.5,
-      "cierre": "Velcro (upper híbrido de calcetín)",
       "rigidez": "Blanda",
+      "resumen": "El más sensible de la familia Shaman: cierre híbrido de calcetín, construcción de talón heredada del Phantom Pro y el midsole del Shaman clásico, combinados con la súper pegajosa goma Evo-74 de 3.5mm y parche de puntera. El resultado es potencia en presas pequeñas sin perder la libertad de movimiento que exige la escalada de coordinación y alta tensión.",
       "nivel": "Avanzado",
       "asimetria": "Alta",
       "forro": "Parcialmente forrado",
-      "forma": "Agresiva",
-      "uso": "Bloque",
-      "volumen": "Estándar",
+      "cierre": "Velcro (upper híbrido de calcetín)",
+      "modelo": "Shaman 2S",
       "peso_talla": null,
-      "peso_g": 284,
-      "resumen": "El más sensible de la familia Shaman: cierre híbrido de calcetín, construcción de talón heredada del Phantom Pro y el midsole del Shaman clásico, combinados con la súper pegajosa goma Evo-74 de 3.5mm y parche de puntera. El resultado es potencia en presas pequeñas sin perder la libertad de movimiento que exige la escalada de coordinación y alta tensión.",
-      "resumen_i18n": {
-        "ca": "El més sensible de la família Shaman: tancament híbrid de mitjó, construcció de taló heretada del Phantom Pro i el midsole del Shaman clàssic, combinats amb la superenganxosa goma Evo-74 de 3.5mm i pedaç de puntera. El resultat és potència en preses petites sense perdre la llibertat de moviment que exigeix l'escalada de coordinació i alta tensió.",
-        "en": "The most sensitive shoe in the Shaman family: a hybrid sock closure, heel construction borrowed from the Phantom Pro, and the classic Shaman's midsole, combined with super-sticky 3.5mm Evo-74 rubber and a toe patch. The result is power on small holds without losing the freedom of movement that coordination and high-tension climbing demand.",
-        "fr": "Le plus sensible de la famille Shaman : fermeture hybride type chaussette, construction du talon empruntée au Phantom Pro et midsole du Shaman classique, combinés à la gomme Evo-74 de 3.5mm ultra-adhérente et un patch de pointe. Résultat : de la puissance sur les petites prises sans perdre la liberté de mouvement qu'exige l'escalade de coordination et de haute tension."
-      },
+      "precio": 160,
       "caracteristicas": [
         "Cierre híbrido de calcetín con velcro, sin cordones",
         "Construcción de talón heredada del Phantom Pro",
         "Goma Evo-74 de 3.5mm y parche de puntera de alta adherencia",
         "Midsole del Shaman clásico para potencia en canteo"
       ],
+      "para_quien_i18n": {
+        "ca": "Boulderers avançats que combinen escalada de potència amb moviments de coordinació i alta tensió.",
+        "en": "Advanced boulderers who combine power climbing with coordination and high-tension movement.",
+        "fr": "Grimpeurs de bloc avancés qui combinent escalade de puissance et mouvements de coordination à haute tension."
+      },
+      "para_quien": "Boulderers avanzados que combinan escalada de potencia con movimientos de coordinación y alta tensión.",
+      "fotos": [
+        "https://oberalp.imgix.net/bb857e67-c2d2-43ad-b6ea-cbf68be8f289.png?type=still&auto=format&fit=clip&w=628&cs=srgb",
+        "https://oberalp.imgix.net/b33fae91-1560-4938-b4bb-dd1f1fa279f8.png?type=still&auto=format&fit=clip&w=628&cs=srgb"
+      ],
+      "uso": "Bloque",
+      "grosor": 3.5,
       "caracteristicas_i18n": {
         "ca": [
           "Tancament híbrid de mitjó amb velcro, sense cordons",
@@ -9892,46 +9893,46 @@
           "Midsole du Shaman classique pour la puissance en réglette"
         ]
       },
-      "para_quien": "Boulderers avanzados que combinan escalada de potencia con movimientos de coordinación y alta tensión.",
-      "para_quien_i18n": {
-        "ca": "Boulderers avançats que combinen escalada de potència amb moviments de coordinació i alta tensió.",
-        "en": "Advanced boulderers who combine power climbing with coordination and high-tension movement.",
-        "fr": "Grimpeurs de bloc avancés qui combinent escalade de puissance et mouvements de coordination à haute tension."
+      "volumen": "Estándar",
+      "peso_g": 284,
+      "id": "ev-shaman-2s",
+      "goma": "Evo-74",
+      "resumen_i18n": {
+        "ca": "El més sensible de la família Shaman: tancament híbrid de mitjó, construcció de taló heretada del Phantom Pro i el midsole del Shaman clàssic, combinats amb la superenganxosa goma Evo-74 de 3.5mm i pedaç de puntera. El resultat és potència en preses petites sense perdre la llibertat de moviment que exigeix l'escalada de coordinació i alta tensió.",
+        "en": "The most sensitive shoe in the Shaman family: a hybrid sock closure, heel construction borrowed from the Phantom Pro, and the classic Shaman's midsole, combined with super-sticky 3.5mm Evo-74 rubber and a toe patch. The result is power on small holds without losing the freedom of movement that coordination and high-tension climbing demand.",
+        "fr": "Le plus sensible de la famille Shaman : fermeture hybride type chaussette, construction du talon empruntée au Phantom Pro et midsole du Shaman classique, combinés à la gomme Evo-74 de 3.5mm ultra-adhérente et un patch de pointe. Résultat : de la puissance sur les petites prises sans perdre la liberté de mouvement qu'exige l'escalade de coordination et de haute tension."
       },
-      "fotos": [
-        "https://oberalp.imgix.net/bb857e67-c2d2-43ad-b6ea-cbf68be8f289.png?type=still&auto=format&fit=clip&w=628&cs=srgb",
-        "https://oberalp.imgix.net/b33fae91-1560-4938-b4bb-dd1f1fa279f8.png?type=still&auto=format&fit=clip&w=628&cs=srgb"
-      ]
+      "marca": "Evolv",
+      "forma": "Agresiva"
     },
     {
-      "id": "ev-shaman-2s-lv",
-      "marca": "Evolv",
-      "modelo": "Shaman 2S LV",
-      "precio": 160,
-      "goma": "Evo-74",
-      "grosor": 3.5,
-      "cierre": "Velcro (upper híbrido de calcetín)",
       "rigidez": "Blanda",
+      "resumen": "El más sensible de la familia Shaman: cierre híbrido de calcetín, construcción de talón heredada del Phantom Pro y el midsole del Shaman clásico, combinados con la súper pegajosa goma Evo-74 de 3.5mm y parche de puntera. El resultado es potencia en presas pequeñas sin perder la libertad de movimiento que exige la escalada de coordinación y alta tensión. Versión de bajo volumen.",
       "nivel": "Avanzado",
       "asimetria": "Alta",
       "forro": "Parcialmente forrado",
-      "forma": "Agresiva",
-      "uso": "Bloque",
-      "volumen": "Bajo (LV)",
+      "cierre": "Velcro (upper híbrido de calcetín)",
+      "modelo": "Shaman 2S LV",
       "peso_talla": null,
-      "peso_g": 284,
-      "resumen": "El más sensible de la familia Shaman: cierre híbrido de calcetín, construcción de talón heredada del Phantom Pro y el midsole del Shaman clásico, combinados con la súper pegajosa goma Evo-74 de 3.5mm y parche de puntera. El resultado es potencia en presas pequeñas sin perder la libertad de movimiento que exige la escalada de coordinación y alta tensión. Versión de bajo volumen.",
-      "resumen_i18n": {
-        "ca": "El més sensible de la família Shaman: tancament híbrid de mitjó, construcció de taló heretada del Phantom Pro i el midsole del Shaman clàssic, combinats amb la superenganxosa goma Evo-74 de 3.5mm i pedaç de puntera. El resultat és potència en preses petites sense perdre la llibertat de moviment que exigeix l'escalada de coordinació i alta tensió. Versió de baix volum.",
-        "en": "The most sensitive shoe in the Shaman family: a hybrid sock closure, heel construction borrowed from the Phantom Pro, and the classic Shaman's midsole, combined with super-sticky 3.5mm Evo-74 rubber and a toe patch. The result is power on small holds without losing the freedom of movement that coordination and high-tension climbing demand. Low-volume version.",
-        "fr": "Le plus sensible de la famille Shaman : fermeture hybride type chaussette, construction du talon empruntée au Phantom Pro et midsole du Shaman classique, combinés à la gomme Evo-74 de 3.5mm ultra-adhérente et un patch de pointe. Résultat : de la puissance sur les petites prises sans perdre la liberté de mouvement qu'exige l'escalade de coordination et de haute tension. Version à faible volume."
-      },
+      "precio": 160,
       "caracteristicas": [
         "Cierre híbrido de calcetín con velcro, sin cordones",
         "Construcción de talón heredada del Phantom Pro",
         "Goma Evo-74 de 3.5mm y parche de puntera de alta adherencia",
         "Horma de bajo volumen (LV)"
       ],
+      "para_quien_i18n": {
+        "ca": "Boulderers avançats que combinen escalada de potència amb moviments de coordinació i alta tensió, amb peu estret.",
+        "en": "Advanced boulderers who combine power climbing with coordination and high-tension movement, with narrow feet.",
+        "fr": "Grimpeurs de bloc avancés qui combinent escalade de puissance et mouvements de coordination à haute tension, avec un pied étroit."
+      },
+      "para_quien": "Boulderers avanzados que combinan escalada de potencia con movimientos de coordinación y alta tensión, con pie estrecho.",
+      "fotos": [
+        "https://oberalp.imgix.net/a2f0b7ba-750f-4bbd-9f29-55c17f1838ad.png?type=still&auto=format&fit=clip&w=628&cs=srgb",
+        "https://oberalp.imgix.net/e7237262-b68c-4a7c-b209-abcafacdd229.png?type=still&auto=format&fit=clip&w=628&cs=srgb"
+      ],
+      "uso": "Bloque",
+      "grosor": 3.5,
       "caracteristicas_i18n": {
         "ca": [
           "Tancament híbrid de mitjó amb velcro, sense cordons",
@@ -9952,46 +9953,46 @@
           "Forme à faible volume (LV)"
         ]
       },
-      "para_quien": "Boulderers avanzados que combinan escalada de potencia con movimientos de coordinación y alta tensión, con pie estrecho.",
-      "para_quien_i18n": {
-        "ca": "Boulderers avançats que combinen escalada de potència amb moviments de coordinació i alta tensió, amb peu estret.",
-        "en": "Advanced boulderers who combine power climbing with coordination and high-tension movement, with narrow feet.",
-        "fr": "Grimpeurs de bloc avancés qui combinent escalade de puissance et mouvements de coordination à haute tension, avec un pied étroit."
+      "volumen": "Bajo (LV)",
+      "peso_g": 284,
+      "id": "ev-shaman-2s-lv",
+      "goma": "Evo-74",
+      "resumen_i18n": {
+        "ca": "El més sensible de la família Shaman: tancament híbrid de mitjó, construcció de taló heretada del Phantom Pro i el midsole del Shaman clàssic, combinats amb la superenganxosa goma Evo-74 de 3.5mm i pedaç de puntera. El resultat és potència en preses petites sense perdre la llibertat de moviment que exigeix l'escalada de coordinació i alta tensió. Versió de baix volum.",
+        "en": "The most sensitive shoe in the Shaman family: a hybrid sock closure, heel construction borrowed from the Phantom Pro, and the classic Shaman's midsole, combined with super-sticky 3.5mm Evo-74 rubber and a toe patch. The result is power on small holds without losing the freedom of movement that coordination and high-tension climbing demand. Low-volume version.",
+        "fr": "Le plus sensible de la famille Shaman : fermeture hybride type chaussette, construction du talon empruntée au Phantom Pro et midsole du Shaman classique, combinés à la gomme Evo-74 de 3.5mm ultra-adhérente et un patch de pointe. Résultat : de la puissance sur les petites prises sans perdre la liberté de mouvement qu'exige l'escalade de coordination et de haute tension. Version à faible volume."
       },
-      "fotos": [
-        "https://oberalp.imgix.net/a2f0b7ba-750f-4bbd-9f29-55c17f1838ad.png?type=still&auto=format&fit=clip&w=628&cs=srgb",
-        "https://oberalp.imgix.net/e7237262-b68c-4a7c-b209-abcafacdd229.png?type=still&auto=format&fit=clip&w=628&cs=srgb"
-      ]
+      "marca": "Evolv",
+      "forma": "Agresiva"
     },
     {
-      "id": "ev-defy-lace",
-      "marca": "Evolv",
-      "modelo": "Defy Lace",
-      "precio": 120,
-      "goma": "Trax SAS",
-      "grosor": 3.5,
-      "cierre": "Cordones",
       "rigidez": "Media",
+      "resumen": "Versión con cordones del Defy, el zapato de entrada más avanzado de Evolv: ligero camber y más asimetría que otros zapatos de iniciación, para una conexión más precisa con la presa. El cordón permite un ajuste más progresivo que la correa de velcro del Defy estándar.",
       "nivel": "Iniciación",
       "asimetria": "Media",
       "forro": "Sin forro",
-      "forma": "Moderada",
-      "uso": "Todoterreno",
-      "volumen": "Estándar",
+      "cierre": "Cordones",
+      "modelo": "Defy Lace",
       "peso_talla": null,
-      "peso_g": 215,
-      "resumen": "Versión con cordones del Defy, el zapato de entrada más avanzado de Evolv: ligero camber y más asimetría que otros zapatos de iniciación, para una conexión más precisa con la presa. El cordón permite un ajuste más progresivo que la correa de velcro del Defy estándar.",
-      "resumen_i18n": {
-        "ca": "Versió amb cordons del Defy, la sabata d'entrada més avançada d'Evolv: lleuger camber i més asimetria que altres sabates d'iniciació, per a una connexió més precisa amb la presa. El cordó permet un ajust més progressiu que la tira de velcro del Defy estàndard.",
-        "en": "The laced version of the Defy, Evolv's most advanced entry-level shoe: slight camber and more asymmetry than other beginner shoes, for a more precise connection with the hold. The laces allow a more gradual fit than the standard Defy's Velcro strap.",
-        "fr": "La version à lacets du Defy, le chausson d'entrée le plus avancé d'Evolv : légère cambrure et plus d'asymétrie que les autres chaussons débutants, pour une connexion plus précise avec la prise. Le laçage permet un chaussant plus progressif que la sangle Velcro du Defy standard."
-      },
+      "precio": 120,
       "caracteristicas": [
         "Cierre de cordones para un ajuste progresivo",
         "Ligero camber y asimetría para precisión en la puntera",
         "Goma Trax SAS de 3.5mm, la más pegajosa de Evolv",
         "Upper sintético perforado y transpirable"
       ],
+      "para_quien_i18n": {
+        "ca": "Persones que comencen a escalar i prefereixen un tancament de cordons ajustable en lloc del velcro.",
+        "en": "People starting out in climbing who prefer an adjustable lace closure over Velcro.",
+        "fr": "Personnes qui débutent en escalade et préfèrent une fermeture à lacets ajustable plutôt que le Velcro."
+      },
+      "para_quien": "Personas que empiezan a escalar y prefieren un cierre de cordones ajustable frente al velcro.",
+      "fotos": [
+        "https://oberalp.imgix.net/6e82f593-6b7b-43b3-be25-b614c897d84f.png?type=still&auto=format&fit=clip&w=628&cs=srgb",
+        "https://oberalp.imgix.net/2a8e62dd-c995-4c8a-9cdb-fb096852a171.png?type=still&auto=format&fit=clip&w=628&cs=srgb"
+      ],
+      "uso": "Todoterreno",
+      "grosor": 3.5,
       "caracteristicas_i18n": {
         "ca": [
           "Tancament de cordons per a un ajust progressiu",
@@ -10012,46 +10013,46 @@
           "Tige synthétique perforée et respirante"
         ]
       },
-      "para_quien": "Personas que empiezan a escalar y prefieren un cierre de cordones ajustable frente al velcro.",
-      "para_quien_i18n": {
-        "ca": "Persones que comencen a escalar i prefereixen un tancament de cordons ajustable en lloc del velcro.",
-        "en": "People starting out in climbing who prefer an adjustable lace closure over Velcro.",
-        "fr": "Personnes qui débutent en escalade et préfèrent une fermeture à lacets ajustable plutôt que le Velcro."
+      "volumen": "Estándar",
+      "peso_g": 215,
+      "id": "ev-defy-lace",
+      "goma": "Trax SAS",
+      "resumen_i18n": {
+        "ca": "Versió amb cordons del Defy, la sabata d'entrada més avançada d'Evolv: lleuger camber i més asimetria que altres sabates d'iniciació, per a una connexió més precisa amb la presa. El cordó permet un ajust més progressiu que la tira de velcro del Defy estàndard.",
+        "en": "The laced version of the Defy, Evolv's most advanced entry-level shoe: slight camber and more asymmetry than other beginner shoes, for a more precise connection with the hold. The laces allow a more gradual fit than the standard Defy's Velcro strap.",
+        "fr": "La version à lacets du Defy, le chausson d'entrée le plus avancé d'Evolv : légère cambrure et plus d'asymétrie que les autres chaussons débutants, pour une connexion plus précise avec la prise. Le laçage permet un chaussant plus progressif que la sangle Velcro du Defy standard."
       },
-      "fotos": [
-        "https://oberalp.imgix.net/6e82f593-6b7b-43b3-be25-b614c897d84f.png?type=still&auto=format&fit=clip&w=628&cs=srgb",
-        "https://oberalp.imgix.net/2a8e62dd-c995-4c8a-9cdb-fb096852a171.png?type=still&auto=format&fit=clip&w=628&cs=srgb"
-      ]
+      "marca": "Evolv",
+      "forma": "Moderada"
     },
     {
-      "id": "ev-defy-lace-lv",
-      "marca": "Evolv",
-      "modelo": "Defy Lace (Low Volume)",
-      "precio": 120,
-      "goma": "Trax SAS",
-      "grosor": 3.5,
-      "cierre": "Cordones",
       "rigidez": "Media",
+      "resumen": "Versión con cordones del Defy, el zapato de entrada más avanzado de Evolv: ligero camber y más asimetría que otros zapatos de iniciación, para una conexión más precisa con la presa. El cordón permite un ajuste más progresivo que la correa de velcro del Defy estándar. Versión de bajo volumen.",
       "nivel": "Iniciación",
       "asimetria": "Media",
       "forro": "Sin forro",
-      "forma": "Moderada",
-      "uso": "Todoterreno",
-      "volumen": "Bajo (LV, un 6% menos que la estándar)",
+      "cierre": "Cordones",
+      "modelo": "Defy Lace (Low Volume)",
       "peso_talla": null,
-      "peso_g": 215,
-      "resumen": "Versión con cordones del Defy, el zapato de entrada más avanzado de Evolv: ligero camber y más asimetría que otros zapatos de iniciación, para una conexión más precisa con la presa. El cordón permite un ajuste más progresivo que la correa de velcro del Defy estándar. Versión de bajo volumen.",
-      "resumen_i18n": {
-        "ca": "Versió amb cordons del Defy, la sabata d'entrada més avançada d'Evolv: lleuger camber i més asimetria que altres sabates d'iniciació, per a una connexió més precisa amb la presa. El cordó permet un ajust més progressiu que la tira de velcro del Defy estàndard. Versió de baix volum.",
-        "en": "The laced version of the Defy, Evolv's most advanced entry-level shoe: slight camber and more asymmetry than other beginner shoes, for a more precise connection with the hold. The laces allow a more gradual fit than the standard Defy's Velcro strap. Low-volume version.",
-        "fr": "La version à lacets du Defy, le chausson d'entrée le plus avancé d'Evolv : légère cambrure et plus d'asymétrie que les autres chaussons débutants, pour une connexion plus précise avec la prise. Le laçage permet un chaussant plus progressif que la sangle Velcro du Defy standard. Version à faible volume."
-      },
+      "precio": 120,
       "caracteristicas": [
         "Cierre de cordones para un ajuste progresivo",
         "Ligero camber y asimetría para precisión en la puntera",
         "Goma Trax SAS de 3.5mm, la más pegajosa de Evolv",
         "Horma de bajo volumen (LV), un 6% menos que la estándar"
       ],
+      "para_quien_i18n": {
+        "ca": "Persones que comencen a escalar i prefereixen un tancament de cordons ajustable en lloc del velcro, amb peu estret.",
+        "en": "People starting out in climbing who prefer an adjustable lace closure over Velcro, with narrow feet.",
+        "fr": "Personnes qui débutent en escalade et préfèrent une fermeture à lacets ajustable plutôt que le Velcro, avec un pied étroit."
+      },
+      "para_quien": "Personas que empiezan a escalar y prefieren un cierre de cordones ajustable frente al velcro, con pie estrecho.",
+      "fotos": [
+        "https://oberalp.imgix.net/112750a2-0a50-450b-bfb2-12db222aabc0.png?type=still&auto=format&fit=clip&w=628&cs=srgb",
+        "https://oberalp.imgix.net/98129d66-e493-431e-9674-1f9c909236ba.png?type=still&auto=format&fit=clip&w=628&cs=srgb"
+      ],
+      "uso": "Todoterreno",
+      "grosor": 3.5,
       "caracteristicas_i18n": {
         "ca": [
           "Tancament de cordons per a un ajust progressiu",
@@ -10072,46 +10073,46 @@
           "Forme à faible volume (LV), 6% de volume en moins que la version standard"
         ]
       },
-      "para_quien": "Personas que empiezan a escalar y prefieren un cierre de cordones ajustable frente al velcro, con pie estrecho.",
-      "para_quien_i18n": {
-        "ca": "Persones que comencen a escalar i prefereixen un tancament de cordons ajustable en lloc del velcro, amb peu estret.",
-        "en": "People starting out in climbing who prefer an adjustable lace closure over Velcro, with narrow feet.",
-        "fr": "Personnes qui débutent en escalade et préfèrent une fermeture à lacets ajustable plutôt que le Velcro, avec un pied étroit."
+      "volumen": "Bajo (LV, un 6% menos que la estándar)",
+      "peso_g": 215,
+      "id": "ev-defy-lace-lv",
+      "goma": "Trax SAS",
+      "resumen_i18n": {
+        "ca": "Versió amb cordons del Defy, la sabata d'entrada més avançada d'Evolv: lleuger camber i més asimetria que altres sabates d'iniciació, per a una connexió més precisa amb la presa. El cordó permet un ajust més progressiu que la tira de velcro del Defy estàndard. Versió de baix volum.",
+        "en": "The laced version of the Defy, Evolv's most advanced entry-level shoe: slight camber and more asymmetry than other beginner shoes, for a more precise connection with the hold. The laces allow a more gradual fit than the standard Defy's Velcro strap. Low-volume version.",
+        "fr": "La version à lacets du Defy, le chausson d'entrée le plus avancé d'Evolv : légère cambrure et plus d'asymétrie que les autres chaussons débutants, pour une connexion plus précise avec la prise. Le laçage permet un chaussant plus progressif que la sangle Velcro du Defy standard. Version à faible volume."
       },
-      "fotos": [
-        "https://oberalp.imgix.net/112750a2-0a50-450b-bfb2-12db222aabc0.png?type=still&auto=format&fit=clip&w=628&cs=srgb",
-        "https://oberalp.imgix.net/98129d66-e493-431e-9674-1f9c909236ba.png?type=still&auto=format&fit=clip&w=628&cs=srgb"
-      ]
+      "marca": "Evolv",
+      "forma": "Moderada"
     },
     {
-      "id": "ev-zenist-pro",
-      "marca": "Evolv",
-      "modelo": "Zenist Pro",
-      "precio": 180,
-      "goma": "Trax SAS",
-      "grosor": 4.2,
-      "cierre": "Velcro",
       "rigidez": "Blanda",
+      "resumen": "Evolución más potente del Zenist, el modelo más blando del catálogo de Evolv. El Zenist Pro añade la tecnología EVOWRAP tensada, una suela partida Contour y un talón Power Lock a la goma Trax SAS, para un zapato extremadamente blando pero potente, ideal para pasar de movimientos dinámicos a smears delicados en volúmenes de competición.",
       "nivel": "Avanzado",
       "asimetria": "Alta",
       "forro": "Sin forro",
-      "forma": "Agresiva",
-      "uso": "Bloque",
-      "volumen": "Estándar",
+      "cierre": "Velcro",
+      "modelo": "Zenist Pro",
       "peso_talla": null,
-      "peso_g": 290,
-      "resumen": "Evolución más potente del Zenist, el modelo más blando del catálogo de Evolv. El Zenist Pro añade la tecnología EVOWRAP tensada, una suela partida Contour y un talón Power Lock a la goma Trax SAS, para un zapato extremadamente blando pero potente, ideal para pasar de movimientos dinámicos a smears delicados en volúmenes de competición.",
-      "resumen_i18n": {
-        "ca": "Evolució més potent del Zenist, el model més tou del catàleg d'Evolv. El Zenist Pro afegeix la tecnologia EVOWRAP tensada, una sola partida Contour i un taló Power Lock a la goma Trax SAS, per a una sabata extremadament tova però potent, ideal per passar de moviments dinàmics a smears delicats en volums de competició.",
-        "en": "A more powerful evolution of the Zenist, Evolv's softest model. The Zenist Pro adds tensioned EVOWRAP technology, a split Contour outsole, and a Power Lock heel to the Trax SAS rubber, for an extremely soft yet powerful shoe, built to switch from dynamic movement to delicate smears on competition volumes.",
-        "fr": "Évolution plus puissante du Zenist, le modèle le plus souple du catalogue Evolv. Le Zenist Pro ajoute la technologie EVOWRAP tendue, une semelle fendue Contour et un talon Power Lock à la gomme Trax SAS, pour un chausson extrêmement souple mais puissant, pensé pour passer de mouvements dynamiques à des smears délicats sur les volumes de compétition."
-      },
+      "precio": 180,
       "caracteristicas": [
         "Midsole EVOWRAP tensado de 1.0mm en toda la longitud",
         "Suela partida Contour con goma Trax SAS de 4.2mm",
         "Talón Power Lock para heel-hooking seguro en volúmenes",
         "Evolución más potente del Zenist, el modelo más blando de Evolv"
       ],
+      "para_quien_i18n": {
+        "ca": "Escaladors avançats de competició que busquen la màxima potència i sensibilitat en volums.",
+        "en": "Advanced competition climbers looking for maximum power and sensitivity on volumes.",
+        "fr": "Grimpeurs de compétition avancés en quête de puissance et de sensibilité maximales sur les volumes."
+      },
+      "para_quien": "Escaladores avanzados de competición que buscan la máxima potencia y sensibilidad en volúmenes.",
+      "fotos": [
+        "https://oberalp.imgix.net/c07df6aa-4317-45de-8a6e-da64c0e8c0c1.png?type=still&auto=format&fit=clip&w=628&cs=srgb",
+        "https://oberalp.imgix.net/eaa2be48-f51d-4aae-b595-55b48f112666.png?type=still&auto=format&fit=clip&w=628&cs=srgb"
+      ],
+      "uso": "Bloque",
+      "grosor": 4.2,
       "caracteristicas_i18n": {
         "ca": [
           "Midsole EVOWRAP tensat d'1.0mm a tota la longitud",
@@ -10132,46 +10133,46 @@
           "Évolution plus puissante du Zenist, le modèle le plus souple d'Evolv"
         ]
       },
-      "para_quien": "Escaladores avanzados de competición que buscan la máxima potencia y sensibilidad en volúmenes.",
-      "para_quien_i18n": {
-        "ca": "Escaladors avançats de competició que busquen la màxima potència i sensibilitat en volums.",
-        "en": "Advanced competition climbers looking for maximum power and sensitivity on volumes.",
-        "fr": "Grimpeurs de compétition avancés en quête de puissance et de sensibilité maximales sur les volumes."
+      "volumen": "Estándar",
+      "peso_g": 290,
+      "id": "ev-zenist-pro",
+      "goma": "Trax SAS",
+      "resumen_i18n": {
+        "ca": "Evolució més potent del Zenist, el model més tou del catàleg d'Evolv. El Zenist Pro afegeix la tecnologia EVOWRAP tensada, una sola partida Contour i un taló Power Lock a la goma Trax SAS, per a una sabata extremadament tova però potent, ideal per passar de moviments dinàmics a smears delicats en volums de competició.",
+        "en": "A more powerful evolution of the Zenist, Evolv's softest model. The Zenist Pro adds tensioned EVOWRAP technology, a split Contour outsole, and a Power Lock heel to the Trax SAS rubber, for an extremely soft yet powerful shoe, built to switch from dynamic movement to delicate smears on competition volumes.",
+        "fr": "Évolution plus puissante du Zenist, le modèle le plus souple du catalogue Evolv. Le Zenist Pro ajoute la technologie EVOWRAP tendue, une semelle fendue Contour et un talon Power Lock à la gomme Trax SAS, pour un chausson extrêmement souple mais puissant, pensé pour passer de mouvements dynamiques à des smears délicats sur les volumes de compétition."
       },
-      "fotos": [
-        "https://oberalp.imgix.net/c07df6aa-4317-45de-8a6e-da64c0e8c0c1.png?type=still&auto=format&fit=clip&w=628&cs=srgb",
-        "https://oberalp.imgix.net/eaa2be48-f51d-4aae-b595-55b48f112666.png?type=still&auto=format&fit=clip&w=628&cs=srgb"
-      ]
+      "marca": "Evolv",
+      "forma": "Agresiva"
     },
     {
-      "id": "ev-zenist-pro-lv",
-      "marca": "Evolv",
-      "modelo": "Zenist Pro Low Volume",
-      "precio": 180,
-      "goma": "Trax SAS",
-      "grosor": 4.2,
-      "cierre": "Velcro",
       "rigidez": "Blanda",
+      "resumen": "Evolución más potente del Zenist, el modelo más blando del catálogo de Evolv. El Zenist Pro añade la tecnología EVOWRAP tensada, una suela partida Contour y un talón Power Lock a la goma Trax SAS, para un zapato extremadamente blando pero potente, ideal para pasar de movimientos dinámicos a smears delicados en volúmenes de competición. Versión de bajo volumen.",
       "nivel": "Avanzado",
       "asimetria": "Alta",
       "forro": "Sin forro",
-      "forma": "Agresiva",
-      "uso": "Bloque",
-      "volumen": "Bajo (LV)",
+      "cierre": "Velcro",
+      "modelo": "Zenist Pro Low Volume",
       "peso_talla": null,
-      "peso_g": 290,
-      "resumen": "Evolución más potente del Zenist, el modelo más blando del catálogo de Evolv. El Zenist Pro añade la tecnología EVOWRAP tensada, una suela partida Contour y un talón Power Lock a la goma Trax SAS, para un zapato extremadamente blando pero potente, ideal para pasar de movimientos dinámicos a smears delicados en volúmenes de competición. Versión de bajo volumen.",
-      "resumen_i18n": {
-        "ca": "Evolució més potent del Zenist, el model més tou del catàleg d'Evolv. El Zenist Pro afegeix la tecnologia EVOWRAP tensada, una sola partida Contour i un taló Power Lock a la goma Trax SAS, per a una sabata extremadament tova però potent, ideal per passar de moviments dinàmics a smears delicats en volums de competició. Versió de baix volum.",
-        "en": "A more powerful evolution of the Zenist, Evolv's softest model. The Zenist Pro adds tensioned EVOWRAP technology, a split Contour outsole, and a Power Lock heel to the Trax SAS rubber, for an extremely soft yet powerful shoe, built to switch from dynamic movement to delicate smears on competition volumes. Low-volume version.",
-        "fr": "Évolution plus puissante du Zenist, le modèle le plus souple du catalogue Evolv. Le Zenist Pro ajoute la technologie EVOWRAP tendue, une semelle fendue Contour et un talon Power Lock à la gomme Trax SAS, pour un chausson extrêmement souple mais puissant, pensé pour passer de mouvements dynamiques à des smears délicats sur les volumes de compétition. Version à faible volume."
-      },
+      "precio": 180,
       "caracteristicas": [
         "Midsole EVOWRAP tensado de 1.0mm en toda la longitud",
         "Suela partida Contour con goma Trax SAS de 4.2mm",
         "Talón Power Lock para heel-hooking seguro en volúmenes",
         "Horma de bajo volumen (LV)"
       ],
+      "para_quien_i18n": {
+        "ca": "Escaladors avançats de competició que busquen la màxima potència i sensibilitat en volums, amb peu estret.",
+        "en": "Advanced competition climbers looking for maximum power and sensitivity on volumes, with narrow feet.",
+        "fr": "Grimpeurs de compétition avancés en quête de puissance et de sensibilité maximales sur les volumes, avec un pied étroit."
+      },
+      "para_quien": "Escaladores avanzados de competición que buscan la máxima potencia y sensibilidad en volúmenes, con pie estrecho.",
+      "fotos": [
+        "https://oberalp.imgix.net/88128b32-77d1-46ea-8625-b9fdfe8190cf.png?type=still&auto=format&fit=clip&w=628&cs=srgb",
+        "https://oberalp.imgix.net/509e05da-9e66-4910-8329-51bd18c1f540.png?type=still&auto=format&fit=clip&w=628&cs=srgb"
+      ],
+      "uso": "Bloque",
+      "grosor": 4.2,
       "caracteristicas_i18n": {
         "ca": [
           "Midsole EVOWRAP tensat d'1.0mm a tota la longitud",
@@ -10192,46 +10193,46 @@
           "Forme à faible volume (LV)"
         ]
       },
-      "para_quien": "Escaladores avanzados de competición que buscan la máxima potencia y sensibilidad en volúmenes, con pie estrecho.",
-      "para_quien_i18n": {
-        "ca": "Escaladors avançats de competició que busquen la màxima potència i sensibilitat en volums, amb peu estret.",
-        "en": "Advanced competition climbers looking for maximum power and sensitivity on volumes, with narrow feet.",
-        "fr": "Grimpeurs de compétition avancés en quête de puissance et de sensibilité maximales sur les volumes, avec un pied étroit."
+      "volumen": "Bajo (LV)",
+      "peso_g": 290,
+      "id": "ev-zenist-pro-lv",
+      "goma": "Trax SAS",
+      "resumen_i18n": {
+        "ca": "Evolució més potent del Zenist, el model més tou del catàleg d'Evolv. El Zenist Pro afegeix la tecnologia EVOWRAP tensada, una sola partida Contour i un taló Power Lock a la goma Trax SAS, per a una sabata extremadament tova però potent, ideal per passar de moviments dinàmics a smears delicats en volums de competició. Versió de baix volum.",
+        "en": "A more powerful evolution of the Zenist, Evolv's softest model. The Zenist Pro adds tensioned EVOWRAP technology, a split Contour outsole, and a Power Lock heel to the Trax SAS rubber, for an extremely soft yet powerful shoe, built to switch from dynamic movement to delicate smears on competition volumes. Low-volume version.",
+        "fr": "Évolution plus puissante du Zenist, le modèle le plus souple du catalogue Evolv. Le Zenist Pro ajoute la technologie EVOWRAP tendue, une semelle fendue Contour et un talon Power Lock à la gomme Trax SAS, pour un chausson extrêmement souple mais puissant, pensé pour passer de mouvements dynamiques à des smears délicats sur les volumes de compétition. Version à faible volume."
       },
-      "fotos": [
-        "https://oberalp.imgix.net/88128b32-77d1-46ea-8625-b9fdfe8190cf.png?type=still&auto=format&fit=clip&w=628&cs=srgb",
-        "https://oberalp.imgix.net/509e05da-9e66-4910-8329-51bd18c1f540.png?type=still&auto=format&fit=clip&w=628&cs=srgb"
-      ]
+      "marca": "Evolv",
+      "forma": "Agresiva"
     },
     {
-      "id": "ev-zenist-2026",
-      "marca": "Evolv",
-      "modelo": "2026 Zenist",
-      "precio": 150,
-      "goma": "Evo-74",
-      "grosor": 3.5,
-      "cierre": "Velcro (upper de calcetín)",
       "rigidez": "Blanda",
+      "resumen": "Rediseño de 2026 del Zenist con un upper completamente nuevo para un ajuste de guante. Es el modelo de competición más blando y sensible de Evolv, pensado para smears, toe-hooks y heel-hooks en volúmenes y tablas de entrenamiento, con parche de puntera y tiradores renovados.",
       "nivel": "Avanzado",
       "asimetria": "Media",
       "forro": "Parcialmente forrado",
-      "forma": "Moderada",
-      "uso": "Bloque",
-      "volumen": "Estándar",
+      "cierre": "Velcro (upper de calcetín)",
+      "modelo": "2026 Zenist",
       "peso_talla": null,
-      "peso_g": 200,
-      "resumen": "Rediseño de 2026 del Zenist con un upper completamente nuevo para un ajuste de guante. Es el modelo de competición más blando y sensible de Evolv, pensado para smears, toe-hooks y heel-hooks en volúmenes y tablas de entrenamiento, con parche de puntera y tiradores renovados.",
-      "resumen_i18n": {
-        "ca": "Redisseny de 2026 del Zenist amb un upper completament nou per a un ajust de guant. És el model de competició més tou i sensible d'Evolv, pensat per a smears, toe-hooks i heel-hooks en volums i taules d'entrenament, amb pedaç de puntera i tiradors renovats.",
-        "en": "A 2026 redesign of the Zenist with a completely new, glove-like upper. It's Evolv's softest, most sensitive competition shoe, built for smearing and toe- and heel-hooking on volumes and training boards, with a redesigned toe patch and pull tabs.",
-        "fr": "Refonte 2026 du Zenist avec une tige entièrement nouvelle pour un chaussant comme un gant. C'est le modèle de compétition le plus souple et le plus sensible d'Evolv, pensé pour le smear et le toe/heel-hook sur les volumes et les planches d'entraînement, avec un patch de pointe et des tirettes repensés."
-      },
+      "precio": 150,
       "caracteristicas": [
         "Upper de calcetín completamente rediseñado para un ajuste de guante",
         "Midsole tensado de 1.0mm solo en el antepié",
         "Goma Evo-74 de 3.5mm, la más sensible de Evolv para volúmenes",
         "Parche de puntera y tiradores renovados"
       ],
+      "para_quien_i18n": {
+        "ca": "Escaladors de competició que busquen la màxima sensibilitat per a smearing i hooking en volums.",
+        "en": "Competition climbers looking for maximum sensitivity for smearing and hooking on volumes.",
+        "fr": "Grimpeurs de compétition en quête d'une sensibilité maximale pour le smear et le hooking sur les volumes."
+      },
+      "para_quien": "Escaladores de competición que buscan la máxima sensibilidad para smearing y hooking en volúmenes.",
+      "fotos": [
+        "https://oberalp.imgix.net/f50edc71-17c8-419c-bf13-316101be5f18.png?type=still&auto=format&fit=clip&w=628&cs=srgb",
+        "https://oberalp.imgix.net/d6cd8263-58d3-47d1-bda0-12b030eaf6f0.png?type=still&auto=format&fit=clip&w=628&cs=srgb"
+      ],
+      "uso": "Bloque",
+      "grosor": 3.5,
       "caracteristicas_i18n": {
         "ca": [
           "Upper de mitjó completament redissenyat per a un ajust de guant",
@@ -10252,46 +10253,46 @@
           "Patch de pointe et tirettes repensés"
         ]
       },
-      "para_quien": "Escaladores de competición que buscan la máxima sensibilidad para smearing y hooking en volúmenes.",
-      "para_quien_i18n": {
-        "ca": "Escaladors de competició que busquen la màxima sensibilitat per a smearing i hooking en volums.",
-        "en": "Competition climbers looking for maximum sensitivity for smearing and hooking on volumes.",
-        "fr": "Grimpeurs de compétition en quête d'une sensibilité maximale pour le smear et le hooking sur les volumes."
+      "volumen": "Estándar",
+      "peso_g": 200,
+      "id": "ev-zenist-2026",
+      "goma": "Evo-74",
+      "resumen_i18n": {
+        "ca": "Redisseny de 2026 del Zenist amb un upper completament nou per a un ajust de guant. És el model de competició més tou i sensible d'Evolv, pensat per a smears, toe-hooks i heel-hooks en volums i taules d'entrenament, amb pedaç de puntera i tiradors renovats.",
+        "en": "A 2026 redesign of the Zenist with a completely new, glove-like upper. It's Evolv's softest, most sensitive competition shoe, built for smearing and toe- and heel-hooking on volumes and training boards, with a redesigned toe patch and pull tabs.",
+        "fr": "Refonte 2026 du Zenist avec une tige entièrement nouvelle pour un chaussant comme un gant. C'est le modèle de compétition le plus souple et le plus sensible d'Evolv, pensé pour le smear et le toe/heel-hook sur les volumes et les planches d'entraînement, avec un patch de pointe et des tirettes repensés."
       },
-      "fotos": [
-        "https://oberalp.imgix.net/f50edc71-17c8-419c-bf13-316101be5f18.png?type=still&auto=format&fit=clip&w=628&cs=srgb",
-        "https://oberalp.imgix.net/d6cd8263-58d3-47d1-bda0-12b030eaf6f0.png?type=still&auto=format&fit=clip&w=628&cs=srgb"
-      ]
+      "marca": "Evolv",
+      "forma": "Moderada"
     },
     {
-      "id": "ev-zenist-2026-lv",
-      "marca": "Evolv",
-      "modelo": "2026 Zenist LV",
-      "precio": 150,
-      "goma": "Evo-74",
-      "grosor": 3.5,
-      "cierre": "Velcro (upper de calcetín)",
       "rigidez": "Blanda",
+      "resumen": "Rediseño de 2026 del Zenist con un upper completamente nuevo para un ajuste de guante. Es el modelo de competición más blando y sensible de Evolv, pensado para smears, toe-hooks y heel-hooks en volúmenes y tablas de entrenamiento, con parche de puntera y tiradores renovados. Versión de bajo volumen.",
       "nivel": "Avanzado",
       "asimetria": "Media",
       "forro": "Parcialmente forrado",
-      "forma": "Moderada",
-      "uso": "Bloque",
-      "volumen": "Bajo (LV, un 6% menos que la estándar)",
+      "cierre": "Velcro (upper de calcetín)",
+      "modelo": "2026 Zenist LV",
       "peso_talla": null,
-      "peso_g": 200,
-      "resumen": "Rediseño de 2026 del Zenist con un upper completamente nuevo para un ajuste de guante. Es el modelo de competición más blando y sensible de Evolv, pensado para smears, toe-hooks y heel-hooks en volúmenes y tablas de entrenamiento, con parche de puntera y tiradores renovados. Versión de bajo volumen.",
-      "resumen_i18n": {
-        "ca": "Redisseny de 2026 del Zenist amb un upper completament nou per a un ajust de guant. És el model de competició més tou i sensible d'Evolv, pensat per a smears, toe-hooks i heel-hooks en volums i taules d'entrenament, amb pedaç de puntera i tiradors renovats. Versió de baix volum.",
-        "en": "A 2026 redesign of the Zenist with a completely new, glove-like upper. It's Evolv's softest, most sensitive competition shoe, built for smearing and toe- and heel-hooking on volumes and training boards, with a redesigned toe patch and pull tabs. Low-volume version.",
-        "fr": "Refonte 2026 du Zenist avec une tige entièrement nouvelle pour un chaussant comme un gant. C'est le modèle de compétition le plus souple et le plus sensible d'Evolv, pensé pour le smear et le toe/heel-hook sur les volumes et les planches d'entraînement, avec un patch de pointe et des tirettes repensés. Version à faible volume."
-      },
+      "precio": 150,
       "caracteristicas": [
         "Upper de calcetín completamente rediseñado para un ajuste de guante",
         "Midsole tensado de 1.0mm solo en el antepié",
         "Goma Evo-74 de 3.5mm, la más sensible de Evolv para volúmenes",
         "Horma de bajo volumen (LV), un 6% menos que la estándar"
       ],
+      "para_quien_i18n": {
+        "ca": "Escaladors de competició que busquen la màxima sensibilitat per a smearing i hooking en volums, amb peu estret.",
+        "en": "Competition climbers looking for maximum sensitivity for smearing and hooking on volumes, with narrow feet.",
+        "fr": "Grimpeurs de compétition en quête d'une sensibilité maximale pour le smear et le hooking sur les volumes, avec un pied étroit."
+      },
+      "para_quien": "Escaladores de competición que buscan la máxima sensibilidad para smearing y hooking en volúmenes, con pie estrecho.",
+      "fotos": [
+        "https://oberalp.imgix.net/21c3fed3-06d8-4706-afd5-ed09e4f17a3b.png?type=still&auto=format&fit=clip&w=628&cs=srgb",
+        "https://oberalp.imgix.net/40397d22-40da-451b-8801-3ef3ab9cb490.png?type=still&auto=format&fit=clip&w=628&cs=srgb"
+      ],
+      "uso": "Bloque",
+      "grosor": 3.5,
       "caracteristicas_i18n": {
         "ca": [
           "Upper de mitjó completament redissenyat per a un ajust de guant",
@@ -10312,46 +10313,46 @@
           "Forme à faible volume (LV), 6% de volume en moins que la version standard"
         ]
       },
-      "para_quien": "Escaladores de competición que buscan la máxima sensibilidad para smearing y hooking en volúmenes, con pie estrecho.",
-      "para_quien_i18n": {
-        "ca": "Escaladors de competició que busquen la màxima sensibilitat per a smearing i hooking en volums, amb peu estret.",
-        "en": "Competition climbers looking for maximum sensitivity for smearing and hooking on volumes, with narrow feet.",
-        "fr": "Grimpeurs de compétition en quête d'une sensibilité maximale pour le smear et le hooking sur les volumes, avec un pied étroit."
+      "volumen": "Bajo (LV, un 6% menos que la estándar)",
+      "peso_g": 200,
+      "id": "ev-zenist-2026-lv",
+      "goma": "Evo-74",
+      "resumen_i18n": {
+        "ca": "Redisseny de 2026 del Zenist amb un upper completament nou per a un ajust de guant. És el model de competició més tou i sensible d'Evolv, pensat per a smears, toe-hooks i heel-hooks en volums i taules d'entrenament, amb pedaç de puntera i tiradors renovats. Versió de baix volum.",
+        "en": "A 2026 redesign of the Zenist with a completely new, glove-like upper. It's Evolv's softest, most sensitive competition shoe, built for smearing and toe- and heel-hooking on volumes and training boards, with a redesigned toe patch and pull tabs. Low-volume version.",
+        "fr": "Refonte 2026 du Zenist avec une tige entièrement nouvelle pour un chaussant comme un gant. C'est le modèle de compétition le plus souple et le plus sensible d'Evolv, pensé pour le smear et le toe/heel-hook sur les volumes et les planches d'entraînement, avec un patch de pointe et des tirettes repensés. Version à faible volume."
       },
-      "fotos": [
-        "https://oberalp.imgix.net/21c3fed3-06d8-4706-afd5-ed09e4f17a3b.png?type=still&auto=format&fit=clip&w=628&cs=srgb",
-        "https://oberalp.imgix.net/40397d22-40da-451b-8801-3ef3ab9cb490.png?type=still&auto=format&fit=clip&w=628&cs=srgb"
-      ]
+      "marca": "Evolv",
+      "forma": "Moderada"
     },
     {
-      "id": "ev-elektra-lace",
-      "marca": "Evolv",
-      "modelo": "Elektra Lace",
-      "precio": 66,
-      "goma": "Trax SAS",
-      "grosor": 4.2,
-      "cierre": "Cordones",
       "rigidez": "Blanda",
+      "resumen": "Versión con cordones de la Elektra, pensada para pies estrechos y de bajo volumen. El upper de cuero perforado da transpirabilidad y mantiene el zapato ceñido con el tiempo, mientras la puntera ligeramente asimétrica y el midsole de 1mm ofrecen una base estable para vías verticales y desplomes suaves sin exigir demasiado al pie.",
       "nivel": "Iniciación",
       "asimetria": "Baja",
       "forro": "Sin forro",
-      "forma": "Moderada",
-      "uso": "Todoterreno",
-      "volumen": "Bajo (horma estrecha de mujer)",
+      "cierre": "Cordones",
+      "modelo": "Elektra Lace",
       "peso_talla": null,
-      "peso_g": null,
-      "resumen": "Versión con cordones de la Elektra, pensada para pies estrechos y de bajo volumen. El upper de cuero perforado da transpirabilidad y mantiene el zapato ceñido con el tiempo, mientras la puntera ligeramente asimétrica y el midsole de 1mm ofrecen una base estable para vías verticales y desplomes suaves sin exigir demasiado al pie.",
-      "resumen_i18n": {
-        "ca": "Versió amb cordons de l'Elektra, pensada per a peus estrets i de baix volum. L'upper de cuir perforat dona transpirabilitat i manté la sabata cenyida amb el temps, mentre la puntera lleugerament asimètrica i el midsole d'1mm ofereixen una base estable per a vies verticals i desploms suaus sense exigir massa al peu.",
-        "en": "The laced version of the Elektra, built for narrow, low-volume feet. The perforated leather upper gives breathability and keeps the shoe snug over time, while the slightly asymmetric toe and 1mm midsole offer a stable base for vertical faces and mild overhangs without demanding too much of the foot.",
-        "fr": "La version à lacets de l'Elektra, pensée pour les pieds étroits et à faible volume. La tige en cuir perforé apporte de la respirabilité et garde le chausson ajusté avec le temps, tandis que la pointe légèrement asymétrique et le midsole de 1mm offrent une base stable pour les faces verticales et les légers dévers, sans trop exiger du pied."
-      },
+      "precio": 66,
       "caracteristicas": [
         "Cierre de cordones para un ajuste ceñido y progresivo",
         "Upper de cuero perforado, transpirable y duradero",
         "Puntera ligeramente asimétrica para algo de precisión",
         "Midsole de 1mm en toda la longitud, goma Trax SAS de 4.2mm"
       ],
+      "para_quien_i18n": {
+        "ca": "Escaladores que comencen, de peu estret i baix volum, que prefereixen cordons a velcro per a un ajust més progressiu.",
+        "en": "Beginner climbers with narrow, low-volume feet who prefer laces to Velcro for a more gradual fit.",
+        "fr": "Grimpeuses débutantes au pied étroit et à faible volume qui préfèrent les lacets au Velcro pour un chaussant plus progressif."
+      },
+      "para_quien": "Escaladoras que empiezan, de pie estrecho y bajo volumen, que prefieren cordones a velcro para un ajuste más progresivo.",
+      "fotos": [
+        "https://oberalp.imgix.net/d947b697-d0e8-43d3-9a37-ae8ddcfa4315.png?type=still&auto=format&fit=clip&w=628&cs=srgb",
+        "https://oberalp.imgix.net/57a545f9-0520-4127-97e4-9041c954bff6.png?type=still&auto=format&fit=clip&w=628&cs=srgb"
+      ],
+      "uso": "Todoterreno",
+      "grosor": 4.2,
       "caracteristicas_i18n": {
         "ca": [
           "Tancament de cordons per a un ajust cenyit i progressiu",
@@ -10372,16 +10373,17 @@
           "Midsole de 1mm pleine longueur, gomme Trax SAS de 4.2mm"
         ]
       },
-      "para_quien": "Escaladoras que empiezan, de pie estrecho y bajo volumen, que prefieren cordones a velcro para un ajuste más progresivo.",
-      "para_quien_i18n": {
-        "ca": "Escaladores que comencen, de peu estret i baix volum, que prefereixen cordons a velcro per a un ajust més progressiu.",
-        "en": "Beginner climbers with narrow, low-volume feet who prefer laces to Velcro for a more gradual fit.",
-        "fr": "Grimpeuses débutantes au pied étroit et à faible volume qui préfèrent les lacets au Velcro pour un chaussant plus progressif."
+      "volumen": "Bajo (horma estrecha de mujer)",
+      "peso_g": null,
+      "id": "ev-elektra-lace",
+      "goma": "Trax SAS",
+      "resumen_i18n": {
+        "ca": "Versió amb cordons de l'Elektra, pensada per a peus estrets i de baix volum. L'upper de cuir perforat dona transpirabilitat i manté la sabata cenyida amb el temps, mentre la puntera lleugerament asimètrica i el midsole d'1mm ofereixen una base estable per a vies verticals i desploms suaus sense exigir massa al peu.",
+        "en": "The laced version of the Elektra, built for narrow, low-volume feet. The perforated leather upper gives breathability and keeps the shoe snug over time, while the slightly asymmetric toe and 1mm midsole offer a stable base for vertical faces and mild overhangs without demanding too much of the foot.",
+        "fr": "La version à lacets de l'Elektra, pensée pour les pieds étroits et à faible volume. La tige en cuir perforé apporte de la respirabilité et garde le chausson ajusté avec le temps, tandis que la pointe légèrement asymétrique et le midsole de 1mm offrent une base stable pour les faces verticales et les légers dévers, sans trop exiger du pied."
       },
-      "fotos": [
-        "https://oberalp.imgix.net/d947b697-d0e8-43d3-9a37-ae8ddcfa4315.png?type=still&auto=format&fit=clip&w=628&cs=srgb",
-        "https://oberalp.imgix.net/57a545f9-0520-4127-97e4-9041c954bff6.png?type=still&auto=format&fit=clip&w=628&cs=srgb"
-      ]
+      "marca": "Evolv",
+      "forma": "Moderada"
     },
     {
       "rigidez": "Blanda",
@@ -10513,6 +10515,7 @@
       "modelo": "Komet kid's",
       "peso_talla": null,
       "precio": 59,
+      "infantil": true,
       "caracteristicas": [
         "Upper de punto transpirable pensado para llevarlo puesto toda la sesión",
         "Cierre de solapa única de velcro con apertura ancha para calzarlo en segundos",
@@ -10561,8 +10564,7 @@
         "fr": "La Komet kid's est le chausson d'escalade enfant de Butora sur le marché européen (appelé Brava aux États-Unis) : tige en tricot respirant et fermeture à rabat unique en Velcro très large qui se chausse et se déchausse sans effort. Elle est pensée pour que les plus jeunes la portent confortablement toute la séance, sans viser la précision d'un chausson de compétition."
       },
       "marca": "Butora",
-      "forma": "Plana",
-      "infantil": true
+      "forma": "Plana"
     },
     {
       "rigidez": "Blanda",
@@ -11352,6 +11354,7 @@
       "modelo": "Ninja Jr Vent",
       "peso_talla": "EUR 29-30",
       "precio": 69.95,
+      "infantil": true,
       "caracteristicas": [
         "Corte en material sintético de máxima transpiración",
         "Acolchado CHS en talón para mayor comodidad",
@@ -11400,8 +11403,7 @@
         "fr": "Ninja Jr Vent est la version respirante du classique enfant de Boreal : même chaussant simple et matériaux de qualité que les modèles adultes, avec une tige synthétique très ventilée pour les pieds des jeunes grimpeurs."
       },
       "marca": "Boreal",
-      "forma": "Moderada",
-      "infantil": true
+      "forma": "Moderada"
     },
     {
       "rigidez": "Blanda",

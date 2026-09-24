@@ -6313,59 +6313,6 @@
     },
     {
       "rigidez": "Media",
-      "resumen": "El LD Cliffhanger es un modelo polivalente de Millet para bloque, roca y sala, con una horma cómoda de eje recto pensada para quienes progresan en el deporte.",
-      "nivel": "Iniciación",
-      "asimetria": "Baja",
-      "forro": "Forrado",
-      "cierre": "3 velcros simétricos de alta tenacidad",
-      "modelo": "LD Cliffhanger",
-      "peso_talla": null,
-      "precio": 100,
-      "caracteristicas": [
-        "Horma de eje recto y puntera algo apuntada, pensada específicamente para pie femenino",
-        "Goma propia 4 Points Grip de alta densidad, presentada por Millet como muy adherente y resistente al estiramiento",
-        "Interior forrado con acolchado en tobillo y puntera para amortiguar los golpes contra la roca"
-      ],
-      "para_quien_i18n": {
-        "ca": "Escaladores principiants que busquen un peu de velcro còmode per a bloc, via fàcil i rocòdrom.",
-        "en": "Beginner women climbers looking for a comfortable Velcro shoe for bouldering, easy routes and the gym.",
-        "fr": "Grimpeuses débutantes qui cherchent un chausson Velcro confortable pour le bloc, les voies faciles et la salle."
-      },
-      "para_quien": "Escaladoras principiantes que buscan un pie de velcro cómodo para bloque, vía fácil y rocódromo.",
-      "fotos": [],
-      "uso": "Todoterreno",
-      "grosor": null,
-      "caracteristicas_i18n": {
-        "ca": [
-          "Forma d'eix recte i punta una mica apuntada, pensada específicament per a peu femení",
-          "Goma pròpia 4 Points Grip d'alta densitat, presentada per Millet com molt adherent i resistent a l'estirament",
-          "Interior folrat amb encoixinat al turmell i a la punta per amortir els cops contra la roca"
-        ],
-        "en": [
-          "Straight-lasted shape with a somewhat pointed toe, designed specifically for women's feet",
-          "Millet's own high-density 4 Points Grip rubber, described by the brand as very grippy and resistant to stretching",
-          "Lined interior with padding at the ankle and toe to cushion impacts against the rock"
-        ],
-        "fr": [
-          "Chaussant à axe droit et pointe légèrement effilée, pensé spécifiquement pour le pied féminin",
-          "Gomme maison 4 Points Grip haute densité, présentée par Millet comme très adhérente et résistante à l'étirement",
-          "Intérieur doublé avec un rembourrage à la cheville et à la pointe pour amortir les chocs contre le rocher"
-        ]
-      },
-      "volumen": "Estándar (horma femenina)",
-      "peso_g": 220,
-      "id": "ml-cliffhanger",
-      "goma": "4 Points Grip",
-      "resumen_i18n": {
-        "ca": "El LD Cliffhanger és un model polivalent de Millet per a bloc, roca i sala, amb una forma còmoda d'eix recte pensada per a qui progressa en aquest esport.",
-        "en": "The LD Cliffhanger is a versatile Millet model for bouldering, outdoor rock and the gym, with a comfortable straight-lasted shape designed for climbers progressing in the sport.",
-        "fr": "Le LD Cliffhanger est un modèle polyvalent de Millet pour le bloc, la falaise et la salle, avec un chaussant confortable à axe droit pensé pour les grimpeurs qui progressent dans le sport."
-      },
-      "marca": "Millet",
-      "forma": "Casi plana"
-    },
-    {
-      "rigidez": "Media",
       "resumen": "El Klimb es el pie de entrada de Simond, la marca de escalada de Decathlon, pensado para progresar tanto en rocódromo como en roca gracias a una goma Vibram blanda y de buen agarre a un precio muy contenido.",
       "nivel": "Iniciación",
       "asimetria": "Baja",
@@ -8227,64 +8174,66 @@
       "forma": "Plana"
     },
     {
-      "rigidez": "Media",
-      "resumen": "El Easy Up Jr es la propuesta de Millet para introducir a los niños y niñas en la escalada deportiva: horma recta y cómoda, plantilla extraíble para ganar un poco de margen de talla y un doble velcro que facilita calzarlo. Es de los pocos modelos infantiles pensados específicamente para vía, más que para el rocódromo genérico.",
+      "rigidez": "Blanda",
+      "resumen": "El Easy Up 5C Junior es el pie de gato infantil de Millet: cómodo y muy fácil de poner gracias a sus dos velcros, pensado para acompañar a los niños que empiezan a descubrir la escalada.",
       "nivel": "Iniciación",
       "asimetria": "Baja",
-      "forro": null,
+      "forro": "Forrado",
       "cierre": "Velcro (2 correas)",
-      "modelo": "Easy Up Jr",
+      "modelo": "Easy Up 5C Junior",
       "peso_talla": null,
-      "precio": 55,
-      "infantil": true,
+      "precio": 56,
       "caracteristicas": [
-        "Plantilla extraíble que permite ajustar la talla sin cambiar de zapato",
-        "Aro interior acolchado para evitar rozaduras",
-        "Horma recta pensada para llevarlo puesto largos ratos con comodidad",
-        "Goma 4Points Grip de 4,5 mm orientada a escalada deportiva"
+        "Upper en poliéster y algodón, forma centrada y recta (Progressive Fit)",
+        "Doble velcro en el empeine para poner y quitar en segundos",
+        "Suela de goma 4Points Grip Durable de 4,5 mm",
+        "Talón con refuerzo de goma de 1,5 mm para mayor durabilidad"
       ],
       "para_quien_i18n": {
-        "ca": "Nens i nenes que comencen a escalar vies esportives i necessiten un peu de gat còmode per portar posat sessions llargues.",
-        "en": "Kids starting out on sport routes who need a shoe comfortable enough for long sessions.",
-        "fr": "Les enfants qui débutent sur les voies sportives et ont besoin d'un chausson assez confortable pour de longues séances."
+        "ca": "Nens i nenes que comencen a escalar i necessiten un peu de gat senzill de posar i molt resistent.",
+        "en": "Kids just starting out climbing who need a shoe that's quick to put on and very durable.",
+        "fr": "Enfants qui débutent en escalade et ont besoin d'un chausson facile à enfiler et très résistant."
       },
-      "para_quien": "Niños y niñas que empiezan a escalar vías deportivas y necesitan un pie de gato cómodo para llevar puesto sesiones largas.",
+      "para_quien": "Niños y niñas que empiezan a escalar y necesitan un pie de gato sencillo de poner y muy resistente.",
       "fotos": [
-        "https://www.millet.com/visuels/original/MIG1817_N3004_MKT_0.png?auto=webp&format=pjpg&bg-color=f0eeef&width=1600&height=2000&fit=cover"
+        "https://www.millet.com/visuels/original/MIG1817_N3004_MKT_0.png",
+        "https://www.millet.com/visuels/original/MIG1817_N3004_MKT_1.png",
+        "https://www.millet.com/visuels/original/MIG1817_N3004_MKT_2.png"
       ],
-      "uso": "Deportiva",
+      "uso": "Rocódromo",
       "grosor": 4.5,
       "caracteristicas_i18n": {
         "ca": [
-          "Plantilla extraïble que permet ajustar la talla sense canviar de sabata",
-          "Anell interior encoixinat per evitar fregaments",
-          "Horma recta pensada per portar-la posada llargues estones amb comoditat",
-          "Goma 4Points Grip de 4,5 mm orientada a escalada esportiva"
+          "Upper de polièster i cotó, forma centrada i recta (Progressive Fit)",
+          "Doble velcro a l'empenya per posar i treure en segons",
+          "Sola de goma 4Points Grip Durable de 4,5 mm",
+          "Taló amb reforç de goma de 1,5 mm per a més durabilitat"
         ],
         "en": [
-          "Removable insole that lets you adjust the fit without changing shoes",
-          "Padded inner rim to prevent chafing",
-          "Straight last built for comfortable long wear",
-          "4.5 mm 4Points Grip rubber geared toward sport routes"
+          "Polyester and cotton upper, straight centered shape (Progressive Fit)",
+          "Double velcro on the instep for quick on and off",
+          "4.5 mm 4Points Grip Durable rubber sole",
+          "1.5 mm rubber heel rand reinforcement for extra durability"
         ],
         "fr": [
-          "Semelle amovible qui permet d'ajuster la taille sans changer de chausson",
-          "Rebord intérieur rembourré pour éviter les frottements",
-          "Chausson droit pensé pour un port confortable et prolongé",
-          "Gomme 4Points Grip de 4,5 mm orientée escalade sportive"
+          "Tige en polyester et coton, forme centrée et droite (Progressive Fit)",
+          "Double velcro sur le cou-de-pied pour enfiler et retirer en quelques secondes",
+          "Semelle en gomme 4Points Grip Durable de 4,5 mm",
+          "Renfort talon en gomme de 1,5 mm pour plus de durabilité"
         ]
       },
       "volumen": "Estándar",
-      "peso_g": 135,
+      "peso_g": 140,
       "id": "ml-easy-up-jr",
-      "goma": "Millet 4Points Grip",
+      "goma": "4Points Grip Durable",
       "resumen_i18n": {
-        "ca": "El Easy Up Jr és la proposta de Millet per introduir els nens i nenes a l'escalada esportiva: horma recta i còmoda, plantilla extraïble per guanyar una mica de marge de talla i un doble velcro que facilita calçar-se'l. És dels pocs models infantils pensats específicament per a via, més que per al rocòdrom genèric.",
-        "en": "The Easy Up Jr is Millet's way of introducing kids to sport climbing: a straight, comfortable last, a removable insole for a little extra sizing room, and a double velcro closure that's easy to fasten. It's one of the few kids' models built specifically for routes rather than generic gym use.",
-        "fr": "La Easy Up Jr est la proposition de Millet pour initier les enfants à l'escalade sportive : horma droite et confortable, semelle amovible pour gagner un peu de marge de taille, et un double velcro facile à fermer. C'est l'un des rares modèles enfant pensés spécifiquement pour la voie plutôt que pour la salle en général."
+        "ca": "L'Easy Up 5C Junior és el peu de gat infantil de Millet: còmode i molt fàcil de posar gràcies als seus dos velcros, pensat per acompanyar els nens que comencen a descobrir l'escalada.",
+        "en": "The Easy Up 5C Junior is Millet's kids' climbing shoe: comfortable and very easy to put on thanks to its double velcro, built to go along with kids discovering climbing for the first time.",
+        "fr": "L'Easy Up 5C Junior est le chausson d'escalade enfant de Millet : confortable et très facile à enfiler grâce à son double velcro, pensé pour accompagner les enfants qui découvrent l'escalade."
       },
       "marca": "Millet",
-      "forma": "Plana"
+      "forma": "Plana",
+      "infantil": true
     },
     {
       "rigidez": "Media",
@@ -13523,6 +13472,67 @@
         "fr": "Le Talaria est un chausson de vitesse réellement conçu pour l'escalade de vitesse : nerveux, profilé et calibré pour donner le meilleur à chaque essai. Voici la version LV (Low Volume), avec une pointe plus étroite, un talon plus petit et un profil plus bas."
       },
       "marca": "Mad Rock",
+      "forma": "Moderada"
+    },
+    {
+      "rigidez": "Media",
+      "resumen": "El Siurana Evo mujer ofrece un apoyo preciso y buena sujeción, con la comodidad de una microfibra transpirable. Pensado para escaladoras de nivel intermedio a avanzado, tiene una construcción frontal más ancha con suela de 4,5 mm que se adapta a las regletas más finas y las presas más pequeñas.",
+      "nivel": "Intermedio",
+      "asimetria": "Media",
+      "forro": "Sin forro",
+      "cierre": "Velcro (1 correa)",
+      "modelo": "Siurana Evo mujer",
+      "peso_talla": null,
+      "precio": 91,
+      "caracteristicas": [
+        "Upper de microfibra transpirable, horma Advanced Fit asimétrica",
+        "Construcción frontal ancha para regletas finas y presas pequeñas",
+        "Suela de goma 4Points Grip Plus de 4,5 mm",
+        "Zapato envolvente con volumen optimizado en el talón"
+      ],
+      "para_quien_i18n": {
+        "ca": "Escaladores de nivell intermedi a avançat que busquen precisió i suport en bloc i vies tècniques.",
+        "en": "Intermediate to advanced climbers looking for precision and support on boulder and technical routes.",
+        "fr": "Grimpeuses de niveau intermédiaire à avancé recherchant précision et soutien en bloc et sur voies techniques."
+      },
+      "para_quien": "Escaladoras de nivel intermedio a avanzado que buscan precisión y sujeción en bloque y vías técnicas.",
+      "fotos": [
+        "https://www.millet.com/visuels/original/MIG1845_N0247_C4E_0.png",
+        "https://www.millet.com/visuels/original/MIG1845_N0247_C4E_1.png",
+        "https://www.millet.com/visuels/original/MIG1845_N0247_C4E_2.png"
+      ],
+      "uso": "Bloque",
+      "grosor": 4.5,
+      "caracteristicas_i18n": {
+        "ca": [
+          "Upper de microfibra transpirable, horma Advanced Fit asimètrica",
+          "Construcció frontal ampla per a regletes fines i preses petites",
+          "Sola de goma 4Points Grip Plus de 4,5 mm",
+          "Sabata envolupant amb volum optimitzat al taló"
+        ],
+        "en": [
+          "Breathable microfiber upper, asymmetric Advanced Fit last",
+          "Wide front construction for thin edges and small holds",
+          "4.5 mm 4Points Grip Plus rubber sole",
+          "Wrap-around shoe with optimized heel volume"
+        ],
+        "fr": [
+          "Tige en microfibre respirante, forme Advanced Fit asymétrique",
+          "Construction avant large pour les réglettes fines et les petites prises",
+          "Semelle en gomme 4Points Grip Plus de 4,5 mm",
+          "Chausson enveloppant avec volume optimisé au talon"
+        ]
+      },
+      "volumen": "Estándar",
+      "peso_g": 170,
+      "id": "ml-siurana-evo-w",
+      "goma": "4Points Grip Plus",
+      "resumen_i18n": {
+        "ca": "El Siurana Evo dona un suport precís i una bona subjecció, amb la comoditat d'una microfibra transpirable. Pensat per a escaladores de nivell intermedi a avançat, té una construcció frontal més ampla amb sola de 4,5 mm que s'adapta a les regletes més fines i les preses més petites.",
+        "en": "The Siurana Evo women's shoe gives precise support and a secure hold, with the comfort of breathable microfiber. Built for intermediate to advanced climbers, it has a wider front construction with a 4.5 mm sole that adapts to the thinnest edges and smallest holds.",
+        "fr": "Le Siurana Evo femme offre un appui précis et un bon maintien, avec le confort d'une microfibre respirante. Pensé pour les grimpeuses de niveau intermédiaire à avancé, il présente une construction avant plus large avec une semelle de 4,5 mm qui s'adapte aux réglettes les plus fines et aux prises les plus petites."
+      },
+      "marca": "Millet",
       "forma": "Moderada"
     }
   ]

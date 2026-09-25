@@ -380,6 +380,72 @@ collections:
                   - { label: "English", name: "en", widget: "text", required: false }
                   - { label: "Français", name: "fr", widget: "text", required: false }
 
+  - name: "guia"
+    label: "GUÍA"
+    files:
+      - name: "guia"
+        label: "Guía para principiantes"
+        file: "gatolab-web_1/content/guia.json"
+        description: "Todo el texto de la pestaña «Guía» de la web vive en este archivo, en los cuatro idiomas. Cambia lo que necesites y publica — la web lo lee automáticamente, sin tocar código."
+        fields:
+          - label: "Introducción"
+            name: "intro"
+            widget: "object"
+            hint: "El párrafo que aparece debajo del título de la guía."
+            fields:
+              - { label: "Castellano", name: "es", widget: "text" }
+              - { label: "Català", name: "ca", widget: "text", required: false }
+              - { label: "English", name: "en", widget: "text", required: false }
+              - { label: "Français", name: "fr", widget: "text", required: false }
+
+          - label: "Secciones"
+            name: "secciones"
+            widget: "list"
+            summary: "{{fields.titulo.es}}"
+            hint: "Cada sección es un apartado de la guía y una entrada del índice. Puedes reordenarlas arrastrándolas."
+            fields:
+              - label: "ID (para el enlace)"
+                name: "id"
+                widget: "string"
+                hint: "Solo minúsculas, números y guiones. Sirve para enlazar directamente a la sección: gatolab.es/#guia/este-id"
+                pattern: ["^[a-z0-9]+(-[a-z0-9]+)*$", "Usa solo minúsculas, números y guiones, sin espacios ni acentos."]
+
+              - label: "Título"
+                name: "titulo"
+                widget: "object"
+                fields:
+                  - { label: "Castellano", name: "es", widget: "string" }
+                  - { label: "Català", name: "ca", widget: "string", required: false }
+                  - { label: "English", name: "en", widget: "string", required: false }
+                  - { label: "Français", name: "fr", widget: "string", required: false }
+
+              - label: "Texto"
+                name: "texto"
+                widget: "object"
+                hint: "Formato: deja una línea en blanco entre párrafos; empieza una línea con «- » para hacer una lista; escribe **así** para poner una palabra en negrita. Si dejas un idioma vacío, se muestra el castellano."
+                fields:
+                  - { label: "Castellano", name: "es", widget: "text" }
+                  - { label: "Català", name: "ca", widget: "text", required: false }
+                  - { label: "English", name: "en", widget: "text", required: false }
+                  - { label: "Français", name: "fr", widget: "text", required: false }
+
+              - label: "Botones «Ver modelos»"
+                name: "filtros"
+                widget: "list"
+                required: false
+                summary: "{{fields.tipo}}: {{fields.valor}}"
+                hint: "Opcional. Cada botón lleva a la portada con ese filtro ya aplicado. Tipo «tallas» abre el comparador de tallas."
+                fields:
+                  - label: "Tipo"
+                    name: "tipo"
+                    widget: "select"
+                    options: ["nivel", "uso", "forma", "cierre", "lv", "vegano", "infantil", "tallas"]
+                  - label: "Valor"
+                    name: "valor"
+                    widget: "string"
+                    required: false
+                    hint: "Escríbelo exactamente como en el catálogo. Nivel: Iniciación / Intermedio / Avanzado. Uso: Rocódromo, Todoterreno, Deportiva, Bloque, Fisura/Trad, Competición, Velocidad. Forma: Plana, Moderada, Agresiva… Cierre: Cordones, Cordones + velcro, Velcro / correas, Slip-on / elástico. Para lv, vegano, infantil y tallas déjalo vacío o pon «true»."
+
   - name: "sitio"
     label: "TEXTOS DEL SITIO"
     files:

@@ -154,22 +154,33 @@
     return [...new Set([s.uso, ...extra].filter(Boolean))];
   }
   function usosLabel(s){ return usosOf(s).map(u=>v("uso",u)).join(" · "); }
-  // Orden del catálogo en la portada: primero los modelos con "destacado" (1 = el más
-  // famoso/vendido), luego el resto; en todo momento se evita repetir una marca que haya
-  // salido en las 3 posiciones anteriores, para que las marcas queden intercaladas.
+  // Orden del catálogo en la portada:
+  //  1) Modelos con "destacado" (1 = el más famoso/vendido). Una de cada dos posiciones es
+  //     para las marcas prioritarias (MARCAS_PRIORITARIAS), que se turnan entre ellas; el
+  //     resto de destacados ocupa los huecos intermedios.
+  //  2) Después, el resto de modelos, mezclados.
+  //  En todo momento se evita repetir una marca que haya salido en las 3 posiciones
+  //  anteriores, para que las marcas queden intercaladas.
+  const MARCAS_PRIORITARIAS = ["La Sportiva", "Scarpa", "Tenaya"];
   let orderedCache = null, orderedFor = null;
   function orderedShoes(){
     if(orderedCache && orderedFor === SHOES) return orderedCache;
     const hash = str => { let h = 2166136261; for(const c of str){ h ^= c.charCodeAt(0); h = Math.imul(h, 16777619) >>> 0; } return h; };
-    const key = s => (typeof s.destacado === "number" && s.destacado > 0) ? [0, s.destacado] : [1, hash(s.id)];
-    const pool = SHOES.slice().sort((x,y)=>{ const kx = key(x), ky = key(y); return kx[0]-ky[0] || kx[1]-ky[1]; });
+    const isRanked = s => typeof s.destacado === "number" && s.destacado > 0;
+    const ranked = SHOES.filter(isRanked).sort((x,y)=>x.destacado-y.destacado);
+    const rest = SHOES.filter(s=>!isRanked(s)).sort((x,y)=>hash(x.id)-hash(y.id));
+    const pickDiverse = (pool, recent) => { const i = pool.findIndex(s=>!recent.slice(-3).includes(s.marca)); return pool.splice(i < 0 ? 0 : i, 1)[0]; };
+    const queues = MARCAS_PRIORITARIAS.map(m=>ranked.filter(s=>s.marca===m));
+    const prio = [];
+    while(queues.some(q=>q.length)) queues.forEach(q=>{ if(q.length) prio.push(q.shift()); });
+    const others = ranked.filter(s=>!MARCAS_PRIORITARIAS.includes(s.marca));
     const out = [], recent = [];
-    while(pool.length){
-      let i = pool.findIndex(s=>!recent.includes(s.marca));
-      if(i < 0) i = 0;
-      const [s] = pool.splice(i, 1);
-      out.push(s); recent.push(s.marca); if(recent.length > 3) recent.shift();
+    const push = s => { out.push(s); recent.push(s.marca); };
+    while(prio.length || others.length){
+      if(prio.length) push(prio.shift());
+      if(others.length) push(pickDiverse(others, recent));
     }
+    while(rest.length) push(pickDiverse(rest, recent));
     orderedCache = out; orderedFor = SHOES;
     return out;
   }

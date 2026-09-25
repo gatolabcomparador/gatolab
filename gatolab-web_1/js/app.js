@@ -220,6 +220,11 @@
     navNews: {es:"News", ca:"Notícies", en:"News", fr:"Actus"},
     navAbout: {es:"Sobre nosotros", ca:"Sobre nosaltres", en:"About us", fr:"À propos"},
     kidsFlag: {es:"Niños", ca:"Nens", en:"Kids", fr:"Enfants"},
+    lvFlag: {es:"Low volume (LV)", ca:"Low volume (LV)", en:"Low volume (LV)", fr:"Low volume (LV)"},
+    veganFlag: {es:"Vegano", ca:"Vegà", en:"Vegan", fr:"Vegan"},
+    similarTitle: {es:"Modelos parecidos", ca:"Models semblants", en:"Similar models", fr:"Modèles similaires"},
+    shareCompare: {es:"Compartir comparación", ca:"Compartir comparació", en:"Share comparison", fr:"Partager la comparaison"},
+    linkCopied: {es:"¡Enlace copiado!", ca:"Enllaç copiat!", en:"Link copied!", fr:"Lien copié !"},
     sealName: {es:"Sello GATO LAB", ca:"Segell GATO LAB", en:"GATO LAB Seal", fr:"Label GATO LAB"},
     sealExplain: {es:"Nuestros pies de gato estrella: los modelos que recomendamos especialmente por su rendimiento, calidad y relación calidad-precio.", ca:"Els nostres peus de gat estrella: els models que recomanem especialment pel seu rendiment, qualitat i relació qualitat-preu.", en:"Our star climbing shoes: the models we especially recommend for their performance, quality and value for money.", fr:"Nos chaussons vedettes : les modèles que nous recommandons tout particulièrement pour leurs performances, leur qualité et leur rapport qualité-prix."},
     searchPlaceholder: {es:"Busca marca o modelo… (ej. “Miura”, “Scarpa”)", ca:"Cerca marca o model… (ex. “Miura”, “Scarpa”)", en:"Search brand or model… (e.g. “Miura”, “Scarpa”)", fr:"Recherche marque ou modèle… (ex. « Miura », « Scarpa »)"},
@@ -571,7 +576,7 @@
 
   const state = {
     q:"", uso:new Set(), marca:new Set(), nivel:new Set(), cierre:new Set(), forma:new Set(),
-    infantil:false,
+    infantil:false, lv:false, vegano:false,
     compare: [],
     view: "home",
     compareTab: "duel",
@@ -783,8 +788,16 @@
   if(el("#compareTabDuel")) el("#compareTabDuel").addEventListener("click", ()=> setCompareTab("duel"));
   if(el("#compareTabSizes")) el("#compareTabSizes").addEventListener("click", ()=> setCompareTab("sizes"));
 
-  function parseInitialHash(){
-    const h = location.hash.replace(/^#/, "");
+  let pendingOpenCompare = false;
+  const INITIAL_HASH = location.hash;
+  function applyHashRoute(hash){
+    const v = parseInitialHash(typeof hash === "string" ? hash : undefined);
+    ["a","b"].forEach(renderPicker);
+    setView(v);
+    if(pendingOpenCompare){ pendingOpenCompare = false; renderTray(); openCompare(); }
+  }
+  function parseInitialHash(hash){
+    const h = (typeof hash === "string" ? hash : location.hash).replace(/^#/, "");
     const parts = h.split("/").filter(Boolean);
     if(parts[0] === "compare"){
       if(parts[1] === "tallas"){
@@ -795,6 +808,11 @@
       if(parts[2] && SHOES.some(s=>s.id===parts[2])) state.duel.b = parts[2];
       state.compareTab = "duel";
       return "compare";
+    }
+    if(parts[0] === "comparar" && parts[1]){
+      const ids = decodeURIComponent(parts[1]).split(",").filter(id=>SHOES.some(s=>s.id===id)).slice(0,4);
+      if(ids.length){ state.compare = ids; saveTray(); pendingOpenCompare = true; }
+      return "home";
     }
     if(parts[0] === "news"){
       if(window.GatoLabNews) window.GatoLabNews.setSlugFromHash(parts[1] || null);
@@ -879,6 +897,8 @@
     if(state.cierre.size && !state.cierre.has(cierreTipo(s.cierre))) return false;
     if(state.forma.size && !state.forma.has(s.forma)) return false;
     if(state.infantil && !s.infantil) return false;
+    if(state.lv && !s.lv) return false;
+    if(state.vegano && !s.vegano) return false;
     return true;
   }
 
@@ -994,6 +1014,78 @@
     });
   }
 
+  /* Modelos parecidos: se puntúa cada modelo por usos en común, perfil, rigidez,
+     asimetría, nivel, tipo de cierre y precio; se descartan las variantes del mismo
+     modelo (LV, mujer, cordones...) y se muestra como mucho uno por marca. */
+  const SIM_LVL = {
+    forma: {"Plana":0,"Casi plana":0.5,"Neutra":0.5,"Casi simétrica":0.5,"Moderada":1.5,"Moderada-agresiva":2.25,"Agresiva":3,"Muy agresiva":4},
+    rigidez: {"Blanda":0,"Media":1,"Rígida":2},
+    asimetria: {"Baja":0,"Media":1,"Alta":2},
+    nivel: {"Iniciación":0,"Intermedio":1,"Avanzado":2}
+  };
+  const VARIANTE_RE = /\b(lv|low volume|woman|women|wmns|mujer)\b/i;
+  function baseModelo(s){
+    return (s.marca+" "+s.modelo).toLowerCase()
+      .replace(/\(.*?\)/g," ")
+      .replace(/\b(lv|hv|low volume|woman|women|wmns|mujer|lace|laces|velcro|vcs|jr|junior|kids?|20\d\d)\b/g," ")
+      .replace(/\s+/g," ").trim();
+  }
+  function similarShoes(s, n){
+    const dist = (k,x,y)=>{ const m = SIM_LVL[k]; return (x in m && y in m) ? Math.abs(m[x]-m[y]) : 1; };
+    const us = usosOf(s), base = baseModelo(s);
+    const mismaFamilia = o => { const b = baseModelo(o); return b===base || (o.marca===s.marca && (b.startsWith(base) || base.startsWith(b))); };
+    const scored = SHOES.filter(o=>o.id!==s.id && !!o.infantil===!!s.infantil && !mismaFamilia(o)).map(o=>{
+      const uo = usosOf(o);
+      let sc = 2*uo.filter(u=>us.includes(u)).length + (uo[0]===us[0] ? 2 : 0);
+      sc -= 2*dist("forma",s.forma,o.forma) + 1.5*dist("rigidez",s.rigidez,o.rigidez) + dist("asimetria",s.asimetria,o.asimetria) + dist("nivel",s.nivel,o.nivel);
+      if(cierreTipo(s.cierre)===cierreTipo(o.cierre)) sc += 1;
+      if(s.precio && o.precio) sc -= Math.abs(s.precio-o.precio)/60;
+      if(typeof o.destacado === "number" && o.destacado > 0) sc += 0.5;
+      // se prefiere la versión estándar frente a sus variantes LV / mujer
+      if(VARIANTE_RE.test(o.modelo) && !VARIANTE_RE.test(s.modelo)) sc -= 1;
+      return {o, sc};
+    }).sort((x,y)=>y.sc-x.sc);
+    const out = [], marcas = new Set(), bases = new Set();
+    for(const {o} of scored){
+      const b = baseModelo(o);
+      if(marcas.has(o.marca) || bases.has(b)) continue;
+      out.push(o); marcas.add(o.marca); bases.add(b);
+      if(out.length >= n) break;
+    }
+    return out;
+  }
+  function similarHTML(s){
+    const list = similarShoes(s, 4);
+    if(!list.length) return "";
+    return `<div class="detail-features detail-similar"><h4>${t("similarTitle")}</h4><div class="similar-grid">${list.map(o=>`
+      <button type="button" class="similar-card" data-id="${o.id}" aria-label="${o.marca} ${o.modelo}">
+        <span class="similar-photo">${shoePhotoHTML(o)}</span>
+        <span class="similar-info">
+          <span class="similar-brand">${o.marca}</span>
+          <span class="similar-model">${o.modelo}</span>
+          <span class="similar-price">${o.precio} €</span>
+        </span>
+      </button>`).join("")}</div></div>`;
+  }
+
+  /* Compartir: en móvil abre el menú de compartir del sistema (WhatsApp, etc.);
+     en ordenador copia el enlace al portapapeles. */
+  function shareLink(url, btn){
+    const done = ()=>{ if(!btn) return; const old = btn.dataset.label || btn.textContent; btn.dataset.label = old; btn.textContent = t("linkCopied"); setTimeout(()=>{ btn.textContent = old; }, 2200); };
+    const copy = ()=>{
+      if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(url).then(done, fallback); }
+      else fallback();
+    };
+    const fallback = ()=>{
+      const ta = document.createElement("textarea"); ta.value = url; ta.setAttribute("readonly",""); ta.style.position="fixed"; ta.style.opacity="0";
+      document.body.appendChild(ta); ta.select(); try{ document.execCommand("copy"); done(); }catch(e){} ta.remove();
+    };
+    const coarse = window.matchMedia && window.matchMedia("(pointer:coarse)").matches;
+    if(coarse && navigator.share){ navigator.share({ title:"GATO LAB", url }).catch(()=>{}); }
+    else copy();
+  }
+  function baseUrl(){ return location.href.split("#")[0]; }
+
   let currentDetailId = null;
   function openDetail(id){
     const s = SHOES.find(x=>x.id===id); if(!s) return;
@@ -1014,6 +1106,8 @@
             <span class="tag level-${s.nivel}">${v("nivel",s.nivel)}</span>
             ${usosTagsHTML(s)}
             ${s.infantil ? `<span class="tag tag-kids">${t("kidsFlag")}</span>` : ""}
+            ${s.lv ? `<span class="tag">LV</span>` : ""}
+            ${s.vegano ? `<span class="tag tag-vegan">${t("veganFlag")}</span>` : ""}
           </div>
         </div>
       </div>
@@ -1034,6 +1128,7 @@
       ${radarCardHTML([{s, colorVar:"--radar-1", name:`${s.marca} ${s.modelo}`}])}
       ${(carac && carac.length) ? `<div class="detail-features"><h4>${t("lblCaracteristicasClave")}</h4><ul>${carac.map(f=>`<li>${f}</li>`).join("")}</ul></div>` : ""}
       ${paraQuien ? `<div class="detail-parawho"><span class="spec-label">${t("lblParaQuien")}</span><p>${paraQuien}</p></div>` : ""}
+      ${similarHTML(s)}
       <div class="detail-actions">
         <button class="btn-primary" id="detailCompareBtn">${inCompare ? t("detailRemoveCompare") : t("detailAddCompare")}</button>
         <button class="btn-secondary" id="detailDuelBtn">${t("detailDuelBtn")}</button>
@@ -1056,6 +1151,12 @@
       window.GatoLabNews.bindRelatedNewsClicks(modal, closeDetail);
     }
     wireDetailPhotoBlock(modal, s);
+    modal.querySelectorAll(".similar-card").forEach(btn=>{
+      btn.addEventListener("click", ()=>{
+        openDetail(btn.dataset.id);
+        overlay.scrollTop = 0; modal.scrollTop = 0;
+      });
+    });
   }
   function closeDetail(){ el("#detailOverlay").hidden = true; currentDetailId = null; }
   el("#detailOverlay").addEventListener("click", (ev)=>{ if(ev.target.id==="detailOverlay") closeDetail(); });
@@ -1093,10 +1194,13 @@
         <button class="modal-close" aria-label="${t("detailClose")}"><svg viewBox="0 0 24 24"><use href="#icon-close"></use></svg></button>
         <h3 class="display" style="font-size:1.5rem">${t("compareTitle")}</h3>
         <p class="detail-summary">${t("compareLegend")}</p>
-        <div class="compare-scroll"><table class="compare"><thead><tr>${head}</tr></thead><tbody>${rows}</tbody></table></div>`;
+        <div class="compare-scroll"><table class="compare"><thead><tr>${head}</tr></thead><tbody>${rows}</tbody></table></div>
+        <div class="share-row"><button type="button" class="btn-secondary" id="shareCompareBtn">${t("shareCompare")}</button></div>`;
     }
     overlay.hidden = false;
     modal.querySelector(".modal-close").addEventListener("click", ()=>{ overlay.hidden = true; });
+    const shareBtn = modal.querySelector("#shareCompareBtn");
+    if(shareBtn) shareBtn.addEventListener("click", ()=> shareLink(baseUrl() + "#comparar/" + shoes.map(s=>s.id).join(","), shareBtn));
   }
   el("#compareOverlay").addEventListener("click", (ev)=>{ if(ev.target.id==="compareOverlay") el("#compareOverlay").hidden = true; });
   el("#openCompare").addEventListener("click", openCompare);
@@ -1127,6 +1231,17 @@
       renderQuickUso(); renderCatalog();
     });
     box.appendChild(kidsBtn);
+    // Botones independientes: horma de bajo volumen (LV) y modelos veganos
+    [["lv","lvFlag","use-chip-lv"],["vegano","veganFlag","use-chip-vegan"]].forEach(([key,label,cls])=>{
+      const n = SHOES.filter(s=>s[key]).length;
+      if(!n) return;
+      const b = document.createElement("button");
+      b.className = "use-chip " + cls; b.type = "button";
+      b.setAttribute("aria-pressed", String(state[key]));
+      b.innerHTML = `${t(label)} <span class="n">${n}</span>`;
+      b.addEventListener("click", ()=>{ state[key] = !state[key]; renderQuickUso(); renderCatalog(); });
+      box.appendChild(b);
+    });
     // Explicación del Sello GATO LAB (solo si hay algún modelo con sello)
     if(SHOES.some(s=>s.sello)){
       const note = document.createElement("p");
@@ -1193,7 +1308,7 @@
   renderQuickUso();
 
   el("#resetFilters").addEventListener("click", ()=>{
-    state.q=""; state.uso.clear(); state.marca.clear(); state.nivel.clear(); state.cierre.clear(); state.forma.clear(); state.infantil=false;
+    state.q=""; state.uso.clear(); state.marca.clear(); state.nivel.clear(); state.cierre.clear(); state.forma.clear(); state.infantil=false; state.lv=false; state.vegano=false;
     el("#search").value = "";
     renderQuickUso();
     document.querySelectorAll('#levelFilters button, #closureFilters button, #shapeFilters button').forEach(b=>b.setAttribute("aria-pressed","false"));
@@ -1369,7 +1484,10 @@
         </div>
         <div class="duel-rows">${rowsHTML}</div>
         <p class="duel-note">${t("duelNote")}</p>
+        <div class="share-row"><button type="button" class="btn-secondary" id="shareDuelBtn">${t("shareCompare")}</button></div>
       </div>`;
+    const shareDuelBtn = box.querySelector("#shareDuelBtn");
+    if(shareDuelBtn) shareDuelBtn.addEventListener("click", ()=> shareLink(baseUrl() + "#compare/" + a.id + "/" + b.id, shareDuelBtn));
 
     box.querySelectorAll(".duel-photo").forEach((wrap,i)=>{
       const s = i===0 ? a : b;
@@ -1394,11 +1512,7 @@
     });
   });
 
-  window.addEventListener("hashchange", ()=>{
-    const v = parseInitialHash();
-    ["a","b"].forEach(renderPicker);
-    setView(v);
-  });
+  window.addEventListener("hashchange", applyHashRoute);
 
   /* Si la ventana cambia de ancho (redimensionar, girar una tablet...) el
      número de columnas del catálogo puede cambiar, y con él la posición que
@@ -1439,6 +1553,8 @@
     applyStaticI18n();
     rerenderAll();
     if(state.view === "news" && window.GatoLabNews) window.GatoLabNews.render();
+    // Enlaces compartidos: se vuelven a leer ahora que el catálogo ya ha llegado
+    if(/^#(comparar|compare)\//.test(INITIAL_HASH)) applyHashRoute(INITIAL_HASH);
   });
 
   /* ------------------------------------------------------------------ *

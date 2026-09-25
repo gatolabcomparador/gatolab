@@ -282,6 +282,14 @@ collections:
                 default: false
                 hint: "Márcalo solo si es un modelo específico para niños/as."
 
+              - label: "Posición destacada en la portada"
+                name: "destacado"
+                widget: "number"
+                value_type: "int"
+                min: 1
+                required: false
+                hint: "Solo para los modelos más vendidos o emblemáticos de cada marca: 1 = el más famoso, que sale arriba del todo; 2 el siguiente, etc. (ahora hay del 1 al 99). Los modelos con número salen primero en la portada, en ese orden; los que lo dejan vacío salen después. La web intercala las marcas automáticamente para que no aparezcan varios seguidos de la misma, así que el orden final puede variar un poco respecto al número."
+
               - label: "Sello GATO LAB (pie de gato estrella)"
                 name: "sello"
                 widget: "boolean"

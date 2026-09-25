@@ -161,7 +161,7 @@
   //  2) Después, el resto de modelos, mezclados.
   //  En todo momento se evita repetir una marca que haya salido en las 3 posiciones
   //  anteriores, para que las marcas queden intercaladas.
-  const MARCAS_PRIORITARIAS = ["La Sportiva", "Scarpa", "Tenaya"];
+  const MARCAS_PRIORITARIAS = ["La Sportiva", "Tenaya", "Scarpa"];
   let orderedCache = null, orderedFor = null;
   function orderedShoes(){
     if(orderedCache && orderedFor === SHOES) return orderedCache;

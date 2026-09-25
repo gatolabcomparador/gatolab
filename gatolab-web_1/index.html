@@ -83,6 +83,7 @@
     <nav class="main-nav">
       <button type="button" id="navHome" aria-current="true">Home</button>
       <button type="button" id="navCompare" aria-current="false">Comparador</button>
+      <button type="button" id="navGuide" aria-current="false">Guía</button>
       <button type="button" id="navNews" aria-current="false">News</button>
       <button type="button" id="navAbout" aria-current="false">Sobre nosotros</button>
     </nav>
@@ -191,6 +192,11 @@
     <div class="ad-slot ad-infeed" aria-hidden="true" data-ad-suffix=" (Google AdSense · formato nativo)">Espacio publicitario (Google AdSense · formato nativo)</div>
   </main>
 
+  <!-- ================================ GUÍA ================================= -->
+  <main id="guideView" hidden>
+    <div id="guideBody"></div>
+  </main>
+
   <!-- ================================ NEWS ================================ -->
   <main id="newsView" hidden>
     <div id="newsBody"></div>
@@ -267,6 +273,7 @@ window.__gatoAuthHash = location.hash;
 <script src="js/sizes.js"></script>
 <script src="js/app.js"></script>
 <script src="js/news.js"></script>
+  <script src="js/guide.js"></script>
 
 <!--
   NETLIFY IDENTITY (invitaciones y recuperación de contraseña)

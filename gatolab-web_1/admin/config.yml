@@ -282,6 +282,20 @@ collections:
                 default: false
                 hint: "Márcalo solo si es un modelo específico para niños/as."
 
+              - label: "Horma de bajo volumen (LV)"
+                name: "lv"
+                widget: "boolean"
+                required: false
+                default: false
+                hint: "Márcalo si es una versión LV / low volume o una horma estrecha (también las de mujer de volumen bajo). El modelo aparecerá en el botón «Low volume (LV)» de la portada."
+
+              - label: "Vegano"
+                name: "vegano"
+                widget: "boolean"
+                required: false
+                default: false
+                hint: "Márcalo solo si la marca indica que el modelo es 100% vegano (sin piel ni materiales de origen animal). Aparecerá en el botón «Vegano» de la portada."
+
               - label: "Posición destacada en la portada"
                 name: "destacado"
                 widget: "number"

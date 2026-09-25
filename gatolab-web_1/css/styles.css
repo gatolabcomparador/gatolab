@@ -656,3 +656,23 @@ table.compare .price-cell{ font-family:'JetBrains Mono',monospace; font-weight:7
   .card-kids-flag.with-seal{ left:38px; }
   .seal-note{ font-size:.8rem; }
 }
+
+/* ==========================================================================
+   Modelos parecidos (ficha), botón de compartir comparación y filtros LV/Vegano
+   ========================================================================== */
+.similar-grid{ display:grid; grid-template-columns:repeat(4, minmax(0,1fr)); gap:10px; margin-top:12px; }
+.similar-card{ display:flex; flex-direction:column; padding:0; text-align:left; background:var(--surface); color:var(--ink); border:1.5px solid var(--ink); border-radius:var(--radius); overflow:hidden; cursor:pointer; font:inherit; transition:border-color .12s; }
+.similar-card:hover, .similar-card:focus-visible{ border-color:var(--accent); outline:none; }
+.similar-photo{ aspect-ratio:1/1; background:var(--surface-2); border-bottom:1.5px solid var(--ink); display:flex; align-items:center; justify-content:center; overflow:hidden; }
+.similar-photo img.shoe-photo{ width:100%; height:100%; object-fit:contain; padding:8px; }
+.similar-photo svg{ width:55%; height:auto; }
+.similar-info{ padding:8px 9px 10px; display:flex; flex-direction:column; gap:2px; min-width:0; }
+.similar-brand{ font-family:'JetBrains Mono',monospace; font-size:.6rem; text-transform:uppercase; letter-spacing:.06em; color:var(--gray-500); }
+.similar-model{ font-family:'Anton','Arial Narrow',Impact,sans-serif; text-transform:uppercase; font-size:.95rem; line-height:1.1; overflow-wrap:anywhere; }
+.similar-price{ font-family:'JetBrains Mono',monospace; font-size:.72rem; color:var(--gray-700); margin-top:2px; }
+.share-row{ display:flex; flex-wrap:wrap; gap:10px; margin-top:16px; }
+.tag.tag-vegan{ border-color:#2F9E5B; color:#2F9E5B; }
+@media (max-width:680px){
+  .similar-grid{ grid-template-columns:repeat(2, minmax(0,1fr)); gap:8px; }
+  .similar-model{ font-size:.85rem; }
+}

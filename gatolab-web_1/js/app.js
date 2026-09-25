@@ -154,6 +154,25 @@
     return [...new Set([s.uso, ...extra].filter(Boolean))];
   }
   function usosLabel(s){ return usosOf(s).map(u=>v("uso",u)).join(" · "); }
+  // Orden del catálogo en la portada: primero los modelos con "destacado" (1 = el más
+  // famoso/vendido), luego el resto; en todo momento se evita repetir una marca que haya
+  // salido en las 3 posiciones anteriores, para que las marcas queden intercaladas.
+  let orderedCache = null, orderedFor = null;
+  function orderedShoes(){
+    if(orderedCache && orderedFor === SHOES) return orderedCache;
+    const hash = str => { let h = 2166136261; for(const c of str){ h ^= c.charCodeAt(0); h = Math.imul(h, 16777619) >>> 0; } return h; };
+    const key = s => (typeof s.destacado === "number" && s.destacado > 0) ? [0, s.destacado] : [1, hash(s.id)];
+    const pool = SHOES.slice().sort((x,y)=>{ const kx = key(x), ky = key(y); return kx[0]-ky[0] || kx[1]-ky[1]; });
+    const out = [], recent = [];
+    while(pool.length){
+      let i = pool.findIndex(s=>!recent.includes(s.marca));
+      if(i < 0) i = 0;
+      const [s] = pool.splice(i, 1);
+      out.push(s); recent.push(s.marca); if(recent.length > 3) recent.shift();
+    }
+    orderedCache = out; orderedFor = SHOES;
+    return out;
+  }
   function usosTagsHTML(s){ return usosOf(s).map(u=>`<span class="tag">${v("uso",u)}</span>`).join(""); }
   const NIVEL_OPTIONS = ["Iniciación","Intermedio","Avanzado"];
   // Cierre simplificado para el filtro: el dato técnico exacto (s.cierre) se sigue mostrando
@@ -887,7 +906,7 @@
       catalog.innerHTML = `<div class="empty-state catalog-loading"><span class="empty-state-mark"><svg viewBox="0 0 182 200"><use href="#icon-mark"></use></svg></span>${t("catalogLoadingHTML")}</div>`;
       return;
     }
-    const list = SHOES.filter(matchesFilters);
+    const list = orderedShoes().filter(matchesFilters);
     if(!list.length){
       catalog.innerHTML = `<div class="empty-state"><span class="empty-state-mark"><svg viewBox="0 0 182 200"><use href="#icon-mark"></use></svg></span>${t("emptyStateHTML")}</div>`;
       return;

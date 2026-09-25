@@ -1,0 +1,314 @@
+{
+  "intro": {
+    "es": "Si es tu primer pie de gato o no tienes claro qué significa cada dato de las fichas, empieza aquí. Te explicamos en lenguaje sencillo cada parámetro que verás en GATO LAB y cómo usarlo para elegir el modelo que mejor encaja contigo.",
+    "ca": "Si és el teu primer peu de gat o no tens clar què vol dir cada dada de les fitxes, comença aquí. T'expliquem en llenguatge senzill cada paràmetre que veuràs a GATO LAB i com fer-lo servir per triar el model que millor encaixa amb tu.",
+    "en": "If this is your first pair of climbing shoes, or you are not sure what each spec means, start here. We explain every parameter you will see on GATO LAB in plain language and how to use it to pick the model that suits you best.",
+    "fr": "Si c'est ton premier chausson d'escalade ou si tu ne sais pas bien ce que signifie chaque donnée des fiches, commence ici. Nous t'expliquons simplement chaque paramètre que tu verras sur GATO LAB et comment l'utiliser pour choisir le modèle qui te convient le mieux."
+  },
+  "secciones": [
+    {
+      "id": "primer-pie",
+      "titulo": {
+        "es": "Tu primer pie de gato en 5 claves",
+        "ca": "El teu primer peu de gat en 5 claus",
+        "en": "Your first climbing shoe in 5 keys",
+        "fr": "Ton premier chausson en 5 clés"
+      },
+      "texto": {
+        "es": "Si solo tienes un minuto, quédate con esto:\n\n- **Nivel Iniciación o Intermedio.** Busca un modelo pensado para aprender, no el que usan los profesionales.\n- **Perfil plano o moderado.** Son cómodos, aguantan sesiones largas y te dejan apoyar bien el pie.\n- **Rigidez media.** Da soporte para que los pies no se cansen mientras ganas fuerza.\n- **Velcro.** Te lo quitas y te lo pones en segundos entre vía y vía.\n- **Ajustado pero sin dolor.** Los dedos pueden ir algo flexionados, pero nunca doblados con dolor.\n\nA partir de aquí, el resto de la guía te explica cada dato por si quieres afinar más.",
+        "ca": "Si només tens un minut, queda't amb això:\n\n- **Nivell Iniciació o Intermedi.** Busca un model pensat per aprendre, no el que fan servir els professionals.\n- **Perfil pla o moderat.** Són còmodes, aguanten sessions llargues i et deixen recolzar bé el peu.\n- **Rigidesa mitjana.** Dona suport perquè els peus no es cansin mentre guanyes força.\n- **Velcro.** Te'l treus i te'l poses en segons entre via i via.\n- **Ajustat però sense dolor.** Els dits poden anar una mica flexionats, però mai doblegats amb dolor.\n\nA partir d'aquí, la resta de la guia t'explica cada dada per si vols afinar més.",
+        "en": "If you only have a minute, remember this:\n\n- **Beginner or Intermediate level.** Look for a model designed for learning, not the one the pros wear.\n- **Flat or moderate profile.** They are comfortable, last through long sessions and let you stand properly on your feet.\n- **Medium stiffness.** It gives support so your feet don't tire while you build strength.\n- **Velcro.** On and off in seconds between routes.\n- **Snug but not painful.** Your toes can be slightly bent, but never crunched and hurting.\n\nThe rest of the guide explains every spec in case you want to fine-tune your choice.",
+        "fr": "Si tu n'as qu'une minute, retiens ceci :\n\n- **Niveau Débutant ou Intermédiaire.** Cherche un modèle pensé pour apprendre, pas celui des professionnels.\n- **Profil plat ou modéré.** Ils sont confortables, tiennent sur de longues séances et laissent bien poser le pied.\n- **Rigidité moyenne.** Elle soutient le pied pour qu'il ne se fatigue pas pendant que tu gagnes en force.\n- **Velcro.** Il s'enlève et se remet en quelques secondes entre deux voies.\n- **Serré mais sans douleur.** Les orteils peuvent être légèrement fléchis, mais jamais écrasés et douloureux.\n\nLa suite du guide explique chaque donnée si tu veux affiner ton choix."
+      },
+      "filtros": [
+        {
+          "tipo": "nivel",
+          "valor": "Iniciación"
+        }
+      ]
+    },
+    {
+      "id": "nivel",
+      "titulo": {
+        "es": "Nivel",
+        "ca": "Nivell",
+        "en": "Level",
+        "fr": "Niveau"
+      },
+      "texto": {
+        "es": "Es el tipo de escalador para el que está pensado el modelo, según lo exigente que es de llevar.\n\n- **Iniciación:** cómodos, duraderos y fáciles de ajustar. Ideales para tus primeros meses y para rocódromo.\n- **Intermedio:** algo más precisos y curvados. Para cuando ya escalas con regularidad y quieres rendir más en vías o bloques difíciles.\n- **Avanzado:** muy precisos y técnicos, pero también más incómodos. Sacan partido a una buena técnica de pies; si empiezas, te costará aprovecharlos.\n\nElegir un nivel por encima del tuyo no te hará escalar mejor: normalmente solo te hará sufrir más.",
+        "ca": "És el tipus d'escalador per al qual està pensat el model, segons com d'exigent és de portar.\n\n- **Iniciació:** còmodes, duradors i fàcils d'ajustar. Ideals per als primers mesos i per al rocòdrom.\n- **Intermedi:** una mica més precisos i corbats. Per quan ja escales amb regularitat i vols rendir més en vies o blocs difícils.\n- **Avançat:** molt precisos i tècnics, però també més incòmodes. Treuen partit d'una bona tècnica de peus; si comences, et costarà aprofitar-los.\n\nTriar un nivell per sobre del teu no et farà escalar millor: normalment només et farà patir més.",
+        "en": "The kind of climber the model is designed for, based on how demanding it is to wear.\n\n- **Beginner:** comfortable, durable and easy to fit. Ideal for your first months and for the gym.\n- **Intermediate:** a bit more precise and downturned. For when you climb regularly and want more performance on harder routes or boulders.\n- **Advanced:** very precise and technical, but also less comfortable. They reward good footwork; as a beginner you will struggle to get the most out of them.\n\nChoosing a level above yours won't make you climb better; it usually just hurts more.",
+        "fr": "C'est le type de grimpeur pour lequel le modèle est pensé, selon son exigence à porter.\n\n- **Débutant :** confortables, durables et faciles à ajuster. Idéaux pour les premiers mois et pour la salle.\n- **Intermédiaire :** un peu plus précis et cambrés. Quand tu grimpes régulièrement et veux plus de performance en voie ou en bloc difficile.\n- **Avancé :** très précis et techniques, mais aussi moins confortables. Ils récompensent un bon jeu de pieds ; en débutant, tu auras du mal à en profiter.\n\nChoisir un niveau au-dessus du tien ne te fera pas mieux grimper : en général, tu souffriras juste davantage."
+      },
+      "filtros": [
+        {
+          "tipo": "nivel",
+          "valor": "Iniciación"
+        },
+        {
+          "tipo": "nivel",
+          "valor": "Intermedio"
+        },
+        {
+          "tipo": "nivel",
+          "valor": "Avanzado"
+        }
+      ]
+    },
+    {
+      "id": "uso",
+      "titulo": {
+        "es": "Tipo de escalada",
+        "ca": "Tipus d'escalada",
+        "en": "Type of climbing",
+        "fr": "Type d'escalade"
+      },
+      "texto": {
+        "es": "Indica dónde rinde mejor cada modelo. Muchos sirven para varias cosas, por eso verás varias etiquetas en cada pie de gato.\n\n- **Rocódromo:** cómodos y resistentes para muchas horas en plafón y presas de resina.\n- **Bloque:** blandos y curvados para agarrarse a volúmenes, hacer ganchos de talón y puntera y apretar en desplomes.\n- **Deportiva:** precisos para vías con chapas, sobre todo en roca y en regletas pequeñas.\n- **Todoterreno:** equilibrados; valen para casi todo sin destacar en nada concreto.\n- **Fisura / Trad:** planos y a menudo con cordones, para meter el pie en grietas y pasar muchas horas en vías largas.\n- **Competición:** muy blandos y sensibles, pensados para el bloque moderno de rocódromo.\n- **Velocidad:** específicos para la pared de velocidad.",
+        "ca": "Indica on rendeix millor cada model. Molts serveixen per a diverses coses, per això veuràs diverses etiquetes a cada peu de gat.\n\n- **Rocòdrom:** còmodes i resistents per a moltes hores en plafó i preses de resina.\n- **Bloc:** tous i corbats per agafar-se a volums, fer ganxos de taló i de puntera i prémer en desploms.\n- **Esportiva:** precisos per a vies amb xapes, sobretot en roca i en regletes petites.\n- **Tot terreny:** equilibrats; serveixen per a gairebé tot sense destacar en res concret.\n- **Fissura / Trad:** plans i sovint amb cordons, per ficar el peu a les escletxes i passar moltes hores en vies llargues.\n- **Competició:** molt tous i sensibles, pensats per al bloc modern de rocòdrom.\n- **Velocitat:** específics per a la paret de velocitat.",
+        "en": "Where each model performs best. Many work for several styles, which is why you will see several tags on each shoe.\n\n- **Gym:** comfortable and hard-wearing for long hours on plastic holds.\n- **Bouldering:** soft and downturned to grab volumes, hook with heel and toe and pull on overhangs.\n- **Sport:** precise for bolted routes, especially on rock and small edges.\n- **All-round:** balanced; good for almost everything without standing out at anything in particular.\n- **Crack / Trad:** flat and often laced, to jam your foot into cracks and spend long days on multi-pitch routes.\n- **Competition:** very soft and sensitive, designed for modern gym bouldering.\n- **Speed:** specific to the speed wall.",
+        "fr": "Indique où chaque modèle est le plus performant. Beaucoup sont polyvalents, c'est pourquoi tu verras plusieurs étiquettes sur chaque chausson.\n\n- **Salle :** confortables et résistants pour de longues heures sur prises en résine.\n- **Bloc :** souples et cambrés pour tenir sur les volumes, crocheter du talon et de la pointe et tirer dans les dévers.\n- **Sportive :** précis pour les voies équipées, surtout en falaise et sur petites réglettes.\n- **Polyvalente :** équilibrés ; ils conviennent à presque tout sans exceller nulle part.\n- **Fissure / Trad :** plats et souvent à lacets, pour coincer le pied dans les fissures et passer de longues journées en grande voie.\n- **Compétition :** très souples et sensibles, pensés pour le bloc moderne en salle.\n- **Vitesse :** spécifiques au mur de vitesse."
+      },
+      "filtros": [
+        {
+          "tipo": "uso",
+          "valor": "Rocódromo"
+        },
+        {
+          "tipo": "uso",
+          "valor": "Bloque"
+        },
+        {
+          "tipo": "uso",
+          "valor": "Deportiva"
+        },
+        {
+          "tipo": "uso",
+          "valor": "Todoterreno"
+        },
+        {
+          "tipo": "uso",
+          "valor": "Fisura/Trad"
+        }
+      ]
+    },
+    {
+      "id": "perfil",
+      "titulo": {
+        "es": "Perfil (curvatura)",
+        "ca": "Perfil (curvatura)",
+        "en": "Profile (downturn)",
+        "fr": "Profil (cambrure)"
+      },
+      "texto": {
+        "es": "Es lo curvado que es el pie de gato visto de lado, lo que en inglés llaman «downturn». Cuanto más curvado, más fuerza concentra en la punta de los dedos.\n\n- **Plano / casi plano:** el pie apoya casi como en una zapatilla normal. Muy cómodo, ideal para empezar, placas y fisuras.\n- **Moderado:** una ligera curva que mejora la precisión sin castigar el pie. El punto de equilibrio para la mayoría.\n- **Agresivo / muy agresivo:** forma de garra muy marcada para desplomes, techos y bloque duro. Muy eficaces en terreno empinado, pero incómodos para vías verticales y para muchas horas seguidas.\n\nEn la web, este valor alimenta el eje «Agresividad» del gráfico de cada ficha.",
+        "ca": "És com de corbat és el peu de gat vist de costat, el que en anglès anomenen «downturn». Com més corbat, més força concentra a la punta dels dits.\n\n- **Pla / gairebé pla:** el peu recolza gairebé com en una sabatilla normal. Molt còmode, ideal per començar, plaques i fissures.\n- **Moderat:** una lleugera corba que millora la precisió sense castigar el peu. El punt d'equilibri per a la majoria.\n- **Agressiu / molt agressiu:** forma d'urpa molt marcada per a desploms, sostres i bloc dur. Molt eficaços en terreny dret, però incòmodes per a vies verticals i per a moltes hores seguides.\n\nA la web, aquest valor alimenta l'eix «Agressivitat» del gràfic de cada fitxa.",
+        "en": "How curved the shoe is when seen from the side, known as \"downturn\". The more curved, the more power it focuses on your toes.\n\n- **Flat / almost flat:** your foot sits almost as in a normal trainer. Very comfortable; ideal for beginners, slabs and cracks.\n- **Moderate:** a slight curve that adds precision without punishing your foot. The sweet spot for most climbers.\n- **Aggressive / very aggressive:** a pronounced claw shape for overhangs, roofs and hard bouldering. Very effective on steep ground but uncomfortable on vertical routes and for long hours.\n\nOn the site, this value drives the \"Aggressiveness\" axis of each shoe's chart.",
+        "fr": "C'est la courbure du chausson vu de profil, le fameux « downturn ». Plus il est cambré, plus il concentre la force sur la pointe des orteils.\n\n- **Plat / presque plat :** le pied repose presque comme dans une chaussure normale. Très confortable, idéal pour débuter, pour les dalles et les fissures.\n- **Modéré :** une légère courbe qui gagne en précision sans maltraiter le pied. Le bon compromis pour la plupart.\n- **Agressif / très agressif :** forme de griffe très marquée pour les dévers, les toits et le bloc difficile. Très efficaces dans le raide, mais inconfortables en voie verticale et sur de longues heures.\n\nSur le site, cette valeur alimente l'axe « Agressivité » du graphique de chaque fiche."
+      },
+      "filtros": [
+        {
+          "tipo": "forma",
+          "valor": "Plana"
+        },
+        {
+          "tipo": "forma",
+          "valor": "Moderada"
+        },
+        {
+          "tipo": "forma",
+          "valor": "Agresiva"
+        }
+      ]
+    },
+    {
+      "id": "asimetria",
+      "titulo": {
+        "es": "Asimetría",
+        "ca": "Asimetria",
+        "en": "Asymmetry",
+        "fr": "Asymétrie"
+      },
+      "texto": {
+        "es": "Es cuánto se desvía la punta hacia el dedo gordo cuando miras el pie de gato desde arriba.\n\n- **Baja:** la punta sigue la forma natural del pie. Más cómodo y reparte el apoyo entre todos los dedos.\n- **Media:** un compromiso entre comodidad y precisión.\n- **Alta:** empuja la fuerza hacia el dedo gordo para pisar presas diminutas con mucha precisión, a costa de comodidad.\n\nPara empezar, una asimetría baja o media es la opción más agradable.",
+        "ca": "És quant es desvia la punta cap al dit gros quan mires el peu de gat des de dalt.\n\n- **Baixa:** la punta segueix la forma natural del peu. Més còmode i reparteix el suport entre tots els dits.\n- **Mitjana:** un compromís entre comoditat i precisió.\n- **Alta:** empeny la força cap al dit gros per trepitjar preses minúscules amb molta precisió, a costa de comoditat.\n\nPer començar, una asimetria baixa o mitjana és l'opció més agradable.",
+        "en": "How much the toe points towards the big toe when you look at the shoe from above.\n\n- **Low:** the toe follows the natural shape of your foot. More comfortable, spreading pressure across all your toes.\n- **Medium:** a compromise between comfort and precision.\n- **High:** pushes power onto the big toe to stand on tiny holds with great precision, at the cost of comfort.\n\nFor beginners, low or medium asymmetry is the most pleasant choice.",
+        "fr": "C'est à quel point la pointe dévie vers le gros orteil quand tu regardes le chausson de dessus.\n\n- **Faible :** la pointe suit la forme naturelle du pied. Plus confortable, l'appui se répartit sur tous les orteils.\n- **Moyenne :** un compromis entre confort et précision.\n- **Forte :** concentre la force sur le gros orteil pour se tenir sur des prises minuscules avec beaucoup de précision, au détriment du confort.\n\nPour débuter, une asymétrie faible ou moyenne est le choix le plus agréable."
+      },
+      "filtros": []
+    },
+    {
+      "id": "rigidez",
+      "titulo": {
+        "es": "Rigidez y sensibilidad",
+        "ca": "Rigidesa i sensibilitat",
+        "en": "Stiffness and sensitivity",
+        "fr": "Rigidité et sensibilité"
+      },
+      "texto": {
+        "es": "La rigidez depende de la entresuela y de lo gruesa que es la suela. Rigidez y sensibilidad van al revés: cuanto más rígido, menos notas la roca.\n\n- **Blanda:** notas cada relieve, se adapta a volúmenes y agarra muy bien en desplomes y ganchos. Cansa más el pie y exige más fuerza.\n- **Media:** equilibrio entre soporte y tacto. La opción más versátil.\n- **Rígida:** el pie descansa sobre una plataforma firme. Ideal para cantear en regletas pequeñas, vías largas y para quien aún no tiene fuerza en los pies.\n\nEn las fichas verás también la construcción: «slip-lasted» (flexible, típica de los modelos blandos) o «board-lasted» (con una plantilla más firme, típica de los rígidos).",
+        "ca": "La rigidesa depèn de l'entresola i de com de gruixuda és la sola. Rigidesa i sensibilitat van al revés: com més rígid, menys notes la roca.\n\n- **Tova:** notes cada relleu, s'adapta a volums i agafa molt bé en desploms i ganxos. Cansa més el peu i exigeix més força.\n- **Mitjana:** equilibri entre suport i tacte. L'opció més versàtil.\n- **Rígida:** el peu descansa sobre una plataforma ferma. Ideal per cantejar en regletes petites, vies llargues i per a qui encara no té força als peus.\n\nA les fitxes també veuràs la construcció: «slip-lasted» (flexible, típica dels models tous) o «board-lasted» (amb una plantilla més ferma, típica dels rígids).",
+        "en": "Stiffness depends on the midsole and on how thick the sole is. Stiffness and sensitivity go in opposite directions: the stiffer the shoe, the less you feel the rock.\n\n- **Soft:** you feel every feature; it moulds to volumes and grips very well on overhangs and hooks. It tires your feet more and needs stronger feet.\n- **Medium:** a balance between support and feel. The most versatile option.\n- **Stiff:** your foot rests on a firm platform. Ideal for edging on small holds, long routes and for climbers whose feet are not yet strong.\n\nOn each shoe page you will also see the construction: \"slip-lasted\" (flexible, typical of soft models) or \"board-lasted\" (with a firmer insole, typical of stiff models).",
+        "fr": "La rigidité dépend de la semelle intermédiaire et de l'épaisseur de la semelle. Rigidité et sensibilité vont en sens inverse : plus c'est rigide, moins tu sens le rocher.\n\n- **Souple :** tu sens chaque relief, le chausson épouse les volumes et accroche très bien dans les dévers et les crochets. Il fatigue davantage le pied et demande plus de force.\n- **Moyenne :** équilibre entre soutien et sensations. L'option la plus polyvalente.\n- **Rigide :** le pied repose sur une plateforme ferme. Idéal pour carrer sur de petites réglettes, pour les grandes voies et pour ceux dont les pieds manquent encore de force.\n\nSur les fiches, tu verras aussi la construction : « slip-lasted » (souple, typique des modèles souples) ou « board-lasted » (avec une première plus ferme, typique des modèles rigides)."
+      },
+      "filtros": []
+    },
+    {
+      "id": "suela",
+      "titulo": {
+        "es": "Goma y grosor de suela",
+        "ca": "Goma i gruix de la sola",
+        "en": "Rubber and sole thickness",
+        "fr": "Gomme et épaisseur de semelle"
+      },
+      "texto": {
+        "es": "Cada marca usa sus propias gomas (Vibram XS Grip, XS Edge, FriXion, Trax, Zenith…). Unas agarran más por fricción y otras aguantan mejor el canto en presas pequeñas, pero todas las de calidad funcionan bien: no dejes que la goma decida tu compra.\n\nEl grosor suele ir de 3 a 5 mm:\n\n- **Más fina (3–3,5 mm):** más tacto y adherencia, pero se gasta antes.\n- **Más gruesa (4–5 mm):** más duradera y con más soporte. Muy recomendable para empezar, porque al principio se arrastran mucho los pies.\n\nCuando la goma se desgasta, casi todos los pies de gato se pueden resolar (cambiar la suela) por bastante menos de lo que cuestan unos nuevos.",
+        "ca": "Cada marca fa servir les seves gomes (Vibram XS Grip, XS Edge, FriXion, Trax, Zenith…). Unes agafen més per fricció i d'altres aguanten millor el cantell en preses petites, però totes les de qualitat funcionen bé: no deixis que la goma decideixi la teva compra.\n\nEl gruix sol anar de 3 a 5 mm:\n\n- **Més fina (3–3,5 mm):** més tacte i adherència, però es gasta abans.\n- **Més gruixuda (4–5 mm):** més duradora i amb més suport. Molt recomanable per començar, perquè al principi s'arrosseguen molt els peus.\n\nQuan la goma es desgasta, gairebé tots els peus de gat es poden resolar (canviar la sola) per força menys del que costen uns de nous.",
+        "en": "Each brand uses its own rubbers (Vibram XS Grip, XS Edge, FriXion, Trax, Zenith…). Some grip better through friction and others hold edges better on small holds, but all quality rubbers work well: don't let the rubber decide your purchase.\n\nThickness usually ranges from 3 to 5 mm:\n\n- **Thinner (3–3.5 mm):** more feel and grip, but it wears out sooner.\n- **Thicker (4–5 mm):** more durable and supportive. Highly recommended for beginners, who tend to drag their feet a lot.\n\nWhen the rubber wears out, almost any climbing shoe can be resoled for much less than a new pair.",
+        "fr": "Chaque marque utilise ses propres gommes (Vibram XS Grip, XS Edge, FriXion, Trax, Zenith…). Certaines adhèrent mieux par friction, d'autres tiennent mieux la carre sur petites prises, mais toutes les gommes de qualité fonctionnent bien : ne laisse pas la gomme décider de ton achat.\n\nL'épaisseur va en général de 3 à 5 mm :\n\n- **Plus fine (3–3,5 mm) :** plus de sensations et d'adhérence, mais elle s'use plus vite.\n- **Plus épaisse (4–5 mm) :** plus durable et plus de soutien. Très conseillée pour débuter, car on traîne beaucoup les pieds au début.\n\nQuand la gomme est usée, presque tous les chaussons peuvent être ressemelés pour bien moins cher qu'une paire neuve."
+      },
+      "filtros": []
+    },
+    {
+      "id": "cierre",
+      "titulo": {
+        "es": "Cierre",
+        "ca": "Tancament",
+        "en": "Closure",
+        "fr": "Fermeture"
+      },
+      "texto": {
+        "es": "Cómo se ajusta el pie de gato al pie.\n\n- **Velcro:** rápido de poner y quitar; el más práctico para rocódromo y bloque, donde te lo quitas a menudo.\n- **Cordones:** el ajuste más preciso a lo largo de todo el pie. Ideal para vías largas y pies con formas poco habituales.\n- **Slipper / elástico:** sin cierre, se ajusta solo por la tensión del tejido. Muy sensible y cómodo, pero da menos soporte; mejor cuando ya tienes experiencia.",
+        "ca": "Com s'ajusta el peu de gat al peu.\n\n- **Velcro:** ràpid de posar i treure; el més pràctic per a rocòdrom i bloc, on te'l treus sovint.\n- **Cordons:** l'ajust més precís al llarg de tot el peu. Ideal per a vies llargues i peus amb formes poc habituals.\n- **Slipper / elàstic:** sense tancament, s'ajusta només per la tensió del teixit. Molt sensible i còmode, però dona menys suport; millor quan ja tens experiència.",
+        "en": "How the shoe is tightened around your foot.\n\n- **Velcro:** quick on and off; the most practical option for the gym and bouldering, where you take your shoes off often.\n- **Laces:** the most precise fit along the whole foot. Ideal for long routes and unusually shaped feet.\n- **Slipper / elastic:** no fastening; the fit comes only from the tension of the upper. Very sensitive and comfortable but less supportive; best once you have some experience.",
+        "fr": "Comment le chausson se serre sur le pied.\n\n- **Velcro :** rapide à mettre et à enlever ; le plus pratique en salle et en bloc, où on se déchausse souvent.\n- **Lacets :** l'ajustement le plus précis sur tout le pied. Idéal pour les grandes voies et les pieds de forme atypique.\n- **Slipper / élastique :** sans fermeture, l'ajustement vient seulement de la tension de la tige. Très sensible et confortable, mais moins de soutien ; mieux avec un peu d'expérience."
+      },
+      "filtros": [
+        {
+          "tipo": "cierre",
+          "valor": "Velcro / correas"
+        },
+        {
+          "tipo": "cierre",
+          "valor": "Cordones"
+        },
+        {
+          "tipo": "cierre",
+          "valor": "Slip-on / elástico"
+        }
+      ]
+    },
+    {
+      "id": "volumen",
+      "titulo": {
+        "es": "Volumen de horma (LV)",
+        "ca": "Volum de forma (LV)",
+        "en": "Last volume (LV)",
+        "fr": "Volume de forme (LV)"
+      },
+      "texto": {
+        "es": "La horma es el molde con el que se fabrica el pie de gato. El volumen indica cuánto espacio deja por dentro.\n\n- **Estándar:** para la mayoría de pies.\n- **Bajo (LV, low volume):** más estrecho y con menos altura en el empeine y el talón. Suele ir mejor a pies finos, a muchas mujeres y a pies pequeños. Muchas versiones «Woman» son en realidad hormas LV.\n- **Alto (HV, high volume) o ancho:** para pies anchos o con mucho empeine.\n\nSi en un pie de gato de tu talla te sobra espacio en el talón o por encima de los dedos, prueba la versión LV del mismo modelo. Puedes verlos todos con el botón «Low volume (LV)» de la portada.",
+        "ca": "La forma és el motlle amb què es fabrica el peu de gat. El volum indica quant d'espai deixa per dins.\n\n- **Estàndard:** per a la majoria de peus.\n- **Baix (LV, low volume):** més estret i amb menys alçada a l'empenya i al taló. Sol anar millor a peus prims, a moltes dones i a peus petits. Moltes versions «Woman» són en realitat formes LV.\n- **Alt (HV, high volume) o ample:** per a peus amples o amb molta empenya.\n\nSi en un peu de gat de la teva talla et sobra espai al taló o per sobre dels dits, prova la versió LV del mateix model. Pots veure-les totes amb el botó «Low volume (LV)» de la portada.",
+        "en": "The last is the mould a shoe is built on. Volume tells you how much room there is inside.\n\n- **Standard:** for most feet.\n- **Low (LV, low volume):** narrower, with a lower instep and heel. It usually suits slim feet, many women and small feet. Many \"Woman\" versions are actually LV lasts.\n- **High (HV, high volume) or wide:** for wide feet or a high instep.\n\nIf a shoe in your size leaves empty space at the heel or above your toes, try the LV version of the same model. You can see them all with the \"Low volume (LV)\" button on the home page.",
+        "fr": "La forme est le moule sur lequel le chausson est fabriqué. Le volume indique l'espace disponible à l'intérieur.\n\n- **Standard :** pour la plupart des pieds.\n- **Faible (LV, low volume) :** plus étroit, avec moins de hauteur au coup-de-pied et au talon. Convient souvent aux pieds fins, à beaucoup de femmes et aux petits pieds. Beaucoup de versions « Woman » sont en réalité des formes LV.\n- **Fort (HV, high volume) ou large :** pour les pieds larges ou avec un coup-de-pied haut.\n\nSi, dans ta taille, il reste de l'espace au talon ou au-dessus des orteils, essaie la version LV du même modèle. Tu peux toutes les voir avec le bouton « Low volume (LV) » de l'accueil."
+      },
+      "filtros": [
+        {
+          "tipo": "lv",
+          "valor": "true"
+        }
+      ]
+    },
+    {
+      "id": "forro",
+      "titulo": {
+        "es": "Forro y materiales",
+        "ca": "Folre i materials",
+        "en": "Lining and materials",
+        "fr": "Doublure et matériaux"
+      },
+      "texto": {
+        "es": "El material del exterior y si lleva forro por dentro cambian cuánto se da de sí el pie de gato con el uso.\n\n- **Piel sin forro:** es el que más se adapta, puede ceder hasta media talla o una talla. Por eso se suele comprar más ajustado.\n- **Piel forrada o sintético:** cede muy poco; la talla que te pruebas es prácticamente la que tendrás.\n- **Vegano:** sin piel ni materiales de origen animal. Suelen ser sintéticos y ceden poco. Los encontrarás con el botón «Vegano».\n\nEl forro también ayuda a que el pie de gato no destiña y a que huela menos, a cambio de algo menos de tacto.",
+        "ca": "El material de l'exterior i si porta folre per dins canvien quant es dona de si el peu de gat amb l'ús.\n\n- **Pell sense folre:** és el que més s'adapta, pot cedir fins a mitja talla o una talla. Per això se sol comprar més ajustat.\n- **Pell folrada o sintètic:** cedeix molt poc; la talla que et proves és pràcticament la que tindràs.\n- **Vegà:** sense pell ni materials d'origen animal. Solen ser sintètics i cedeixen poc. Els trobaràs amb el botó «Vegà».\n\nEl folre també ajuda que el peu de gat no destenyeixi i que faci menys olor, a canvi d'una mica menys de tacte.",
+        "en": "The upper material and whether the shoe is lined change how much it stretches with use.\n\n- **Unlined leather:** stretches the most, up to half a size or a full size. That's why it is usually bought tighter.\n- **Lined leather or synthetic:** stretches very little; the size you try on is almost the size you'll keep.\n- **Vegan:** no leather or animal-derived materials. They are usually synthetic and stretch little. Find them with the \"Vegan\" button.\n\nA lining also stops the shoe from bleeding colour and keeps odour down, in exchange for slightly less feel.",
+        "fr": "Le matériau de la tige et la présence ou non d'une doublure changent la façon dont le chausson se détend avec l'usage.\n\n- **Cuir non doublé :** c'est celui qui se fait le plus, jusqu'à une demi-pointure ou une pointure. C'est pourquoi on le prend souvent plus serré.\n- **Cuir doublé ou synthétique :** se détend très peu ; la taille que tu essaies est presque celle que tu garderas.\n- **Vegan :** sans cuir ni matériaux d'origine animale. Ils sont en général synthétiques et se détendent peu. Tu les trouveras avec le bouton « Vegan ».\n\nLa doublure évite aussi que le chausson déteigne et limite les odeurs, au prix d'un peu moins de sensations."
+      },
+      "filtros": [
+        {
+          "tipo": "vegano",
+          "valor": "true"
+        }
+      ]
+    },
+    {
+      "id": "talla",
+      "titulo": {
+        "es": "Cómo acertar con la talla",
+        "ca": "Com encertar la talla",
+        "en": "Getting the size right",
+        "fr": "Bien choisir sa taille"
+      },
+      "texto": {
+        "es": "Es la decisión más importante, y cada marca talla distinto.\n\n- **Para empezar**, busca un ajuste firme pero cómodo: los dedos tocan la punta y pueden ir un poco flexionados, pero puedes aguantarlo 20–30 minutos sin dolor.\n- **Para modelos avanzados**, el ajuste es más apretado y los dedos van más doblados; nunca debería doler de forma aguda.\n- **Pruébatelos por la tarde**, cuando el pie está algo más hinchado, y siempre sin calcetín (salvo que vayas a usarlos con él).\n- **Revisa el material** (sección anterior): la piel sin forro se da de sí; los sintéticos casi nada.\n- **Entre marcas**, la misma talla EU no mide lo mismo. Usa el comparador de tallas de GATO LAB para traducir tu talla de una marca a otra.",
+        "ca": "És la decisió més important, i cada marca talla diferent.\n\n- **Per començar**, busca un ajust ferm però còmode: els dits toquen la punta i poden anar una mica flexionats, però pots aguantar-ho 20–30 minuts sense dolor.\n- **Per a models avançats**, l'ajust és més estret i els dits van més doblegats; mai no hauria de fer un dolor agut.\n- **Prova-te'ls a la tarda**, quan el peu està una mica més inflat, i sempre sense mitjó (llevat que els facis servir amb mitjó).\n- **Revisa el material** (secció anterior): la pell sense folre es dona de si; els sintètics gairebé gens.\n- **Entre marques**, la mateixa talla EU no fa el mateix. Fes servir el comparador de talles de GATO LAB per traduir la teva talla d'una marca a una altra.",
+        "en": "It's the most important decision, and every brand sizes differently.\n\n- **For beginners**, aim for a firm but comfortable fit: your toes touch the end and can be slightly bent, but you can keep the shoes on for 20–30 minutes without pain.\n- **For advanced models**, the fit is tighter and your toes are more curled; it should never cause sharp pain.\n- **Try them on in the afternoon**, when your feet are slightly swollen, and without socks (unless you plan to climb with them).\n- **Check the material** (previous section): unlined leather stretches; synthetics hardly at all.\n- **Across brands**, the same EU size is not the same length. Use GATO LAB's size comparator to translate your size from one brand to another.",
+        "fr": "C'est la décision la plus importante, et chaque marque taille différemment.\n\n- **Pour débuter**, cherche un ajustement ferme mais confortable : les orteils touchent le bout et peuvent être un peu fléchis, mais tu peux les garder 20 à 30 minutes sans douleur.\n- **Pour les modèles avancés**, l'ajustement est plus serré et les orteils plus recroquevillés ; cela ne doit jamais provoquer de douleur vive.\n- **Essaie-les l'après-midi**, quand le pied est un peu gonflé, et sans chaussettes (sauf si tu grimpes avec).\n- **Vérifie le matériau** (section précédente) : le cuir non doublé se détend, le synthétique presque pas.\n- **D'une marque à l'autre**, la même pointure EU ne correspond pas à la même longueur. Utilise le comparateur de tailles de GATO LAB pour convertir ta pointure d'une marque à l'autre."
+      },
+      "filtros": [
+        {
+          "tipo": "tallas",
+          "valor": ""
+        }
+      ]
+    },
+    {
+      "id": "grafico",
+      "titulo": {
+        "es": "El gráfico «Perfil visual»",
+        "ca": "El gràfic «Perfil visual»",
+        "en": "The \"Visual profile\" chart",
+        "fr": "Le graphique « Profil visuel »"
+      },
+      "texto": {
+        "es": "Cada ficha tiene un gráfico de cinco ejes, de 0 a 4, para ver de un vistazo el carácter del pie de gato y compararlo con otros:\n\n- **Agresividad:** lo curvado que es (perfil).\n- **Asimetría:** cuánto se orienta hacia el dedo gordo.\n- **Rigidez:** cuánto soporte da la suela.\n- **Sensibilidad:** cuánto notas la roca; suele ser lo contrario de la rigidez.\n- **Ajuste:** el volumen de la horma.\n\nUna forma pequeña y centrada indica un pie de gato cómodo y polivalente; una forma grande y afilada, un modelo técnico y exigente. En el comparador 1 vs 1 verás los gráficos de dos modelos superpuestos.",
+        "ca": "Cada fitxa té un gràfic de cinc eixos, de 0 a 4, per veure d'un cop d'ull el caràcter del peu de gat i comparar-lo amb d'altres:\n\n- **Agressivitat:** com de corbat és (perfil).\n- **Asimetria:** quant s'orienta cap al dit gros.\n- **Rigidesa:** quant suport dona la sola.\n- **Sensibilitat:** quant notes la roca; sol ser el contrari de la rigidesa.\n- **Ajust:** el volum de la forma.\n\nUna forma petita i centrada indica un peu de gat còmode i polivalent; una forma gran i punxeguda, un model tècnic i exigent. Al comparador 1 vs 1 veuràs els gràfics de dos models superposats.",
+        "en": "Each shoe page has a five-axis chart, from 0 to 4, so you can see the shoe's character at a glance and compare it with others:\n\n- **Aggressiveness:** how downturned it is (profile).\n- **Asymmetry:** how much it points towards the big toe.\n- **Stiffness:** how much support the sole gives.\n- **Sensitivity:** how much you feel the rock; usually the opposite of stiffness.\n- **Fit:** the volume of the last.\n\nA small, centred shape means a comfortable, versatile shoe; a large, spiky shape means a technical, demanding one. In the 1 vs 1 comparator you'll see two models' charts overlaid.",
+        "fr": "Chaque fiche comporte un graphique à cinq axes, de 0 à 4, pour saisir d'un coup d'œil le caractère du chausson et le comparer à d'autres :\n\n- **Agressivité :** sa cambrure (profil).\n- **Asymétrie :** à quel point il est orienté vers le gros orteil.\n- **Rigidité :** le soutien apporté par la semelle.\n- **Sensibilité :** à quel point tu sens le rocher ; souvent l'inverse de la rigidité.\n- **Ajustement :** le volume de la forme.\n\nUne forme petite et centrée indique un chausson confortable et polyvalent ; une forme grande et pointue, un modèle technique et exigeant. Dans le comparateur 1 vs 1, tu verras les graphiques de deux modèles superposés."
+      },
+      "filtros": []
+    },
+    {
+      "id": "precio-peso",
+      "titulo": {
+        "es": "Precio, peso y etiquetas",
+        "ca": "Preu, pes i etiquetes",
+        "en": "Price, weight and tags",
+        "fr": "Prix, poids et étiquettes"
+      },
+      "texto": {
+        "es": "- **Precio:** es el precio de referencia de la marca. En tiendas y rebajas puede variar bastante; un pie de gato de iniciación ronda los 70–110 € y los modelos técnicos, 150–200 €.\n- **Peso:** es el de un solo pie en la talla indicada. Importa poco para escalar; sirve más para comparar lo robusto que es un modelo.\n- **Sello GATO LAB:** el logo morado marca nuestros pies de gato estrella, los que recomendamos especialmente.\n- **LV, Vegano y Niños:** etiquetas y botones para encontrar rápido hormas de bajo volumen, modelos sin materiales animales y pies de gato infantiles.",
+        "ca": "- **Preu:** és el preu de referència de la marca. A les botigues i en rebaixes pot variar força; un peu de gat d'iniciació ronda els 70–110 € i els models tècnics, 150–200 €.\n- **Pes:** és el d'un sol peu en la talla indicada. Importa poc per escalar; serveix més per comparar com de robust és un model.\n- **Segell GATO LAB:** el logo morat marca els nostres peus de gat estrella, els que recomanem especialment.\n- **LV, Vegà i Nens:** etiquetes i botons per trobar ràpidament formes de volum baix, models sense materials animals i peus de gat infantils.",
+        "en": "- **Price:** the brand's reference price. It can vary a lot between shops and in sales; a beginner shoe is around €70–110 and technical models €150–200.\n- **Weight:** one shoe in the stated size. It matters little for climbing; it's more useful to compare how robust a model is.\n- **GATO LAB Seal:** the purple logo marks our star shoes, the ones we especially recommend.\n- **LV, Vegan and Kids:** tags and buttons to quickly find low-volume lasts, models without animal materials and kids' shoes.",
+        "fr": "- **Prix :** le prix de référence de la marque. Il peut varier beaucoup selon les boutiques et les soldes ; un chausson débutant coûte autour de 70–110 € et les modèles techniques 150–200 €.\n- **Poids :** celui d'un seul chausson dans la taille indiquée. Il compte peu pour grimper ; il sert surtout à comparer la robustesse d'un modèle.\n- **Label GATO LAB :** le logo violet signale nos chaussons vedettes, ceux que nous recommandons tout particulièrement.\n- **LV, Vegan et Enfants :** étiquettes et boutons pour trouver rapidement les formes à faible volume, les modèles sans matières animales et les chaussons pour enfants."
+      },
+      "filtros": []
+    },
+    {
+      "id": "cuidados",
+      "titulo": {
+        "es": "Cuidados y consejos finales",
+        "ca": "Cura i consells finals",
+        "en": "Care and final tips",
+        "fr": "Entretien et derniers conseils"
+      },
+      "texto": {
+        "es": "- **Quítatelos entre vías o bloques** para que descansen los pies (y el pie de gato).\n- **Límpiate la suela** antes de subir: el polvo y la arena hacen que resbalen. Un paño húmedo basta.\n- **Déjalos airear** fuera de la mochila y lejos del sol o de fuentes de calor, que deforman la goma y el pegamento.\n- **Resuélalos a tiempo:** cuando la goma de la punta esté muy fina, antes de que se agujeree el rand (la goma que rodea la puntera).\n- **Tu primer pie de gato no será el último:** empieza con uno cómodo y versátil; ya habrá tiempo de probar modelos más técnicos cuando sepas qué te pide tu escalada.",
+        "ca": "- **Treu-te'ls entre vies o blocs** perquè descansin els peus (i el peu de gat).\n- **Neteja't la sola** abans de pujar: la pols i la sorra fan que rellisquin. N'hi ha prou amb un drap humit.\n- **Deixa'ls airejar** fora de la motxilla i lluny del sol o de fonts de calor, que deformen la goma i la cola.\n- **Resola'ls a temps:** quan la goma de la punta sigui molt fina, abans que es foradi el rand (la goma que envolta la puntera).\n- **El teu primer peu de gat no serà l'últim:** comença amb un de còmode i versàtil; ja hi haurà temps de provar models més tècnics quan sàpigues què et demana la teva escalada.",
+        "en": "- **Take them off between routes or boulders** to rest your feet (and the shoes).\n- **Clean the soles** before each climb: dust and sand make them slip. A damp cloth is enough.\n- **Let them air** outside your bag and away from sun or heat sources, which deform the rubber and glue.\n- **Resole in time:** when the toe rubber is very thin, before the rand (the rubber around the toe) wears through.\n- **Your first pair won't be your last:** start with a comfortable, versatile shoe; there'll be time for more technical models once you know what your climbing needs.",
+        "fr": "- **Enlève-les entre deux voies ou blocs** pour reposer tes pieds (et tes chaussons).\n- **Nettoie la semelle** avant de grimper : la poussière et le sable font glisser. Un chiffon humide suffit.\n- **Laisse-les s'aérer** hors du sac, à l'abri du soleil et des sources de chaleur, qui déforment la gomme et la colle.\n- **Fais-les ressemeler à temps :** quand la gomme de la pointe est très fine, avant que le rand (la gomme autour de la pointe) ne soit percé.\n- **Ton premier chausson ne sera pas le dernier :** commence par un modèle confortable et polyvalent ; tu auras le temps d'essayer des modèles plus techniques quand tu sauras ce que demande ta grimpe."
+      },
+      "filtros": []
+    }
+  ]
+}

@@ -182,6 +182,8 @@
     navNews: {es:"News", ca:"Notícies", en:"News", fr:"Actus"},
     navAbout: {es:"Sobre nosotros", ca:"Sobre nosaltres", en:"About us", fr:"À propos"},
     kidsFlag: {es:"Niños", ca:"Nens", en:"Kids", fr:"Enfants"},
+    sealName: {es:"Sello GATO LAB", ca:"Segell GATO LAB", en:"GATO LAB Seal", fr:"Label GATO LAB"},
+    sealExplain: {es:"Nuestros pies de gato estrella: los modelos que recomendamos especialmente por su rendimiento, calidad y relación calidad-precio.", ca:"Els nostres peus de gat estrella: els models que recomanem especialment pel seu rendiment, qualitat i relació qualitat-preu.", en:"Our star climbing shoes: the models we especially recommend for their performance, quality and value for money.", fr:"Nos chaussons vedettes : les modèles que nous recommandons tout particulièrement pour leurs performances, leur qualité et leur rapport qualité-prix."},
     searchPlaceholder: {es:"Busca marca o modelo… (ej. “Miura”, “Scarpa”)", ca:"Cerca marca o model… (ex. “Miura”, “Scarpa”)", en:"Search brand or model… (e.g. “Miura”, “Scarpa”)", fr:"Recherche marque ou modèle… (ex. « Miura », « Scarpa »)"},
     filtersTitle: {es:"Filtros", ca:"Filtres", en:"Filters", fr:"Filtres"},
     filtersToggleLabel: {es:"FILTROS", ca:"FILTRES", en:"FILTERS", fr:"FILTRES"},
@@ -894,7 +896,8 @@
       card.innerHTML = `
         <div class="card-photo">
           <span class="card-level-flag level-${s.nivel}">${v("nivel",s.nivel)}</span>
-          ${s.infantil ? `<span class="card-kids-flag">${t("kidsFlag")}</span>` : ""}
+          ${s.sello ? sealIconHTML("card-seal") : ""}
+          ${s.infantil ? `<span class="card-kids-flag${s.sello ? " with-seal" : ""}">${t("kidsFlag")}</span>` : ""}
           ${shoePhotoHTML(s)}
         </div>
         <div class="card-body">
@@ -969,6 +972,7 @@
           <div class="card-brand">${s.marca}</div>
           <h3>${s.modelo}</h3>
           <div class="card-chips" style="margin-top:8px">
+            ${s.sello ? `<span class="tag tag-seal"><svg viewBox="0 0 182 200" aria-hidden="true"><use href="#icon-mark"></use></svg>${t("sealName")}</span>` : ""}
             <span class="tag level-${s.nivel}">${v("nivel",s.nivel)}</span>
             <span class="tag">${v("uso",s.uso)}</span>
             ${s.infantil ? `<span class="tag tag-kids">${t("kidsFlag")}</span>` : ""}
@@ -1085,6 +1089,17 @@
       renderQuickUso(); renderCatalog();
     });
     box.appendChild(kidsBtn);
+    // Explicación del Sello GATO LAB (solo si hay algún modelo con sello)
+    if(SHOES.some(s=>s.sello)){
+      const note = document.createElement("p");
+      note.className = "seal-note";
+      note.innerHTML = `${sealIconHTML("seal-badge")}<span><strong>${t("sealName")}</strong> — ${t("sealExplain")}</span>`;
+      box.appendChild(note);
+    }
+  }
+  // Logo de GATO LAB en morado: sello de los pies de gato recomendados ("sello": true)
+  function sealIconHTML(cls){
+    return `<span class="${cls}" title="${t("sealName")}"><svg viewBox="0 0 182 200" aria-hidden="true"><use href="#icon-mark"></use></svg></span>`;
   }
 
   function renderBrandFilters(){

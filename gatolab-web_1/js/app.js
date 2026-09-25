@@ -219,6 +219,9 @@
     navCompare: {es:"Comparador", ca:"Comparador", en:"Compare", fr:"Comparateur"},
     navNews: {es:"News", ca:"Notícies", en:"News", fr:"Actus"},
     navAbout: {es:"Sobre nosotros", ca:"Sobre nosaltres", en:"About us", fr:"À propos"},
+    navGuide: {es:"Guía", ca:"Guia", en:"Guide", fr:"Guide"},
+    guideNote: {es:"¿Empiezas a escalar o no sabes qué mirar? Lee nuestra guía para elegir pie de gato →", ca:"Comences a escalar o no saps què mirar? Llegeix la nostra guia per triar peu de gat →", en:"New to climbing or not sure what to look for? Read our guide to choosing climbing shoes →", fr:"Tu débutes ou tu ne sais pas quoi regarder ? Lis notre guide pour choisir tes chaussons →"},
+    guideLink: {es:"¿Qué significa cada dato? Guía para principiantes →", ca:"Què vol dir cada dada? Guia per a principiants →", en:"What does each spec mean? Beginner's guide →", fr:"Que signifie chaque donnée ? Guide du débutant →"},
     kidsFlag: {es:"Niños", ca:"Nens", en:"Kids", fr:"Enfants"},
     lvFlag: {es:"Low volume (LV)", ca:"Low volume (LV)", en:"Low volume (LV)", fr:"Low volume (LV)"},
     veganFlag: {es:"Vegano", ca:"Vegà", en:"Vegan", fr:"Vegan"},
@@ -508,6 +511,7 @@
     el("#navCompare").textContent = t("navCompare");
     el("#navNews").textContent = t("navNews");
     if(el("#navAbout")) el("#navAbout").textContent = t("navAbout");
+    if(el("#navGuide")) el("#navGuide").textContent = t("navGuide");
     el("#search").setAttribute("placeholder", t("searchPlaceholder"));
     el("#filtersTitle").textContent = t("filtersTitle");
     el("#filtersToggleLabel").textContent = t("filtersToggleLabel");
@@ -559,6 +563,7 @@
     renderCatalog();
     renderTray();
     renderPicker("a"); renderPicker("b");
+    if(state.view === "guide" && window.GatoLabGuide) window.GatoLabGuide.render();
     if(!el("#compareView").hidden){
       updateCompareHero(state.compareTab || "duel");
       if((state.compareTab||"duel")==="sizes"){ renderSizeComparator(); } else { renderDuel(); }
@@ -722,6 +727,8 @@
       h = "news" + (slug ? "/"+slug : "");
     } else if(state.view === "about"){
       h = "sobre-nosotros";
+    } else if(state.view === "guide"){
+      h = "guia";
     }
     try{ history.replaceState(null, "", "#"+h); }catch(e){}
   }
@@ -760,6 +767,7 @@
     el("#compareView").hidden = view !== "compare";
     if(el("#newsView")) el("#newsView").hidden = view !== "news";
     if(el("#aboutView")) el("#aboutView").hidden = view !== "about";
+    if(el("#guideView")) el("#guideView").hidden = view !== "guide";
     el("#homeSearchbox").hidden = view !== "home";
     if(el("#searchToggle")){
       el("#searchToggle").hidden = view !== "home";
@@ -769,9 +777,11 @@
     el("#navCompare").setAttribute("aria-current", String(view === "compare"));
     if(el("#navNews")) el("#navNews").setAttribute("aria-current", String(view === "news"));
     if(el("#navAbout")) el("#navAbout").setAttribute("aria-current", String(view === "about"));
+    if(el("#navGuide")) el("#navGuide").setAttribute("aria-current", String(view === "guide"));
     syncHash();
     if(view === "compare"){ setCompareTab(state.compareTab || "duel", {skipHash:true}); }
     if(view === "news" && window.GatoLabNews){ window.GatoLabNews.render(); }
+    if(view === "guide" && window.GatoLabGuide){ window.GatoLabGuide.render(); }
     if(view === "home"){ renderTray(); } else { el("#compareTray").hidden = true; }
     window.scrollTo({ top:0, behavior:"instant" in window ? "instant" : "auto" });
   }
@@ -785,6 +795,7 @@
     });
   }
   if(el("#navAbout")) el("#navAbout").addEventListener("click", ()=> setView("about"));
+  if(el("#navGuide")) el("#navGuide").addEventListener("click", ()=> setView("guide"));
   if(el("#compareTabDuel")) el("#compareTabDuel").addEventListener("click", ()=> setCompareTab("duel"));
   if(el("#compareTabSizes")) el("#compareTabSizes").addEventListener("click", ()=> setCompareTab("sizes"));
 
@@ -820,6 +831,11 @@
     }
     if(parts[0] === "tallas"){ state.compareTab = "sizes"; return "compare"; } // enlace antiguo
     if(parts[0] === "sobre-nosotros") return "about";
+    if(parts[0] === "guia"){
+      window.__gatoLabGuideSection = parts[1] || null;
+      if(window.GatoLabGuide) window.GatoLabGuide.setSection(parts[1] || null);
+      return "guide";
+    }
     return "home";
   }
 
@@ -1125,6 +1141,7 @@
         <div class="spec-item"><div class="spec-label">${t("lblConstruccion")}</div><div class="spec-value">${construccion(s)}</div></div>
         <div class="spec-item"><div class="spec-label">${t("lblForro")}</div><div class="spec-value">${s.forro ? v("forro",s.forro) : t("notSpecified")}</div></div>
       </div>
+      <p class="guide-link-row"><a href="#guia" class="guide-link">${t("guideLink")}</a></p>
       ${radarCardHTML([{s, colorVar:"--radar-1", name:`${s.marca} ${s.modelo}`}])}
       ${(carac && carac.length) ? `<div class="detail-features"><h4>${t("lblCaracteristicasClave")}</h4><ul>${carac.map(f=>`<li>${f}</li>`).join("")}</ul></div>` : ""}
       ${paraQuien ? `<div class="detail-parawho"><span class="spec-label">${t("lblParaQuien")}</span><p>${paraQuien}</p></div>` : ""}
@@ -1151,6 +1168,7 @@
       window.GatoLabNews.bindRelatedNewsClicks(modal, closeDetail);
     }
     wireDetailPhotoBlock(modal, s);
+    modal.querySelectorAll(".guide-link").forEach(link=> link.addEventListener("click", ()=> closeDetail()));
     modal.querySelectorAll(".similar-card").forEach(btn=>{
       btn.addEventListener("click", ()=>{
         openDetail(btn.dataset.id);
@@ -1249,6 +1267,10 @@
       note.innerHTML = `${sealIconHTML("seal-badge")}<span><strong>${t("sealName")}</strong> — ${t("sealExplain")}</span>`;
       box.appendChild(note);
     }
+    const guideNote = document.createElement("p");
+    guideNote.className = "guide-note";
+    guideNote.innerHTML = `<a href="#guia">${t("guideNote")}</a>`;
+    box.appendChild(guideNote);
   }
   // Logo de GATO LAB en morado: sello de los pies de gato recomendados ("sello": true)
   function sealIconHTML(cls){
@@ -1625,9 +1647,39 @@
 
   /* Puente mínimo para que js/news.js pueda cambiar de pantalla y abrir la
      ficha de un modelo (botón "Ver modelo →" dentro de un artículo). */
+  /* Botones «Ver modelos» de la guía: vuelve a la portada con un filtro aplicado */
+  function showFiltered(tipo, valor){
+    if(tipo === "tallas"){ state.compareTab = "sizes"; setView("compare"); return; }
+    state.q = ""; const si = el("#search"); if(si) si.value = "";
+    state.uso.clear(); state.marca.clear(); state.nivel.clear(); state.cierre.clear(); state.forma.clear();
+    state.infantil = false; state.lv = false; state.vegano = false;
+    if(tipo === "uso") state.uso.add(valor);
+    else if(tipo === "nivel") state.nivel.add(valor);
+    else if(tipo === "cierre") state.cierre.add(valor);
+    else if(tipo === "forma") state.forma.add(valor);
+    else if(tipo === "lv" || tipo === "vegano" || tipo === "infantil") state[tipo] = true;
+    setView("home");
+    rerenderAll();
+    setTimeout(()=>{
+      const cat = el("#catalog");
+      if(cat) window.scrollTo({ top: Math.max(0, cat.getBoundingClientRect().top + window.scrollY - 90), behavior:"smooth" });
+    }, 60);
+  }
+  function filterLabel(tipo, valor){
+    if(tipo === "uso" || tipo === "nivel" || tipo === "forma") return v(tipo, valor);
+    if(tipo === "cierre") return v("cierreTipo", valor);
+    if(tipo === "lv") return t("lvFlag");
+    if(tipo === "vegano") return t("veganFlag");
+    if(tipo === "infantil") return t("kidsFlag");
+    return valor;
+  }
+
   window.GatoLab = {
     setView: setView,
     openDetail: openDetail,
-    isNewsView: ()=> state.view === "news"
+    isNewsView: ()=> state.view === "news",
+    getLang: ()=> LANG,
+    showFiltered: showFiltered,
+    filterLabel: filterLabel
   };
 })();

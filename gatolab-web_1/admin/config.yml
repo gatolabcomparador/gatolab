@@ -273,6 +273,13 @@ collections:
                 default: false
                 hint: "Márcalo solo si es un modelo específico para niños/as."
 
+              - label: "Sello GATO LAB (pie de gato estrella)"
+                name: "sello"
+                widget: "boolean"
+                required: false
+                default: false
+                hint: "Márcalo en los modelos que quieras recomendar como pies de gato estrella: en la web aparecerá el logo de GATO LAB en morado arriba a la izquierda de la foto, y una etiqueta «Sello GATO LAB» en su ficha. La explicación del sello se muestra en la portada, debajo de los botones de uso."
+
               - label: "Características técnicas"
                 name: "caracteristicas"
                 widget: "list"

@@ -147,6 +147,14 @@
   }
 
   const USO_OPTIONS = ["Rocódromo","Todoterreno","Deportiva","Bloque","Fisura/Trad","Competición","Velocidad"];
+  // Un modelo puede servir para varios tipos de escalada: "usos" es la lista completa
+  // (content/shoes.json) y "uso" el principal, que siempre va primero.
+  function usosOf(s){
+    const extra = Array.isArray(s.usos) ? s.usos : [];
+    return [...new Set([s.uso, ...extra].filter(Boolean))];
+  }
+  function usosLabel(s){ return usosOf(s).map(u=>v("uso",u)).join(" · "); }
+  function usosTagsHTML(s){ return usosOf(s).map(u=>`<span class="tag">${v("uso",u)}</span>`).join(""); }
   const NIVEL_OPTIONS = ["Iniciación","Intermedio","Avanzado"];
   // Cierre simplificado para el filtro: el dato técnico exacto (s.cierre) se sigue mostrando
   // tal cual en la ficha, la tabla y el comparador — esto solo agrupa en 4 categorías claras.
@@ -835,7 +843,7 @@
       const hay = (s.marca+" "+s.modelo).toLowerCase();
       if(!hay.includes(state.q)) return false;
     }
-    if(state.uso.size && !state.uso.has(s.uso)) return false;
+    if(state.uso.size && !usosOf(s).some(u=>state.uso.has(u))) return false;
     if(state.marca.size && !state.marca.has(s.marca)) return false;
     if(state.nivel.size && !state.nivel.has(s.nivel)) return false;
     if(state.cierre.size && !state.cierre.has(cierreTipo(s.cierre))) return false;
@@ -906,7 +914,7 @@
             <div class="card-model">${s.modelo}</div>
           </div>
           <div class="card-chips">
-            <span class="tag">${v("uso",s.uso)}</span>
+            ${usosTagsHTML(s)}
             <span class="tag">${s.cierre}</span>
           </div>
           <div class="card-mini-specs">
@@ -974,7 +982,7 @@
           <div class="card-chips" style="margin-top:8px">
             ${s.sello ? `<span class="tag tag-seal"><svg viewBox="0 0 182 200" aria-hidden="true"><use href="#icon-mark"></use></svg>${t("sealName")}</span>` : ""}
             <span class="tag level-${s.nivel}">${v("nivel",s.nivel)}</span>
-            <span class="tag">${v("uso",s.uso)}</span>
+            ${usosTagsHTML(s)}
             ${s.infantil ? `<span class="tag tag-kids">${t("kidsFlag")}</span>` : ""}
           </div>
         </div>
@@ -1026,7 +1034,7 @@
     ["lblPrecio", s=>`<span class="price-cell">${s.precio} €</span>`, s=>s.precio+"€"],
     ["lblPeso", s=> s.peso_g?`<span class="price-cell">${s.peso_g} g</span>`:`<span class="muted">${t("weightNotAvailable")}</span>`, s=>s.peso_g?s.peso_g+"g":"—"],
     ["lblNivel", s=>v("nivel",s.nivel), s=>s.nivel],
-    ["lblTipoEscalada", s=>v("uso",s.uso), s=>s.uso],
+    ["lblTipoEscalada", s=>usosLabel(s), s=>usosOf(s).join(", ")],
     ["lblCierre", s=>s.cierre, s=>s.cierre],
     ["lblPerfil", s=>v("forma",s.forma), s=>s.forma],
     ["lblAsimetria", s=>`<span class="bar-row">${v("asimetria",s.asimetria)} ${asimetriaBars(s)}</span>`, s=>s.asimetria],
@@ -1066,7 +1074,7 @@
   function renderQuickUso(){
     const box = el("#quickUso"); box.innerHTML = "";
     USO_OPTIONS.forEach(u=>{
-      const n = SHOES.filter(s=>s.uso===u).length;
+      const n = SHOES.filter(s=>usosOf(s).includes(u)).length;
       const btn = document.createElement("button");
       btn.className = "use-chip"; btn.type = "button";
       btn.setAttribute("aria-pressed", state.uso.has(u));
@@ -1194,7 +1202,7 @@
   function shoeMatches(s, q){
     const allResumen = [s.resumen, s.resumen_i18n?.ca, s.resumen_i18n?.en, s.resumen_i18n?.fr].filter(Boolean).join(" ");
     const allCarac = [s.caracteristicas, s.caracteristicas_i18n?.ca, s.caracteristicas_i18n?.en, s.caracteristicas_i18n?.fr].filter(Boolean).map(a=>a.join(" ")).join(" ");
-    const hay = [s.marca, s.modelo, s.uso, s.cierre, s.goma, s.forma, allResumen, s.forro, allCarac].join(" ").toLowerCase();
+    const hay = [s.marca, s.modelo, usosOf(s).join(" "), s.cierre, s.goma, s.forma, allResumen, s.forro, allCarac].join(" ").toLowerCase();
     return hay.includes(q);
   }
 
@@ -1283,7 +1291,7 @@
     { labelKey:"lblGrosorSuela", get:s=>({text:s.grosor||"—", html:s.grosor?`${s.grosor} mm`:"—"}) },
     { labelKey:"lblVolumen", get:s=>({text:s.volumen, html:s.volumen}) },
     { labelKey:"lblForro", get:s=>({text:s.forro||"—", html:s.forro?v("forro",s.forro):t("notSpecified")}) },
-    { labelKey:"lblTipoEscalada", get:s=>({text:s.uso, html:v("uso",s.uso)}) },
+    { labelKey:"lblTipoEscalada", get:s=>({text:usosOf(s).join(", "), html:usosLabel(s)}) },
     { labelKey:"lblNivelRecomendado", get:s=>({text:s.nivel, html:v("nivel",s.nivel)}) },
     { labelKey:"lblTallasDisponibles", get:s=>({text:TALLAS[s.marca]||"—", html:TALLAS[s.marca]||"—"}) }
   ];

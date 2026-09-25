@@ -229,6 +229,15 @@ collections:
                 name: "uso"
                 widget: "select"
                 options: ["Rocódromo", "Todoterreno", "Deportiva", "Bloque", "Fisura/Trad", "Competición", "Velocidad"]
+                hint: "El tipo de escalada para el que más destaca. Es la primera etiqueta de uso que se ve en la tarjeta y en la ficha."
+
+              - label: "Otros usos"
+                name: "usos"
+                widget: "select"
+                multiple: true
+                required: false
+                options: ["Rocódromo", "Todoterreno", "Deportiva", "Bloque", "Fisura/Trad", "Competición", "Velocidad"]
+                hint: "Todos los tipos de escalada para los que también sirve este modelo (puedes elegir varios). El modelo aparecerá en cada uno de esos botones de la portada. No hace falta repetir el uso principal: la web lo añade siempre y lo muestra primero."
 
               - label: "Nivel"
                 name: "nivel"

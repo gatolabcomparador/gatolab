@@ -74,6 +74,7 @@
         <h1 class="display">${ui("title")}</h1>
         <p>${esc(tr(GUIDE.intro))}</p>
       </section>
+      <div class="guide-quiz" id="guia-test"><div id="guideQuiz"></div></div>
       <div class="guide-layout">
         <nav class="guide-toc" aria-label="${esc(ui("toc"))}">
           <div class="guide-toc-title">${ui("toc")}</div>
@@ -107,6 +108,8 @@
     });
     const top = box.querySelector(".guide-top");
     if(top) top.addEventListener("click", ()=> window.scrollTo({top:0, behavior:"smooth"}));
+
+    if(window.GatoLabQuiz) window.GatoLabQuiz.mount(box.querySelector("#guideQuiz"));
 
     if(pendingSection){ const id = pendingSection; pendingSection = null; setTimeout(()=>scrollToSection(id), 30); }
   }

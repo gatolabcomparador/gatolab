@@ -714,3 +714,8 @@ table.compare .price-cell{ font-family:'JetBrains Mono',monospace; font-weight:7
   .main-nav::-webkit-scrollbar{ display:none; }
   .main-nav button{ flex:none; white-space:nowrap; padding:8px 7px; }
 }
+
+/* Menú en móviles estrechos: las cinco pestañas caben sin desplazar */
+@media (max-width:420px){
+  .main-nav button{ padding-left:4px; padding-right:4px; letter-spacing:0; }
+}

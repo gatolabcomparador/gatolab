@@ -636,3 +636,23 @@ table.compare .price-cell{ font-family:'JetBrains Mono',monospace; font-weight:7
 .radar-legend-dot{ width:10px; height:10px; border-radius:50%; flex:none; }
 .radar-note{ margin:2px 0 0; font-size:.76rem; color:var(--gray-500); text-align:center; max-width:52ch; }
 @media (max-width:680px){ .radar-svg{ max-width:230px; } }
+
+/* ==========================================================================
+   Sello GATO LAB — logo morado en los pies de gato recomendados ("sello": true
+   en content/shoes.json, o casilla «Sello GATO LAB» en el panel admin)
+   ========================================================================== */
+.card-seal{ position:absolute; top:8px; left:8px; z-index:1; width:34px; height:34px; display:flex; align-items:center; justify-content:center; background:var(--surface); color:var(--accent); border:1.5px solid var(--accent); border-radius:var(--radius-s); }
+.card-photo .card-seal svg{ width:20px; height:22px; }
+.card-kids-flag.with-seal{ left:50px; }
+.seal-note{ flex-basis:100%; display:flex; align-items:center; gap:10px; margin:6px 0 0; font-size:.86rem; line-height:1.4; color:var(--gray-700); max-width:68ch; }
+.seal-note strong{ color:var(--accent); font-family:'JetBrains Mono',monospace; font-size:.78rem; text-transform:uppercase; letter-spacing:.04em; font-weight:700; }
+.seal-badge{ flex:none; width:30px; height:30px; display:flex; align-items:center; justify-content:center; background:var(--surface); color:var(--accent); border:1.5px solid var(--accent); border-radius:var(--radius-s); }
+.seal-badge svg{ width:18px; height:20px; }
+.tag.tag-seal{ display:inline-flex; align-items:center; gap:5px; background:var(--accent-soft); color:var(--accent); border-color:var(--accent); }
+.tag.tag-seal svg{ width:11px; height:12px; flex:none; }
+@media (max-width:680px){
+  .card-seal{ top:6px; left:6px; width:26px; height:26px; }
+  .card-photo .card-seal svg{ width:15px; height:17px; }
+  .card-kids-flag.with-seal{ left:38px; }
+  .seal-note{ font-size:.8rem; }
+}

@@ -811,3 +811,18 @@ table.compare .price-cell{ font-family:'JetBrains Mono',monospace; font-weight:7
   .quiz-disclaimer{ padding:16px 14px 18px; }
   .quiz-disc-bands{ grid-template-columns:1fr; }
 }
+
+/* Comparador de tallas: recuadro «Tómatelo como una orientación» */
+.size-info{ margin-top:28px; padding:18px 20px 20px; background:var(--surface-2); border:1.5px solid var(--line); border-radius:var(--radius); }
+.size-info-head{ display:flex; align-items:center; gap:10px; margin-bottom:14px; }
+.size-info-head h3{ margin:0; font-family:'JetBrains Mono',monospace; font-size:.78rem; font-weight:700; text-transform:uppercase; letter-spacing:.08em; }
+.size-info-icon{ flex:none; display:inline-grid; place-items:center; width:22px; height:22px; border-radius:50%; background:var(--accent); color:#FFFFFF; font-family:Georgia,'Times New Roman',serif; font-style:italic; font-weight:700; font-size:.82rem; }
+.size-info-grid{ display:grid; grid-template-columns:repeat(3, minmax(0, 1fr)); gap:10px; }
+.size-info-block{ background:var(--surface); border:1.5px solid var(--line); border-radius:var(--radius); padding:12px 14px 14px; }
+.size-info-block h4{ margin:0 0 6px; font-family:'JetBrains Mono',monospace; font-size:.72rem; font-weight:700; text-transform:uppercase; letter-spacing:.06em; color:var(--accent); }
+.size-info-block p{ margin:0; font-size:.86rem; line-height:1.55; color:var(--gray-700); }
+.size-info-try{ border-color:var(--accent); background:var(--accent-soft); }
+@media (max-width:760px){
+  .size-info{ padding:16px 14px 18px; }
+  .size-info-grid{ grid-template-columns:1fr; }
+}

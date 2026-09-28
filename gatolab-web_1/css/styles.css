@@ -826,3 +826,8 @@ table.compare .price-cell{ font-family:'JetBrains Mono',monospace; font-weight:7
   .size-info{ padding:16px 14px 18px; }
   .size-info-grid{ grid-template-columns:1fr; }
 }
+
+/* Test: sello GATO LAB en los resultados */
+.quiz-seal{ position:absolute; top:10px; right:10px; z-index:1; width:30px; height:30px; display:flex; align-items:center; justify-content:center; background:#FFFFFF; color:var(--accent); border:1.5px solid var(--accent); border-radius:var(--radius-s, 4px); }
+.quiz-seal svg{ width:17px; height:19px; fill:currentColor; }
+.quiz-seal-tag{ margin-top:4px; display:inline-block; font-family:'JetBrains Mono',monospace; font-size:.62rem; font-weight:700; text-transform:uppercase; letter-spacing:.08em; color:var(--accent); }

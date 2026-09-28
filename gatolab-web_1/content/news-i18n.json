@@ -1,0 +1,1107 @@
+{
+ "skwama-en-gato-lab": {
+  "ca": {
+   "titulo": "La Sportiva Skwama s'incorpora a la base de dades de GATO LAB",
+   "subtitulo": "Afegim la Skwama al nostre catàleg: fitxa tècnica completa, geometria agressiva i a qui li pot interessar.",
+   "imagenAlt": "Il·lustració esquemàtica d'un peu de gat de perfil agressiu, que representa la La Sportiva Skwama",
+   "texto": [
+    "Ampliem el catàleg de GATO LAB amb la La Sportiva Skwama, un dels models de velcro més agressius del catàleg de la marca italiana.",
+    "La Skwama entra a la nostra base de dades amb fitxa tècnica completa: tancament, perfil, rigidesa, asimetria i goma, a més de la seva comparativa directa amb la resta de models de bloc de la casa.",
+    "Com la resta de models de GATO LAB, les dades estan subjectes a revisió i poden variar segons la talla i la versió exacta de la sabatilla."
+   ],
+   "caracteristicas": [
+    "Perfil molt agressiu amb una curvatura pronunciada de la puntera, pensat per a desploms i preses petites.",
+    "Tancament de velcro únic d'ajust ràpid, útil per calçar-se i descalçar-se entre intents.",
+    "Goma Vibram XS Grip2 d'alta adherència, que prioritza la fricció per sobre de la durabilitat."
+   ],
+   "paraQuien": "Encaixa amb escaladors de nivell avançat que ja tenen els peus entrenats per a hormes exigents i busquen una sabatilla específica per a bloc tècnic o vies curtes i potents. No és un bon punt de partida per a qui comença: l'agressivitat de l'horma penalitza les jornades llargues i l'aprenentatge de la tècnica de peus.",
+   "pros": [
+    "Adherència i precisió de puntera excel·lents en desplom",
+    "Es calça i es descalça ràpidament gràcies al velcro únic",
+    "Bona sensibilitat per fer adherència en volums llisos"
+   ],
+   "contras": [
+    "Horma agressiva poc còmoda per a sessions llargues",
+    "No és recomanable com a primer peu de gat",
+    "Disponibilitat de talles més ajustada que en models de gamma mitjana"
+   ],
+   "veredicto": "La Skwama no és una sabatilla per portar-la vuit hores, i no ho pretén: és una eina de precisió per a moviments concrets. A GATO LAB la veiem com el pas lògic per a qui ja domina les hormes agressives i vol guanyar uns mil·límetres de precisió en desplom, no com una millora universal respecte a models més polivalents de la mateixa La Sportiva.",
+   "seo": {
+    "title": "La Sportiva Skwama: fitxa tècnica i anàlisi — GATO LAB",
+    "metaDescription": "Fitxa tècnica completa de la La Sportiva Skwama: tancament, perfil, rigidesa, asimetria i goma. Anàlisi de a qui li pot interessar aquest model."
+   },
+   "fichaTecnica": [
+    {
+     "campo": "Pes",
+     "valor": "210 g"
+    },
+    {
+     "campo": "Tancament",
+     "valor": "Velcro"
+    },
+    {
+     "campo": "Construcció",
+     "valor": "Slip-lasted (flexible)"
+    },
+    {
+     "campo": "Asimetria",
+     "valor": "Alta"
+    },
+    {
+     "campo": "Perfil",
+     "valor": "Agressiva"
+    },
+    {
+     "campo": "Rigidesa",
+     "valor": "Tova"
+    },
+    {
+     "campo": "Sola",
+     "valor": "Vibram XS Grip2 · 3.5 mm"
+    },
+    {
+     "campo": "Volum",
+     "valor": "Estàndard"
+    },
+    {
+     "campo": "Materials",
+     "valor": "Puntera i taló en microfibra sintètica amb rand de goma continu fins al taló; folre interior mínim per prioritzar la sensibilitat per sobre del coixinet."
+    },
+    {
+     "campo": "Talles",
+     "valor": "EU 33–50.5 (H) · EU 33–47 (D)"
+    }
+   ]
+  },
+  "en": {
+   "titulo": "La Sportiva Skwama joins the GATO LAB database",
+   "subtitulo": "We're adding the Skwama to our catalogue: full spec sheet, aggressive geometry and who it might suit.",
+   "imagenAlt": "Schematic illustration of an aggressive climbing shoe, representing the La Sportiva Skwama",
+   "texto": [
+    "We're expanding the GATO LAB catalogue with the La Sportiva Skwama, one of the most aggressive velcro models in the Italian brand's range.",
+    "The Skwama joins our database with a full spec sheet — closure, shape, stiffness, asymmetry and rubber — plus a direct comparison with the brand's other bouldering models.",
+    "As with every model on GATO LAB, the data is subject to review and may vary depending on the size and exact version of the shoe."
+   ],
+   "caracteristicas": [
+    "Very aggressive shape with a pronounced downturned toe, designed for overhangs and small holds.",
+    "Single quick-adjust velcro closure, handy for slipping the shoes on and off between attempts.",
+    "High-friction Vibram XS Grip2 rubber that prioritises grip over durability."
+   ],
+   "paraQuien": "A good fit for advanced climbers whose feet are already used to demanding lasts and who want a dedicated shoe for technical bouldering or short, powerful routes. It isn't a good starting point for beginners: the aggressive last punishes long days and makes learning footwork harder.",
+   "pros": [
+    "Outstanding grip and toe precision on overhangs",
+    "Quick on and off thanks to the single velcro strap",
+    "Good sensitivity for smearing on smooth volumes"
+   ],
+   "contras": [
+    "Aggressive last, not very comfortable for long sessions",
+    "Not recommended as a first climbing shoe",
+    "More limited size availability than mid-range models"
+   ],
+   "veredicto": "The Skwama isn't a shoe to wear for eight hours, and it doesn't try to be: it's a precision tool for specific moves. At GATO LAB we see it as the logical next step for climbers who have already mastered aggressive lasts and want a few extra millimetres of precision on overhangs — not as a universal upgrade over La Sportiva's more versatile models.",
+   "seo": {
+    "title": "La Sportiva Skwama: specs and analysis — GATO LAB",
+    "metaDescription": "Full spec sheet for the La Sportiva Skwama: closure, shape, stiffness, asymmetry and rubber. Who this model might suit."
+   },
+   "fichaTecnica": [
+    {
+     "campo": "Weight",
+     "valor": "210 g"
+    },
+    {
+     "campo": "Closure",
+     "valor": "Velcro"
+    },
+    {
+     "campo": "Construction",
+     "valor": "Slip-lasted (flexible)"
+    },
+    {
+     "campo": "Asymmetry",
+     "valor": "High"
+    },
+    {
+     "campo": "Shape",
+     "valor": "Aggressive"
+    },
+    {
+     "campo": "Stiffness",
+     "valor": "Soft"
+    },
+    {
+     "campo": "Rubber",
+     "valor": "Vibram XS Grip2 · 3.5 mm"
+    },
+    {
+     "campo": "Volume",
+     "valor": "Standard"
+    },
+    {
+     "campo": "Materials",
+     "valor": "Synthetic microfibre toe and heel with a continuous rubber rand running to the heel; minimal inner lining to prioritise sensitivity over padding."
+    },
+    {
+     "campo": "Sizes",
+     "valor": "EU 33–50.5 (M) · EU 33–47 (W)"
+    }
+   ]
+  },
+  "fr": {
+   "titulo": "La Sportiva Skwama rejoint la base de données GATO LAB",
+   "subtitulo": "Nous ajoutons la Skwama à notre catalogue : fiche technique complète, géométrie agressive et à qui elle peut convenir.",
+   "imagenAlt": "Illustration schématique d'un chausson d'escalade au profil agressif, représentant la La Sportiva Skwama",
+   "texto": [
+    "Nous enrichissons le catalogue GATO LAB avec la La Sportiva Skwama, l'un des modèles à velcro les plus agressifs de la marque italienne.",
+    "La Skwama entre dans notre base de données avec une fiche technique complète — fermeture, profil, rigidité, asymétrie et gomme — ainsi qu'une comparaison directe avec les autres modèles de bloc de la marque.",
+    "Comme pour tous les modèles de GATO LAB, les données sont susceptibles d'être revues et peuvent varier selon la pointure et la version exacte du chausson."
+   ],
+   "caracteristicas": [
+    "Profil très agressif avec une pointe fortement cambrée, pensé pour les dévers et les petites prises.",
+    "Fermeture velcro unique à serrage rapide, pratique pour enfiler et retirer les chaussons entre deux essais.",
+    "Gomme Vibram XS Grip2 à forte adhérence, qui privilégie le grip à la durabilité."
+   ],
+   "paraQuien": "Elle convient aux grimpeurs de niveau avancé dont les pieds sont déjà habitués aux formes exigeantes et qui cherchent un chausson dédié au bloc technique ou aux voies courtes et physiques. Ce n'est pas un bon point de départ pour débuter : l'agressivité de la forme pénalise les longues journées et l'apprentissage du travail de pieds.",
+   "pros": [
+    "Adhérence et précision de pointe remarquables en dévers",
+    "Se met et s'enlève vite grâce à la sangle velcro unique",
+    "Bonne sensibilité pour l'adhérence sur des volumes lisses"
+   ],
+   "contras": [
+    "Forme agressive peu confortable pour les longues séances",
+    "Déconseillée comme premier chausson",
+    "Disponibilité des pointures plus limitée que sur les modèles milieu de gamme"
+   ],
+   "veredicto": "La Skwama n'est pas un chausson à porter huit heures, et elle ne prétend pas l'être : c'est un outil de précision pour des mouvements précis. Chez GATO LAB, nous la voyons comme l'étape logique pour qui maîtrise déjà les formes agressives et veut gagner quelques millimètres de précision en dévers, pas comme une amélioration universelle par rapport aux modèles plus polyvalents de La Sportiva.",
+   "seo": {
+    "title": "La Sportiva Skwama : fiche technique et analyse — GATO LAB",
+    "metaDescription": "Fiche technique complète de la La Sportiva Skwama : fermeture, profil, rigidité, asymétrie et gomme. À qui ce modèle peut convenir."
+   },
+   "fichaTecnica": [
+    {
+     "campo": "Poids",
+     "valor": "210 g"
+    },
+    {
+     "campo": "Fermeture",
+     "valor": "Velcro"
+    },
+    {
+     "campo": "Construction",
+     "valor": "Slip-lasted (souple)"
+    },
+    {
+     "campo": "Asymétrie",
+     "valor": "Élevée"
+    },
+    {
+     "campo": "Profil",
+     "valor": "Agressive"
+    },
+    {
+     "campo": "Rigidité",
+     "valor": "Souple"
+    },
+    {
+     "campo": "Semelle",
+     "valor": "Vibram XS Grip2 · 3.5 mm"
+    },
+    {
+     "campo": "Volume",
+     "valor": "Standard"
+    },
+    {
+     "campo": "Matériaux",
+     "valor": "Pointe et talon en microfibre synthétique avec rand en gomme continu jusqu'au talon ; doublure intérieure minimale pour privilégier la sensibilité au rembourrage."
+    },
+    {
+     "campo": "Pointures",
+     "valor": "EU 33–50.5 (H) · EU 33–47 (F)"
+    }
+   ]
+  }
+ },
+ "scarpa-drago-review": {
+  "ca": {
+   "titulo": "Scarpa Drago: anàlisi tècnica i fitxa completa",
+   "subtitulo": "Repassem la geometria, la goma i el comportament esperable d'un dels models més sensibles del catàleg de Scarpa.",
+   "imagenAlt": "Il·lustració esquemàtica d'un peu de gat de perfil molt agressiu amb rand actiu, que representa la Scarpa Drago",
+   "texto": [
+    "La Drago és, sobre el paper, un dels models més extrems de Scarpa: rand actiu, horma molt agressiva i goma tova pensada per maximitzar el contacte en superfícies llises.",
+    "Analitzem la seva fitxa tècnica en detall per entendre quin tipus d'escalada afavoreix aquesta combinació d'horma i materials, i en quines situacions pot no ser la millor opció.",
+    "Com en totes les nostres fitxes, les dades de pes i talla són orientatives: poden variar lleugerament segons la unitat i la versió del model."
+   ],
+   "caracteristicas": [
+    "Rand actiu que manté la puntera carregada en desplom sense necessitat de tensar l'arc manualment.",
+    "Horma molt asimètrica orientada a suports de puntera i micropreses.",
+    "Goma Vibram XS Grip2, que prioritza l'adherència per sobre de la durabilitat al fregament."
+   ],
+   "paraQuien": "Pensat per a escaladors amb els peus ja adaptats a hormes agressives que volen maximitzar la sensibilitat en desplom i bloc tècnic. Qui busqui una sabatilla d'ús diari o d'iniciació trobarà hormes més polivalents a la resta del catàleg de Scarpa, com l'Origin o l'Helix.",
+   "pros": [
+    "Sensibilitat molt alta per fer adherència i en volums",
+    "Rand actiu còmode d'ajustar sense cordons ni velcro rígid",
+    "Goma d'alta adherència en paret vertical i desplom"
+   ],
+   "contras": [
+    "Poc recomanable per a jornades llargues per la seva horma agressiva",
+    "Durabilitat de la goma inferior a models amb sola més gruixuda",
+    "Corba d'adaptació exigent per a qui no ve d'hormes semblants"
+   ],
+   "veredicto": "La Drago compleix el que promet la seva fitxa tècnica: és una sabatilla de sensibilitat extrema, no de versatilitat. Per a bloc indoor i desploms tècnics, la combinació de rand actiu i goma tova té sentit; per a tota la resta, a GATO LAB recomanem mirar models de perfil més moderat del mateix catàleg.",
+   "seo": {
+    "title": "Scarpa Drago: anàlisi i fitxa tècnica — GATO LAB",
+    "metaDescription": "Anàlisi tècnica de la Scarpa Drago: rand actiu, horma molt agressiva i goma tova. Fitxa tècnica completa i a qui li pot interessar."
+   },
+   "fichaTecnica": [
+    {
+     "campo": "Pes",
+     "valor": "200 g (talla EU 40)"
+    },
+    {
+     "campo": "Tancament",
+     "valor": "Velcro"
+    },
+    {
+     "campo": "Construcció",
+     "valor": "Slip-lasted (flexible)"
+    },
+    {
+     "campo": "Asimetria",
+     "valor": "Alta"
+    },
+    {
+     "campo": "Perfil",
+     "valor": "Molt agressiva"
+    },
+    {
+     "campo": "Rigidesa",
+     "valor": "Tova"
+    },
+    {
+     "campo": "Sola",
+     "valor": "Vibram XS Grip2"
+    },
+    {
+     "campo": "Volum",
+     "valor": "Estàndard"
+    },
+    {
+     "campo": "Materials",
+     "valor": "Puntera en microfibra amb rand actiu de goma contínua que es tensa en carregar el peu; construcció slip-lasted sense reforços interns rígids."
+    },
+    {
+     "campo": "Talles",
+     "valor": "EU 36–50 (H) · EU 35–45 (D)"
+    }
+   ]
+  },
+  "en": {
+   "titulo": "Scarpa Drago: technical analysis and full specs",
+   "subtitulo": "We look at the geometry, rubber and expected behaviour of one of the most sensitive shoes in Scarpa's range.",
+   "imagenAlt": "Schematic illustration of a very aggressive climbing shoe with an active rand, representing the Scarpa Drago",
+   "texto": [
+    "On paper, the Drago is one of Scarpa's most extreme models: an active rand, a very aggressive last and soft rubber designed to maximise contact on smooth surfaces.",
+    "We go through its spec sheet in detail to understand what kind of climbing this combination of last and materials favours, and when it might not be the best choice.",
+    "As with all our spec sheets, weight and size data are indicative: they may vary slightly between individual shoes and model versions."
+   ],
+   "caracteristicas": [
+    "Active rand that keeps the toe loaded on overhangs without having to tension the arch manually.",
+    "Highly asymmetric last geared towards toe placements and tiny footholds.",
+    "Vibram XS Grip2 rubber, prioritising grip over abrasion resistance."
+   ],
+   "paraQuien": "Designed for climbers whose feet are already used to aggressive lasts and who want maximum sensitivity on overhangs and technical boulders. Anyone looking for an everyday or beginner shoe will find more versatile lasts elsewhere in Scarpa's range, such as the Origin or the Helix.",
+   "pros": [
+    "Very high sensitivity for smearing and volumes",
+    "Active rand that's easy to adjust, with no laces or stiff velcro",
+    "High-friction rubber on vertical and overhanging walls"
+   ],
+   "contras": [
+    "Not ideal for long days because of its aggressive last",
+    "Less durable rubber than models with a thicker sole",
+    "Demanding adaptation period if you're not used to similar lasts"
+   ],
+   "veredicto": "The Drago delivers what its spec sheet promises: it's a shoe built for extreme sensitivity, not versatility. For indoor bouldering and technical overhangs, the combination of active rand and soft rubber makes sense; for everything else, at GATO LAB we recommend looking at models with a more moderate shape from the same range.",
+   "seo": {
+    "title": "Scarpa Drago: analysis and specs — GATO LAB",
+    "metaDescription": "Technical analysis of the Scarpa Drago: active rand, very aggressive last and soft rubber. Full spec sheet and who it might suit."
+   },
+   "fichaTecnica": [
+    {
+     "campo": "Weight",
+     "valor": "200 g (EU size 40)"
+    },
+    {
+     "campo": "Closure",
+     "valor": "Velcro"
+    },
+    {
+     "campo": "Construction",
+     "valor": "Slip-lasted (flexible)"
+    },
+    {
+     "campo": "Asymmetry",
+     "valor": "High"
+    },
+    {
+     "campo": "Shape",
+     "valor": "Very aggressive"
+    },
+    {
+     "campo": "Stiffness",
+     "valor": "Soft"
+    },
+    {
+     "campo": "Rubber",
+     "valor": "Vibram XS Grip2"
+    },
+    {
+     "campo": "Volume",
+     "valor": "Standard"
+    },
+    {
+     "campo": "Materials",
+     "valor": "Microfibre toe with an active, continuous rubber rand that tensions as you load the foot; slip-lasted construction with no stiff internal reinforcements."
+    },
+    {
+     "campo": "Sizes",
+     "valor": "EU 36–50 (M) · EU 35–45 (W)"
+    }
+   ]
+  },
+  "fr": {
+   "titulo": "Scarpa Drago : analyse technique et fiche complète",
+   "subtitulo": "Nous passons en revue la géométrie, la gomme et le comportement attendu de l'un des modèles les plus sensibles de la gamme Scarpa.",
+   "imagenAlt": "Illustration schématique d'un chausson d'escalade au profil très agressif avec rand actif, représentant la Scarpa Drago",
+   "texto": [
+    "Sur le papier, la Drago est l'un des modèles les plus extrêmes de Scarpa : rand actif, forme très agressive et gomme souple pensée pour maximiser le contact sur les surfaces lisses.",
+    "Nous analysons sa fiche technique en détail pour comprendre quel type d'escalade favorise cette combinaison de forme et de matériaux, et dans quelles situations elle n'est peut-être pas le meilleur choix.",
+    "Comme pour toutes nos fiches, les données de poids et de pointure sont indicatives : elles peuvent varier légèrement selon l'exemplaire et la version du modèle."
+   ],
+   "caracteristicas": [
+    "Rand actif qui maintient la pointe chargée en dévers sans avoir à tendre la voûte manuellement.",
+    "Forme très asymétrique orientée vers les appuis de pointe et les micro-prises.",
+    "Gomme Vibram XS Grip2, qui privilégie l'adhérence à la résistance à l'abrasion."
+   ],
+   "paraQuien": "Pensée pour les grimpeurs dont les pieds sont déjà habitués aux formes agressives et qui veulent une sensibilité maximale en dévers et en bloc technique. Si tu cherches un chausson pour tous les jours ou pour débuter, tu trouveras des formes plus polyvalentes dans le reste de la gamme Scarpa, comme l'Origin ou l'Helix.",
+   "pros": [
+    "Sensibilité très élevée pour l'adhérence et les volumes",
+    "Rand actif facile à ajuster, sans lacets ni velcro rigide",
+    "Gomme très adhérente en mur vertical et en dévers"
+   ],
+   "contras": [
+    "Peu adaptée aux longues journées à cause de sa forme agressive",
+    "Gomme moins durable que sur les modèles à semelle plus épaisse",
+    "Période d'adaptation exigeante si tu n'as pas l'habitude de formes similaires"
+   ],
+   "veredicto": "La Drago tient les promesses de sa fiche technique : c'est un chausson de sensibilité extrême, pas de polyvalence. Pour le bloc en salle et les dévers techniques, l'association rand actif et gomme souple a du sens ; pour tout le reste, chez GATO LAB nous recommandons de regarder des modèles au profil plus modéré dans la même gamme.",
+   "seo": {
+    "title": "Scarpa Drago : analyse et fiche technique — GATO LAB",
+    "metaDescription": "Analyse technique de la Scarpa Drago : rand actif, forme très agressive et gomme souple. Fiche technique complète et à qui elle peut convenir."
+   },
+   "fichaTecnica": [
+    {
+     "campo": "Poids",
+     "valor": "200 g (pointure EU 40)"
+    },
+    {
+     "campo": "Fermeture",
+     "valor": "Velcro"
+    },
+    {
+     "campo": "Construction",
+     "valor": "Slip-lasted (souple)"
+    },
+    {
+     "campo": "Asymétrie",
+     "valor": "Élevée"
+    },
+    {
+     "campo": "Profil",
+     "valor": "Très agressive"
+    },
+    {
+     "campo": "Rigidité",
+     "valor": "Souple"
+    },
+    {
+     "campo": "Semelle",
+     "valor": "Vibram XS Grip2"
+    },
+    {
+     "campo": "Volume",
+     "valor": "Standard"
+    },
+    {
+     "campo": "Matériaux",
+     "valor": "Pointe en microfibre avec rand actif en gomme continue qui se tend quand le pied est chargé ; construction slip-lasted sans renforts internes rigides."
+    },
+    {
+     "campo": "Pointures",
+     "valor": "EU 36–50 (H) · EU 35–45 (F)"
+    }
+   ]
+  }
+ },
+ "rigidez-suela-analisis": {
+  "ca": {
+   "titulo": "Rigidesa de la sola: què vol dir realment i per què importa",
+   "subtitulo": "Fem servir la Scarpa Boostic, el model més rígid de la marca a la nostra base de dades, per explicar com afecta la rigidesa a la tècnica de peus.",
+   "imagenAlt": "Diagrama esquemàtic d'un peu de gat amb sola rígida, que representa la Scarpa Boostic",
+   "texto": [
+    "La rigidesa de la sola és un dels paràmetres que més confon qui comença a mirar fitxes tècniques de peus de gat: no mesura la duresa al tacte, sinó quant es doblega la sabatilla sota el pes del cos en recolzar-se sobre una presa petita.",
+    "La Boostic, amb la seva sola Vibram XS Edge i construcció board-lasted, és un dels models més rígids de la nostra base de dades i serveix com a bon exemple dels avantatges i els límits que comporta aquesta rigidesa.",
+    "Una sola rígida reparteix millor el pes en superfícies petites i cansa menys el peu en suports exigents, a canvi de perdre part de la sensibilitat i l'adherència per fricció que ofereix una sola tova."
+   ],
+   "caracteristicas": [
+    "Construcció board-lasted: manté una forma més plana i estructurada que els models slip-lasted del mateix catàleg.",
+    "Rigidesa alta que afavoreix regletes i suports de puntera petits en paret vertical.",
+    "Menys adaptabilitat a volums i superfícies irregulars que una sabatilla de sola tova."
+   ],
+   "paraQuien": "Recomanable per a escaladors de nivell avançat que es mouen sobretot en paret vertical amb preses petites i regletes, on la rigidesa redueix la fatiga del peu. Menys indicada per a bloc en desplom o adherència en volums, un terreny on una sola tova com la de la Drago o la Skwama rendeix millor.",
+   "pros": [
+    "Reparteix el pes de manera eficient en suports petits",
+    "Cansa menys el peu en sessions llargues de vertical",
+    "Precisió alta en regletes i cantells"
+   ],
+   "contras": [
+    "Perd sensibilitat en superfícies irregulars o volums",
+    "Menys adherència per fricció que les gomes toves",
+    "Període d'adaptació si vens de sabatilles molt flexibles"
+   ],
+   "veredicto": "No hi ha una rigidesa «millor»: hi ha la rigidesa adequada per al terreny on escales. La Boostic il·lustra bé l'extrem rígid de l'espectre, útil en vertical tècnica, però seria una mala elecció per a qui passa la major part del temps en desplom. A GATO LAB recomanem mirar sempre la rigidesa juntament amb el perfil i el tipus d'escalada declarat del model.",
+   "seo": {
+    "title": "La rigidesa de la sola dels peus de gat, explicada — GATO LAB",
+    "metaDescription": "Què vol dir la rigidesa de la sola d'un peu de gat i com afecta la teva escalada, amb la Scarpa Boostic com a exemple tècnic."
+   },
+   "fichaTecnica": [
+    {
+     "campo": "Pes",
+     "valor": "235 g (talla EU 41)"
+    },
+    {
+     "campo": "Tancament",
+     "valor": "Velcro"
+    },
+    {
+     "campo": "Construcció",
+     "valor": "Board-lasted (estructurada)"
+    },
+    {
+     "campo": "Asimetria",
+     "valor": "Mitjana"
+    },
+    {
+     "campo": "Perfil",
+     "valor": "Moderada"
+    },
+    {
+     "campo": "Rigidesa",
+     "valor": "Rígida"
+    },
+    {
+     "campo": "Sola",
+     "valor": "Vibram XS Edge"
+    },
+    {
+     "campo": "Volum",
+     "valor": "Estàndard"
+    },
+    {
+     "campo": "Materials",
+     "valor": "Mitjasola de plàstic tècnic sota l'arc que aporta rigidesa estructural; puntera i empenya en microfibra sintètica amb reforç a la zona de suport."
+    },
+    {
+     "campo": "Talles",
+     "valor": "EU 36–50 (H) · EU 35–45 (D)"
+    }
+   ]
+  },
+  "en": {
+   "titulo": "Sole stiffness: what it really means and why it matters",
+   "subtitulo": "We use the Scarpa Boostic, the brand's stiffest model in our database, to explain how stiffness affects footwork.",
+   "imagenAlt": "Schematic diagram of a climbing shoe with a stiff sole, representing the Scarpa Boostic",
+   "texto": [
+    "Sole stiffness is one of the most confusing specs for anyone starting to read climbing shoe spec sheets: it doesn't measure how hard the shoe feels to the touch, but how much it bends under your body weight when you stand on a small hold.",
+    "The Boostic, with its Vibram XS Edge sole and board-lasted construction, is one of the stiffest models in our database and is a good example of the advantages and limits that stiffness brings.",
+    "A stiff sole spreads your weight better on small footholds and tires the foot less on demanding placements, at the cost of some of the sensitivity and friction grip a soft sole offers."
+   ],
+   "caracteristicas": [
+    "Board-lasted construction: it keeps a flatter, more structured shape than the slip-lasted models in the same range.",
+    "High stiffness that favours edges and small toe placements on vertical walls.",
+    "Less able to adapt to volumes and irregular surfaces than a soft-soled shoe."
+   ],
+   "paraQuien": "Recommended for advanced climbers who mostly climb vertical walls with small holds and edges, where stiffness reduces foot fatigue. Less suited to overhanging bouldering or smearing on volumes, terrain where a soft sole like the Drago's or the Skwama's performs better.",
+   "pros": [
+    "Spreads your weight efficiently on small footholds",
+    "Less foot fatigue during long vertical sessions",
+    "High precision on edges and crimps"
+   ],
+   "contras": [
+    "Loses sensitivity on irregular surfaces or volumes",
+    "Less friction grip than soft rubbers",
+    "Adaptation period if you're coming from very flexible shoes"
+   ],
+   "veredicto": "There's no “better” stiffness: there's the right stiffness for the terrain you climb. The Boostic illustrates the stiff end of the spectrum well — useful on technical vertical walls — but it would be a poor choice for someone who spends most of their time on overhangs. At GATO LAB we recommend always looking at stiffness together with the model's shape and stated type of climbing.",
+   "seo": {
+    "title": "Climbing shoe sole stiffness, explained — GATO LAB",
+    "metaDescription": "What sole stiffness means in a climbing shoe and how it affects your climbing, with the Scarpa Boostic as a technical example."
+   },
+   "fichaTecnica": [
+    {
+     "campo": "Weight",
+     "valor": "235 g (EU size 41)"
+    },
+    {
+     "campo": "Closure",
+     "valor": "Velcro"
+    },
+    {
+     "campo": "Construction",
+     "valor": "Board-lasted (structured)"
+    },
+    {
+     "campo": "Asymmetry",
+     "valor": "Medium"
+    },
+    {
+     "campo": "Shape",
+     "valor": "Moderate"
+    },
+    {
+     "campo": "Stiffness",
+     "valor": "Stiff"
+    },
+    {
+     "campo": "Rubber",
+     "valor": "Vibram XS Edge"
+    },
+    {
+     "campo": "Volume",
+     "valor": "Standard"
+    },
+    {
+     "campo": "Materials",
+     "valor": "Technical plastic midsole under the arch for structural stiffness; synthetic microfibre toe and upper with reinforcement in the support area."
+    },
+    {
+     "campo": "Sizes",
+     "valor": "EU 36–50 (M) · EU 35–45 (W)"
+    }
+   ]
+  },
+  "fr": {
+   "titulo": "Rigidité de la semelle : ce qu'elle signifie vraiment et pourquoi elle compte",
+   "subtitulo": "Nous prenons la Scarpa Boostic, le modèle le plus rigide de la marque dans notre base de données, pour expliquer comment la rigidité influe sur le travail de pieds.",
+   "imagenAlt": "Schéma d'un chausson d'escalade à semelle rigide, représentant la Scarpa Boostic",
+   "texto": [
+    "La rigidité de la semelle est l'un des paramètres qui déroutent le plus quand on commence à lire des fiches techniques de chaussons : elle ne mesure pas la dureté au toucher, mais à quel point le chausson plie sous le poids du corps quand on se tient sur une petite prise.",
+    "La Boostic, avec sa semelle Vibram XS Edge et sa construction board-lasted, est l'un des modèles les plus rigides de notre base de données et illustre bien les avantages et les limites de cette rigidité.",
+    "Une semelle rigide répartit mieux le poids sur les petites surfaces et fatigue moins le pied sur les appuis exigeants, au prix d'une partie de la sensibilité et de l'adhérence par friction qu'offre une semelle souple."
+   ],
+   "caracteristicas": [
+    "Construction board-lasted : elle garde une forme plus plate et plus structurée que les modèles slip-lasted de la même gamme.",
+    "Rigidité élevée qui favorise les réglettes et les petits appuis de pointe en mur vertical.",
+    "Moins bonne adaptation aux volumes et aux surfaces irrégulières qu'un chausson à semelle souple."
+   ],
+   "paraQuien": "Recommandée aux grimpeurs de niveau avancé qui évoluent surtout en mur vertical sur petites prises et réglettes, où la rigidité réduit la fatigue du pied. Moins adaptée au bloc en dévers ou à l'adhérence sur volumes, un terrain où une semelle souple comme celle de la Drago ou de la Skwama est plus performante.",
+   "pros": [
+    "Répartit le poids efficacement sur les petits appuis",
+    "Fatigue moins le pied lors de longues séances en vertical",
+    "Grande précision sur les réglettes et les arêtes"
+   ],
+   "contras": [
+    "Perd en sensibilité sur les surfaces irrégulières ou les volumes",
+    "Moins d'adhérence par friction que les gommes souples",
+    "Période d'adaptation si tu viens de chaussons très souples"
+   ],
+   "veredicto": "Il n'existe pas de « meilleure » rigidité : il existe la rigidité adaptée au terrain que tu grimpes. La Boostic illustre bien l'extrémité rigide du spectre, utile en vertical technique, mais ce serait un mauvais choix pour qui passe la plupart de son temps en dévers. Chez GATO LAB, nous recommandons de toujours regarder la rigidité avec le profil et le type d'escalade annoncé du modèle.",
+   "seo": {
+    "title": "La rigidité de la semelle des chaussons d'escalade, expliquée — GATO LAB",
+    "metaDescription": "Ce que signifie la rigidité de la semelle d'un chausson d'escalade et son effet sur ta grimpe, avec la Scarpa Boostic comme exemple technique."
+   },
+   "fichaTecnica": [
+    {
+     "campo": "Poids",
+     "valor": "235 g (pointure EU 41)"
+    },
+    {
+     "campo": "Fermeture",
+     "valor": "Velcro"
+    },
+    {
+     "campo": "Construction",
+     "valor": "Board-lasted (structurée)"
+    },
+    {
+     "campo": "Asymétrie",
+     "valor": "Moyenne"
+    },
+    {
+     "campo": "Profil",
+     "valor": "Modérée"
+    },
+    {
+     "campo": "Rigidité",
+     "valor": "Rigide"
+    },
+    {
+     "campo": "Semelle",
+     "valor": "Vibram XS Edge"
+    },
+    {
+     "campo": "Volume",
+     "valor": "Standard"
+    },
+    {
+     "campo": "Matériaux",
+     "valor": "Semelle intermédiaire en plastique technique sous la voûte qui apporte une rigidité structurelle ; pointe et tige en microfibre synthétique avec renfort dans la zone d'appui."
+    },
+    {
+     "campo": "Pointures",
+     "valor": "EU 36–50 (H) · EU 35–45 (F)"
+    }
+   ]
+  }
+ },
+ "elegir-primer-pie-de-gato": {
+  "ca": {
+   "titulo": "Com triar el teu primer peu de gat: guia completa",
+   "subtitulo": "Tancament, perfil, rigidesa i volum explicats des de zero, amb la La Sportiva Tarantulace com a exemple de model d'iniciació.",
+   "imagenAlt": "Il·lustració esquemàtica d'un peu de gat de perfil pla i horma còmoda, que representa un model d'iniciació",
+   "texto": [
+    "El primer peu de gat no hauria de ser el més agressiu ni el més car: hauria de ser el que et permeti aprendre tècnica de peus sense patir més la sabatilla que la via.",
+    "En aquesta guia repassem els quatre paràmetres que més importen en triar un primer model: perfil (pla o agressiu), tancament (cordons, velcro o slipper), rigidesa de la sola i volum de l'horma.",
+    "Fem servir la La Sportiva Tarantulace com a exemple de model d'iniciació de la nostra base de dades, però la lògica d'aquesta guia s'aplica a qualsevol model del catàleg amb perfil pla i rigidesa mitjana."
+   ],
+   "caracteristicas": [
+    "Perfil pla: el peu es recolza de manera natural, sense forçar la punta del peu cap avall.",
+    "Tancament de cordons de la puntera al taló, fàcil d'ajustar amb precisió mentre aprens l'horma.",
+    "Rigidesa mitjana: prou suport per no cansar el peu sense perdre tota la sensibilitat."
+   ],
+   "paraQuien": "Per a qualsevol persona que comença al rocòdrom i encara està desenvolupant la força i la sensibilitat de peus necessàries per a hormes agressives. També és una bona opció de «segona sabatilla» per a qui vol alternar-la amb un model agressiu en sessions llargues.",
+   "pros": [
+    "Preu assequible dins del catàleg",
+    "Horma còmoda que tolera sessions llargues",
+    "Bona porta d'entrada per aprendre tècnica de peus"
+   ],
+   "contras": [
+    "Rendiment limitat en desplom o en preses molt petites",
+    "Menys precisa de puntera que els models d'horma agressiva",
+    "No és l'opció òptima si ja tens nivell intermedi-avançat"
+   ],
+   "veredicto": "No hi ha cap recompensa per patir amb una sabatilla agressiva abans d'hora: el perfil pla i la rigidesa mitjana d'un model d'iniciació et permeten centrar-te en la tècnica en lloc del dolor de peus. A GATO LAB recomanem guardar els perfils agressius per quan el peu — i la tècnica — ja hi estiguin preparats.",
+   "seo": {
+    "title": "Com triar el teu primer peu de gat — GATO LAB",
+    "metaDescription": "Guia completa per triar el teu primer peu de gat: perfil, tancament, rigidesa i volum explicats, amb un model d'iniciació com a exemple."
+   },
+   "fichaTecnica": [
+    {
+     "campo": "Pes",
+     "valor": "245 g"
+    },
+    {
+     "campo": "Tancament",
+     "valor": "Cordons"
+    },
+    {
+     "campo": "Construcció",
+     "valor": "Mixta (semiestructurada)"
+    },
+    {
+     "campo": "Asimetria",
+     "valor": "Baixa"
+    },
+    {
+     "campo": "Perfil",
+     "valor": "Plana"
+    },
+    {
+     "campo": "Rigidesa",
+     "valor": "Mitjana"
+    },
+    {
+     "campo": "Sola",
+     "valor": "Vibram FriXion RS · 4 mm"
+    },
+    {
+     "campo": "Volum",
+     "valor": "Estàndard"
+    },
+    {
+     "campo": "Materials",
+     "valor": "Empenya en pell sintètica resistent, sense un rand elaborat; sola d'un sol bloc de goma pensada per resistir el desgast de la iniciació."
+    },
+    {
+     "campo": "Talles",
+     "valor": "EU 33–50.5 (H) · EU 33–47 (D)"
+    }
+   ]
+  },
+  "en": {
+   "titulo": "How to choose your first climbing shoe: a complete guide",
+   "subtitulo": "Closure, shape, stiffness and volume explained from scratch, with the La Sportiva Tarantulace as an example of a beginner shoe.",
+   "imagenAlt": "Schematic illustration of a flat, comfortable climbing shoe, representing a beginner model",
+   "texto": [
+    "Your first climbing shoe shouldn't be the most aggressive or the most expensive one: it should be the one that lets you learn footwork without the shoe hurting more than the route.",
+    "In this guide we go through the four specs that matter most when choosing a first pair: shape (flat vs. aggressive), closure (laces, velcro or slipper), sole stiffness and last volume.",
+    "We use the La Sportiva Tarantulace as an example of a beginner model in our database, but the reasoning in this guide applies to any model in the catalogue with a flat shape and medium stiffness."
+   ],
+   "caracteristicas": [
+    "Flat shape: the foot rests naturally, without forcing the toes downwards.",
+    "Lace-up closure from toe to heel, easy to adjust precisely while you get used to the last.",
+    "Medium stiffness: enough support to avoid tiring the foot without losing all sensitivity."
+   ],
+   "paraQuien": "For anyone starting out at the climbing gym who is still developing the foot strength and sensitivity that aggressive lasts require. It's also a good “second shoe” for climbers who want to alternate with an aggressive model during long sessions.",
+   "pros": [
+    "Affordable price within the catalogue",
+    "Comfortable last that tolerates long sessions",
+    "A good way in for learning footwork"
+   ],
+   "contras": [
+    "Limited performance on overhangs or very small holds",
+    "Less toe precision than aggressive models",
+    "Not the best choice if you're already intermediate or advanced"
+   ],
+   "veredicto": "There's no reward for suffering in an aggressive shoe too soon: the flat shape and medium stiffness of a beginner model let you focus on technique instead of sore feet. At GATO LAB we recommend saving aggressive shapes for when your feet — and your technique — are ready for them.",
+   "seo": {
+    "title": "How to choose your first climbing shoe — GATO LAB",
+    "metaDescription": "A complete guide to choosing your first climbing shoe: shape, closure, stiffness and volume explained, with a beginner model as an example."
+   },
+   "fichaTecnica": [
+    {
+     "campo": "Weight",
+     "valor": "245 g"
+    },
+    {
+     "campo": "Closure",
+     "valor": "Laces"
+    },
+    {
+     "campo": "Construction",
+     "valor": "Mixed (semi-structured)"
+    },
+    {
+     "campo": "Asymmetry",
+     "valor": "Low"
+    },
+    {
+     "campo": "Shape",
+     "valor": "Flat"
+    },
+    {
+     "campo": "Stiffness",
+     "valor": "Medium"
+    },
+    {
+     "campo": "Rubber",
+     "valor": "Vibram FriXion RS · 4 mm"
+    },
+    {
+     "campo": "Volume",
+     "valor": "Standard"
+    },
+    {
+     "campo": "Materials",
+     "valor": "Durable synthetic leather upper without an elaborate rand; single-piece rubber sole designed to withstand beginner wear."
+    },
+    {
+     "campo": "Sizes",
+     "valor": "EU 33–50.5 (M) · EU 33–47 (W)"
+    }
+   ]
+  },
+  "fr": {
+   "titulo": "Comment choisir tes premiers chaussons d'escalade : le guide complet",
+   "subtitulo": "Fermeture, profil, rigidité et volume expliqués depuis le début, avec la La Sportiva Tarantulace comme exemple de modèle pour débuter.",
+   "imagenAlt": "Illustration schématique d'un chausson d'escalade plat et confortable, représentant un modèle pour débuter",
+   "texto": [
+    "Tes premiers chaussons ne devraient être ni les plus agressifs ni les plus chers : ils devraient te permettre d'apprendre le travail de pieds sans souffrir davantage du chausson que de la voie.",
+    "Dans ce guide, nous passons en revue les quatre paramètres qui comptent le plus pour choisir un premier modèle : le profil (plat ou agressif), la fermeture (lacets, velcro ou slipper), la rigidité de la semelle et le volume de la forme.",
+    "Nous prenons la La Sportiva Tarantulace comme exemple de modèle pour débuter dans notre base de données, mais la logique de ce guide s'applique à tout modèle du catalogue au profil plat et à la rigidité moyenne."
+   ],
+   "caracteristicas": [
+    "Profil plat : le pied repose naturellement, sans forcer les orteils vers le bas.",
+    "Fermeture à lacets de la pointe au talon, facile à ajuster précisément pendant que tu t'habitues à la forme.",
+    "Rigidité moyenne : assez de soutien pour ne pas fatiguer le pied sans perdre toute la sensibilité."
+   ],
+   "paraQuien": "Pour toute personne qui débute en salle et développe encore la force et la sensibilité de pieds nécessaires aux formes agressives. C'est aussi une bonne option comme « deuxième paire » pour alterner avec un modèle agressif pendant les longues séances.",
+   "pros": [
+    "Prix abordable dans le catalogue",
+    "Forme confortable qui supporte les longues séances",
+    "Une bonne porte d'entrée pour apprendre le travail de pieds"
+   ],
+   "contras": [
+    "Performances limitées en dévers ou sur de très petites prises",
+    "Moins précise de pointe que les modèles à forme agressive",
+    "Pas l'option idéale si tu as déjà un niveau intermédiaire ou avancé"
+   ],
+   "veredicto": "Il n'y a aucune récompense à souffrir trop tôt dans un chausson agressif : le profil plat et la rigidité moyenne d'un modèle pour débuter te permettent de te concentrer sur la technique plutôt que sur la douleur. Chez GATO LAB, nous recommandons de garder les profils agressifs pour le moment où ton pied — et ta technique — seront prêts.",
+   "seo": {
+    "title": "Comment choisir tes premiers chaussons d'escalade — GATO LAB",
+    "metaDescription": "Guide complet pour choisir tes premiers chaussons d'escalade : profil, fermeture, rigidité et volume expliqués, avec un modèle pour débuter comme exemple."
+   },
+   "fichaTecnica": [
+    {
+     "campo": "Poids",
+     "valor": "245 g"
+    },
+    {
+     "campo": "Fermeture",
+     "valor": "Lacets"
+    },
+    {
+     "campo": "Construction",
+     "valor": "Mixte (semi-structurée)"
+    },
+    {
+     "campo": "Asymétrie",
+     "valor": "Faible"
+    },
+    {
+     "campo": "Profil",
+     "valor": "Plate"
+    },
+    {
+     "campo": "Rigidité",
+     "valor": "Moyenne"
+    },
+    {
+     "campo": "Semelle",
+     "valor": "Vibram FriXion RS · 4 mm"
+    },
+    {
+     "campo": "Volume",
+     "valor": "Standard"
+    },
+    {
+     "campo": "Matériaux",
+     "valor": "Tige en cuir synthétique résistant, sans rand élaboré ; semelle d'une seule pièce en gomme conçue pour résister à l'usure des débuts."
+    },
+    {
+     "campo": "Pointures",
+     "valor": "EU 33–50.5 (H) · EU 33–47 (F)"
+    }
+   ]
+  }
+ },
+ "tenaya-sistema-draxtor": {
+  "ca": {
+   "titulo": "Tenaya i el sistema Draxtor: què el fa diferent",
+   "subtitulo": "Analitzem el mecanisme de tancament característic de Tenaya i per què apareix en alguns dels seus models més tècnics, com la Mundaka.",
+   "imagenAlt": "Il·lustració esquemàtica d'un peu de gat amb doble tancament de velcro independent, que representa el sistema Draxtor de Tenaya",
+   "texto": [
+    "Tenaya és una marca espanyola especialitzada gairebé exclusivament en escalada, i un dels seus trets d'identitat tècnics és el sistema de tancament Draxtor, present en models com la Mundaka.",
+    "A diferència d'un velcro únic, el Draxtor permet tensar la puntera i el taló de manera independent, cosa que en teoria ofereix un ajust més fi que un tancament convencional d'una sola corretja.",
+    "Analitzem què implica això en la fitxa tècnica i en quin tipus d'escalada té més sentit davant d'altres sistemes de tancament del catàleg de la marca."
+   ],
+   "caracteristicas": [
+    "Doble corretja independent que permet ajustar la puntera i el taló per separat.",
+    "Horma moderada amb asimetria mitjana, pensada per a bloc tècnic prolongat.",
+    "Goma Vibram XS Grip d'alta adherència en preses petites i volums."
+   ],
+   "paraQuien": "Interessant per a qui passa moltes hores fent bloc i valora poder afinar l'ajust del taló i de la puntera de manera independent, en lloc de dependre d'una única corretja que reparteix la tensió de manera uniforme. Menys rellevant per a qui prioritza la rapidesa en calçar-se per sobre de la precisió de l'ajust.",
+   "pros": [
+    "Ajust independent de puntera i taló",
+    "Bona adherència en bloc tècnic prolongat",
+    "Horma còmoda per a sessions llargues dins de la seva gamma"
+   ],
+   "contras": [
+    "Calçar-se i ajustar les dues corretges és més lent que amb un velcro únic",
+    "Pes una mica superior al de models equivalents d'altres marques",
+    "Sistema menys habitual, amb corba d'aprenentatge per trobar l'ajust òptim"
+   ],
+   "veredicto": "El Draxtor no és un truc de màrqueting: resol un problema real (l'ajust desigual d'un velcro únic) a canvi d'una mica de velocitat en calçar-se. A GATO LAB el considerem un sistema amb sentit per a qui escala en bloc moltes hores, i no per a qui vol calçar-se i descalçar-se constantment entre intents curts.",
+   "seo": {
+    "title": "Tenaya i el sistema Draxtor, explicat — GATO LAB",
+    "metaDescription": "Què és el sistema de tancament Draxtor de Tenaya, com funciona a la Mundaka i quan té sentit davant d'un velcro convencional."
+   },
+   "fichaTecnica": [
+    {
+     "campo": "Pes",
+     "valor": "330 g"
+    },
+    {
+     "campo": "Tancament",
+     "valor": "Velcro (Draxtor)"
+    },
+    {
+     "campo": "Construcció",
+     "valor": "Slip-lasted (flexible)"
+    },
+    {
+     "campo": "Asimetria",
+     "valor": "Mitjana"
+    },
+    {
+     "campo": "Perfil",
+     "valor": "Moderada"
+    },
+    {
+     "campo": "Rigidesa",
+     "valor": "Tova"
+    },
+    {
+     "campo": "Sola",
+     "valor": "Vibram XS Grip · 3.5 mm"
+    },
+    {
+     "campo": "Volum",
+     "valor": "Estàndard"
+    },
+    {
+     "campo": "Materials",
+     "valor": "Empenya en pell sintètica amb dues corretges de velcro independents (sistema Draxtor); sola d'una peça a la puntera per maximitzar el contacte en bloc."
+    },
+    {
+     "campo": "Talles",
+     "valor": "EU 33–48.5 (unisex)"
+    }
+   ]
+  },
+  "en": {
+   "titulo": "Tenaya and the Draxtor system: what makes it different",
+   "subtitulo": "We look at Tenaya's signature closure mechanism and why it appears on some of its most technical models, such as the Mundaka.",
+   "imagenAlt": "Schematic illustration of a climbing shoe with two independent velcro closures, representing Tenaya's Draxtor system",
+   "texto": [
+    "Tenaya is a Spanish brand that focuses almost exclusively on climbing, and one of its technical hallmarks is the Draxtor closure system, found on models such as the Mundaka.",
+    "Unlike a single velcro strap, the Draxtor lets you tension the toe and the heel independently, which in theory gives a finer fit than a conventional single-strap closure.",
+    "We look at what this means on the spec sheet and for which type of climbing it makes most sense compared with the brand's other closure systems."
+   ],
+   "caracteristicas": [
+    "Two independent straps that let you adjust the toe and the heel separately.",
+    "Moderate last with medium asymmetry, designed for long technical bouldering sessions.",
+    "Vibram XS Grip rubber with high grip on small holds and volumes."
+   ],
+   "paraQuien": "Worth a look if you spend many hours bouldering and value being able to fine-tune the heel and toe fit independently, rather than relying on a single strap that spreads tension evenly. Less relevant if you care more about how quickly you can put the shoes on than about fit precision.",
+   "pros": [
+    "Independent toe and heel adjustment",
+    "Good grip for long technical bouldering sessions",
+    "Comfortable last for long sessions within its range"
+   ],
+   "contras": [
+    "Putting on and adjusting two straps is slower than a single velcro",
+    "Slightly heavier than equivalent models from other brands",
+    "A less common system, with a learning curve to find the best fit"
+   ],
+   "veredicto": "The Draxtor isn't a marketing gimmick: it solves a real problem (the uneven fit of a single velcro strap) at the cost of a little speed when putting the shoes on. At GATO LAB we think it makes sense for climbers who boulder for hours, not for those who keep taking their shoes on and off between short attempts.",
+   "seo": {
+    "title": "Tenaya and the Draxtor system, explained — GATO LAB",
+    "metaDescription": "What Tenaya's Draxtor closure system is, how it works on the Mundaka and when it makes sense compared with a conventional velcro."
+   },
+   "fichaTecnica": [
+    {
+     "campo": "Weight",
+     "valor": "330 g"
+    },
+    {
+     "campo": "Closure",
+     "valor": "Velcro (Draxtor)"
+    },
+    {
+     "campo": "Construction",
+     "valor": "Slip-lasted (flexible)"
+    },
+    {
+     "campo": "Asymmetry",
+     "valor": "Medium"
+    },
+    {
+     "campo": "Shape",
+     "valor": "Moderate"
+    },
+    {
+     "campo": "Stiffness",
+     "valor": "Soft"
+    },
+    {
+     "campo": "Rubber",
+     "valor": "Vibram XS Grip · 3.5 mm"
+    },
+    {
+     "campo": "Volume",
+     "valor": "Standard"
+    },
+    {
+     "campo": "Materials",
+     "valor": "Synthetic leather upper with two independent velcro straps (Draxtor system); one-piece sole at the toe to maximise contact when bouldering."
+    },
+    {
+     "campo": "Sizes",
+     "valor": "EU 33–48.5 (unisex)"
+    }
+   ]
+  },
+  "fr": {
+   "titulo": "Tenaya et le système Draxtor : ce qui le rend différent",
+   "subtitulo": "Nous analysons le mécanisme de fermeture caractéristique de Tenaya et pourquoi il équipe certains de ses modèles les plus techniques, comme la Mundaka.",
+   "imagenAlt": "Illustration schématique d'un chausson d'escalade à double fermeture velcro indépendante, représentant le système Draxtor de Tenaya",
+   "texto": [
+    "Tenaya est une marque espagnole spécialisée presque exclusivement dans l'escalade, et l'une de ses signatures techniques est le système de fermeture Draxtor, présent sur des modèles comme la Mundaka.",
+    "Contrairement à un velcro unique, le Draxtor permet de tendre la pointe et le talon indépendamment, ce qui, en théorie, offre un ajustement plus fin qu'une fermeture classique à une seule sangle.",
+    "Nous analysons ce que cela implique sur la fiche technique et pour quel type d'escalade il a le plus de sens par rapport aux autres systèmes de fermeture de la marque."
+   ],
+   "caracteristicas": [
+    "Double sangle indépendante qui permet d'ajuster la pointe et le talon séparément.",
+    "Forme modérée à asymétrie moyenne, pensée pour de longues séances de bloc technique.",
+    "Gomme Vibram XS Grip très adhérente sur les petites prises et les volumes."
+   ],
+   "paraQuien": "Intéressant si tu passes de nombreuses heures en bloc et que tu apprécies de pouvoir affiner séparément le serrage du talon et de la pointe, plutôt que de dépendre d'une seule sangle qui répartit la tension uniformément. Moins pertinent si tu privilégies la rapidité pour te chausser plutôt que la précision du serrage.",
+   "pros": [
+    "Serrage indépendant de la pointe et du talon",
+    "Bonne adhérence pour de longues séances de bloc technique",
+    "Forme confortable pour les longues séances dans sa catégorie"
+   ],
+   "contras": [
+    "Mettre et régler les deux sangles est plus lent qu'avec un velcro unique",
+    "Poids un peu supérieur à celui de modèles équivalents d'autres marques",
+    "Système moins courant, avec une courbe d'apprentissage pour trouver le bon serrage"
+   ],
+   "veredicto": "Le Draxtor n'est pas un gadget marketing : il résout un vrai problème (le serrage inégal d'un velcro unique) au prix d'un peu de rapidité pour se chausser. Chez GATO LAB, nous le jugeons pertinent pour qui grimpe en bloc pendant des heures, pas pour qui enlève et remet sans cesse ses chaussons entre de courts essais.",
+   "seo": {
+    "title": "Tenaya et le système Draxtor, expliqué — GATO LAB",
+    "metaDescription": "Ce qu'est le système de fermeture Draxtor de Tenaya, comment il fonctionne sur la Mundaka et quand il a du sens par rapport à un velcro classique."
+   },
+   "fichaTecnica": [
+    {
+     "campo": "Poids",
+     "valor": "330 g"
+    },
+    {
+     "campo": "Fermeture",
+     "valor": "Velcro (Draxtor)"
+    },
+    {
+     "campo": "Construction",
+     "valor": "Slip-lasted (souple)"
+    },
+    {
+     "campo": "Asymétrie",
+     "valor": "Moyenne"
+    },
+    {
+     "campo": "Profil",
+     "valor": "Modérée"
+    },
+    {
+     "campo": "Rigidité",
+     "valor": "Souple"
+    },
+    {
+     "campo": "Semelle",
+     "valor": "Vibram XS Grip · 3.5 mm"
+    },
+    {
+     "campo": "Volume",
+     "valor": "Standard"
+    },
+    {
+     "campo": "Matériaux",
+     "valor": "Tige en cuir synthétique avec deux sangles velcro indépendantes (système Draxtor) ; semelle d'une seule pièce à la pointe pour maximiser le contact en bloc."
+    },
+    {
+     "campo": "Pointures",
+     "valor": "EU 33–48.5 (unisexe)"
+    }
+   ]
+  }
+ }
+}

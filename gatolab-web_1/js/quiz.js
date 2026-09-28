@@ -50,7 +50,29 @@
                 "Hi ha pocs models amb aquest tancament que encaixin amb tu, així que també te'n mostrem d'altres.",
                 "Few models with that closure match you, so we're also showing others.",
                 "Peu de modèles avec cette fermeture te correspondent, alors nous t'en montrons aussi d'autres."),
-    noPhoto:  L("Sin foto", "Sense foto", "No photo", "Sans photo")
+    noPhoto:  L("Sin foto", "Sense foto", "No photo", "Sans photo"),
+    // Recuadro «Cómo leer el resultado»
+    discTitle: L("Tómatelo como una orientación", "Pren-t'ho com una orientació", "Treat this as a guide", "Prends-le comme une orientation"),
+    discIntro: L("El % de encaje compara tus respuestas con las características de cada modelo (nivel, uso, forma, rigidez, horma y cierre). No conoce tu pie, así que el resultado no es exacto y puede variar un poco.",
+                 "El % d'encaix compara les teves respostes amb les característiques de cada model (nivell, ús, forma, rigidesa, horma i tancament). No coneix el teu peu, així que el resultat no és exacte i pot variar una mica.",
+                 "The match % compares your answers with each model's features (level, use, shape, stiffness, last and closure). It doesn't know your foot, so the result isn't exact and may vary a little.",
+                 "Le % d'affinité compare tes réponses aux caractéristiques de chaque modèle (niveau, usage, forme, rigidité, forme de la chaussure et fermeture). Il ne connaît pas ton pied : le résultat n'est donc pas exact et peut varier un peu."),
+    discBandsTitle: L("¿Cuánto se parecen dos modelos?", "Quant s'assemblen dos models?", "How similar are two models?", "À quel point deux modèles se ressemblent ?"),
+    discB1k: L("Menos de 5 puntos", "Menys de 5 punts", "Under 5 points", "Moins de 5 points"),
+    discB1:  L("Prácticamente igual de adecuados para ti.", "Pràcticament igual d'adequats per a tu.", "Practically equally suitable for you.", "Pratiquement aussi adaptés l'un que l'autre."),
+    discB2k: L("Entre 5 y 10 puntos", "Entre 5 i 10 punts", "5 to 10 points", "Entre 5 et 10 points"),
+    discB2:  L("Se parecen mucho; cambian detalles.", "S'assemblen molt; canvien detalls.", "Very similar; only details change.", "Très proches ; seuls des détails changent."),
+    discB3k: L("Más de 10 puntos", "Més de 10 punts", "Over 10 points", "Plus de 10 points"),
+    discB3:  L("Diferencias claras entre ellos.", "Diferències clares entre ells.", "Clear differences between them.", "Des différences nettes."),
+    discOrder: L("El orden también tiene en cuenta los modelos más populares y las marcas que recomendamos, por eso a veces un % algo menor aparece antes.",
+                 "L'ordre també té en compte els models més populars i les marques que recomanem, per això de vegades un % una mica més baix apareix abans.",
+                 "The order also takes into account the most popular models and the brands we recommend, so a slightly lower % sometimes appears first.",
+                 "L'ordre tient aussi compte des modèles les plus populaires et des marques que nous recommandons : un % un peu plus bas peut donc apparaître avant."),
+    discFit: L("Lo que más importa es cómo te queda: si puedes, pruébatelos en tienda y revisa la talla en el comparador de tallas, porque cambia mucho entre marcas.",
+               "El que més importa és com et queda: si pots, emprova-te'ls a la botiga i revisa la talla al comparador de talles, perquè canvia molt entre marques.",
+               "What matters most is how they fit: try them on in a shop if you can, and check your size in the size comparator, because it varies a lot between brands.",
+               "Le plus important, c'est comment ils te vont : essaie-les en magasin si tu peux et vérifie ta taille dans le comparateur de tailles, car elle varie beaucoup d'une marque à l'autre."),
+    discSizes: L("Abrir el comparador de tallas", "Obrir el comparador de talles", "Open the size comparator", "Ouvrir le comparateur de tailles")
   };
 
   /* ---------------------------------------------------------------- *
@@ -465,6 +487,7 @@
             </li>`;
           }).join("")}
         </ol>
+        ${disclaimerHTML()}
         <div class="quiz-actions">
           ${list.length > shown && shown < 18 ? `<button type="button" class="btn-secondary quiz-more">${ui("more")}</button>` : ""}
           ${top.length >= 2 ? `<button type="button" class="btn-secondary quiz-compare" data-a="${esc(top[0].s.id)}" data-b="${esc(top[1].s.id)}">${ui("compare")} →</button>` : ""}
@@ -472,6 +495,23 @@
           <button type="button" class="btn-secondary quiz-restart">${ui("restart")}</button>
         </div>
       </div>`;
+  }
+
+  function disclaimerHTML(){
+    return `
+        <aside class="quiz-disclaimer" aria-labelledby="quizDiscTitle">
+          <div class="quiz-disc-head"><span class="quiz-disc-icon" aria-hidden="true">i</span><h3 id="quizDiscTitle">${ui("discTitle")}</h3></div>
+          <p>${ui("discIntro")}</p>
+          <div class="quiz-disc-bands-title">${ui("discBandsTitle")}</div>
+          <dl class="quiz-disc-bands">
+            <div><dt>${ui("discB1k")}</dt><dd>${ui("discB1")}</dd></div>
+            <div><dt>${ui("discB2k")}</dt><dd>${ui("discB2")}</dd></div>
+            <div><dt>${ui("discB3k")}</dt><dd>${ui("discB3")}</dd></div>
+          </dl>
+          <p>${ui("discOrder")}</p>
+          <p>${ui("discFit")}</p>
+          <button type="button" class="btn-secondary quiz-sizes">${ui("discSizes")} →</button>
+        </aside>`;
   }
 
   function keepInView(){
@@ -517,6 +557,7 @@
     });
     if(q(".quiz-edit")) q(".quiz-edit").addEventListener("click", () => go("quiz", 0));
     if(q(".quiz-restart")) q(".quiz-restart").addEventListener("click", () => { answers = {}; shown = 6; go("quiz", 0); });
+    if(q(".quiz-sizes")) q(".quiz-sizes").addEventListener("click", () => { location.hash = "#compare/tallas"; });
   }
 
   function mount(container){

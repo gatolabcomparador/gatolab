@@ -64,10 +64,11 @@
     discB2:  L("Se parecen mucho; cambian detalles.", "S'assemblen molt; canvien detalls.", "Very similar; only details change.", "Très proches ; seuls des détails changent."),
     discB3k: L("Más de 10 puntos", "Més de 10 punts", "Over 10 points", "Plus de 10 points"),
     discB3:  L("Diferencias claras entre ellos.", "Diferències clares entre ells.", "Clear differences between them.", "Des différences nettes."),
-    discOrder: L("El orden también tiene en cuenta los modelos más populares y las marcas que recomendamos, por eso a veces un % algo menor aparece antes.",
-                 "L'ordre també té en compte els models més populars i les marques que recomanem, per això de vegades un % una mica més baix apareix abans.",
-                 "The order also takes into account the most popular models and the brands we recommend, so a slightly lower % sometimes appears first.",
-                 "L'ordre tient aussi compte des modèles les plus populaires et des marques que nous recommandons : un % un peu plus bas peut donc apparaître avant."),
+    discOrder: L("El orden da preferencia a los modelos con sello GATO LAB y a las marcas que recomendamos, siempre que estén a menos de 10 puntos del mejor resultado. Por eso a veces un % algo menor aparece antes.",
+                 "L'ordre dona preferència als models amb segell GATO LAB i a les marques que recomanem, sempre que estiguin a menys de 10 punts del millor resultat. Per això de vegades un % una mica més baix apareix abans.",
+                 "The order gives preference to models with the GATO LAB Seal and to the brands we recommend, as long as they're within 10 points of the best result. That's why a slightly lower % sometimes appears first.",
+                 "L'ordre privilégie les modèles avec le Label GATO LAB et les marques que nous recommandons, à condition qu'ils soient à moins de 10 points du meilleur résultat. C'est pourquoi un % un peu plus bas apparaît parfois avant."),
+    sealName: L("Sello GATO LAB", "Segell GATO LAB", "GATO LAB Seal", "Label GATO LAB"),
     discFit: L("Lo que más importa es cómo te queda: si puedes, pruébatelos en tienda y revisa la talla en el comparador de tallas, porque cambia mucho entre marcas.",
                "El que més importa és com et queda: si pots, emprova-te'ls a la botiga i revisa la talla al comparador de talles, perquè canvia molt entre marques.",
                "What matters most is how they fit: try them on in a shop if you can, and check your size in the size comparator, because it varies a lot between brands.",
@@ -321,13 +322,17 @@
     const seen = new Set(), out = [];
     list.forEach(x => { const b = baseModelo(x.s); if(!seen.has(b)){ seen.add(b); out.push(x); } });
 
-    // Marcas prioritarias (La Sportiva, Tenaya, Scarpa): se quedan los 3 primeros
-    // puestos y 4 de los 6 primeros, siempre que encajen bien (como mucho 12
-    // puntos por debajo del mejor y nunca por debajo del 70 %). El % mostrado
-    // sigue siendo el encaje real.
+    // Prioridad en el orden (el % mostrado sigue siendo el encaje real):
+    //   1.º modelos con sello GATO LAB, 2.º marcas prioritarias (La Sportiva,
+    //   Tenaya, Scarpa). Se quedan los 3 primeros puestos y 4 de los 6
+    //   primeros, pero solo si encajan bien: como mucho 10 puntos por debajo
+    //   del mejor (el margen en que dos modelos «se parecen mucho», como
+    //   explica el recuadro de resultados) y nunca por debajo del 70 %.
     const best = out.length ? out[0].pct : 0;
-    const good = x => x.pct >= Math.max(70, best - 12);
-    const prio = out.filter(x => MARCAS_PRIORITARIAS.includes(x.s.marca) && good(x));
+    const good = x => x.pct >= Math.max(70, best - 10);
+    const conSello = out.filter(x => x.s.sello === true && good(x));
+    const deMarca = out.filter(x => !conSello.includes(x) && MARCAS_PRIORITARIAS.includes(x.s.marca) && good(x));
+    const prio = conSello.concat(deMarca);
     const rest = out.filter(x => !prio.includes(x));
     const PATRON = "PPPOPO";   // P = marca prioritaria, O = otra marca
     const final = [];
@@ -467,6 +472,7 @@
             <li class="quiz-result">
               <button type="button" class="quiz-result-photo" data-open="${esc(s.id)}" aria-label="${esc(ui("seeSheet"))}: ${esc(s.marca + " " + s.modelo)}">
                 <span class="quiz-rank">${i + 1}</span>
+                ${s.sello ? `<span class="quiz-seal" title="${esc(ui("sealName"))}"><svg viewBox="0 0 182 200" aria-hidden="true"><use href="#icon-mark"></use></svg></span>` : ""}
                 ${foto ? `<img src="${esc(foto)}" alt="${esc(s.marca + " " + s.modelo)}" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'quiz-nophoto',textContent:'${esc(ui("noPhoto"))}'}))">` : `<span class="quiz-nophoto">${ui("noPhoto")}</span>`}
               </button>
               <div class="quiz-result-body">
@@ -474,6 +480,7 @@
                   <div>
                     <div class="quiz-brand">${esc(s.marca)}</div>
                     <h4 class="quiz-model">${esc(s.modelo)}</h4>
+                    ${s.sello ? `<div class="quiz-seal-tag">${ui("sealName")}</div>` : ""}
                   </div>
                   <div class="quiz-match"><strong>${r.pct}%</strong><span>${ui("match")}</span></div>
                 </div>

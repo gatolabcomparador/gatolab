@@ -231,6 +231,8 @@
     hormaLV: {es:"Horma estrecha (LV)", ca:"Horma estreta (LV)", en:"Low volume (LV)", fr:"Volume réduit (LV)"},
     hormaHV: {es:"Horma ancha (HV)", ca:"Horma ampla (HV)", en:"High volume (HV)", fr:"Grand volume (HV)"},
     hormaWoman: {es:"Horma de mujer", ca:"Horma de dona", en:"Women's fit", fr:"Forme femme"},
+    cierresTitle: {es:"También en otros cierres", ca:"També amb altres tancaments", en:"Also available with other closures", fr:"Existe aussi avec d'autres fermetures"},
+    cierresNote: {es:"Es el mismo modelo con otro sistema de cierre: los cordones ajustan con más precisión, el velcro es más rápido de poner y quitar y el slipper es el más sensible.", ca:"És el mateix model amb un altre sistema de tancament: els cordons ajusten amb més precisió, el velcro és més ràpid de posar i treure i l'slipper és el més sensible.", en:"Same model with a different closure: laces give the most precise fit, velcro is quicker on and off, and slippers are the most sensitive.", fr:"C'est le même modèle avec une autre fermeture : les lacets ajustent plus précisément, le velcro est plus rapide à mettre et à enlever, et le slipper est le plus sensible."},
     similarTitle: {es:"Modelos parecidos", ca:"Models semblants", en:"Similar models", fr:"Modèles similaires"},
     shareCompare: {es:"Compartir comparación", ca:"Compartir comparació", en:"Share comparison", fr:"Partager la comparaison"},
     linkCopied: {es:"¡Enlace copiado!", ca:"Enllaç copiat!", en:"Link copied!", fr:"Lien copié !"},
@@ -1131,6 +1133,24 @@
       </button>`).join("")}</div></div>`;
   }
 
+  /* Mismo modelo con otro cierre (cordones, velcro, slipper…): misma marca,
+     mismo nombre al quitar las palabras de cierre (Lace, VS, VCS, V, S…) y
+     distinto tipo de cierre. */
+  const CIERRE_RE = /\b(lace-up|laces?|velcro|vcs|vsr|vs|v|s|slipper|strap)\b/g;
+  function cierreBase(s){
+    return (s.marca+" "+s.modelo).toLowerCase().replace(/\btarantulace\b/g,"tarantula lace").replace(CIERRE_RE," ").replace(/\(\s*\)/g," ").replace(/\s+/g," ").trim();
+  }
+  function cierresHTML(s){
+    const base = cierreBase(s), tipo = cierreTipo(s.cierre);
+    const list = SHOES.filter(o=>o.id!==s.id && o.marca===s.marca && !!o.infantil===!!s.infantil && cierreBase(o)===base && cierreTipo(o.cierre)!==tipo);
+    if(!list.length) return "";
+    return `<div class="horma-variants cierre-variants"><h4>${t("cierresTitle")}</h4><p>${t("cierresNote")}</p><div class="horma-list">${list.map(o=>`
+      <button type="button" class="horma-link" data-id="${o.id}" aria-label="${o.marca} ${o.modelo}">
+        <span class="horma-photo">${shoePhotoHTML(o)}</span>
+        <span class="horma-info"><span class="horma-model">${o.modelo}</span><span class="horma-label">${v("cierreTipo", cierreTipo(o.cierre))}</span></span>
+      </button>`).join("")}</div></div>`;
+  }
+
   /* Compartir: en móvil abre el menú de compartir del sistema (WhatsApp, etc.);
      en ordenador copia el enlace al portapapeles. */
   function shareLink(url, btn){
@@ -1176,6 +1196,7 @@
       </div>
       <p class="detail-summary">${getResumen(s)}</p>
       ${hormasHTML(s)}
+      ${cierresHTML(s)}
       <div class="spec-grid">
         <div class="spec-item"><div class="spec-label">${t("lblPrecio")}</div><div class="spec-value mono">${s.precio} €</div></div>
         <div class="spec-item"><div class="spec-label">${t("lblPeso")}</div><div class="spec-value mono">${s.peso_g?`${s.peso_g} g`:t("weightNotAvailable")}</div></div>

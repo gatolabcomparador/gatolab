@@ -17,6 +17,14 @@
 (function(){
   "use strict";
 
+  // Título y descripción base de la página: se restauran al salir de un artículo
+  const BASE_TITLE = document.title;
+  const BASE_DESC = (document.querySelector('meta[name="description"]')||{}).content || "";
+  function restoreBaseMeta(){
+    document.title = BASE_TITLE;
+    if(BASE_DESC) setMetaDescription(BASE_DESC);
+  }
+
   const NEWS_CATEGORIES = ["NEW RELEASES","REVIEWS","PRODUCT ANALYSIS","CLIMBING SHOES","BRANDS"];
   const MESES = {
     es:["ENE","FEB","MAR","ABR","MAY","JUN","JUL","AGO","SEP","OCT","NOV","DIC"],
@@ -202,6 +210,7 @@
   }
 
   function renderListPage(body){
+    restoreBaseMeta();
     const chips = ["TODAS", ...NEWS_CATEGORIES];
     const filtersHTML = `<div class="news-filters">` + chips.map(c=>{
       const active = c==="TODAS" ? !currentCat : currentCat===c;
@@ -374,6 +383,12 @@
     loadNews, render, setSlugFromHash, getSlug, goToList,
     relatedNewsHTML, bindRelatedNewsClicks
   };
+
+  const newsView = document.getElementById("newsView");
+  if(newsView && "MutationObserver" in window){
+    new MutationObserver(()=>{ if(newsView.hidden) restoreBaseMeta(); })
+      .observe(newsView, { attributes:true, attributeFilter:["hidden"] });
+  }
 
   loadNews();
 })();

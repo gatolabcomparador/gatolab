@@ -411,13 +411,13 @@
 
   const VOCAB = {
     forma: {
-      "Plana": {ca:"Plana", en:"Flat", fr:"Plate"},
-      "Casi simétrica": {ca:"Quasi simètrica", en:"Almost symmetric", fr:"Quasi symétrique"},
-      "Moderada": {ca:"Moderada", en:"Moderate", fr:"Modérée"},
-      "Moderada-agresiva": {ca:"Moderada-agressiva", en:"Moderate-aggressive", fr:"Modérée-agressive"},
-      "Casi plana": {ca:"Quasi plana", en:"Almost flat", fr:"Quasi plate"},
-      "Agresiva": {ca:"Agressiva", en:"Aggressive", fr:"Agressive"},
-      "Muy agresiva": {ca:"Molt agressiva", en:"Very aggressive", fr:"Très agressive"}
+      "Plana": {ca:"Pla", en:"Flat", fr:"Plat"},
+      "Casi simétrica": {ca:"Quasi simètric", en:"Almost symmetric", fr:"Quasi symétrique"},
+      "Moderada": {ca:"Moderat", en:"Moderate", fr:"Modéré"},
+      "Moderada-agresiva": {ca:"Moderat-agressiu", en:"Moderate-aggressive", fr:"Modéré-agressif"},
+      "Casi plana": {ca:"Quasi pla", en:"Almost flat", fr:"Quasi plat"},
+      "Agresiva": {ca:"Agressiu", en:"Aggressive", fr:"Agressif"},
+      "Muy agresiva": {ca:"Molt agressiu", en:"Very aggressive", fr:"Très agressif"}
     },
     asimetria: {
       "Baja": {ca:"Baixa", en:"Low", fr:"Faible"},

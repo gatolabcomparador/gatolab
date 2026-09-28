@@ -18,7 +18,50 @@
   "use strict";
 
   const NEWS_CATEGORIES = ["NEW RELEASES","REVIEWS","PRODUCT ANALYSIS","CLIMBING SHOES","BRANDS"];
-  const MESES = ["ENE","FEB","MAR","ABR","MAY","JUN","JUL","AGO","SEP","OCT","NOV","DIC"];
+  const MESES = {
+    es:["ENE","FEB","MAR","ABR","MAY","JUN","JUL","AGO","SEP","OCT","NOV","DIC"],
+    ca:["GEN","FEB","MAR","ABR","MAI","JUN","JUL","AGO","SET","OCT","NOV","DES"],
+    en:["JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC"],
+    fr:["JANV","FÉVR","MARS","AVR","MAI","JUIN","JUIL","AOÛT","SEPT","OCT","NOV","DÉC"]
+  };
+
+  /* Textos fijos de NEWS en los cuatro idiomas. Los artículos se escriben en
+     castellano en el panel; sus traducciones están en content/news-i18n.json
+     (por slug e idioma). Si un artículo no tiene traducción, se muestra en
+     castellano. */
+  const UI = {
+    all:         {es:"TODAS", ca:"TOTES", en:"ALL", fr:"TOUTES"},
+    heroText:    {es:"Novedades, análisis técnico y reviews de pies de gato — conectado directamente con la base de datos de modelos de GATO LAB.", ca:"Novetats, anàlisi tècnica i reviews de peus de gat — connectat directament amb la base de dades de models de GATO LAB.", en:"News, technical analysis and reviews of climbing shoes — linked directly to the GATO LAB model database.", fr:"Nouveautés, analyses techniques et tests de chaussons d'escalade — directement reliés à la base de données de modèles GATO LAB."},
+    loading:     {es:"CARGANDO NOTICIAS…", ca:"CARREGANT NOTÍCIES…", en:"LOADING NEWS…", fr:"CHARGEMENT DES ACTUALITÉS…"},
+    failed:      {es:"NO SE HAN PODIDO CARGAR LAS NOTICIAS. INTÉNTALO DE NUEVO MÁS TARDE.", ca:"NO S'HAN POGUT CARREGAR LES NOTÍCIES. TORNA-HO A PROVAR MÉS TARD.", en:"THE NEWS COULD NOT BE LOADED. PLEASE TRY AGAIN LATER.", fr:"IMPOSSIBLE DE CHARGER LES ACTUALITÉS. RÉESSAIE PLUS TARD."},
+    empty:       {es:"NO HAY ARTÍCULOS EN ESTA CATEGORÍA TODAVÍA.", ca:"ENCARA NO HI HA ARTICLES EN AQUESTA CATEGORIA.", en:"NO ARTICLES IN THIS CATEGORY YET.", fr:"PAS ENCORE D'ARTICLES DANS CETTE CATÉGORIE."},
+    notFound:    {es:"ARTÍCULO NO ENCONTRADO.", ca:"ARTICLE NO TROBAT.", en:"ARTICLE NOT FOUND.", fr:"ARTICLE INTROUVABLE."},
+    back:        {es:"← Volver a NEWS", ca:"← Tornar a NEWS", en:"← Back to NEWS", fr:"← Retour aux NEWS"},
+    read:        {es:"Leer", ca:"Llegir", en:"Read", fr:"Lire"},
+    readArticle: {es:"LEER ARTÍCULO", ca:"LLEGIR ARTICLE", en:"READ ARTICLE", fr:"LIRE L'ARTICLE"},
+    related:     {es:"Más NEWS sobre este modelo", ca:"Més NEWS sobre aquest model", en:"More NEWS about this model", fr:"Plus de NEWS sur ce modèle"},
+    byline:      {es:"Por GATO LAB", ca:"Per GATO LAB", en:"By GATO LAB", fr:"Par GATO LAB"},
+    approx:      {es:"aprox.", ca:"aprox.", en:"approx.", fr:"env."},
+    viewModel:   {es:"Ver modelo →", ca:"Veure model →", en:"See model →", fr:"Voir le modèle →"},
+    specs:       {es:"Ficha técnica", ca:"Fitxa tècnica", en:"Specifications", fr:"Fiche technique"},
+    features:    {es:"Características principales", ca:"Característiques principals", en:"Key features", fr:"Caractéristiques principales"},
+    forWho:      {es:"¿Para quién es?", ca:"Per a qui és?", en:"Who is it for?", fr:"Pour qui ?"},
+    pros:        {es:"A favor", ca:"A favor", en:"Pros", fr:"Points forts"},
+    cons:        {es:"A tener en cuenta", ca:"A tenir en compte", en:"Things to consider", fr:"À prendre en compte"},
+    verdict:     {es:"Veredicto GATO LAB", ca:"Veredicte GATO LAB", en:"GATO LAB verdict", fr:"Verdict GATO LAB"},
+    verdictTag:  {es:"Opinión editorial — sin puntuación numérica", ca:"Opinió editorial — sense puntuació numèrica", en:"Editorial opinion — no numerical score", fr:"Avis éditorial — sans note chiffrée"},
+    links:       {es:"Enlaces", ca:"Enllaços", en:"Links", fr:"Liens"},
+    adSpace:     {es:"Espacio publicitario (Google AdSense · formato nativo)", ca:"Espai publicitari (Google AdSense · format natiu)", en:"Advertising space (Google AdSense · native format)", fr:"Espace publicitaire (Google AdSense · format natif)"}
+  };
+  const lang = () => (window.GatoLab && window.GatoLab.getLang) ? window.GatoLab.getLang() : "es";
+  const ui = k => (UI[k] && (UI[k][lang()] || UI[k].es)) || k;
+  const fl = (tipo, valor) => (window.GatoLab && window.GatoLab.filterLabel) ? window.GatoLab.filterLabel(tipo, valor) : valor;
+  let I18N = {};
+  // Campo de un artículo en el idioma actual (si hay traducción), si no en castellano
+  function tx(n, field){
+    const tr = I18N[n.slug] && I18N[n.slug][lang()];
+    return (tr && tr[field] != null) ? tr[field] : n[field];
+  }
 
   let NEWS = [];
   let loaded = false;
@@ -41,10 +84,14 @@
     if(!iso) return "";
     const [y,m,d] = String(iso).slice(0,10).split("-").map(Number);
     if(!y || !m || !d) return iso;
-    return `${d} ${MESES[m-1]} ${y}`;
+    return `${d} ${(MESES[lang()] || MESES.es)[m-1]} ${y}`;
   }
 
   function loadNews(){
+    fetch("content/news-i18n.json", { cache: "no-store" })
+      .then(r=> r.ok ? r.json() : {})
+      .then(d=>{ I18N = d || {}; if(loaded && window.GatoLab && window.GatoLab.isNewsView && window.GatoLab.isNewsView()) render(); })
+      .catch(()=>{});
     return fetch("content/news.json", { cache: "no-store" })
       .then(r=>{ if(!r.ok) throw new Error("HTTP "+r.status); return r.json(); })
       .then(data=>{
@@ -77,11 +124,11 @@
     if(!related.length) return "";
     return `
       <div class="related-news">
-        <h4>Más NEWS sobre este modelo</h4>
+        <h4>${ui("related")}</h4>
         ${related.map(r=>`
           <button type="button" class="related-news-item" data-news-slug="${r.slug}">
-            <span class="related-news-title">${r.titulo}</span>
-            <span class="related-news-arrow">Leer →</span>
+            <span class="related-news-title">${tx(r,"titulo")}</span>
+            <span class="related-news-arrow">${ui("read")} →</span>
           </button>`).join("")}
       </div>`;
   }
@@ -115,10 +162,10 @@
   function newsFeaturedHTML(n){
     const shoe = findShoe(n.modeloId);
     const photo = n.imagenPrincipal
-      ? `<img src="${n.imagenPrincipal}" alt="${n.imagenAlt||""}" loading="lazy">`
+      ? `<img src="${n.imagenPrincipal}" alt="${tx(n,"imagenAlt")||""}" loading="lazy">`
       : shoeIcon();
     return `
-      <article class="news-featured" data-news-slug="${n.slug}" tabindex="0" role="button" aria-label="Leer: ${n.titulo}">
+      <article class="news-featured" data-news-slug="${n.slug}" tabindex="0" role="button" aria-label="${ui("read")}: ${tx(n,"titulo")}">
         <div class="news-featured-photo">${photo}</div>
         <div class="news-featured-body">
           <div class="news-featured-eyebrow">
@@ -126,9 +173,9 @@
             <span class="news-date mono">${formatNewsDate(n.fecha)}</span>
           </div>
           ${shoe ? `<div class="news-featured-model">${shoe.marca} · ${shoe.modelo}</div>` : (n.marca ? `<div class="news-featured-model">${n.marca}</div>` : "")}
-          <h2 class="news-featured-title">${n.titulo}</h2>
-          <p class="news-featured-excerpt">${n.subtitulo||""}</p>
-          <span class="news-read-link">LEER ARTÍCULO →</span>
+          <h2 class="news-featured-title">${tx(n,"titulo")}</h2>
+          <p class="news-featured-excerpt">${tx(n,"subtitulo")||""}</p>
+          <span class="news-read-link">${ui("readArticle")} →</span>
         </div>
       </article>`;
   }
@@ -136,10 +183,10 @@
   function newsCardHTML(n){
     const shoe = findShoe(n.modeloId);
     const photo = n.imagenPrincipal
-      ? `<img src="${n.imagenPrincipal}" alt="${n.imagenAlt||""}" loading="lazy">`
+      ? `<img src="${n.imagenPrincipal}" alt="${tx(n,"imagenAlt")||""}" loading="lazy">`
       : shoeIcon();
     return `
-      <article class="news-card" data-news-slug="${n.slug}" tabindex="0" role="button" aria-label="Leer: ${n.titulo}">
+      <article class="news-card" data-news-slug="${n.slug}" tabindex="0" role="button" aria-label="${ui("read")}: ${tx(n,"titulo")}">
         <div class="news-card-photo">${photo}</div>
         <div class="news-card-body">
           <div class="news-card-eyebrow">
@@ -147,9 +194,9 @@
             <span class="news-date mono">${formatNewsDate(n.fecha)}</span>
           </div>
           ${shoe ? `<div class="news-card-model">${shoe.marca} · ${shoe.modelo}</div>` : (n.marca ? `<div class="news-card-model">${n.marca}</div>` : "")}
-          <div class="news-card-title">${n.titulo}</div>
-          <p class="news-card-excerpt">${n.subtitulo||""}</p>
-          <span class="news-read-link">LEER ARTÍCULO →</span>
+          <div class="news-card-title">${tx(n,"titulo")}</div>
+          <p class="news-card-excerpt">${tx(n,"subtitulo")||""}</p>
+          <span class="news-read-link">${ui("readArticle")} →</span>
         </div>
       </article>`;
   }
@@ -158,7 +205,7 @@
     const chips = ["TODAS", ...NEWS_CATEGORIES];
     const filtersHTML = `<div class="news-filters">` + chips.map(c=>{
       const active = c==="TODAS" ? !currentCat : currentCat===c;
-      return `<button type="button" data-cat="${c}" aria-pressed="${active}">${c}</button>`;
+      return `<button type="button" data-cat="${c}" aria-pressed="${active}">${c==="TODAS" ? ui("all") : c}</button>`;
     }).join("") + `</div>`;
 
     const filtered = currentCat ? NEWS.filter(n=>n.categoria===currentCat) : NEWS.slice();
@@ -166,11 +213,11 @@
 
     let mainHTML;
     if(!loaded && !loadFailed){
-      mainHTML = `<div class="news-empty">CARGANDO NOTICIAS…</div>`;
+      mainHTML = `<div class="news-empty">${ui("loading")}</div>`;
     } else if(loadFailed){
-      mainHTML = `<div class="news-empty">NO SE HAN PODIDO CARGAR LAS NOTICIAS. INTÉNTALO DE NUEVO MÁS TARDE.</div>`;
+      mainHTML = `<div class="news-empty">${ui("failed")}</div>`;
     } else if(!sorted.length){
-      mainHTML = `<div class="news-empty">NO HAY ARTÍCULOS EN ESTA CATEGORÍA TODAVÍA.</div>`;
+      mainHTML = `<div class="news-empty">${ui("empty")}</div>`;
     } else {
       const featured = sorted[0];
       const rest = sorted.slice(1);
@@ -181,11 +228,11 @@
       <section class="news-hero">
         <div class="eyebrow">EDITORIAL</div>
         <h1 class="display">GATO LAB <em>News</em></h1>
-        <p>Novedades, análisis técnico y reviews de pies de gato — conectado directamente con la base de datos de modelos de GATO LAB.</p>
+        <p>${ui("heroText")}</p>
       </section>
       ${filtersHTML}
       ${mainHTML}
-      <div class="ad-slot ad-infeed" aria-hidden="true">Espacio publicitario (Google AdSense · formato nativo)</div>`;
+      <div class="ad-slot ad-infeed" aria-hidden="true">${ui("adSpace")}</div>`;
 
     body.querySelectorAll(".news-filters button").forEach(btn=>{
       btn.addEventListener("click", ()=>{
@@ -200,28 +247,29 @@
     const n = NEWS.find(x=>x.slug===slug);
     if(!n){
       body.innerHTML = `
-        <div class="news-empty">ARTÍCULO NO ENCONTRADO.</div>
-        <div class="article-back"><button type="button" class="btn-secondary" id="newsBackBtn">← Volver a NEWS</button></div>`;
+        <div class="news-empty">${ui("notFound")}</div>
+        <div class="article-back"><button type="button" class="btn-secondary" id="newsBackBtn">${ui("back")}</button></div>`;
       body.querySelector("#newsBackBtn").addEventListener("click", ()=>{ currentSlug=null; updateHash(); render(); });
       return;
     }
     const shoe = findShoe(n.modeloId);
 
-    document.title = (n.seo && n.seo.title) ? n.seo.title : `${n.titulo} — GATO LAB News`;
-    setMetaDescription((n.seo && n.seo.metaDescription) ? n.seo.metaDescription : n.subtitulo || "");
+    const seo = tx(n,"seo");
+    document.title = (seo && seo.title) ? seo.title : `${tx(n,"titulo")} — GATO LAB News`;
+    setMetaDescription((seo && seo.metaDescription) ? seo.metaDescription : tx(n,"subtitulo") || "");
 
-    const specHTML = (n.fichaTecnica||[]).map(row=>`
+    const specHTML = (tx(n,"fichaTecnica")||[]).map(row=>`
       <div class="spec-item"><div class="spec-label">${row.campo}</div><div class="spec-value">${row.valor}</div></div>`).join("");
-    const featuresHTML = (n.caracteristicas||[]).map(f=>`<div class="article-feature">${f}</div>`).join("");
-    const prosHTML = (n.pros||[]).map(p=>`<li>${p}</li>`).join("");
-    const contrasHTML = (n.contras||[]).map(c=>`<li>${c}</li>`).join("");
+    const featuresHTML = (tx(n,"caracteristicas")||[]).map(f=>`<div class="article-feature">${f}</div>`).join("");
+    const prosHTML = (tx(n,"pros")||[]).map(p=>`<li>${p}</li>`).join("");
+    const contrasHTML = (tx(n,"contras")||[]).map(c=>`<li>${c}</li>`).join("");
     const linksHTML = (n.enlaces && n.enlaces.length) ? `
       <div class="article-section">
-        <h2>Enlaces</h2>
+        <h2>${ui("links")}</h2>
         <div class="article-links">${n.enlaces.map(l=>`<a href="${l.url}" target="_blank" rel="noopener">${l.texto||l.url} ↗</a>`).join("")}</div>
       </div>` : "";
     const heroPhoto = n.imagenPrincipal
-      ? `<img src="${n.imagenPrincipal}" alt="${n.imagenAlt||""}" loading="lazy">`
+      ? `<img src="${n.imagenPrincipal}" alt="${tx(n,"imagenAlt")||""}" loading="lazy">`
       : shoeIcon();
     const productCardHTML = shoe ? `
       <div class="article-product-card">
@@ -229,9 +277,9 @@
         <span class="mini-text">
           <span class="mini-brand">${shoe.marca}</span>
           <span class="mini-model">${shoe.modelo}</span>
-          <div class="mini-specs mono">${shoe.precio} € aprox. · ${shoe.uso} · ${shoe.nivel}</div>
+          <div class="mini-specs mono">${shoe.precio} € ${ui("approx")} · ${fl("uso", shoe.uso)} · ${fl("nivel", shoe.nivel)}</div>
         </span>
-        <button type="button" class="btn-secondary" id="viewModelBtn">Ver modelo →</button>
+        <button type="button" class="btn-secondary" id="viewModelBtn">${ui("viewModel")}</button>
       </div>` : "";
 
     body.innerHTML = `
@@ -240,42 +288,42 @@
           <span class="news-cat-tag">${n.categoria}</span>
           <span class="news-date mono">${formatNewsDate(n.fecha)}</span>
         </div>
-        <h1 class="display article-title">${n.titulo}</h1>
-        <p class="article-subtitle">${n.subtitulo||""}</p>
+        <h1 class="display article-title">${tx(n,"titulo")}</h1>
+        <p class="article-subtitle">${tx(n,"subtitulo")||""}</p>
         <div class="article-meta">
           ${shoe ? `<span>${shoe.marca} · ${shoe.modelo}</span>` : (n.marca ? `<span>${n.marca}</span>` : "")}
-          <span>Por GATO LAB</span>
+          <span>${ui("byline")}</span>
         </div>
-        <div class="article-hero-photo" role="img" aria-label="${n.imagenAlt||""}">${heroPhoto}</div>
+        <div class="article-hero-photo" role="img" aria-label="${tx(n,"imagenAlt")||""}">${heroPhoto}</div>
 
-        <div class="article-body">${(n.texto||[]).map(p=>`<p>${p}</p>`).join("")}</div>
+        <div class="article-body">${(tx(n,"texto")||[]).map(p=>`<p>${p}</p>`).join("")}</div>
 
         ${productCardHTML}
 
         <div class="article-section">
-          <h2>Ficha técnica</h2>
+          <h2>${ui("specs")}</h2>
           <div class="article-spec-grid">${specHTML}</div>
         </div>
 
         <div class="article-section">
-          <h2>Características principales</h2>
+          <h2>${ui("features")}</h2>
           <div class="article-features">${featuresHTML}</div>
         </div>
 
         <div class="article-section">
-          <h2>¿Para quién es?</h2>
-          <p class="section-lead">${n.paraQuien||""}</p>
+          <h2>${ui("forWho")}</h2>
+          <p class="section-lead">${tx(n,"paraQuien")||""}</p>
           <div class="article-proscons">
-            <div class="proscons-col pros"><h3>A favor</h3><ul>${prosHTML}</ul></div>
-            <div class="proscons-col contras"><h3>A tener en cuenta</h3><ul>${contrasHTML}</ul></div>
+            <div class="proscons-col pros"><h3>${ui("pros")}</h3><ul>${prosHTML}</ul></div>
+            <div class="proscons-col contras"><h3>${ui("cons")}</h3><ul>${contrasHTML}</ul></div>
           </div>
         </div>
 
         <div class="article-section">
-          <h2>Veredicto GATO LAB</h2>
+          <h2>${ui("verdict")}</h2>
           <div class="article-verdict">
-            <span class="verdict-tag">Opinión editorial — sin puntuación numérica</span>
-            <p>${n.veredicto||""}</p>
+            <span class="verdict-tag">${ui("verdictTag")}</span>
+            <p>${tx(n,"veredicto")||""}</p>
           </div>
         </div>
 
@@ -284,10 +332,10 @@
         ${shoe ? relatedNewsHTML(shoe.id, n.slug) : ""}
 
         <div class="article-back">
-          <button type="button" class="btn-secondary" id="newsBackBtn">← Volver a NEWS</button>
+          <button type="button" class="btn-secondary" id="newsBackBtn">${ui("back")}</button>
         </div>
       </article>
-      <div class="ad-slot ad-infeed" aria-hidden="true">Espacio publicitario (Google AdSense · formato nativo)</div>`;
+      <div class="ad-slot ad-infeed" aria-hidden="true">${ui("adSpace")}</div>`;
 
     body.querySelector("#newsBackBtn").addEventListener("click", ()=>{
       currentSlug = null;

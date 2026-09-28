@@ -260,6 +260,22 @@
     },
     sizesBrandLabel: {es:"Marca", ca:"Marca", en:"Brand", fr:"Marque"},
     sizesValueLabel: {es:"Talla", ca:"Talla", en:"Size", fr:"Pointure"},
+    sizeInfoTitle: {es:"Tómatelo como una orientación", ca:"Pren-t'ho com una orientació", en:"Treat this as a guide", fr:"Prends-le comme une orientation"},
+    sizeInfoDataTitle: {es:"De dónde salen los datos", ca:"D'on surten les dades", en:"Where the data comes from", fr:"D'où viennent les données"},
+    sizeInfoData: {
+      es:"Cada marca publica una tabla de tallas que indica, para cada talla EU, la longitud del pie en centímetros (la de tu pie, no la del pie de gato). Buscamos esa longitud en la marca que eliges y te mostramos la talla más cercana en las demás. El símbolo ≈ indica que no hay una coincidencia exacta.",
+      ca:"Cada marca publica una taula de talles que indica, per a cada talla EU, la longitud del peu en centímetres (la del teu peu, no la del peu de gat). Busquem aquesta longitud a la marca que tries i et mostrem la talla més propera a les altres. El símbol ≈ indica que no hi ha una coincidència exacta.",
+      en:"Each brand publishes a size chart that gives, for every EU size, the foot length in centimetres (your foot, not the shoe). We take that length for the brand you choose and show you the closest size in the others. The ≈ symbol means there's no exact match.",
+      fr:"Chaque marque publie un guide des tailles qui indique, pour chaque pointure EU, la longueur du pied en centimètres (celle de ton pied, pas du chausson). Nous prenons cette longueur pour la marque choisie et t'indiquons la pointure la plus proche dans les autres. Le symbole ≈ signifie qu'il n'y a pas de correspondance exacte."
+    },
+    sizeInfoFitTitle: {es:"Mismos centímetros, distinto ajuste", ca:"Mateixos centímetres, ajust diferent", en:"Same centimetres, different fit", fr:"Mêmes centimètres, ajustement différent"},
+    sizeInfoTryTitle: {es:"Pruébatelos en una tienda", ca:"Emprova-te'ls en una botiga", en:"Try them on in a shop", fr:"Essaie-les en magasin"},
+    sizeInfoTry: {
+      es:"Aunque dos tallas coincidan en centímetros, la forma de la horma, el volumen, el ancho, el talón o el material (la piel da más de sí que el sintético) hacen que un modelo se adapte más o menos a tu pie. Siempre que puedas, pruébatelos antes de comprar: mejor por la tarde, con los dos pies y sin calcetín.",
+      ca:"Encara que dues talles coincideixin en centímetres, la forma de l'horma, el volum, l'amplada, el taló o el material (la pell dona més de si que el sintètic) fan que un model s'adapti més o menys al teu peu. Sempre que puguis, emprova-te'ls abans de comprar: millor a la tarda, amb els dos peus i sense mitjó.",
+      en:"Even when two sizes match in centimetres, the shape of the last, the volume, width, heel or material (leather stretches more than synthetic) make a model fit your foot better or worse. Whenever you can, try them on before buying: ideally in the afternoon, on both feet and without socks.",
+      fr:"Même si deux pointures correspondent en centimètres, la forme, le volume, la largeur, le talon ou la matière (le cuir se détend plus que le synthétique) font qu'un modèle s'adapte plus ou moins bien à ton pied. Dès que possible, essaie-les avant d'acheter : plutôt l'après-midi, aux deux pieds et sans chaussettes."
+    },
     sizeDisclaimer: {
       es:"Equivalencia orientativa por longitud de pie: cada horma (last) ajusta de forma distinta, así que es habitual subir o bajar media talla al cambiar de marca aunque la longitud de pie coincida. Antes de comprar sin probar, consulta también la guía de tallaje de la tienda.",
       ca:"Equivalència orientativa per longitud de peu: cada horma (last) ajusta de forma diferent, així que és habitual pujar o baixar mitja talla en canviar de marca encara que la longitud de peu coincideixi. Abans de comprar sense provar, consulta també la guia de talles de la botiga.",
@@ -535,6 +551,7 @@
     const sbl = el("#sizesBrandLabel"); if(sbl) sbl.textContent = t("sizesBrandLabel");
     const svl = el("#sizesValueLabel"); if(svl) svl.textContent = t("sizesValueLabel");
     const sdisc = el("#sizeDisclaimer"); if(sdisc) sdisc.textContent = t("sizeDisclaimer");
+    ["sizeInfoTitle","sizeInfoDataTitle","sizeInfoData","sizeInfoFitTitle","sizeInfoTryTitle","sizeInfoTry"].forEach(k=>{ const n = el("#"+k); if(n) n.textContent = t(k); });
     updateHeroText();
   }
   function setLang(lang){

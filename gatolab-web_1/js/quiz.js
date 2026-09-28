@@ -148,6 +148,7 @@
   const FORMA = {"Plana":0, "Casi plana":0.5, "Neutra":0.5, "Casi simétrica":0.5, "Moderada":2, "Moderada-agresiva":2.5, "Agresiva":3, "Muy agresiva":4};
   const ASIM = {"Baja":0, "Media":1, "Alta":2};
   const RIG = {"Blanda":0, "Media":1, "Rígida":2};
+  const MARCAS_PRIORITARIAS = ["La Sportiva", "Tenaya", "Scarpa"];
 
   function cierreTipo(c){
     c = String(c || "");
@@ -165,7 +166,7 @@
   }
   function baseModelo(s){
     return (s.marca + " " + s.modelo).toLowerCase()
-      .replace(/\b(lv|hv|wmns|women'?s?|woman|wmn|men'?s?|mujer|hombre|vegan|low volume|high volume|lace|laces|vcr|velcro|(19|20)\d\d)\b/g, "")
+      .replace(/\b(lv|hv|wmns|women'?s?|woman|wmn|men'?s?|mujer|hombre|vegan|low volume|high volume|lace|laces|vcr|velcro|eco|(19|20)\d\d)\b/g, "")
       .replace(/[^a-z0-9]/g, "");
   }
 
@@ -297,7 +298,24 @@
     // Una sola versión de cada modelo (p. ej. no «Drago» y «Drago LV» a la vez)
     const seen = new Set(), out = [];
     list.forEach(x => { const b = baseModelo(x.s); if(!seen.has(b)){ seen.add(b); out.push(x); } });
-    return {list: out, notes, p};
+
+    // Marcas prioritarias (La Sportiva, Tenaya, Scarpa): se quedan los 3 primeros
+    // puestos y 4 de los 6 primeros, siempre que encajen bien (como mucho 12
+    // puntos por debajo del mejor y nunca por debajo del 70 %). El % mostrado
+    // sigue siendo el encaje real.
+    const best = out.length ? out[0].pct : 0;
+    const good = x => x.pct >= Math.max(70, best - 12);
+    const prio = out.filter(x => MARCAS_PRIORITARIAS.includes(x.s.marca) && good(x));
+    const rest = out.filter(x => !prio.includes(x));
+    const PATRON = "PPPOPO";   // P = marca prioritaria, O = otra marca
+    const final = [];
+    let i = 0, j = 0;
+    while(i < prio.length || j < rest.length){
+      const want = final.length < PATRON.length ? PATRON[final.length] : (final.length % 2 ? "O" : "P");
+      if((want === "P" && i < prio.length) || j >= rest.length) final.push(prio[i++]);
+      else final.push(rest[j++]);
+    }
+    return {list: final, notes, p};
   }
 
   /* Por qué encaja: hasta 3 motivos, del más al menos importante */

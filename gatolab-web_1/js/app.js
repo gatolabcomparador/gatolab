@@ -73,7 +73,7 @@
       { key:"asimetria", label:t("lblAsimetria"), value:radarValue(s,"asimetria",ASIM_LEVEL5[s.asimetria]??2), display:v("asimetria",s.asimetria), overridden:radarIsOverridden(s,"asimetria") },
       { key:"rigidez", label:t("lblRigidez"), value:radarValue(s,"rigidez",RIGIDEZ_LEVEL5[s.rigidez]??2), display:v("rigidez",s.rigidez), overridden:radarIsOverridden(s,"rigidez") },
       { key:"sensibilidad", label:t("radarSensibilidad"), value:radarValue(s,"sensibilidad",grosorLevel(s)), display:s.grosor?`${s.grosor} mm`:t("notSpecified"), overridden:radarIsOverridden(s,"sensibilidad") },
-      { key:"ajuste", label:t("radarAjuste"), value:radarValue(s,"ajuste",volumenLevel(s)), display:s.volumen||t("notSpecified"), overridden:radarIsOverridden(s,"ajuste") }
+      { key:"ajuste", label:t("radarAjuste"), value:radarValue(s,"ajuste",volumenLevel(s)), display:v("volumen",s.volumen)||t("notSpecified"), overridden:radarIsOverridden(s,"ajuste") }
     ];
   }
   function radarSVG(entries){ // entries: [{s, colorVar}, ...] — 1 o 2 elementos
@@ -132,16 +132,16 @@
   }
 
   function construccion(s){
-    if(s.rigidez === "Blanda") return "Slip-lasted (flexible)";
-    if(s.rigidez === "Rígida") return "Board-lasted (estructurada)";
-    return "Mixta (semi-estructurada)";
+    if(s.rigidez === "Blanda") return v("construccion", "Slip-lasted (flexible)");
+    if(s.rigidez === "Rígida") return v("construccion", "Board-lasted (estructurada)");
+    return v("construccion", "Mixta (semi-estructurada)");
   }
   function features(s){
     const c = getCaracteristicas(s);
     if(c && c.length) return c;
     return [
-      `${t("lblCierre")} ${s.cierre.toLowerCase()} · ${t("lblPerfil").toLowerCase()} ${v("forma",s.forma).toLowerCase()}`,
-      `${t("lblTipoSuela")} ${s.goma}${s.grosor?` (${s.grosor}mm)`:""}`,
+      `${t("lblCierre")} ${v("cierre",s.cierre).toLowerCase()} · ${t("lblPerfil").toLowerCase()} ${v("forma",s.forma).toLowerCase()}`,
+      `${t("lblTipoSuela")} ${v("goma",s.goma)}${s.grosor?` (${s.grosor}mm)`:""}`,
       `${t("lblAsimetria")} ${v("asimetria",s.asimetria).toLowerCase()} · ${t("lblNivel").toLowerCase()} ${v("nivel",s.nivel).toLowerCase()}`
     ];
   }
@@ -223,7 +223,7 @@
     guideNote: {es:"¿Empiezas a escalar o no sabes qué mirar? Lee nuestra guía para elegir pie de gato →", ca:"Comences a escalar o no saps què mirar? Llegeix la nostra guia per triar peu de gat →", en:"New to climbing or not sure what to look for? Read our guide to choosing climbing shoes →", fr:"Tu débutes ou tu ne sais pas quoi regarder ? Lis notre guide pour choisir tes chaussons →"},
     guideLink: {es:"¿Qué significa cada dato? Guía para principiantes →", ca:"Què vol dir cada dada? Guia per a principiants →", en:"What does each spec mean? Beginner's guide →", fr:"Que signifie chaque donnée ? Guide du débutant →"},
     kidsFlag: {es:"Niños", ca:"Nens", en:"Kids", fr:"Enfants"},
-    lvFlag: {es:"Low volume (LV)", ca:"Low volume (LV)", en:"Low volume (LV)", fr:"Low volume (LV)"},
+    lvFlag: {es:"Horma estrecha (LV)", ca:"Horma estreta (LV)", en:"Low volume (LV)", fr:"Volume réduit (LV)"},
     veganFlag: {es:"Vegano", ca:"Vegà", en:"Vegan", fr:"Vegan"},
     hormasTitle: {es:"También en otras hormas", ca:"També en altres hormes", en:"Also available in other fits", fr:"Existe aussi dans d'autres formes"},
     hormasNote: {es:"Es el mismo modelo con otro volumen o forma de horma. Útil si tienes el pie estrecho o ancho, o buscas un ajuste de mujer.", ca:"És el mateix model amb un altre volum o forma d'horma. Útil si tens el peu estret o ample, o busques un ajust de dona.", en:"Same model with a different volume or last shape. Useful if you have narrow or wide feet, or want a women's fit.", fr:"C'est le même modèle avec un autre volume ou une autre forme. Utile si tu as le pied étroit ou large, ou si tu cherches une coupe femme."},
@@ -233,6 +233,27 @@
     hormaWoman: {es:"Horma de mujer", ca:"Horma de dona", en:"Women's fit", fr:"Forme femme"},
     cierresTitle: {es:"También en otros cierres", ca:"També amb altres tancaments", en:"Also available with other closures", fr:"Existe aussi avec d'autres fermetures"},
     cierresNote: {es:"Es el mismo modelo con otro sistema de cierre: los cordones ajustan con más precisión, el velcro es más rápido de poner y quitar y el slipper es el más sensible.", ca:"És el mateix model amb un altre sistema de tancament: els cordons ajusten amb més precisió, el velcro és més ràpid de posar i treure i l'slipper és el més sensible.", en:"Same model with a different closure: laces give the most precise fit, velcro is quicker on and off, and slippers are the most sensitive.", fr:"C'est le même modèle avec une autre fermeture : les lacets ajustent plus précisément, le velcro est plus rapide à mettre et à enlever, et le slipper est le plus sensible."},
+    aboutEyebrow: {es:"SOBRE NOSOTROS", ca:"QUI SOM", en:"ABOUT US", fr:"À PROPOS"},
+    aboutParas: {
+      es:["GATO LAB nació de una pregunta sencilla: ¿por qué es tan difícil comparar pies de gato entre marcas? Cada fabricante mide, describe y fotografía sus modelos a su manera, y acabar elegiendo zapatilla implica abrir quince pestañas y apuntar datos en una libreta.", "Este proyecto reúne en un solo sitio las fichas técnicas de decenas de modelos — cierre, perfil, rigidez, asimetría, uso recomendado, peso y precio de referencia — para que comparar sea tan fácil como filtrar y poner dos zapatillas una junto a la otra.", "GATO LAB es un proyecto independiente y no está afiliado a ninguna de las marcas mostradas. No vendemos zapatillas: los precios y datos son orientativos y pueden variar según tienda, versión y talla.", "¿Encontraste un dato incorrecto, un modelo que falta, o simplemente quieres saludar? Escríbenos."],
+      ca:["GATO LAB va néixer d'una pregunta senzilla: per què és tan difícil comparar peus de gat entre marques? Cada fabricant mesura, descriu i fotografia els seus models a la seva manera, i acabar triant sabatilla vol dir obrir quinze pestanyes i apuntar dades en una llibreta.", "Aquest projecte reuneix en un sol lloc les fitxes tècniques de desenes de models — tancament, perfil, rigidesa, asimetria, ús recomanat, pes i preu de referència — perquè comparar sigui tan fàcil com filtrar i posar dues sabatilles l'una al costat de l'altra.", "GATO LAB és un projecte independent i no està afiliat a cap de les marques mostrades. No venem sabatilles: els preus i les dades són orientatius i poden variar segons la botiga, la versió i la talla.", "Has trobat una dada incorrecta, un model que falta o simplement vols saludar? Escriu-nos."],
+      en:["GATO LAB was born from a simple question: why is it so hard to compare climbing shoes across brands? Every manufacturer measures, describes and photographs its models in its own way, and choosing a pair means opening fifteen tabs and jotting data down in a notebook.", "This project brings together the spec sheets of dozens of models in one place — closure, shape, stiffness, asymmetry, recommended use, weight and reference price — so that comparing is as easy as filtering and putting two shoes side by side.", "GATO LAB is an independent project and is not affiliated with any of the brands shown. We don't sell shoes: prices and data are indicative and may vary by shop, version and size.", "Found a wrong figure, a missing model, or just want to say hello? Write to us."],
+      fr:["GATO LAB est né d'une question simple : pourquoi est-il si difficile de comparer des chaussons d'escalade entre marques ? Chaque fabricant mesure, décrit et photographie ses modèles à sa manière, et choisir une paire revient à ouvrir quinze onglets et à noter des données dans un carnet.", "Ce projet réunit en un seul endroit les fiches techniques de dizaines de modèles — fermeture, profil, rigidité, asymétrie, usage recommandé, poids et prix de référence — pour que comparer soit aussi simple que filtrer et placer deux chaussons côte à côte.", "GATO LAB est un projet indépendant, sans lien avec aucune des marques présentées. Nous ne vendons pas de chaussons : les prix et les données sont indicatifs et peuvent varier selon le magasin, la version et la pointure.", "Tu as trouvé une donnée erronée, un modèle manquant, ou tu veux simplement nous dire bonjour ? Écris-nous."]
+    },
+    contactTitle: {es:"Contacto", ca:"Contacte", en:"Contact", fr:"Contact"},
+    contactName: {es:"Nombre", ca:"Nom", en:"Name", fr:"Nom"},
+    contactEmail: {es:"Tu email", ca:"El teu correu", en:"Your email", fr:"Ton e-mail"},
+    contactMessage: {es:"Mensaje", ca:"Missatge", en:"Message", fr:"Message"},
+    contactSubmit: {es:"Enviar mensaje", ca:"Enviar missatge", en:"Send message", fr:"Envoyer le message"},
+    contactHint: {es:"Al enviar se abrirá tu programa de correo con el mensaje ya redactado, listo para mandar a gatolab.comparador@gmail.com.", ca:"En enviar s'obrirà el teu programa de correu amb el missatge ja redactat, a punt per enviar a gatolab.comparador@gmail.com.", en:"Sending will open your email app with the message already written, ready to send to gatolab.comparador@gmail.com.", fr:"En envoyant, ton logiciel de messagerie s'ouvrira avec le message déjà rédigé, prêt à être envoyé à gatolab.comparador@gmail.com."},
+    footerPrivacy: {es:"Política de privacidad", ca:"Política de privacitat", en:"Privacy policy", fr:"Politique de confidentialité"},
+    footerContact: {es:"Contacto", ca:"Contacte", en:"Contact", fr:"Contact"},
+    searchAria: {es:"Buscar", ca:"Cercar", en:"Search", fr:"Rechercher"},
+    langAria: {es:"Idioma", ca:"Idioma", en:"Language", fr:"Langue"},
+    cookieText: {es:"Usamos cookies propias para el funcionamiento de la web y, si lo aceptas, cookies de Google AdSense para mostrar anuncios y medir su rendimiento. Puedes leer más en la", ca:"Fem servir galetes pròpies per al funcionament del web i, si ho acceptes, galetes de Google AdSense per mostrar anuncis i mesurar-ne el rendiment. Pots llegir-ne més a la", en:"We use our own cookies to run the website and, if you accept, Google AdSense cookies to show ads and measure their performance. You can read more in our", fr:"Nous utilisons nos propres cookies pour le fonctionnement du site et, si tu l'acceptes, des cookies Google AdSense pour afficher des annonces et mesurer leurs performances. Pour en savoir plus, consulte notre"},
+    cookiePolicy: {es:"política de privacidad", ca:"política de privacitat", en:"privacy policy", fr:"politique de confidentialité"},
+    cookieAccept: {es:"Aceptar", ca:"Acceptar", en:"Accept", fr:"Accepter"},
+    cookieReject: {es:"Rechazar", ca:"Rebutjar", en:"Reject", fr:"Refuser"},
     similarTitle: {es:"Modelos parecidos", ca:"Models semblants", en:"Similar models", fr:"Modèles similaires"},
     shareCompare: {es:"Compartir comparación", ca:"Compartir comparació", en:"Share comparison", fr:"Partager la comparaison"},
     linkCopied: {es:"¡Enlace copiado!", ca:"Enllaç copiat!", en:"Link copied!", fr:"Lien copié !"},
@@ -435,6 +456,11 @@
     }
   };
 
+  // Traducciones de los datos técnicos (cierre, volumen, goma, construcción…): js/vocab.js
+  if(window.GatoLabVocab){
+    Object.keys(window.GatoLabVocab).forEach(cat=>{ VOCAB[cat] = Object.assign(VOCAB[cat] || {}, window.GatoLabVocab[cat]); });
+  }
+
   let LANG = "es";
   try{
     const saved = localStorage.getItem("gatolab_lang");
@@ -554,6 +580,27 @@
     const th = el("#trayHint"); if(th) th.textContent = t("trayHint");
     const cbl = el("#compareBtnLabel"); if(cbl) cbl.textContent = t("compareBtnLabel");
     const fd = el("#footerDisclaimer"); if(fd) fd.textContent = t("footerDisclaimer");
+    // Sobre nosotros, contacto y pie: en castellano manda el panel (content/site.json)
+    const isEs = LANG === "es";
+    const setTxt = (sel, cmsPath, key)=>{ const n = el(sel); if(n) n.textContent = (isEs && cmsPath) ? siteText(cmsPath, t(key)) : t(key); };
+    setTxt("#aboutEyebrow", "sobreNosotros.eyebrow", "aboutEyebrow");
+    setTxt("#contactTitle", "sobreNosotros.contactoTitulo", "contactTitle");
+    setTxt("#contactHint", "sobreNosotros.contactoAyuda", "contactHint");
+    const acx = el("#aboutContent");
+    if(acx){
+      const cms = isEs ? siteText("sobreNosotros.parrafos", null) : null;
+      const paras = (Array.isArray(cms) && cms.length) ? cms : t("aboutParas");
+      if(Array.isArray(paras)) acx.innerHTML = paras.map(p=>`<p>${escapeXML(p)}</p>`).join("");
+    }
+    [["contactName","contactName"],["contactEmail","contactEmail"],["contactMessage","contactMessage"]].forEach(([id,k])=>{
+      const lab = document.querySelector(`label[for="${id}"]`); if(lab) lab.textContent = t(k);
+    });
+    const csb = el("#contactSubmit"); if(csb) csb.textContent = t("contactSubmit");
+    const fls = document.querySelectorAll(".site-footer nav a");
+    if(fls[0]) fls[0].textContent = t("footerPrivacy");
+    if(fls[1]) fls[1].textContent = t("footerContact");
+    const stg = el("#searchToggle"); if(stg) stg.setAttribute("aria-label", t("searchAria"));
+    const lsw = el("#langSwitch"); if(lsw) lsw.setAttribute("aria-label", t("langAria"));
     const ctd = el("#compareTabDuel"); if(ctd) ctd.textContent = t("compareTabDuel");
     const cts = el("#compareTabSizes"); if(cts) cts.textContent = t("compareTabSizes");
     const sbl = el("#sizesBrandLabel"); if(sbl) sbl.textContent = t("sizesBrandLabel");
@@ -589,6 +636,7 @@
     renderTray();
     renderPicker("a"); renderPicker("b");
     if(state.view === "guide" && window.GatoLabGuide) window.GatoLabGuide.render();
+    if(state.view === "news" && window.GatoLabNews) window.GatoLabNews.render();
     if(!el("#compareView").hidden){
       updateCompareHero(state.compareTab || "duel");
       if((state.compareTab||"duel")==="sizes"){ renderSizeComparator(); } else { renderDuel(); }
@@ -1006,11 +1054,11 @@
           </div>
           <div class="card-chips">
             ${usosTagsHTML(s)}
-            <span class="tag">${s.cierre}</span>
+            <span class="tag">${v("cierre",s.cierre)}</span>
           </div>
           <div class="card-mini-specs">
             <div><span>${t("lblPerfil")}</span><span>${v("forma",s.forma)}</span></div>
-            <div><span>${t("lblGoma")}</span><span>${s.goma}</span></div>
+            <div><span>${t("lblGoma")}</span><span>${v("goma",s.goma)}</span></div>
           </div>
           <div class="card-foot">
             <div class="card-price">${s.precio} € <span>${t("priceApprox")}</span></div>
@@ -1200,10 +1248,10 @@
       <div class="spec-grid">
         <div class="spec-item"><div class="spec-label">${t("lblPrecio")}</div><div class="spec-value mono">${s.precio} €</div></div>
         <div class="spec-item"><div class="spec-label">${t("lblPeso")}</div><div class="spec-value mono">${s.peso_g?`${s.peso_g} g`:t("weightNotAvailable")}</div></div>
-        <div class="spec-item"><div class="spec-label">${t("lblCierre")}</div><div class="spec-value">${s.cierre}</div></div>
+        <div class="spec-item"><div class="spec-label">${t("lblCierre")}</div><div class="spec-value">${v("cierre",s.cierre)}</div></div>
         <div class="spec-item"><div class="spec-label">${t("lblPerfil")}</div><div class="spec-value">${v("forma",s.forma)}</div></div>
-        <div class="spec-item"><div class="spec-label">${t("lblGoma")}</div><div class="spec-value">${s.goma}${s.grosor?` · ${s.grosor} mm`:""}</div></div>
-        <div class="spec-item"><div class="spec-label">${t("lblVolumen")}</div><div class="spec-value">${s.volumen}</div></div>
+        <div class="spec-item"><div class="spec-label">${t("lblGoma")}</div><div class="spec-value">${v("goma",s.goma)}${s.grosor?` · ${s.grosor} mm`:""}</div></div>
+        <div class="spec-item"><div class="spec-label">${t("lblVolumen")}</div><div class="spec-value">${v("volumen",s.volumen)}</div></div>
         <div class="spec-item"><div class="spec-label">${t("lblAsimetria")}</div><div class="spec-value bar-row">${v("asimetria",s.asimetria)} ${asimetriaBars(s)}</div></div>
         <div class="spec-item"><div class="spec-label">${t("lblRigidezSuela")}</div><div class="spec-value bar-row">${v("rigidez",s.rigidez)} ${rigidezBars(s)}</div></div>
         <div class="spec-item"><div class="spec-label">${t("lblSensibilidad")}</div><div class="spec-value bar-row">${sensibilidadBars(s)}</div></div>
@@ -1259,13 +1307,13 @@
     ["lblPeso", s=> s.peso_g?`<span class="price-cell">${s.peso_g} g</span>`:`<span class="muted">${t("weightNotAvailable")}</span>`, s=>s.peso_g?s.peso_g+"g":"—"],
     ["lblNivel", s=>v("nivel",s.nivel), s=>s.nivel],
     ["lblTipoEscalada", s=>usosLabel(s), s=>usosOf(s).join(", ")],
-    ["lblCierre", s=>s.cierre, s=>s.cierre],
+    ["lblCierre", s=>v("cierre",s.cierre), s=>s.cierre],
     ["lblPerfil", s=>v("forma",s.forma), s=>s.forma],
     ["lblAsimetria", s=>`<span class="bar-row">${v("asimetria",s.asimetria)} ${asimetriaBars(s)}</span>`, s=>s.asimetria],
     ["lblRigidezSuela", s=>`<span class="bar-row">${v("rigidez",s.rigidez)} ${rigidezBars(s)}</span>`, s=>s.rigidez],
     ["lblSensibilidad", s=>`<span class="bar-row">${sensibilidadBars(s)}</span>`, s=>s.rigidez],
-    ["lblTipoSuela", s=>s.goma+(s.grosor?` · ${s.grosor}mm`:""), s=>s.goma],
-    ["lblVolumen", s=>s.volumen, s=>s.volumen],
+    ["lblTipoSuela", s=>v("goma",s.goma)+(s.grosor?` · ${s.grosor}mm`:""), s=>s.goma],
+    ["lblVolumen", s=>v("volumen",s.volumen), s=>s.volumen],
     ["lblForro", s=>s.forro?v("forro",s.forro):t("notSpecified"), s=>s.forro||"—"]
   ];
 
@@ -1523,15 +1571,15 @@
   const ROWS_DUEL = [
     { labelKey:"lblPrecio", get:s=>({text:s.precio+"€", html:`${s.precio} €`}) },
     { labelKey:"lblPeso", get:s=>({text:s.peso_g?s.peso_g+"g":"—", html:s.peso_g?`${s.peso_g} g`:`<span class="muted">${t("weightNotAvailable")}</span>`}), sub:(a,b)=> (a.peso_talla||b.peso_talla) ? `${a.peso_talla||"—"} / ${b.peso_talla||"—"}` : null },
-    { labelKey:"lblCierre", get:s=>({text:s.cierre, html:s.cierre}) },
+    { labelKey:"lblCierre", get:s=>({text:v("cierre",s.cierre), html:v("cierre",s.cierre)}) },
     { labelKey:"lblConstruccion", get:s=>({text:construccion(s), html:construccion(s)}) },
     { labelKey:"lblAsimetria", get:s=>({text:s.asimetria, html:`${v("asimetria",s.asimetria)} ${asimetriaBars(s,true)}`}) },
     { labelKey:"lblPerfil", get:s=>({text:s.forma, html:v("forma",s.forma)}) },
     { labelKey:"lblRigidez", get:s=>({text:s.rigidez, html:`${v("rigidez",s.rigidez)} ${rigidezBars(s,true)}`}) },
     { labelKey:"lblSensibilidad", get:s=>({text:s.rigidez+"-sens", html:sensibilidadBars(s,true)}) },
-    { labelKey:"lblTipoSuela", get:s=>({text:s.goma, html:s.goma}) },
+    { labelKey:"lblTipoSuela", get:s=>({text:v("goma",s.goma), html:v("goma",s.goma)}) },
     { labelKey:"lblGrosorSuela", get:s=>({text:s.grosor||"—", html:s.grosor?`${s.grosor} mm`:"—"}) },
-    { labelKey:"lblVolumen", get:s=>({text:s.volumen, html:s.volumen}) },
+    { labelKey:"lblVolumen", get:s=>({text:v("volumen",s.volumen), html:v("volumen",s.volumen)}) },
     { labelKey:"lblForro", get:s=>({text:s.forro||"—", html:s.forro?v("forro",s.forro):t("notSpecified")}) },
     { labelKey:"lblTipoEscalada", get:s=>({text:usosOf(s).join(", "), html:usosLabel(s)}) },
     { labelKey:"lblNivelRecomendado", get:s=>({text:s.nivel, html:v("nivel",s.nivel)}) },
@@ -1670,10 +1718,10 @@
     const banner = document.createElement("div");
     banner.className = "cookie-banner";
     banner.innerHTML = `
-      <p>Usamos cookies propias para el funcionamiento de la web y, si lo aceptas, cookies de Google AdSense para mostrar anuncios y medir su rendimiento. Puedes leer más en la <a href="privacidad.html">política de privacidad</a>.</p>
+      <p>${t("cookieText")} <a href="privacidad.html">${t("cookiePolicy")}</a>.</p>
       <div class="cookie-actions">
-        <button class="btn-primary" id="cookieAccept">Aceptar</button>
-        <button class="btn-secondary" id="cookieReject">Rechazar</button>
+        <button class="btn-primary" id="cookieAccept">${t("cookieAccept")}</button>
+        <button class="btn-secondary" id="cookieReject">${t("cookieReject")}</button>
       </div>`;
     document.body.appendChild(banner);
     banner.querySelector("#cookieAccept").addEventListener("click", ()=>{

@@ -794,3 +794,20 @@ table.compare .price-cell{ font-family:'JetBrains Mono',monospace; font-weight:7
 @media (prefers-reduced-motion:reduce){
   .quiz-progress span{ transition:none; }
 }
+
+/* Test: recuadro «Tómatelo como una orientación» */
+.quiz-disclaimer{ margin-top:22px; padding:18px 20px 20px; background:var(--surface-2); border:1.5px solid var(--line); border-radius:var(--radius); max-width:760px; }
+.quiz-disc-head{ display:flex; align-items:center; gap:10px; margin-bottom:8px; }
+.quiz-disc-head h3{ margin:0; font-family:'JetBrains Mono',monospace; font-size:.78rem; font-weight:700; text-transform:uppercase; letter-spacing:.08em; }
+.quiz-disc-icon{ flex:none; display:inline-grid; place-items:center; width:22px; height:22px; border-radius:50%; background:var(--accent); color:#FFFFFF; font-family:Georgia,'Times New Roman',serif; font-style:italic; font-weight:700; font-size:.82rem; }
+.quiz-disclaimer p{ margin:0 0 10px; font-size:.88rem; line-height:1.55; color:var(--gray-700); }
+.quiz-disc-bands-title{ margin:14px 0 8px; font-family:'JetBrains Mono',monospace; font-size:.68rem; text-transform:uppercase; letter-spacing:.08em; color:var(--gray-500); }
+.quiz-disc-bands{ display:grid; grid-template-columns:repeat(3, minmax(0, 1fr)); gap:8px; margin:0 0 14px; }
+.quiz-disc-bands > div{ background:var(--surface); border:1.5px solid var(--line); border-radius:var(--radius); padding:10px 12px; }
+.quiz-disc-bands dt{ font-family:'JetBrains Mono',monospace; font-weight:700; font-size:.74rem; color:var(--accent); margin-bottom:4px; font-variant-numeric:tabular-nums; }
+.quiz-disc-bands dd{ margin:0; font-size:.84rem; line-height:1.4; }
+.quiz-disclaimer .quiz-sizes{ margin-top:4px; padding:8px 12px; font-size:.72rem; }
+@media (max-width:600px){
+  .quiz-disclaimer{ padding:16px 14px 18px; }
+  .quiz-disc-bands{ grid-template-columns:1fr; }
+}

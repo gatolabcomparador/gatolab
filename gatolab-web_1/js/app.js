@@ -225,6 +225,12 @@
     kidsFlag: {es:"Niños", ca:"Nens", en:"Kids", fr:"Enfants"},
     lvFlag: {es:"Low volume (LV)", ca:"Low volume (LV)", en:"Low volume (LV)", fr:"Low volume (LV)"},
     veganFlag: {es:"Vegano", ca:"Vegà", en:"Vegan", fr:"Vegan"},
+    hormasTitle: {es:"También en otras hormas", ca:"També en altres hormes", en:"Also available in other fits", fr:"Existe aussi dans d'autres formes"},
+    hormasNote: {es:"Es el mismo modelo con otro volumen o forma de horma. Útil si tienes el pie estrecho o ancho, o buscas un ajuste de mujer.", ca:"És el mateix model amb un altre volum o forma d'horma. Útil si tens el peu estret o ample, o busques un ajust de dona.", en:"Same model with a different volume or last shape. Useful if you have narrow or wide feet, or want a women's fit.", fr:"C'est le même modèle avec un autre volume ou une autre forme. Utile si tu as le pied étroit ou large, ou si tu cherches une coupe femme."},
+    hormaStd: {es:"Horma estándar", ca:"Horma estàndard", en:"Standard fit", fr:"Forme standard"},
+    hormaLV: {es:"Horma estrecha (LV)", ca:"Horma estreta (LV)", en:"Low volume (LV)", fr:"Volume réduit (LV)"},
+    hormaHV: {es:"Horma ancha (HV)", ca:"Horma ampla (HV)", en:"High volume (HV)", fr:"Grand volume (HV)"},
+    hormaWoman: {es:"Horma de mujer", ca:"Horma de dona", en:"Women's fit", fr:"Forme femme"},
     similarTitle: {es:"Modelos parecidos", ca:"Models semblants", en:"Similar models", fr:"Modèles similaires"},
     shareCompare: {es:"Compartir comparación", ca:"Compartir comparació", en:"Share comparison", fr:"Partager la comparaison"},
     linkCopied: {es:"¡Enlace copiado!", ca:"Enllaç copiat!", en:"Link copied!", fr:"Lien copié !"},
@@ -1101,6 +1107,30 @@
       </button>`).join("")}</div></div>`;
   }
 
+  /* Mismo modelo en otras hormas (LV, HV, mujer…): se agrupan los modelos de
+     la misma marca cuyo nombre coincide al quitar las palabras de horma. */
+  const HORMA_RE = /\b(lv|hv|low volume|high volume|women'?s?|woman|wmns|mujer)\b/g;
+  function hormaBase(s){
+    return (s.marca+" "+s.modelo).toLowerCase().replace(HORMA_RE," ").replace(/\(\s*\)/g," ").replace(/\s+/g," ").trim();
+  }
+  function hormaLabel(s){
+    const m = s.modelo.toLowerCase(), out = [];
+    if(/\b(women'?s?|woman|wmns|mujer)\b/.test(m)) out.push(t("hormaWoman"));
+    if(/\b(lv|low volume)\b/.test(m)) out.push(t("hormaLV"));
+    if(/\bhv\b|high volume/.test(m)) out.push(t("hormaHV"));
+    return out.length ? out.join(" · ") : t("hormaStd");
+  }
+  function hormasHTML(s){
+    const base = hormaBase(s);
+    const list = SHOES.filter(o=>o.id!==s.id && o.marca===s.marca && !!o.infantil===!!s.infantil && hormaBase(o)===base);
+    if(!list.length) return "";
+    return `<div class="horma-variants"><h4>${t("hormasTitle")}</h4><p>${t("hormasNote")}</p><div class="horma-list">${list.map(o=>`
+      <button type="button" class="horma-link" data-id="${o.id}" aria-label="${o.marca} ${o.modelo}">
+        <span class="horma-photo">${shoePhotoHTML(o)}</span>
+        <span class="horma-info"><span class="horma-model">${o.modelo}</span><span class="horma-label">${hormaLabel(o)}</span></span>
+      </button>`).join("")}</div></div>`;
+  }
+
   /* Compartir: en móvil abre el menú de compartir del sistema (WhatsApp, etc.);
      en ordenador copia el enlace al portapapeles. */
   function shareLink(url, btn){
@@ -1145,6 +1175,7 @@
         </div>
       </div>
       <p class="detail-summary">${getResumen(s)}</p>
+      ${hormasHTML(s)}
       <div class="spec-grid">
         <div class="spec-item"><div class="spec-label">${t("lblPrecio")}</div><div class="spec-value mono">${s.precio} €</div></div>
         <div class="spec-item"><div class="spec-label">${t("lblPeso")}</div><div class="spec-value mono">${s.peso_g?`${s.peso_g} g`:t("weightNotAvailable")}</div></div>
@@ -1186,6 +1217,12 @@
     }
     wireDetailPhotoBlock(modal, s);
     modal.querySelectorAll(".guide-link").forEach(link=> link.addEventListener("click", ()=> closeDetail()));
+    modal.querySelectorAll(".horma-link").forEach(btn=>{
+      btn.addEventListener("click", ()=>{
+        openDetail(btn.dataset.id);
+        overlay.scrollTop = 0; modal.scrollTop = 0;
+      });
+    });
     modal.querySelectorAll(".similar-card").forEach(btn=>{
       btn.addEventListener("click", ()=>{
         openDetail(btn.dataset.id);

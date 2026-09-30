@@ -26,6 +26,20 @@
   }
 
   const NEWS_CATEGORIES = ["NEW RELEASES","REVIEWS","PRODUCT ANALYSIS","CLIMBING SHOES","BRANDS"];
+  // Nombre visible de cada categoría en cada idioma (en news.json se guardan en inglés)
+  const CAT_LABELS = {
+    "NEW RELEASES":     {es:"NOVEDADES", ca:"NOVETATS", en:"NEW RELEASES", fr:"NOUVEAUTÉS"},
+    "REVIEWS":          {es:"RESEÑAS", ca:"RESSENYES", en:"REVIEWS", fr:"TESTS"},
+    "PRODUCT ANALYSIS": {es:"ANÁLISIS DE PRODUCTO", ca:"ANÀLISI DE PRODUCTE", en:"PRODUCT ANALYSIS", fr:"ANALYSE PRODUIT"},
+    "CLIMBING SHOES":   {es:"PIES DE GATO", ca:"PEUS DE GAT", en:"CLIMBING SHOES", fr:"CHAUSSONS D'ESCALADE"},
+    "BRANDS":           {es:"MARCAS", ca:"MARQUES", en:"BRANDS", fr:"MARQUES"}
+  };
+  function catLabel(c){
+    const e = CAT_LABELS[c];
+    if(!e) return c || "";
+    const L = (window.GatoLab && window.GatoLab.getLang) ? window.GatoLab.getLang() : "es";
+    return e[L] || e.es || c;
+  }
   const MESES = {
     es:["ENE","FEB","MAR","ABR","MAY","JUN","JUL","AGO","SEP","OCT","NOV","DIC"],
     ca:["GEN","FEB","MAR","ABR","MAI","JUN","JUL","AGO","SET","OCT","NOV","DES"],
@@ -177,7 +191,7 @@
         <div class="news-featured-photo">${photo}</div>
         <div class="news-featured-body">
           <div class="news-featured-eyebrow">
-            <span class="news-cat-tag">${n.categoria}</span>
+            <span class="news-cat-tag">${catLabel(n.categoria)}</span>
             <span class="news-date mono">${formatNewsDate(n.fecha)}</span>
           </div>
           ${shoe ? `<div class="news-featured-model">${shoe.marca} · ${shoe.modelo}</div>` : (n.marca ? `<div class="news-featured-model">${n.marca}</div>` : "")}
@@ -198,7 +212,7 @@
         <div class="news-card-photo">${photo}</div>
         <div class="news-card-body">
           <div class="news-card-eyebrow">
-            <span class="news-cat-tag">${n.categoria}</span>
+            <span class="news-cat-tag">${catLabel(n.categoria)}</span>
             <span class="news-date mono">${formatNewsDate(n.fecha)}</span>
           </div>
           ${shoe ? `<div class="news-card-model">${shoe.marca} · ${shoe.modelo}</div>` : (n.marca ? `<div class="news-card-model">${n.marca}</div>` : "")}
@@ -214,7 +228,7 @@
     const chips = ["TODAS", ...NEWS_CATEGORIES];
     const filtersHTML = `<div class="news-filters">` + chips.map(c=>{
       const active = c==="TODAS" ? !currentCat : currentCat===c;
-      return `<button type="button" data-cat="${c}" aria-pressed="${active}">${c==="TODAS" ? ui("all") : c}</button>`;
+      return `<button type="button" data-cat="${c}" aria-pressed="${active}">${c==="TODAS" ? ui("all") : catLabel(c)}</button>`;
     }).join("") + `</div>`;
 
     const filtered = currentCat ? NEWS.filter(n=>n.categoria===currentCat) : NEWS.slice();
@@ -294,7 +308,7 @@
     body.innerHTML = `
       <article class="article-page">
         <div class="article-eyebrow-row">
-          <span class="news-cat-tag">${n.categoria}</span>
+          <span class="news-cat-tag">${catLabel(n.categoria)}</span>
           <span class="news-date mono">${formatNewsDate(n.fecha)}</span>
         </div>
         <h1 class="display article-title">${tx(n,"titulo")}</h1>

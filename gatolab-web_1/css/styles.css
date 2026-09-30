@@ -953,3 +953,15 @@ img.shoe-photo, .detail-photo-thumb img, .quiz-result-photo img, .article-galler
 .card-photo::after, .detail-photo-main::after, .detail-photo-thumb::after, .duel-photo::after, .similar-photo::after, .mini-badge::after,
 .article-gallery-item::after, .quiz-result-photo::after, .horma-photo::after{ content:none; }
 img.shoe-photo, .detail-photo-thumb img, .quiz-result-photo img, .article-gallery-item img{ mix-blend-mode:normal; }
+
+/* ==========================================================================
+   NEWS: pies de foto («Texto. Foto / Autor») bajo la foto principal y la galería
+   ========================================================================== */
+.article-figure{ margin:24px 0 0; }
+.article-figure .article-hero-photo{ margin-top:0; }
+.photo-caption{ margin:8px 0 0; font-size:.86rem; line-height:1.45; color:var(--gray-700); text-align:right; text-wrap:pretty; }
+.photo-caption .photo-credit{ white-space:nowrap; }
+.article-gallery-fig{ margin:0; min-width:0; }
+.article-gallery-fig .photo-caption{ margin-top:6px; font-size:.78rem; text-align:left; }
+.gallery-credit{ margin-top:10px; font-size:.78rem; }
+@media (max-width:520px){ .photo-caption{ text-align:left; } .gallery-credit{ text-align:right; } }

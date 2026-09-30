@@ -99,11 +99,17 @@ collections:
                 required: false
                 hint: "Texto que aparece debajo de la foto principal del artículo (ej. «Sachi Amma, a pie de vía en La Capella, en Siurana, tras probar los Tenaya Aruma.»). Déjalo vacío si no quieres pie de foto."
 
-              - label: "Autor / crédito de las fotos"
+              - label: "Autor / crédito de la foto principal"
                 name: "creditoFoto"
                 widget: "string"
                 required: false
-                hint: "Quién firma las fotos (ej. Josep Malo o Tenaya). Se muestra como «Foto / Josep Malo» junto al pie de la foto principal, y como «Fotos / Josep Malo» debajo de la galería. Déjalo vacío si no quieres mostrar crédito."
+                hint: "Quién firma la foto principal (ej. Josep Malo o Tenaya). Se muestra como «Foto / Josep Malo» al final del pie de foto. Déjalo vacío si no quieres mostrar crédito."
+
+              - label: "Autor / crédito de las fotos de la galería"
+                name: "creditoGaleria"
+                widget: "string"
+                required: false
+                hint: "Quién firma las fotos de la galería (ej. Tenaya). Se muestra como «Fotos / Tenaya» debajo de la galería. Déjalo vacío si no quieres mostrar crédito."
 
               - label: "Galería de imágenes"
                 name: "galeria"

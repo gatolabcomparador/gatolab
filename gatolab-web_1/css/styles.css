@@ -876,3 +876,6 @@ table.compare .price-cell{ font-family:'JetBrains Mono',monospace; font-weight:7
    (no afecta al visor ampliado, que tiene fondo oscuro)
    ========================================================================== */
 img.shoe-photo, .detail-photo-thumb img, .quiz-result-photo img{ mix-blend-mode:multiply; filter:brightness(1.15) contrast(1.12); }
+
+/* Guía: más aire sobre el título para que el acento de «¿Qué…?» no pise la línea de arriba */
+.guide-hero .display{ margin-top:calc(10px + .22em); }

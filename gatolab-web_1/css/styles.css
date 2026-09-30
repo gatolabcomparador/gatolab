@@ -912,3 +912,15 @@ img.shoe-photo, .detail-photo-thumb img, .quiz-result-photo img{ mix-blend-mode:
 /* Galería de artículos: fotos de producto enteras y con el fondo fundido, como en las tarjetas del catálogo */
 .article-gallery-item{ background:var(--surface-2, #F6F6F6); }
 .article-gallery-item img{ object-fit:contain; padding:6%; mix-blend-mode:multiply; filter:brightness(1.12) contrast(1.08); }
+
+/* ==========================================================================
+   Modo oscuro: las fotos de producto y los carteles se ven igual de bien
+   (las cajas de foto siempre son claras para que el fondo de la foto se funda)
+   ========================================================================== */
+:root{ --photo-bg:#F6F6F6; --photo-bg-active:#F1E8FE; }
+.card-photo, .detail-photo-main, .detail-photo-thumb, .duel-photo, .similar-photo, .mini-badge,
+.picker-chosen .mini-badge, .article-product-card .mini-badge, .article-gallery-item, .quiz-result-photo, .horma-photo{ background:var(--photo-bg); color:#111111; }
+.detail-photo-thumb.active{ background:var(--photo-bg-active); }
+.quiz-cta-go{ color:var(--bg); }
+.quiz-cta:hover .quiz-cta-go{ color:var(--accent-ink); }
+.quiz-cta-icon, .quiz-disc-icon, .size-info-icon, .article-video-play, .quiz-result:first-child .quiz-rank{ color:var(--accent-ink); }

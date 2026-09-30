@@ -272,7 +272,8 @@
     return m ? m[1] : "";
   }
   const attr = s => String(s||"").replace(/&/g,"&amp;").replace(/"/g,"&quot;").replace(/</g,"&lt;");
-  /* Pie de foto: «Texto. Foto / Autor» (texto traducible; el autor/crédito no se traduce) */
+  /* Pie de foto: «Texto. Foto / Autor» (texto traducible; el autor/crédito no se traduce).
+     creditoFoto firma la foto principal y creditoGaleria las fotos de la galería. */
   function captionHTML(text, credit, cls){
     text = String(text||"").trim(); credit = String(credit||"").trim();
     if(!text && !credit) return "";
@@ -300,7 +301,7 @@
               ${captionHTML(g.pie, "")}
             </figure>`).join("")}
           </div>
-          ${n.creditoFoto ? `<p class="photo-caption gallery-credit"><span class="photo-credit">${ui("photos")} / ${n.creditoFoto}</span></p>` : ""}
+          ${n.creditoGaleria ? `<p class="photo-caption gallery-credit"><span class="photo-credit">${ui("photos")} / ${n.creditoGaleria}</span></p>` : ""}
         </div>`;
   }
   function videoHTML(n){

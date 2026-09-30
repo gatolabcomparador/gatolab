@@ -1811,6 +1811,7 @@
     isNewsView: ()=> state.view === "news",
     getLang: ()=> LANG,
     showFiltered: showFiltered,
-    filterLabel: filterLabel
+    filterLabel: filterLabel,
+    openLightbox: openLightbox
   };
 })();

@@ -1,6 +1,119 @@
 {
   "articulos": [
     {
+      "slug": "tenaya-aruma-nuevo-pie-de-gato",
+      "categoria": "NEW RELEASES",
+      "fecha": "2026-09-30",
+      "titulo": "Tenaya Aruma: así es el nuevo pie de gato de competición de Tenaya",
+      "subtitulo": "Suela partida, puntera muy agresiva y cierre Draxtor: analizamos a fondo el Aruma, qué lo diferencia y para quién tiene sentido.",
+      "marca": "Tenaya",
+      "modeloId": "tn-aruma",
+      "imagenPrincipal": "https://cdn.shopify.com/s/files/1/0572/8790/1269/files/Tenaya_Aruma_9.jpg?v=1771611954&width=1400",
+      "imagenAlt": "Escalando con los Tenaya Aruma en un desplome de roca",
+      "galeria": [
+        "https://cdn.shopify.com/s/files/1/0572/8790/1269/files/480000_shop.jpg?v=1771611863&width=1400",
+        "https://cdn.shopify.com/s/files/1/0572/8790/1269/files/480000_1_2a61106e-4445-4ba2-b4ea-e4ce2d8b4711.jpg?v=1771611928&width=1400",
+        "https://cdn.shopify.com/s/files/1/0572/8790/1269/files/480000_3_dcb9c92f-43ee-48c6-bc7a-06f826b2b840.jpg?v=1771611928&width=1400",
+        "https://cdn.shopify.com/s/files/1/0572/8790/1269/files/480000_4_b27efd90-ab6c-4af6-b088-36d7be442064.jpg?v=1771611928&width=1400",
+        "https://cdn.shopify.com/s/files/1/0572/8790/1269/files/Tenaya_Aruma_7.jpg?v=1771611953&width=1400",
+        "https://cdn.shopify.com/s/files/1/0572/8790/1269/files/Tenaya_Aruma_2.jpg?v=1771611953&width=1400",
+        "https://cdn.shopify.com/s/files/1/0572/8790/1269/files/Tenaya_Aruma_14.jpg?v=1771611953&width=1400",
+        "https://cdn.shopify.com/s/files/1/0572/8790/1269/files/Tenaya_Aruma_11.jpg?v=1771611953&width=1400"
+      ],
+      "video": "https://youtu.be/5rZelqF9M3k",
+      "texto": [
+        "El Aruma es la nueva apuesta de Tenaya para la escalada moderna. La marca española lo ha presentado este 2026 como un pie de competición: agresivo, muy sensible y con un tacto blando pero estructurado, pensado para rendir en desplomes y en los volúmenes complejos del rocódromo sin perder precisión en los apoyos exigentes.",
+        "Su rasgo más llamativo es la suela partida en dos piezas. Al separar la zona de la puntera de la del talón, el pie se flexiona con más libertad y la goma se adapta mejor a volúmenes, adherencias y presas de formas raras. A eso se suma una puntera muy curvada que concentra la fuerza en la parte delantera, justo donde hace falta para tirar de las presas en desplome.",
+        "El cierre es de velcro con el sistema Draxtor patentado por Tenaya, que ajusta el pie en un solo gesto entre intento e intento. La goma es Vibram XS Grip de 3,5 mm, y Tenaya la extiende por la puntera y el empeine para ganar agarre al empeinar y resistencia al desgaste.",
+        "Por dentro, la entresuela TST 130 aporta el punto de estructura que evita que un pie tan blando se hunda en los cantos pequeños, y el empeine de microfibra sin forro mantiene la sensibilidad y apenas cede con el uso. Según la marca, cada pie pesa 217 g.",
+        "Tenaya insiste también en el confort: la construcción del Aruma reduce la presión sobre los dedos y respeta la anatomía del pie, algo poco habitual en modelos tan agresivos. Aun así, es un pie de rendimiento, así que conviene probárselo en tienda antes de decidir la talla."
+      ],
+      "fichaTecnica": [
+        {
+          "campo": "Precio aprox.",
+          "valor": "≈ 190 €"
+        },
+        {
+          "campo": "Peso",
+          "valor": "217 g (por pie)"
+        },
+        {
+          "campo": "Cierre",
+          "valor": "Velcro (sistema Draxtor)"
+        },
+        {
+          "campo": "Perfil",
+          "valor": "Agresivo, puntera muy curvada"
+        },
+        {
+          "campo": "Asimetría",
+          "valor": "Alta"
+        },
+        {
+          "campo": "Rigidez",
+          "valor": "Blanda con estructura (entresuela TST 130)"
+        },
+        {
+          "campo": "Suela",
+          "valor": "Vibram XS Grip · 3,5 mm, partida en dos piezas"
+        },
+        {
+          "campo": "Empeine",
+          "valor": "Microfibra sin forro"
+        },
+        {
+          "campo": "Lengüeta",
+          "valor": "Poliamida + elastano, transpirable"
+        },
+        {
+          "campo": "Volumen",
+          "valor": "Estándar"
+        },
+        {
+          "campo": "Uso",
+          "valor": "Bloque, competición y deportiva en desplome"
+        },
+        {
+          "campo": "Tallas",
+          "valor": "US 2–14 con medias tallas (unisex)"
+        }
+      ],
+      "caracteristicas": [
+        "Suela partida en dos piezas que se adapta a volúmenes, adherencias y apoyos complejos.",
+        "Puntera muy curvada y asimetría alta para concentrar la fuerza en desplome.",
+        "Cierre de velcro con el sistema Draxtor de Tenaya, rápido de ajustar entre intentos.",
+        "Goma Vibram XS Grip de 3,5 mm extendida por puntera y empeine para empeinar.",
+        "Entresuela TST 130: tacto blando con el soporte justo para no perder precisión."
+      ],
+      "paraQuien": "Pensado para escaladores de nivel avanzado que pasan la mayor parte del tiempo en bloque y desplome, en rocódromo o en roca, y buscan un pie muy sensible que se adapte a volúmenes y presas modernas. También encaja con quien compite o entrena al estilo competición (dinámicos, coordinaciones y empeines). No es la mejor opción para iniciarse, para vías largas de placa ni para quien necesita un pie rígido que aguante horas en regletas pequeñas.",
+      "pros": [
+        "Suela partida muy sensible en volúmenes y adherencias",
+        "Puntera agresiva que da mucha potencia en desplome",
+        "Goma extendida en puntera y empeine para empeinar",
+        "Cierre Draxtor rápido de ajustar entre intentos",
+        "Ligero: 217 g por pie"
+      ],
+      "contras": [
+        "Demasiado agresivo y blando para quien empieza",
+        "Menos soporte en regletas pequeñas y placas largas que un pie rígido",
+        "Precio en la franja alta de los pies de gama top",
+        "Horma de volumen estándar: pruébalo si tienes el pie muy estrecho"
+      ],
+      "tipoEscalada": "Bloque",
+      "nivelRecomendado": "Avanzado",
+      "enlaces": [
+        {
+          "texto": "Ficha oficial del Aruma en Tenaya",
+          "url": "https://tenaya-us.com/products/aruma-unisex-climbing-shoes"
+        }
+      ],
+      "veredicto": "El Aruma es la respuesta de Tenaya a la escalada de hoy: suela partida, puntera agresiva y goma allí donde se usa en los bloques de competición. Por ficha técnica, es un pie blando pero con la estructura suficiente para no perder precisión, con el extra del cierre Draxtor y un peso contenido. Si escalas sobre todo bloque en desplome y volúmenes y valoras la sensibilidad por encima de la rigidez, es uno de los lanzamientos más interesantes del año. Si tu terreno son las regletas pequeñas o las vías largas, hay opciones más rígidas dentro de la propia Tenaya.",
+      "seo": {
+        "title": "Tenaya Aruma: ficha técnica, características y para quién es — GATO LAB",
+        "metaDescription": "Analizamos el nuevo Tenaya Aruma: suela partida, puntera agresiva, cierre Draxtor, Vibram XS Grip de 3,5 mm y 217 g. Para quién es, pros, contras, fotos y vídeo."
+      }
+    },
+    {
       "slug": "skwama-en-gato-lab",
       "categoria": "NEW RELEASES",
       "fecha": "2026-09-14",

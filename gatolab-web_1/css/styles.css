@@ -946,3 +946,10 @@ img.shoe-photo, .detail-photo-thumb img, .quiz-result-photo img{ mix-blend-mode:
 .detail-photo-thumb.active{ background:#FFFFFF; }
 img.shoe-photo, .detail-photo-thumb img, .quiz-result-photo img, .article-gallery-item img{ mix-blend-mode:normal; }
 .card-photo > :not(img), .detail-photo-main > :not(img), .duel-photo > :not(img), .quiz-result-photo > :not(img), .article-gallery-item > :not(img){ z-index:2; }
+
+/* Fotos v3 (iPhone): sin mezclas. Safari no aplica bien mix-blend-mode sobre fotos con filtro,
+   así que el filtro lleva el fondo de los JPG a blanco puro y el recuadro de la foto también es blanco. */
+:root{ --photo-bg:#FFFFFF; --photo-bg-active:#FFFFFF; }
+.card-photo::after, .detail-photo-main::after, .detail-photo-thumb::after, .duel-photo::after, .similar-photo::after, .mini-badge::after,
+.article-gallery-item::after, .quiz-result-photo::after, .horma-photo::after{ content:none; }
+img.shoe-photo, .detail-photo-thumb img, .quiz-result-photo img, .article-gallery-item img{ mix-blend-mode:normal; }

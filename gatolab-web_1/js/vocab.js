@@ -137,6 +137,6 @@ window.GatoLabVocab = {
     "Mixta (semi-estructurada)": {"ca":"Mixta (semiestructurada)","en":"Mixed (semi-structured)","fr":"Mixte (semi-structurée)"}
   },
   "forma": {
-    "Neutra": {"ca":"Neutra","en":"Neutral","fr":"Neutre"}
+    "Neutra": {"ca":"Neutre","en":"Neutral","fr":"Neutre"}
   }
 };

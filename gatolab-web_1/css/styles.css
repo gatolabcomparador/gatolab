@@ -924,3 +924,13 @@ img.shoe-photo, .detail-photo-thumb img, .quiz-result-photo img{ mix-blend-mode:
 .quiz-cta-go{ color:var(--bg); }
 .quiz-cta:hover .quiz-cta-go{ color:var(--accent-ink); }
 .quiz-cta-icon, .quiz-disc-icon, .size-info-icon, .article-video-play, .quiz-result:first-child .quiz-rank{ color:var(--accent-ink); }
+/* Fotos: grupo de mezcla propio (Safari/iPhone) y etiqueta de nivel legible en modo oscuro */
+.card-photo, .detail-photo-main, .detail-photo-thumb, .duel-photo, .similar-photo, .mini-badge, .article-gallery-item, .quiz-result-photo, .horma-photo{ isolation:isolate; }
+.card-level-flag{ color:var(--ink); }
+/* Móvil: precio más pequeño en una línea y botón «Comparar» debajo, a todo el ancho */
+@media (max-width:520px){
+  .card-foot{ flex-wrap:wrap; row-gap:8px; }
+  .card-price{ font-size:.8rem; white-space:nowrap; }
+  .card-price span{ font-size:.55rem; margin-left:2px; }
+  .card-foot .add-compare{ flex:1 1 100%; justify-content:center; }
+}

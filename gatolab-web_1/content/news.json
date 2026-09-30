@@ -1,6 +1,341 @@
 {
   "articulos": [
     {
+      "slug": "tenaya-sistema-draxtor",
+      "categoria": "NEWS",
+      "fecha": "2026-09-30",
+      "titulo": "Draxtor: el cierre de Tenaya que ajustas una vez y cierras de un solo gesto",
+      "subtitulo": "Cómo funciona el sistema de cierre patentado por Tenaya, qué aporta frente a un velcro convencional y en qué pies de gato lo encontrarás: Aruma, Indalo, Iati, Mundaka, Oasi y Oasi LV.",
+      "marca": "Tenaya",
+      "modeloId": "tn-indalo",
+      "imagenPrincipal": "https://tenaya.net/wp-content/uploads/2025/12/tenaya-slide-iati-Alex-Megos-Dream-Squamish-Canada.jpg",
+      "imagenAlt": "Alex Megos escalando Dream Catcher en Squamish con los Tenaya Iati",
+      "pieFoto": "Alex Megos en Dream Catcher (9a), en Squamish (Canadá), con los Tenaya Iati, uno de los modelos con cierre Draxtor.",
+      "creditoFoto": "Tenaya",
+      "creditoGaleria": "Tenaya",
+      "galeria": [
+        {
+          "imagen": "https://tenaya.net/wp-content/uploads/2025/06/tenaya-escalada-galeria-indalo-vista-superior.jpg",
+          "pie": "Indalo: las dos cintas del Draxtor cruzan el empeine"
+        },
+        {
+          "imagen": "https://tenaya.net/wp-content/uploads/2025/09/tenaya-escalada-galeria-iati-vista-superior.jpg",
+          "pie": "Iati, vista superior del cierre"
+        },
+        {
+          "imagen": "https://tenaya.net/wp-content/uploads/2025/09/tenaya-escalada-galeria-mundaka-vista-superior.jpg",
+          "pie": "Mundaka, vista superior del cierre"
+        },
+        {
+          "imagen": "https://tenaya.net/wp-content/uploads/2025/09/tenaya-escalada-galeria-oasi-vista-superior.jpg",
+          "pie": "Oasi, vista superior del cierre"
+        }
+      ],
+      "video": "https://www.youtube.com/watch?v=4pkjS-o68aY",
+      "texto": [
+        "Si miras de cerca un pie de gato curvo de Tenaya verás un detalle que se repite: dos cintas que se cruzan sobre el empeine y terminan en una única pestaña de velcro con el logo de la marca. Es el Draxtor, el sistema de cierre patentado por Tenaya y una de las señas de identidad técnicas de la marca española.",
+        "La idea es sencilla. En lugar de varios velcros que hay que ajustar cada vez, el Draxtor tiene dos cintas: una trabaja sobre la parte delantera del pie y la otra sobre la trasera. La longitud de cada una se regula por separado con una pequeña hebilla, y las dos van unidas a la misma pestaña de velcro. Una vez reguladas, el pie de gato se cierra de un solo movimiento.",
+        "La clave está en esa regulación previa. Ajustas las hebillas una vez a la forma de tu pie y el cierre recuerda esa tensión: en la siguiente sesión basta con meter el pie y cerrar la pestaña para que delante y detrás queden exactamente como los dejaste. Tenaya lo presenta como el único cierre del mercado que combina el cierre en un solo gesto con un nivel de ajuste predeterminado en la parte delantera y trasera del zapato.",
+        "Eso tiene consecuencias prácticas. Puedes llevar más tensión en el talón, para que no se mueva en los talonajes, sin apretar de más los dedos; o al revés, cerrar más la parte delantera para ganar precisión al cantear. Con un velcro convencional la tensión se reparte más o menos por igual, y con cordones consigues ese ajuste fino, pero tardas mucho más en calzarte y descalzarte entre intento e intento.",
+        "Además, es un cierre compacto. Tenaya lo usa precisamente en modelos donde quiere la máxima sujeción ocupando el menor espacio posible sobre el empeine, lo que deja más superficie libre para la goma de los empeines en los modelos más técnicos.",
+        "Hoy el Draxtor está en seis modelos, todos de la gama alta y curva de Tenaya: el Aruma, la novedad de 2026 centrada en la sensibilidad; el Indalo, pensado para bloque y deportiva; el Iati y el Oasi, dos curvos polivalentes que ganaron el premio Editors' Choice; el Oasi LV, la versión de volumen bajo del Oasi; y el Mundaka, el más ancho de los curvos de la marca, que añade una solapa que abraza la parte superior del pie y ayuda a bloquear el talón.",
+        "No lo encontrarás en el resto del catálogo. El Mastia usa un velcro convencional, el Tarifa, el Masai y el Tatanka van con cordones, y los modelos más cómodos y de iniciación, como el Ra, el Inti, el Tanta o el Araí, llevan velcros o cordones de toda la vida. El Draxtor está reservado a los pies de gato en los que el ajuste fino marca más la diferencia."
+      ],
+      "fichaTecnica": [
+        {
+          "campo": "Tipo de cierre",
+          "valor": "Velcro con dos cintas regulables"
+        },
+        {
+          "campo": "Zonas de ajuste",
+          "valor": "Parte delantera y trasera, por separado"
+        },
+        {
+          "campo": "Regulación",
+          "valor": "Una hebilla en cada cinta (el ajuste se guarda)"
+        },
+        {
+          "campo": "Forma de cerrar",
+          "valor": "Una sola pestaña de velcro, en un movimiento"
+        },
+        {
+          "campo": "Patente",
+          "valor": "Tenaya"
+        },
+        {
+          "campo": "Modelos con Draxtor",
+          "valor": "Aruma, Indalo, Iati, Mundaka, Oasi y Oasi LV"
+        },
+        {
+          "campo": "Modelos sin Draxtor",
+          "valor": "Mastia, Tarifa, Masai, Tatanka, Ra, Inti, Tanta y Araí"
+        }
+      ],
+      "caracteristicas": [
+        "Dos cintas cruzadas sobre el empeine que tensan por separado la parte delantera y la trasera del pie.",
+        "La longitud de cada cinta se regula con una hebilla y el ajuste queda guardado para la siguiente sesión.",
+        "Una única pestaña de velcro: el pie de gato se cierra de un solo movimiento.",
+        "Diseño compacto que ocupa poco espacio sobre el empeine.",
+        "En el Mundaka va reforzado con una solapa que abraza la parte superior del pie y ayuda a bloquear el talón."
+      ],
+      "paraQuien": "Para quien escala con pies de gato curvos y quiere un ajuste casi a medida sin renunciar a la rapidez del velcro: escaladores de bloque y deportiva que se calzan y descalzan muchas veces por sesión, y quienes no terminan de encajar con un velcro convencional, por ejemplo porque necesitan más tensión en el talón que en la puntera. Si buscas tu primer pie de gato, Tenaya no lo monta en sus modelos de iniciación: ahí encontrarás velcros o cordones convencionales.",
+      "pros": [
+        "Ajuste independiente de la parte delantera y la trasera",
+        "Se cierra de un solo movimiento, tan rápido como un velcro",
+        "El ajuste queda guardado de una sesión a otra",
+        "Ocupa poco espacio sobre el empeine"
+      ],
+      "contras": [
+        "La primera regulación de las hebillas lleva algo de prueba y error",
+        "Si te gusta llevarlo muy apretado, puede costar meter el pie con las cintas ya reguladas",
+        "Para cambiar la tensión de una sola zona hay que volver a tocar las hebillas",
+        "Solo está en los modelos curvos y de gama alta de Tenaya"
+      ],
+      "tipoEscalada": "Bloque y deportiva",
+      "nivelRecomendado": "Avanzado",
+      "enlaces": [
+        {
+          "texto": "Pies de gato Tenaya (web oficial)",
+          "url": "https://tenaya.net/pies-de-gato/"
+        }
+      ],
+      "veredicto": "El Draxtor resuelve bien un problema real del velcro: que la tensión se reparta igual por todo el pie. Separar la parte delantera de la trasera y dejar el ajuste guardado da un calce más fino que un velcro normal, con la misma rapidez para calzarse entre pegues. Pide dedicar un rato a regularlo la primera vez, pero una vez hecho es de los cierres más cómodos que hemos visto en pies de gato curvos, y uno de los motivos de peso para probar la gama alta de Tenaya.",
+      "seo": {
+        "title": "Sistema Draxtor de Tenaya: cómo funciona y qué pies de gato lo llevan — GATO LAB",
+        "metaDescription": "Qué es el cierre Draxtor de Tenaya, cómo se ajusta, qué ventajas tiene frente a un velcro convencional y en qué modelos lo encontrarás: Aruma, Indalo, Iati, Mundaka, Oasi y Oasi LV."
+      },
+      "traducciones": {
+        "ca": {
+          "titulo": "Draxtor: el tancament de Tenaya que ajustes un cop i tanques d'un sol gest",
+          "subtitulo": "Com funciona el sistema de tancament patentat per Tenaya, què aporta davant d'un velcro convencional i en quins peus de gat el trobaràs: Aruma, Indalo, Iati, Mundaka, Oasi i Oasi LV.",
+          "imagenAlt": "Alex Megos escalant Dream Catcher a Squamish amb els Tenaya Iati",
+          "pieFoto": "Alex Megos a Dream Catcher (9a), a Squamish (Canadà), amb els Tenaya Iati, un dels models amb tancament Draxtor.",
+          "galeriaPies": [
+            "Indalo: les dues cintes del Draxtor creuen l'empenya",
+            "Iati, vista superior del tancament",
+            "Mundaka, vista superior del tancament",
+            "Oasi, vista superior del tancament"
+          ],
+          "texto": [
+            "Si mires de prop un peu de gat corbat de Tenaya veuràs un detall que es repeteix: dues cintes que es creuen sobre l'empenya i acaben en una única pestanya de velcro amb el logo de la marca. És el Draxtor, el sistema de tancament patentat per Tenaya i un dels trets tècnics més característics de la marca espanyola.",
+            "La idea és senzilla. En lloc de diversos velcros que cal ajustar cada vegada, el Draxtor té dues cintes: una treballa sobre la part davantera del peu i l'altra sobre la del darrere. La llargada de cadascuna es regula per separat amb una petita sivella, i totes dues van unides a la mateixa pestanya de velcro. Un cop regulades, el peu de gat es tanca d'un sol moviment.",
+            "La clau és aquesta regulació prèvia. Ajustes les sivelles un cop a la forma del teu peu i el tancament recorda aquesta tensió: a la sessió següent només cal ficar el peu i tancar la pestanya perquè davant i darrere quedin exactament com els vas deixar. Tenaya el presenta com l'únic tancament del mercat que combina el tancament d'un sol gest amb un nivell d'ajust predeterminat a la part davantera i posterior de la sabata.",
+            "Això té conseqüències pràctiques. Pots portar més tensió al taló, perquè no es mogui als talonatges, sense estrènyer de més els dits; o al revés, tancar més la part davantera per guanyar precisió en cantejar. Amb un velcro convencional la tensió es reparteix més o menys igual, i amb cordons aconsegueixes aquest ajust fi, però trigues molt més a calçar-te i descalçar-te entre intent i intent.",
+            "A més, és un tancament compacte. Tenaya l'utilitza precisament en models on vol la màxima subjecció ocupant el mínim espai possible sobre l'empenya, cosa que deixa més superfície lliure per a la goma de l'empenya als models més tècnics.",
+            "Avui el Draxtor és en sis models, tots de la gamma alta i corbada de Tenaya: l'Aruma, la novetat del 2026 centrada en la sensibilitat; l'Indalo, pensat per a bloc i esportiva; l'Iati i l'Oasi, dos corbats polivalents que van guanyar el premi Editors' Choice; l'Oasi LV, la versió de volum baix de l'Oasi; i el Mundaka, el més ample dels corbats de la marca, que afegeix una solapa que abraça la part superior del peu i ajuda a bloquejar el taló.",
+            "No el trobaràs a la resta del catàleg. El Mastia fa servir un velcro convencional, el Tarifa, el Masai i el Tatanka porten cordons, i els models més còmodes i d'iniciació, com el Ra, l'Inti, el Tanta o l'Araí, porten velcros o cordons de tota la vida. El Draxtor està reservat als peus de gat en què l'ajust fi marca més la diferència."
+          ],
+          "fichaTecnica": [
+            {
+              "campo": "Tipus de tancament",
+              "valor": "Velcro amb dues cintes regulables"
+            },
+            {
+              "campo": "Zones d'ajust",
+              "valor": "Part davantera i posterior, per separat"
+            },
+            {
+              "campo": "Regulació",
+              "valor": "Una sivella a cada cinta (l'ajust es desa)"
+            },
+            {
+              "campo": "Manera de tancar",
+              "valor": "Una sola pestanya de velcro, en un moviment"
+            },
+            {
+              "campo": "Patent",
+              "valor": "Tenaya"
+            },
+            {
+              "campo": "Models amb Draxtor",
+              "valor": "Aruma, Indalo, Iati, Mundaka, Oasi i Oasi LV"
+            },
+            {
+              "campo": "Models sense Draxtor",
+              "valor": "Mastia, Tarifa, Masai, Tatanka, Ra, Inti, Tanta i Araí"
+            }
+          ],
+          "caracteristicas": [
+            "Dues cintes creuades sobre l'empenya que tensen per separat la part davantera i la posterior del peu.",
+            "La llargada de cada cinta es regula amb una sivella i l'ajust queda desat per a la sessió següent.",
+            "Una única pestanya de velcro: el peu de gat es tanca d'un sol moviment.",
+            "Disseny compacte que ocupa poc espai sobre l'empenya.",
+            "Al Mundaka va reforçat amb una solapa que abraça la part superior del peu i ajuda a bloquejar el taló."
+          ],
+          "paraQuien": "Per a qui escala amb peus de gat corbats i vol un ajust gairebé a mida sense renunciar a la rapidesa del velcro: escaladors de bloc i esportiva que es calcen i descalcen moltes vegades per sessió, i els qui no acaben d'encaixar amb un velcro convencional, per exemple perquè necessiten més tensió al taló que a la puntera. Si busques el teu primer peu de gat, Tenaya no el munta als seus models d'iniciació: allà hi trobaràs velcros o cordons convencionals.",
+          "pros": [
+            "Ajust independent de la part davantera i la posterior",
+            "Es tanca d'un sol moviment, tan ràpid com un velcro",
+            "L'ajust queda desat d'una sessió a l'altra",
+            "Ocupa poc espai sobre l'empenya"
+          ],
+          "contras": [
+            "La primera regulació de les sivelles requereix una mica de prova i error",
+            "Si t'agrada portar-lo molt estret, pot costar ficar el peu amb les cintes ja regulades",
+            "Per canviar la tensió d'una sola zona cal tornar a tocar les sivelles",
+            "Només és als models corbats i de gamma alta de Tenaya"
+          ],
+          "veredicto": "El Draxtor resol bé un problema real del velcro: que la tensió es reparteixi igual per tot el peu. Separar la part davantera de la posterior i deixar l'ajust desat dona un calçat més fi que un velcro normal, amb la mateixa rapidesa per calçar-se entre pegues. Demana dedicar una estona a regular-lo el primer cop, però un cop fet és dels tancaments més còmodes que hem vist en peus de gat corbats, i un dels motius de pes per provar la gamma alta de Tenaya.",
+          "seo": {
+            "title": "Sistema Draxtor de Tenaya: com funciona i quins peus de gat el porten — GATO LAB",
+            "metaDescription": "Què és el tancament Draxtor de Tenaya, com s'ajusta, quins avantatges té davant d'un velcro convencional i en quins models el trobaràs: Aruma, Indalo, Iati, Mundaka, Oasi i Oasi LV."
+          }
+        },
+        "en": {
+          "titulo": "Draxtor: Tenaya's closure that you adjust once and close in a single move",
+          "subtitulo": "How Tenaya's patented closure system works, what it offers over a standard Velcro strap and which climbing shoes use it: Aruma, Indalo, Iati, Mundaka, Oasi and Oasi LV.",
+          "imagenAlt": "Alex Megos climbing Dream Catcher in Squamish in the Tenaya Iati",
+          "pieFoto": "Alex Megos on Dream Catcher (5.14d), Squamish (Canada), in the Tenaya Iati, one of the models with the Draxtor closure.",
+          "galeriaPies": [
+            "Indalo: the two Draxtor straps cross over the instep",
+            "Iati, top view of the closure",
+            "Mundaka, top view of the closure",
+            "Oasi, top view of the closure"
+          ],
+          "texto": [
+            "Take a close look at any of Tenaya's downturned climbing shoes and you'll notice a recurring detail: two straps that cross over the instep and end in a single Velcro tab bearing the brand's logo. That's the Draxtor, the closure system patented by Tenaya and one of the Spanish brand's technical signatures.",
+            "The idea is simple. Instead of several Velcro straps you have to adjust every time, the Draxtor has two straps: one works on the front of the foot and the other on the back. The length of each one is set separately with a small buckle, and both are attached to the same Velcro tab. Once they're set, the shoe closes in a single move.",
+            "The key is that initial setup. You adjust the buckles once to the shape of your foot and the closure remembers that tension: next session you just slide your foot in and close the tab, and the front and back end up exactly as you left them. Tenaya describes it as the only closure on the market that combines one-move fastening with a preset level of fit at the front and rear of the shoe.",
+            "That has practical consequences. You can run more tension on the heel, so it doesn't shift on heel hooks, without overtightening the toes; or the other way round, cinch the front harder for more precision when edging. With a standard Velcro strap the tension is spread more or less evenly, and laces give you that fine-tuning but take much longer to get on and off between attempts.",
+            "It's also a compact closure. Tenaya uses it precisely on models where it wants maximum hold while taking up as little space as possible on the instep, which leaves more room for toe-hook rubber on the most technical shoes.",
+            "Today the Draxtor is found on six models, all from Tenaya's high-end downturned range: the Aruma, the 2026 newcomer focused on sensitivity; the Indalo, designed for bouldering and sport climbing; the Iati and the Oasi, two versatile downturned shoes that won the Editors' Choice award; the Oasi LV, the low-volume version of the Oasi; and the Mundaka, the widest of the brand's downturned shoes, which adds a flap that wraps the top of the foot and helps lock the heel in place.",
+            "You won't find it in the rest of the range. The Mastia uses a conventional Velcro strap, the Tarifa, Masai and Tatanka are lace-ups, and the more comfortable and entry-level models, such as the Ra, Inti, Tanta and Araí, use classic Velcro straps or laces. The Draxtor is reserved for the shoes where a fine-tuned fit makes the biggest difference."
+          ],
+          "fichaTecnica": [
+            {
+              "campo": "Closure type",
+              "valor": "Velcro with two adjustable straps"
+            },
+            {
+              "campo": "Adjustment zones",
+              "valor": "Front and rear, independently"
+            },
+            {
+              "campo": "Adjustment",
+              "valor": "One buckle per strap (the setting is kept)"
+            },
+            {
+              "campo": "How it closes",
+              "valor": "A single Velcro tab, in one move"
+            },
+            {
+              "campo": "Patent",
+              "valor": "Tenaya"
+            },
+            {
+              "campo": "Models with Draxtor",
+              "valor": "Aruma, Indalo, Iati, Mundaka, Oasi and Oasi LV"
+            },
+            {
+              "campo": "Models without Draxtor",
+              "valor": "Mastia, Tarifa, Masai, Tatanka, Ra, Inti, Tanta and Araí"
+            }
+          ],
+          "caracteristicas": [
+            "Two straps crossing over the instep that tension the front and rear of the foot separately.",
+            "Each strap's length is set with a buckle and the fit is kept for your next session.",
+            "A single Velcro tab: the shoe closes in one move.",
+            "Compact design that takes up little space on the instep.",
+            "On the Mundaka it's reinforced with a flap that wraps the top of the foot and helps lock the heel."
+          ],
+          "paraQuien": "For climbers who use downturned shoes and want an almost custom fit without giving up the speed of Velcro: boulderers and sport climbers who take their shoes on and off many times per session, and anyone who never quite gets along with a standard Velcro strap, for example because they need more tension at the heel than at the toe. If you're looking for your first pair, Tenaya doesn't use it on its entry-level models: there you'll find conventional Velcro straps or laces.",
+          "pros": [
+            "Independent adjustment of the front and rear",
+            "Closes in a single move, as fast as Velcro",
+            "The fit is kept from one session to the next",
+            "Takes up little space on the instep"
+          ],
+          "contras": [
+            "Setting the buckles the first time takes some trial and error",
+            "If you like a very tight fit, getting your foot in with the straps already set can be hard",
+            "Changing the tension of just one zone means going back to the buckles",
+            "Only available on Tenaya's downturned, high-end models"
+          ],
+          "veredicto": "The Draxtor does a good job of solving a real Velcro problem: tension spread evenly across the whole foot. Separating front and rear and keeping the setting gives a finer fit than a standard Velcro strap, with the same speed for getting your shoes on between burns. It takes a little time to set up the first time, but once that's done it's one of the most comfortable closures we've seen on downturned shoes, and one of the strongest reasons to try Tenaya's high-end range.",
+          "seo": {
+            "title": "Tenaya's Draxtor system: how it works and which climbing shoes use it — GATO LAB",
+            "metaDescription": "What Tenaya's Draxtor closure is, how to adjust it, its advantages over a standard Velcro strap and which models use it: Aruma, Indalo, Iati, Mundaka, Oasi and Oasi LV."
+          }
+        },
+        "fr": {
+          "titulo": "Draxtor : la fermeture Tenaya qu'on règle une fois et qu'on ferme d'un seul geste",
+          "subtitulo": "Comment fonctionne le système de fermeture breveté par Tenaya, ce qu'il apporte par rapport à un velcro classique et sur quels chaussons on le trouve : Aruma, Indalo, Iati, Mundaka, Oasi et Oasi LV.",
+          "imagenAlt": "Alex Megos dans Dream Catcher à Squamish avec les Tenaya Iati",
+          "pieFoto": "Alex Megos dans Dream Catcher (9a), à Squamish (Canada), avec les Tenaya Iati, l'un des modèles équipés de la fermeture Draxtor.",
+          "galeriaPies": [
+            "Indalo : les deux sangles du Draxtor se croisent sur le cou-de-pied",
+            "Iati, vue de dessus de la fermeture",
+            "Mundaka, vue de dessus de la fermeture",
+            "Oasi, vue de dessus de la fermeture"
+          ],
+          "texto": [
+            "Regardez de près un chausson cambré Tenaya et vous remarquerez un détail qui revient : deux sangles qui se croisent sur le cou-de-pied et se terminent par une seule languette velcro portant le logo de la marque. C'est le Draxtor, le système de fermeture breveté par Tenaya et l'une des signatures techniques de la marque espagnole.",
+            "L'idée est simple. Au lieu de plusieurs velcros à régler à chaque fois, le Draxtor compte deux sangles : l'une agit sur l'avant du pied, l'autre sur l'arrière. La longueur de chacune se règle séparément grâce à une petite boucle, et les deux sont reliées à la même languette velcro. Une fois réglées, le chausson se ferme d'un seul mouvement.",
+            "Tout repose sur ce réglage préalable. On ajuste les boucles une fois à la forme de son pied et la fermeture garde cette tension : à la séance suivante, il suffit d'enfiler le pied et de fermer la languette pour que l'avant et l'arrière soient exactement comme on les a laissés. Tenaya la présente comme la seule fermeture du marché qui associe une fermeture en un seul geste à un niveau de serrage prédéfini à l'avant et à l'arrière du chausson.",
+            "Cela a des conséquences concrètes. On peut serrer davantage le talon, pour qu'il ne bouge pas en crochetage, sans trop comprimer les orteils ; ou l'inverse, fermer plus fort l'avant pour gagner en précision sur les carres. Avec un velcro classique, la tension se répartit à peu près uniformément, et les lacets permettent ce réglage fin, mais on met beaucoup plus de temps à se chausser et se déchausser entre deux essais.",
+            "C'est aussi une fermeture compacte. Tenaya l'utilise justement sur des modèles où elle recherche le maximum de maintien en occupant le moins de place possible sur le cou-de-pied, ce qui laisse plus de surface libre pour la gomme de crochetage de pointe sur les modèles les plus techniques.",
+            "Aujourd'hui, le Draxtor équipe six modèles, tous issus de la gamme haut de gamme et cambrée de Tenaya : l'Aruma, la nouveauté 2026 axée sur la sensibilité ; l'Indalo, pensé pour le bloc et la voie ; l'Iati et l'Oasi, deux chaussons cambrés polyvalents récompensés par un Editors' Choice ; l'Oasi LV, la version à faible volume de l'Oasi ; et le Mundaka, le plus large des chaussons cambrés de la marque, qui ajoute un rabat enveloppant le dessus du pied et aidant à verrouiller le talon.",
+            "On ne le trouve pas dans le reste de la gamme. Le Mastia utilise un velcro classique, le Tarifa, le Masai et le Tatanka sont à lacets, et les modèles plus confortables et d'initiation, comme le Ra, l'Inti, le Tanta ou l'Araí, gardent des velcros ou des lacets traditionnels. Le Draxtor est réservé aux chaussons pour lesquels un réglage fin fait le plus de différence."
+          ],
+          "fichaTecnica": [
+            {
+              "campo": "Type de fermeture",
+              "valor": "Velcro à deux sangles réglables"
+            },
+            {
+              "campo": "Zones de réglage",
+              "valor": "Avant et arrière, séparément"
+            },
+            {
+              "campo": "Réglage",
+              "valor": "Une boucle par sangle (le réglage est conservé)"
+            },
+            {
+              "campo": "Fermeture",
+              "valor": "Une seule languette velcro, en un geste"
+            },
+            {
+              "campo": "Brevet",
+              "valor": "Tenaya"
+            },
+            {
+              "campo": "Modèles avec Draxtor",
+              "valor": "Aruma, Indalo, Iati, Mundaka, Oasi et Oasi LV"
+            },
+            {
+              "campo": "Modèles sans Draxtor",
+              "valor": "Mastia, Tarifa, Masai, Tatanka, Ra, Inti, Tanta et Araí"
+            }
+          ],
+          "caracteristicas": [
+            "Deux sangles croisées sur le cou-de-pied qui serrent séparément l'avant et l'arrière du pied.",
+            "La longueur de chaque sangle se règle avec une boucle et le réglage est conservé pour la séance suivante.",
+            "Une seule languette velcro : le chausson se ferme d'un seul geste.",
+            "Conception compacte qui prend peu de place sur le cou-de-pied.",
+            "Sur le Mundaka, elle est renforcée par un rabat qui enveloppe le dessus du pied et aide à verrouiller le talon."
+          ],
+          "paraQuien": "Pour celles et ceux qui grimpent en chaussons cambrés et veulent un chaussant presque sur mesure sans renoncer à la rapidité du velcro : grimpeurs de bloc et de voie qui se chaussent et se déchaussent souvent au cours d'une séance, et ceux qui ne s'entendent pas tout à fait avec un velcro classique, par exemple parce qu'ils ont besoin de plus de tension au talon qu'à la pointe. Si vous cherchez votre premier chausson, Tenaya ne l'utilise pas sur ses modèles d'initiation : vous y trouverez des velcros ou des lacets classiques.",
+          "pros": [
+            "Réglage indépendant de l'avant et de l'arrière",
+            "Se ferme d'un seul geste, aussi vite qu'un velcro",
+            "Le réglage est conservé d'une séance à l'autre",
+            "Prend peu de place sur le cou-de-pied"
+          ],
+          "contras": [
+            "Le premier réglage des boucles demande quelques essais",
+            "Si vous aimez un serrage très fort, enfiler le pied avec les sangles déjà réglées peut être difficile",
+            "Pour modifier la tension d'une seule zone, il faut revenir aux boucles",
+            "Disponible uniquement sur les modèles cambrés et haut de gamme de Tenaya"
+          ],
+          "veredicto": "Le Draxtor règle bien un vrai défaut du velcro : une tension répartie de la même façon sur tout le pied. Séparer l'avant de l'arrière et conserver le réglage offre un chaussant plus précis qu'un velcro classique, avec la même rapidité pour se chausser entre deux essais. Il faut prendre un peu de temps pour le régler la première fois, mais ensuite c'est l'une des fermetures les plus confortables que nous ayons vues sur des chaussons cambrés, et l'une des meilleures raisons d'essayer le haut de gamme Tenaya.",
+          "seo": {
+            "title": "Système Draxtor de Tenaya : fonctionnement et chaussons équipés — GATO LAB",
+            "metaDescription": "Ce qu'est la fermeture Draxtor de Tenaya, comment la régler, ses avantages par rapport à un velcro classique et les modèles qui l'utilisent : Aruma, Indalo, Iati, Mundaka, Oasi et Oasi LV."
+          }
+        }
+      }
+    },
+    {
       "slug": "tenaya-aruma-nuevo-pie-de-gato",
       "categoria": "NEWS",
       "fecha": "2026-09-30",
@@ -2743,313 +3078,6 @@
           "seo": {
             "title": "Comment choisir tes premiers chaussons d'escalade — GATO LAB",
             "metaDescription": "Guide complet pour choisir tes premiers chaussons d'escalade : profil, fermeture, rigidité et volume expliqués, avec un modèle pour débuter comme exemple."
-          }
-        }
-      }
-    },
-    {
-      "slug": "tenaya-sistema-draxtor",
-      "categoria": "NEWS",
-      "fecha": "2026-08-20",
-      "titulo": "Tenaya y el sistema Draxtor: qué lo hace diferente",
-      "subtitulo": "Analizamos el mecanismo de cierre característico de Tenaya y por qué aparece en algunos de sus modelos más técnicos, como la Mundaka.",
-      "marca": "Tenaya",
-      "modeloId": "tn-mundaka",
-      "imagenPrincipal": "",
-      "imagenAlt": "Ilustración esquemática de un pie de gato con doble cierre de velcro independiente, representando el sistema Draxtor de Tenaya",
-      "pieFoto": "",
-      "creditoFoto": "",
-      "creditoGaleria": "",
-      "galeria": [],
-      "texto": [
-        "Tenaya es una marca española especializada casi en exclusiva en escalada, y una de sus señas de identidad técnicas es el sistema de cierre Draxtor, presente en modelos como la Mundaka.",
-        "A diferencia de un velcro único, el Draxtor permite tensar puntera y talón de forma independiente, lo que en teoría ofrece un ajuste más fino que un cierre convencional de una sola correa.",
-        "Analizamos qué implica esto en la ficha técnica y en qué tipo de escalada tiene más sentido frente a otros sistemas de cierre del catálogo de la marca."
-      ],
-      "fichaTecnica": [
-        {
-          "campo": "Peso",
-          "valor": "330 g"
-        },
-        {
-          "campo": "Cierre",
-          "valor": "Velcro (Draxtor)"
-        },
-        {
-          "campo": "Construcción",
-          "valor": "Slip-lasted (flexible)"
-        },
-        {
-          "campo": "Asimetría",
-          "valor": "Media"
-        },
-        {
-          "campo": "Perfil",
-          "valor": "Moderada"
-        },
-        {
-          "campo": "Rigidez",
-          "valor": "Blanda"
-        },
-        {
-          "campo": "Suela",
-          "valor": "Vibram XS Grip · 3.5 mm"
-        },
-        {
-          "campo": "Volumen",
-          "valor": "Estándar"
-        },
-        {
-          "campo": "Materiales",
-          "valor": "Empeine en piel sintética con dos correas de velcro independientes (sistema Draxtor); suela de una pieza en la puntera para maximizar el contacto en bloque."
-        },
-        {
-          "campo": "Tallas",
-          "valor": "EU 33–48.5 (unisex)"
-        }
-      ],
-      "caracteristicas": [
-        "Doble correa independiente que permite ajustar puntera y talón por separado.",
-        "Horma moderada con asimetría media, pensada para bloque técnico prolongado.",
-        "Goma Vibram XS Grip de alta adherencia en presas pequeñas y volúmenes."
-      ],
-      "paraQuien": "Interesante para quien pasa muchas horas en bloque y valora poder afinar el ajuste de talón y puntera de forma independiente, en lugar de depender de una única correa que reparte la tensión de forma uniforme. Menos relevante para quien prioriza la rapidez de calzado sobre la precisión del ajuste.",
-      "pros": [
-        "Ajuste independiente de puntera y talón",
-        "Buen agarre en bloque técnico prolongado",
-        "Horma cómoda para sesiones largas dentro de su gama"
-      ],
-      "contras": [
-        "Calzar y ajustar las dos correas es más lento que un velcro único",
-        "Peso algo superior a modelos equivalentes de otras marcas",
-        "Sistema menos habitual, con curva de aprendizaje para el ajuste óptimo"
-      ],
-      "tipoEscalada": "Bloque",
-      "nivelRecomendado": "Avanzado",
-      "enlaces": [],
-      "veredicto": "El Draxtor no es un truco de marketing: resuelve un problema real (el ajuste desigual de un velcro único) a cambio de algo de velocidad al calzar. En GATO LAB lo consideramos un sistema con sentido para quien escala en bloque muchas horas y no para quien busca calzarse y descalzarse constantemente entre intentos cortos.",
-      "seo": {
-        "title": "Tenaya y el sistema Draxtor, explicado — GATO LAB",
-        "metaDescription": "Qué es el sistema de cierre Draxtor de Tenaya, cómo funciona en la Mundaka y cuándo tiene sentido frente a un velcro convencional."
-      },
-      "traducciones": {
-        "ca": {
-          "titulo": "Tenaya i el sistema Draxtor: què el fa diferent",
-          "subtitulo": "Analitzem el mecanisme de tancament característic de Tenaya i per què apareix en alguns dels seus models més tècnics, com la Mundaka.",
-          "imagenAlt": "Il·lustració esquemàtica d'un peu de gat amb doble tancament de velcro independent, que representa el sistema Draxtor de Tenaya",
-          "texto": [
-            "Tenaya és una marca espanyola especialitzada gairebé exclusivament en escalada, i un dels seus trets d'identitat tècnics és el sistema de tancament Draxtor, present en models com la Mundaka.",
-            "A diferència d'un velcro únic, el Draxtor permet tensar la puntera i el taló de manera independent, cosa que en teoria ofereix un ajust més fi que un tancament convencional d'una sola corretja.",
-            "Analitzem què implica això en la fitxa tècnica i en quin tipus d'escalada té més sentit davant d'altres sistemes de tancament del catàleg de la marca."
-          ],
-          "fichaTecnica": [
-            {
-              "campo": "Pes",
-              "valor": "330 g"
-            },
-            {
-              "campo": "Tancament",
-              "valor": "Velcro (Draxtor)"
-            },
-            {
-              "campo": "Construcció",
-              "valor": "Slip-lasted (flexible)"
-            },
-            {
-              "campo": "Asimetria",
-              "valor": "Mitjana"
-            },
-            {
-              "campo": "Perfil",
-              "valor": "Moderada"
-            },
-            {
-              "campo": "Rigidesa",
-              "valor": "Tova"
-            },
-            {
-              "campo": "Sola",
-              "valor": "Vibram XS Grip · 3.5 mm"
-            },
-            {
-              "campo": "Volum",
-              "valor": "Estàndard"
-            },
-            {
-              "campo": "Materials",
-              "valor": "Empenya en pell sintètica amb dues corretges de velcro independents (sistema Draxtor); sola d'una peça a la puntera per maximitzar el contacte en bloc."
-            },
-            {
-              "campo": "Talles",
-              "valor": "EU 33–48.5 (unisex)"
-            }
-          ],
-          "caracteristicas": [
-            "Doble corretja independent que permet ajustar la puntera i el taló per separat.",
-            "Horma moderada amb asimetria mitjana, pensada per a bloc tècnic prolongat.",
-            "Goma Vibram XS Grip d'alta adherència en preses petites i volums."
-          ],
-          "paraQuien": "Interessant per a qui passa moltes hores fent bloc i valora poder afinar l'ajust del taló i de la puntera de manera independent, en lloc de dependre d'una única corretja que reparteix la tensió de manera uniforme. Menys rellevant per a qui prioritza la rapidesa en calçar-se per sobre de la precisió de l'ajust.",
-          "pros": [
-            "Ajust independent de puntera i taló",
-            "Bona adherència en bloc tècnic prolongat",
-            "Horma còmoda per a sessions llargues dins de la seva gamma"
-          ],
-          "contras": [
-            "Calçar-se i ajustar les dues corretges és més lent que amb un velcro únic",
-            "Pes una mica superior al de models equivalents d'altres marques",
-            "Sistema menys habitual, amb corba d'aprenentatge per trobar l'ajust òptim"
-          ],
-          "veredicto": "El Draxtor no és un truc de màrqueting: resol un problema real (l'ajust desigual d'un velcro únic) a canvi d'una mica de velocitat en calçar-se. A GATO LAB el considerem un sistema amb sentit per a qui escala en bloc moltes hores, i no per a qui vol calçar-se i descalçar-se constantment entre intents curts.",
-          "seo": {
-            "title": "Tenaya i el sistema Draxtor, explicat — GATO LAB",
-            "metaDescription": "Què és el sistema de tancament Draxtor de Tenaya, com funciona a la Mundaka i quan té sentit davant d'un velcro convencional."
-          }
-        },
-        "en": {
-          "titulo": "Tenaya and the Draxtor system: what makes it different",
-          "subtitulo": "We look at Tenaya's signature closure mechanism and why it appears on some of its most technical models, such as the Mundaka.",
-          "imagenAlt": "Schematic illustration of a climbing shoe with two independent velcro closures, representing Tenaya's Draxtor system",
-          "texto": [
-            "Tenaya is a Spanish brand that focuses almost exclusively on climbing, and one of its technical hallmarks is the Draxtor closure system, found on models such as the Mundaka.",
-            "Unlike a single velcro strap, the Draxtor lets you tension the toe and the heel independently, which in theory gives a finer fit than a conventional single-strap closure.",
-            "We look at what this means on the spec sheet and for which type of climbing it makes most sense compared with the brand's other closure systems."
-          ],
-          "fichaTecnica": [
-            {
-              "campo": "Weight",
-              "valor": "330 g"
-            },
-            {
-              "campo": "Closure",
-              "valor": "Velcro (Draxtor)"
-            },
-            {
-              "campo": "Construction",
-              "valor": "Slip-lasted (flexible)"
-            },
-            {
-              "campo": "Asymmetry",
-              "valor": "Medium"
-            },
-            {
-              "campo": "Shape",
-              "valor": "Moderate"
-            },
-            {
-              "campo": "Stiffness",
-              "valor": "Soft"
-            },
-            {
-              "campo": "Rubber",
-              "valor": "Vibram XS Grip · 3.5 mm"
-            },
-            {
-              "campo": "Volume",
-              "valor": "Standard"
-            },
-            {
-              "campo": "Materials",
-              "valor": "Synthetic leather upper with two independent velcro straps (Draxtor system); one-piece sole at the toe to maximise contact when bouldering."
-            },
-            {
-              "campo": "Sizes",
-              "valor": "EU 33–48.5 (unisex)"
-            }
-          ],
-          "caracteristicas": [
-            "Two independent straps that let you adjust the toe and the heel separately.",
-            "Moderate last with medium asymmetry, designed for long technical bouldering sessions.",
-            "Vibram XS Grip rubber with high grip on small holds and volumes."
-          ],
-          "paraQuien": "Worth a look if you spend many hours bouldering and value being able to fine-tune the heel and toe fit independently, rather than relying on a single strap that spreads tension evenly. Less relevant if you care more about how quickly you can put the shoes on than about fit precision.",
-          "pros": [
-            "Independent toe and heel adjustment",
-            "Good grip for long technical bouldering sessions",
-            "Comfortable last for long sessions within its range"
-          ],
-          "contras": [
-            "Putting on and adjusting two straps is slower than a single velcro",
-            "Slightly heavier than equivalent models from other brands",
-            "A less common system, with a learning curve to find the best fit"
-          ],
-          "veredicto": "The Draxtor isn't a marketing gimmick: it solves a real problem (the uneven fit of a single velcro strap) at the cost of a little speed when putting the shoes on. At GATO LAB we think it makes sense for climbers who boulder for hours, not for those who keep taking their shoes on and off between short attempts.",
-          "seo": {
-            "title": "Tenaya and the Draxtor system, explained — GATO LAB",
-            "metaDescription": "What Tenaya's Draxtor closure system is, how it works on the Mundaka and when it makes sense compared with a conventional velcro."
-          }
-        },
-        "fr": {
-          "titulo": "Tenaya et le système Draxtor : ce qui le rend différent",
-          "subtitulo": "Nous analysons le mécanisme de fermeture caractéristique de Tenaya et pourquoi il équipe certains de ses modèles les plus techniques, comme la Mundaka.",
-          "imagenAlt": "Illustration schématique d'un chausson d'escalade à double fermeture velcro indépendante, représentant le système Draxtor de Tenaya",
-          "texto": [
-            "Tenaya est une marque espagnole spécialisée presque exclusivement dans l'escalade, et l'une de ses signatures techniques est le système de fermeture Draxtor, présent sur des modèles comme la Mundaka.",
-            "Contrairement à un velcro unique, le Draxtor permet de tendre la pointe et le talon indépendamment, ce qui, en théorie, offre un ajustement plus fin qu'une fermeture classique à une seule sangle.",
-            "Nous analysons ce que cela implique sur la fiche technique et pour quel type d'escalade il a le plus de sens par rapport aux autres systèmes de fermeture de la marque."
-          ],
-          "fichaTecnica": [
-            {
-              "campo": "Poids",
-              "valor": "330 g"
-            },
-            {
-              "campo": "Fermeture",
-              "valor": "Velcro (Draxtor)"
-            },
-            {
-              "campo": "Construction",
-              "valor": "Slip-lasted (souple)"
-            },
-            {
-              "campo": "Asymétrie",
-              "valor": "Moyenne"
-            },
-            {
-              "campo": "Profil",
-              "valor": "Modérée"
-            },
-            {
-              "campo": "Rigidité",
-              "valor": "Souple"
-            },
-            {
-              "campo": "Semelle",
-              "valor": "Vibram XS Grip · 3.5 mm"
-            },
-            {
-              "campo": "Volume",
-              "valor": "Standard"
-            },
-            {
-              "campo": "Matériaux",
-              "valor": "Tige en cuir synthétique avec deux sangles velcro indépendantes (système Draxtor) ; semelle d'une seule pièce à la pointe pour maximiser le contact en bloc."
-            },
-            {
-              "campo": "Pointures",
-              "valor": "EU 33–48.5 (unisexe)"
-            }
-          ],
-          "caracteristicas": [
-            "Double sangle indépendante qui permet d'ajuster la pointe et le talon séparément.",
-            "Forme modérée à asymétrie moyenne, pensée pour de longues séances de bloc technique.",
-            "Gomme Vibram XS Grip très adhérente sur les petites prises et les volumes."
-          ],
-          "paraQuien": "Intéressant si tu passes de nombreuses heures en bloc et que tu apprécies de pouvoir affiner séparément le serrage du talon et de la pointe, plutôt que de dépendre d'une seule sangle qui répartit la tension uniformément. Moins pertinent si tu privilégies la rapidité pour te chausser plutôt que la précision du serrage.",
-          "pros": [
-            "Serrage indépendant de la pointe et du talon",
-            "Bonne adhérence pour de longues séances de bloc technique",
-            "Forme confortable pour les longues séances dans sa catégorie"
-          ],
-          "contras": [
-            "Mettre et régler les deux sangles est plus lent qu'avec un velcro unique",
-            "Poids un peu supérieur à celui de modèles équivalents d'autres marques",
-            "Système moins courant, avec une courbe d'apprentissage pour trouver le bon serrage"
-          ],
-          "veredicto": "Le Draxtor n'est pas un gadget marketing : il résout un vrai problème (le serrage inégal d'un velcro unique) au prix d'un peu de rapidité pour se chausser. Chez GATO LAB, nous le jugeons pertinent pour qui grimpe en bloc pendant des heures, pas pour qui enlève et remet sans cesse ses chaussons entre de courts essais.",
-          "seo": {
-            "title": "Tenaya et le système Draxtor, expliqué — GATO LAB",
-            "metaDescription": "Ce qu'est le système de fermeture Draxtor de Tenaya, comment il fonctionne sur la Mundaka et quand il a du sens par rapport à un velcro classique."
           }
         }
       }

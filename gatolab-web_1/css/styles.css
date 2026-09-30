@@ -934,3 +934,15 @@ img.shoe-photo, .detail-photo-thumb img, .quiz-result-photo img{ mix-blend-mode:
   .card-price span{ font-size:.55rem; margin-left:2px; }
   .card-foot .add-compare{ flex:1 1 100%; justify-content:center; }
 }
+
+/* Fotos: fondo fundido compatible con Safari/iPhone.
+   Safari ignora mix-blend-mode si la misma imagen lleva filter, así que la foto
+   solo lleva el filtro y una capa gris encima (::after) hace la mezcla. */
+.card-photo, .detail-photo-main, .detail-photo-thumb, .duel-photo, .similar-photo, .mini-badge,
+.article-gallery-item, .quiz-result-photo, .horma-photo{ position:relative; isolation:isolate; background:#FFFFFF; }
+.card-photo::after, .detail-photo-main::after, .detail-photo-thumb::after, .duel-photo::after, .similar-photo::after, .mini-badge::after,
+.article-gallery-item::after, .quiz-result-photo::after, .horma-photo::after{ content:""; position:absolute; inset:0; background:var(--photo-bg); mix-blend-mode:multiply; pointer-events:none; z-index:1; }
+.detail-photo-thumb.active::after{ background:var(--photo-bg-active); }
+.detail-photo-thumb.active{ background:#FFFFFF; }
+img.shoe-photo, .detail-photo-thumb img, .quiz-result-photo img, .article-gallery-item img{ mix-blend-mode:normal; }
+.card-photo > :not(img), .detail-photo-main > :not(img), .duel-photo > :not(img), .quiz-result-photo > :not(img), .article-gallery-item > :not(img){ z-index:2; }

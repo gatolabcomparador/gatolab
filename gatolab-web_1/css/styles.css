@@ -909,3 +909,6 @@ img.shoe-photo, .detail-photo-thumb img, .quiz-result-photo img{ mix-blend-mode:
 }
 /* Títulos de artículo en dos líneas: más interlineado para que las tildes (Ó, Í…) no pisen la línea de arriba */
 .article-title{ line-height:1.1; }
+/* Galería de artículos: fotos de producto enteras y con el fondo fundido, como en las tarjetas del catálogo */
+.article-gallery-item{ background:var(--surface-2, #F6F6F6); }
+.article-gallery-item img{ object-fit:contain; padding:6%; mix-blend-mode:multiply; filter:brightness(1.12) contrast(1.08); }

@@ -546,15 +546,15 @@
     const p = document.querySelector(".hero p");
     if(!p) return;
     const total = SHOES.length, brands = MARCAS.length;
-    const esFallback = "Descubre, analiza y compara {{total}} modelos de pies de gato de {{marcas}} marcas por cierre, perfil, rigidez, asimetría y uso recomendado — lado a lado, sin marketing de por medio.";  
+    const esFallback = "Descubre, analiza y compara {{total}} modelos de pies de gato de {{marcas}} marcas por cierre, perfil, rigidez, asimetría y uso recomendado.";  
     const esTexto = siteText("inicio.introTexto", esFallback)
       .replace(/\{\{total\}\}/g, `<strong id="heroTotal">${total}</strong>`)
       .replace(/\{\{marcas\}\}/g, `<strong id="heroBrands">${brands}</strong>`);
     const templates = {
       es: esTexto,
-      ca:`Descobreix, analitza i compara <strong id="heroTotal">${total}</strong> models de peus de gat de <strong id="heroBrands">${brands}</strong> marques per tancament, perfil, rigidesa, asimetria i ús recomanat — costat a costat, sense marketing pel mig.`,
-      en:`Discover, analyze and compare <strong id="heroTotal">${total}</strong> climbing shoe models from <strong id="heroBrands">${brands}</strong> brands by closure, shape, stiffness, asymmetry and recommended use — side by side, no marketing involved.`,
-      fr:`Découvre, analyse et compare <strong id="heroTotal">${total}</strong> modèles de chaussons d'escalade de <strong id="heroBrands">${brands}</strong> marques par fermeture, profil, rigidité, asymétrie et usage recommandé — côte à côte, sans marketing.`
+      ca:`Descobreix, analitza i compara <strong id="heroTotal">${total}</strong> models de peus de gat de <strong id="heroBrands">${brands}</strong> marques per tancament, perfil, rigidesa, asimetria i ús recomanat.`,
+      en:`Discover, analyze and compare <strong id="heroTotal">${total}</strong> climbing shoe models from <strong id="heroBrands">${brands}</strong> brands by closure, shape, stiffness, asymmetry and recommended use.`,
+      fr:`Découvre, analyse et compare <strong id="heroTotal">${total}</strong> modèles de chaussons d'escalade de <strong id="heroBrands">${brands}</strong> marques par fermeture, profil, rigidité, asymétrie et usage recommandé.`
     };
     p.innerHTML = templates[LANG] || templates.es;
   }

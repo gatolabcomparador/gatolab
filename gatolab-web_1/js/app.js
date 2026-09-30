@@ -221,6 +221,9 @@
     navAbout: {es:"Sobre nosotros", ca:"Sobre nosaltres", en:"About us", fr:"À propos"},
     navGuide: {es:"Guía", ca:"Guia", en:"Guide", fr:"Guide"},
     guideNote: {es:"¿Empiezas a escalar o no sabes qué mirar? Lee nuestra guía para elegir pie de gato →", ca:"Comences a escalar o no saps què mirar? Llegeix la nostra guia per triar peu de gat →", en:"New to climbing or not sure what to look for? Read our guide to choosing climbing shoes →", fr:"Tu débutes ou tu ne sais pas quoi regarder ? Lis notre guide pour choisir tes chaussons →"},
+    quizCtaEyebrow: {es:"Test · 1 min", ca:"Test · 1 min", en:"Quiz · 1 min", fr:"Test · 1 min"},
+    quizCtaTitle: {es:"¿Qué pie de gato necesitas?", ca:"Quin peu de gat necessites?", en:"Which climbing shoe do you need?", fr:"Quel chausson te faut-il ?"},
+    quizCtaGo: {es:"Hacer el test", ca:"Fer el test", en:"Take the quiz", fr:"Faire le test"},
     guideLink: {es:"¿Qué significa cada dato? Guía para principiantes →", ca:"Què vol dir cada dada? Guia per a principiants →", en:"What does each spec mean? Beginner's guide →", fr:"Que signifie chaque donnée ? Guide du débutant →"},
     kidsFlag: {es:"Niños", ca:"Nens", en:"Kids", fr:"Enfants"},
     lvFlag: {es:"Horma estrecha (LV)", ca:"Horma estreta (LV)", en:"Low volume (LV)", fr:"Volume réduit (LV)"},
@@ -1390,10 +1393,15 @@
       note.innerHTML = `${sealIconHTML("seal-badge")}<span><strong>${t("sealName")}</strong> — ${t("sealExplain")}</span>`;
       box.appendChild(note);
     }
-    const guideNote = document.createElement("p");
-    guideNote.className = "guide-note";
-    guideNote.innerHTML = `<a href="#guia">${t("guideNote")}</a>`;
-    box.appendChild(guideNote);
+    // Acceso al test «Encuentra tu pie de gato» (arriba de la Guía)
+    const quizCta = document.createElement("div");
+    quizCta.className = "quiz-cta-row";
+    quizCta.innerHTML = `<a class="quiz-cta" href="#guia">
+      <span class="quiz-cta-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 6.5l1.5 1.5 3-3"/><path d="M3.5 12.5l1.5 1.5 3-3"/><path d="M3.5 18.5l1.5 1.5 3-3"/><path d="M11 7h9.5M11 13h9.5M11 19h6"/></svg></span>
+      <span class="quiz-cta-text"><span class="quiz-cta-eyebrow">${t("quizCtaEyebrow")}</span><strong class="quiz-cta-title">${t("quizCtaTitle")}</strong></span>
+      <span class="quiz-cta-go"><span class="quiz-cta-go-label">${t("quizCtaGo")}</span><span aria-hidden="true">→</span></span>
+    </a>`;
+    box.appendChild(quizCta);
   }
   // Logo de GATO LAB en morado: sello de los pies de gato recomendados ("sello": true)
   function sealIconHTML(cls){

@@ -41,7 +41,7 @@ collections:
           - label: "Artículos"
             name: "articulos"
             widget: "list"
-            summary: "{{fields.categoria}} · {{fields.fecha}} — {{fields.titulo}}"
+            summary: "{{fields.fecha}} — {{fields.titulo}}"
             fields:
               - label: "URL slug"
                 name: "slug"
@@ -51,8 +51,8 @@ collections:
 
               - label: "Categoría"
                 name: "categoria"
-                widget: "select"
-                options: ["NEW RELEASES", "REVIEWS", "PRODUCT ANALYSIS", "CLIMBING SHOES", "BRANDS"]
+                widget: "hidden"
+                default: "NEWS"
 
               - label: "Fecha de publicación"
                 name: "fecha"
@@ -93,11 +93,27 @@ collections:
                 required: false
                 hint: "Describe la imagen para SEO y accesibilidad (ej. «La Sportiva Skwama en desplome, vista de perfil»)."
 
+              - label: "Pie de foto de la imagen principal"
+                name: "pieFoto"
+                widget: "string"
+                required: false
+                hint: "Texto que aparece debajo de la foto principal del artículo (ej. «Sachi Amma, a pie de vía en La Capella, en Siurana, tras probar los Tenaya Aruma.»). Déjalo vacío si no quieres pie de foto."
+
+              - label: "Autor / crédito de las fotos"
+                name: "creditoFoto"
+                widget: "string"
+                required: false
+                hint: "Quién firma las fotos (ej. Josep Malo o Tenaya). Se muestra como «Foto / Josep Malo» junto al pie de la foto principal, y como «Fotos / Josep Malo» debajo de la galería. Déjalo vacío si no quieres mostrar crédito."
+
               - label: "Galería de imágenes"
                 name: "galeria"
                 widget: "list"
                 required: false
-                field: { label: "Imagen", name: "imagen", widget: "image" }
+                summary: "{{fields.pie}}"
+                hint: "Cada foto puede llevar su propio pie de foto (opcional), que aparece debajo de ella en el artículo."
+                fields:
+                  - { label: "Imagen", name: "imagen", widget: "image" }
+                  - { label: "Pie de foto", name: "pie", widget: "string", required: false, hint: "Texto corto debajo de la foto (ej. «Perfil exterior»). Déjalo vacío si no quieres pie." }
 
               - label: "Vídeo de YouTube"
                 name: "video"
@@ -171,6 +187,110 @@ collections:
                 fields:
                   - { label: "SEO title", name: "title", widget: "string", hint: "Ej. «La Sportiva Skwama: ficha técnica y análisis — GATO LAB»" }
                   - { label: "Meta description", name: "metaDescription", widget: "text" }
+
+              - label: "Traducciones (català, English, français)"
+                name: "traducciones"
+                widget: "object"
+                collapsed: true
+                required: false
+                hint: "El artículo se escribe en castellano en los campos de arriba. Aquí van sus versiones en catalán, inglés y francés. Si dejas un campo vacío, en ese idioma se muestra el texto en castellano. Los pies de foto de la galería van en el mismo orden que las fotos."
+                fields:
+                  - label: "Català"
+                    name: "ca"
+                    widget: "object"
+                    collapsed: true
+                    required: false
+                    fields:
+                      - { label: "Título", name: "titulo", widget: "string", required: false }
+                      - { label: "Subtítulo / entradilla", name: "subtitulo", widget: "text", required: false }
+                      - { label: "Texto alternativo de la imagen principal", name: "imagenAlt", widget: "string", required: false }
+                      - { label: "Pie de foto de la imagen principal", name: "pieFoto", widget: "string", required: false }
+                      - { label: "Pies de foto de la galería (mismo orden que las fotos)", name: "galeriaPies", widget: "list", required: false, field: { label: "Pie de foto", name: "pie", widget: "string" } }
+                      - { label: "Texto del artículo", name: "texto", widget: "list", required: false, field: { label: "Párrafo", name: "parrafo", widget: "text" } }
+                      - label: "Ficha técnica"
+                        name: "fichaTecnica"
+                        widget: "list"
+                        required: false
+                        fields:
+                          - { label: "Campo", name: "campo", widget: "string" }
+                          - { label: "Valor", name: "valor", widget: "string" }
+                      - { label: "Características principales", name: "caracteristicas", widget: "list", required: false, field: { label: "Característica", name: "item", widget: "string" } }
+                      - { label: "¿Para quién es?", name: "paraQuien", widget: "text", required: false }
+                      - { label: "Pros", name: "pros", widget: "list", required: false, field: { label: "Punto a favor", name: "item", widget: "string" } }
+                      - { label: "Contras", name: "contras", widget: "list", required: false, field: { label: "Punto a tener en cuenta", name: "item", widget: "string" } }
+                      - { label: "Veredicto GATO LAB", name: "veredicto", widget: "text", required: false }
+                      - label: "SEO"
+                        name: "seo"
+                        widget: "object"
+                        collapsed: true
+                        required: false
+                        fields:
+                          - { label: "SEO title", name: "title", widget: "string", required: false }
+                          - { label: "Meta description", name: "metaDescription", widget: "text", required: false }
+                  - label: "English"
+                    name: "en"
+                    widget: "object"
+                    collapsed: true
+                    required: false
+                    fields:
+                      - { label: "Título", name: "titulo", widget: "string", required: false }
+                      - { label: "Subtítulo / entradilla", name: "subtitulo", widget: "text", required: false }
+                      - { label: "Texto alternativo de la imagen principal", name: "imagenAlt", widget: "string", required: false }
+                      - { label: "Pie de foto de la imagen principal", name: "pieFoto", widget: "string", required: false }
+                      - { label: "Pies de foto de la galería (mismo orden que las fotos)", name: "galeriaPies", widget: "list", required: false, field: { label: "Pie de foto", name: "pie", widget: "string" } }
+                      - { label: "Texto del artículo", name: "texto", widget: "list", required: false, field: { label: "Párrafo", name: "parrafo", widget: "text" } }
+                      - label: "Ficha técnica"
+                        name: "fichaTecnica"
+                        widget: "list"
+                        required: false
+                        fields:
+                          - { label: "Campo", name: "campo", widget: "string" }
+                          - { label: "Valor", name: "valor", widget: "string" }
+                      - { label: "Características principales", name: "caracteristicas", widget: "list", required: false, field: { label: "Característica", name: "item", widget: "string" } }
+                      - { label: "¿Para quién es?", name: "paraQuien", widget: "text", required: false }
+                      - { label: "Pros", name: "pros", widget: "list", required: false, field: { label: "Punto a favor", name: "item", widget: "string" } }
+                      - { label: "Contras", name: "contras", widget: "list", required: false, field: { label: "Punto a tener en cuenta", name: "item", widget: "string" } }
+                      - { label: "Veredicto GATO LAB", name: "veredicto", widget: "text", required: false }
+                      - label: "SEO"
+                        name: "seo"
+                        widget: "object"
+                        collapsed: true
+                        required: false
+                        fields:
+                          - { label: "SEO title", name: "title", widget: "string", required: false }
+                          - { label: "Meta description", name: "metaDescription", widget: "text", required: false }
+                  - label: "Français"
+                    name: "fr"
+                    widget: "object"
+                    collapsed: true
+                    required: false
+                    fields:
+                      - { label: "Título", name: "titulo", widget: "string", required: false }
+                      - { label: "Subtítulo / entradilla", name: "subtitulo", widget: "text", required: false }
+                      - { label: "Texto alternativo de la imagen principal", name: "imagenAlt", widget: "string", required: false }
+                      - { label: "Pie de foto de la imagen principal", name: "pieFoto", widget: "string", required: false }
+                      - { label: "Pies de foto de la galería (mismo orden que las fotos)", name: "galeriaPies", widget: "list", required: false, field: { label: "Pie de foto", name: "pie", widget: "string" } }
+                      - { label: "Texto del artículo", name: "texto", widget: "list", required: false, field: { label: "Párrafo", name: "parrafo", widget: "text" } }
+                      - label: "Ficha técnica"
+                        name: "fichaTecnica"
+                        widget: "list"
+                        required: false
+                        fields:
+                          - { label: "Campo", name: "campo", widget: "string" }
+                          - { label: "Valor", name: "valor", widget: "string" }
+                      - { label: "Características principales", name: "caracteristicas", widget: "list", required: false, field: { label: "Característica", name: "item", widget: "string" } }
+                      - { label: "¿Para quién es?", name: "paraQuien", widget: "text", required: false }
+                      - { label: "Pros", name: "pros", widget: "list", required: false, field: { label: "Punto a favor", name: "item", widget: "string" } }
+                      - { label: "Contras", name: "contras", widget: "list", required: false, field: { label: "Punto a tener en cuenta", name: "item", widget: "string" } }
+                      - { label: "Veredicto GATO LAB", name: "veredicto", widget: "text", required: false }
+                      - label: "SEO"
+                        name: "seo"
+                        widget: "object"
+                        collapsed: true
+                        required: false
+                        fields:
+                          - { label: "SEO title", name: "title", widget: "string", required: false }
+                          - { label: "Meta description", name: "metaDescription", widget: "text", required: false }
 
   - name: "shoes"
     label: "CATÁLOGO"

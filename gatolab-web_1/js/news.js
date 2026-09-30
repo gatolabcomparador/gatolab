@@ -48,11 +48,13 @@
   };
 
   /* Textos fijos de NEWS en los cuatro idiomas. Los artículos se escriben en
-     castellano en el panel; sus traducciones están en content/news-i18n.json
-     (por slug e idioma). Si un artículo no tiene traducción, se muestra en
-     castellano. */
+     castellano en el panel, y sus traducciones van dentro de cada artículo, en
+     el campo «traducciones» (ca / en / fr), también editable desde /admin/.
+     Si un campo no está traducido, se muestra en castellano. */
   const UI = {
-    all:         {es:"TODAS", ca:"TOTES", en:"ALL", fr:"TOUTES"},
+    tag:         {es:"NOTICIAS", ca:"NOTÍCIES", en:"NEWS", fr:"ACTUALITÉS"},
+    photo:       {es:"Foto", ca:"Foto", en:"Photo", fr:"Photo"},
+    photos:      {es:"Fotos", ca:"Fotos", en:"Photos", fr:"Photos"},
     gallery:     {es:"Galería de fotos", ca:"Galeria de fotos", en:"Photo gallery", fr:"Galerie photos"},
     video:       {es:"Vídeo", ca:"Vídeo", en:"Video", fr:"Vidéo"},
     playVideo:   {es:"Reproducir vídeo", ca:"Reprodueix el vídeo", en:"Play video", fr:"Lire la vidéo"},
@@ -61,7 +63,7 @@
     heroText:    {es:"Novedades, análisis técnico y reviews de pies de gato — conectado directamente con la base de datos de modelos de GATO LAB.", ca:"Novetats, anàlisi tècnica i reviews de peus de gat — connectat directament amb la base de dades de models de GATO LAB.", en:"News, technical analysis and reviews of climbing shoes — linked directly to the GATO LAB model database.", fr:"Nouveautés, analyses techniques et tests de chaussons d'escalade — directement reliés à la base de données de modèles GATO LAB."},
     loading:     {es:"CARGANDO NOTICIAS…", ca:"CARREGANT NOTÍCIES…", en:"LOADING NEWS…", fr:"CHARGEMENT DES ACTUALITÉS…"},
     failed:      {es:"NO SE HAN PODIDO CARGAR LAS NOTICIAS. INTÉNTALO DE NUEVO MÁS TARDE.", ca:"NO S'HAN POGUT CARREGAR LES NOTÍCIES. TORNA-HO A PROVAR MÉS TARD.", en:"THE NEWS COULD NOT BE LOADED. PLEASE TRY AGAIN LATER.", fr:"IMPOSSIBLE DE CHARGER LES ACTUALITÉS. RÉESSAIE PLUS TARD."},
-    empty:       {es:"NO HAY ARTÍCULOS EN ESTA CATEGORÍA TODAVÍA.", ca:"ENCARA NO HI HA ARTICLES EN AQUESTA CATEGORIA.", en:"NO ARTICLES IN THIS CATEGORY YET.", fr:"PAS ENCORE D'ARTICLES DANS CETTE CATÉGORIE."},
+    empty:       {es:"TODAVÍA NO HAY NOTICIAS.", ca:"ENCARA NO HI HA NOTÍCIES.", en:"NO NEWS YET.", fr:"PAS ENCORE D'ACTUALITÉS."},
     notFound:    {es:"ARTÍCULO NO ENCONTRADO.", ca:"ARTICLE NO TROBAT.", en:"ARTICLE NOT FOUND.", fr:"ARTICLE INTROUVABLE."},
     back:        {es:"← Volver a NEWS", ca:"← Tornar a NEWS", en:"← Back to NEWS", fr:"← Retour aux NEWS"},
     read:        {es:"Leer", ca:"Llegir", en:"Read", fr:"Lire"},
@@ -83,11 +85,19 @@
   const lang = () => (window.GatoLab && window.GatoLab.getLang) ? window.GatoLab.getLang() : "es";
   const ui = k => (UI[k] && (UI[k][lang()] || UI[k].es)) || k;
   const fl = (tipo, valor) => (window.GatoLab && window.GatoLab.filterLabel) ? window.GatoLab.filterLabel(tipo, valor) : valor;
-  let I18N = {};
-  // Campo de un artículo en el idioma actual (si hay traducción), si no en castellano
+  // ¿Tiene contenido? (texto no vacío, lista con elementos u objeto con algún valor)
+  function filled(v){
+    if(v == null) return false;
+    if(typeof v === "string") return v.trim() !== "";
+    if(Array.isArray(v)) return v.some(filled);
+    if(typeof v === "object") return Object.values(v).some(filled);
+    return true;
+  }
+  // Campo de un artículo en el idioma actual (si está traducido), si no en castellano
   function tx(n, field){
-    const tr = I18N[n.slug] && I18N[n.slug][lang()];
-    return (tr && tr[field] != null) ? tr[field] : n[field];
+    const L = lang();
+    const tr = L !== "es" && n.traducciones && n.traducciones[L];
+    return (tr && filled(tr[field])) ? tr[field] : n[field];
   }
 
   let NEWS = [];
@@ -115,10 +125,6 @@
   }
 
   function loadNews(){
-    fetch("content/news-i18n.json", { cache: "no-store" })
-      .then(r=> r.ok ? r.json() : {})
-      .then(d=>{ I18N = d || {}; if(loaded && window.GatoLab && window.GatoLab.isNewsView && window.GatoLab.isNewsView()) render(); })
-      .catch(()=>{});
     return fetch("content/news.json", { cache: "no-store" })
       .then(r=>{ if(!r.ok) throw new Error("HTTP "+r.status); return r.json(); })
       .then(data=>{
@@ -196,7 +202,7 @@
         <div class="news-featured-photo">${photo}</div>
         <div class="news-featured-body">
           <div class="news-featured-eyebrow">
-            <span class="news-cat-tag">${catLabel(n.categoria)}</span>
+            <span class="news-cat-tag">${ui("tag")}</span>
             <span class="news-date mono">${formatNewsDate(n.fecha)}</span>
           </div>
           ${shoe ? `<div class="news-featured-model">${shoe.marca} · ${shoe.modelo}</div>` : (n.marca ? `<div class="news-featured-model">${n.marca}</div>` : "")}
@@ -217,7 +223,7 @@
         <div class="news-card-photo">${photo}</div>
         <div class="news-card-body">
           <div class="news-card-eyebrow">
-            <span class="news-cat-tag">${catLabel(n.categoria)}</span>
+            <span class="news-cat-tag">${ui("tag")}</span>
             <span class="news-date mono">${formatNewsDate(n.fecha)}</span>
           </div>
           ${shoe ? `<div class="news-card-model">${shoe.marca} · ${shoe.modelo}</div>` : (n.marca ? `<div class="news-card-model">${n.marca}</div>` : "")}
@@ -230,14 +236,8 @@
 
   function renderListPage(body){
     restoreBaseMeta();
-    const chips = ["TODAS", ...NEWS_CATEGORIES];
-    const filtersHTML = `<div class="news-filters">` + chips.map(c=>{
-      const active = c==="TODAS" ? !currentCat : currentCat===c;
-      return `<button type="button" data-cat="${c}" aria-pressed="${active}">${c==="TODAS" ? ui("all") : catLabel(c)}</button>`;
-    }).join("") + `</div>`;
-
-    const filtered = currentCat ? NEWS.filter(n=>n.categoria===currentCat) : NEWS.slice();
-    const sorted = filtered.slice().sort((a,b)=> String(b.fecha).localeCompare(String(a.fecha)));
+    // NEWS ya no se divide en categorías: todas las entradas son «Noticias»
+    const sorted = NEWS.slice().sort((a,b)=> String(b.fecha).localeCompare(String(a.fecha)));
 
     let mainHTML;
     if(!loaded && !loadFailed){
@@ -258,16 +258,9 @@
         <h1 class="display">GATO LAB <em>News</em></h1>
         <p>${ui("heroText")}</p>
       </section>
-      ${filtersHTML}
       ${mainHTML}
       <div class="ad-slot ad-infeed" aria-hidden="true">${ui("adSpace")}</div>`;
 
-    body.querySelectorAll(".news-filters button").forEach(btn=>{
-      btn.addEventListener("click", ()=>{
-        currentCat = btn.dataset.cat==="TODAS" ? null : btn.dataset.cat;
-        renderListPage(body);
-      });
-    });
     bindNewsCardNav(body);
   }
 
@@ -279,18 +272,35 @@
     return m ? m[1] : "";
   }
   const attr = s => String(s||"").replace(/&/g,"&amp;").replace(/"/g,"&quot;").replace(/</g,"&lt;");
+  /* Pie de foto: «Texto. Foto / Autor» (texto traducible; el autor/crédito no se traduce) */
+  function captionHTML(text, credit, cls){
+    text = String(text||"").trim(); credit = String(credit||"").trim();
+    if(!text && !credit) return "";
+    return `<figcaption class="photo-caption${cls ? " "+cls : ""}">${text}${text && credit ? " " : ""}${credit ? `<span class="photo-credit">${ui("photo")} / ${credit}</span>` : ""}</figcaption>`;
+  }
+  function galleryItems(n){
+    const tr = tx(n,"galeriaPies");
+    return (n.galeria||[]).map(g=> typeof g === "string" ? {imagen:g, pie:""} : (g ? {imagen:g.imagen||g.url, pie:g.pie||""} : null))
+      .filter(g=> g && g.imagen)
+      .map((g,i)=> ({ imagen:g.imagen, pie: (Array.isArray(tr) && tr[i]) ? tr[i] : g.pie }));
+  }
   function galleryHTML(n){
-    const fotos = (n.galeria||[]).map(g=> typeof g === "string" ? g : (g && (g.imagen||g.url)) ).filter(Boolean);
+    const items = galleryItems(n);
+    const fotos = items.map(g=>g.imagen);
     if(!fotos.length) return "";
     const alt = attr(`${n.marca ? n.marca+" " : ""}${(findShoe(n.modeloId)||{}).modelo||""}`.trim() || tx(n,"titulo"));
     return `
         <div class="article-section">
           <h2>${ui("gallery")}</h2>
-          <div class="article-gallery">${fotos.map((src,i)=>`
-            <button type="button" class="article-gallery-item" data-index="${i}" aria-label="${ui("enlargePhoto")} ${i+1}/${fotos.length}">
-              <img src="${attr(src)}" alt="${alt} — ${i+1}" loading="lazy">
-            </button>`).join("")}
+          <div class="article-gallery">${items.map((g,i)=>`
+            <figure class="article-gallery-fig">
+              <button type="button" class="article-gallery-item" data-index="${i}" aria-label="${ui("enlargePhoto")} ${i+1}/${fotos.length}">
+                <img src="${attr(g.imagen)}" alt="${g.pie ? attr(g.pie) : alt+" — "+(i+1)}" loading="lazy">
+              </button>
+              ${captionHTML(g.pie, "")}
+            </figure>`).join("")}
           </div>
+          ${n.creditoFoto ? `<p class="photo-caption gallery-credit"><span class="photo-credit">${ui("photos")} / ${n.creditoFoto}</span></p>` : ""}
         </div>`;
   }
   function videoHTML(n){
@@ -368,7 +378,7 @@
     body.innerHTML = `
       <article class="article-page">
         <div class="article-eyebrow-row">
-          <span class="news-cat-tag">${catLabel(n.categoria)}</span>
+          <span class="news-cat-tag">${ui("tag")}</span>
           <span class="news-date mono">${formatNewsDate(n.fecha)}</span>
         </div>
         <h1 class="display article-title">${tx(n,"titulo")}</h1>
@@ -377,7 +387,10 @@
           ${shoe ? `<span>${shoe.marca} · ${shoe.modelo}</span>` : (n.marca ? `<span>${n.marca}</span>` : "")}
           <span>${ui("byline")}</span>
         </div>
-        <div class="article-hero-photo" role="img" aria-label="${tx(n,"imagenAlt")||""}">${heroPhoto}</div>
+        <figure class="article-figure">
+          <div class="article-hero-photo" role="img" aria-label="${tx(n,"imagenAlt")||""}">${heroPhoto}</div>
+          ${n.imagenPrincipal ? captionHTML(tx(n,"pieFoto"), n.creditoFoto) : ""}
+        </figure>
 
         <div class="article-body">${(tx(n,"texto")||[]).map(p=>`<p>${p}</p>`).join("")}</div>
 

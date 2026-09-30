@@ -870,3 +870,9 @@ table.compare .price-cell{ font-family:'JetBrains Mono',monospace; font-weight:7
 @media (prefers-reduced-motion:reduce){
   .quiz-cta, .quiz-cta-go{ transition:none; }
 }
+
+/* ==========================================================================
+   Fotos: el fondo blanco/gris claro de los JPG se funde con el fondo de la tarjeta
+   (no afecta al visor ampliado, que tiene fondo oscuro)
+   ========================================================================== */
+img.shoe-photo, .detail-photo-thumb img, .quiz-result-photo img{ mix-blend-mode:multiply; filter:brightness(1.15) contrast(1.12); }

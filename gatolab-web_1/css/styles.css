@@ -907,3 +907,5 @@ img.shoe-photo, .detail-photo-thumb img, .quiz-result-photo img{ mix-blend-mode:
 @media (prefers-reduced-motion:reduce){
   .article-gallery-item img, .article-video-play, .article-video-btn img{ transition:none; }
 }
+/* Títulos de artículo en dos líneas: más interlineado para que las tildes (Ó, Í…) no pisen la línea de arriba */
+.article-title{ line-height:1.1; }

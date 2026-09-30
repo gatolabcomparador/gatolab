@@ -53,6 +53,11 @@
      castellano. */
   const UI = {
     all:         {es:"TODAS", ca:"TOTES", en:"ALL", fr:"TOUTES"},
+    gallery:     {es:"Galería de fotos", ca:"Galeria de fotos", en:"Photo gallery", fr:"Galerie photos"},
+    video:       {es:"Vídeo", ca:"Vídeo", en:"Video", fr:"Vidéo"},
+    playVideo:   {es:"Reproducir vídeo", ca:"Reprodueix el vídeo", en:"Play video", fr:"Lire la vidéo"},
+    watchYt:     {es:"Ver en YouTube", ca:"Veure a YouTube", en:"Watch on YouTube", fr:"Voir sur YouTube"},
+    enlargePhoto:{es:"Ampliar foto", ca:"Amplia la foto", en:"Enlarge photo", fr:"Agrandir la photo"},
     heroText:    {es:"Novedades, análisis técnico y reviews de pies de gato — conectado directamente con la base de datos de modelos de GATO LAB.", ca:"Novetats, anàlisi tècnica i reviews de peus de gat — connectat directament amb la base de dades de models de GATO LAB.", en:"News, technical analysis and reviews of climbing shoes — linked directly to the GATO LAB model database.", fr:"Nouveautés, analyses techniques et tests de chaussons d'escalade — directement reliés à la base de données de modèles GATO LAB."},
     loading:     {es:"CARGANDO NOTICIAS…", ca:"CARREGANT NOTÍCIES…", en:"LOADING NEWS…", fr:"CHARGEMENT DES ACTUALITÉS…"},
     failed:      {es:"NO SE HAN PODIDO CARGAR LAS NOTICIAS. INTÉNTALO DE NUEVO MÁS TARDE.", ca:"NO S'HAN POGUT CARREGAR LES NOTÍCIES. TORNA-HO A PROVAR MÉS TARD.", en:"THE NEWS COULD NOT BE LOADED. PLEASE TRY AGAIN LATER.", fr:"IMPOSSIBLE DE CHARGER LES ACTUALITÉS. RÉESSAIE PLUS TARD."},
@@ -266,6 +271,61 @@
     bindNewsCardNav(body);
   }
 
+  /* ---------- Galería de fotos y vídeo de YouTube de un artículo ---------- */
+  // Acepta enlaces youtu.be/ID, youtube.com/watch?v=ID, /shorts/ID o /embed/ID
+  function ytId(url){
+    if(!url) return "";
+    const m = String(url).match(/(?:youtu\.be\/|youtube(?:-nocookie)?\.com\/(?:watch\?(?:.*&)?v=|shorts\/|embed\/|live\/))([A-Za-z0-9_-]{11})/);
+    return m ? m[1] : "";
+  }
+  const attr = s => String(s||"").replace(/&/g,"&amp;").replace(/"/g,"&quot;").replace(/</g,"&lt;");
+  function galleryHTML(n){
+    const fotos = (n.galeria||[]).map(g=> typeof g === "string" ? g : (g && (g.imagen||g.url)) ).filter(Boolean);
+    if(!fotos.length) return "";
+    const alt = attr(`${n.marca ? n.marca+" " : ""}${(findShoe(n.modeloId)||{}).modelo||""}`.trim() || tx(n,"titulo"));
+    return `
+        <div class="article-section">
+          <h2>${ui("gallery")}</h2>
+          <div class="article-gallery">${fotos.map((src,i)=>`
+            <button type="button" class="article-gallery-item" data-index="${i}" aria-label="${ui("enlargePhoto")} ${i+1}/${fotos.length}">
+              <img src="${attr(src)}" alt="${alt} — ${i+1}" loading="lazy">
+            </button>`).join("")}
+          </div>
+        </div>`;
+  }
+  function videoHTML(n){
+    const id = ytId(n.video);
+    if(!id) return "";
+    return `
+        <div class="article-section">
+          <h2>${ui("video")}</h2>
+          <div class="article-video" data-yt="${id}">
+            <button type="button" class="article-video-btn" aria-label="${ui("playVideo")}">
+              <img src="https://i.ytimg.com/vi/${id}/maxresdefault.jpg" alt="" loading="lazy" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/${id}/hqdefault.jpg'">
+              <span class="article-video-play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5.5v13l11-6.5z" fill="currentColor"/></svg></span>
+            </button>
+          </div>
+          <a class="article-video-link" href="https://www.youtube.com/watch?v=${id}" target="_blank" rel="noopener">${ui("watchYt")} ↗</a>
+        </div>`;
+  }
+  function bindArticleMedia(body, n){
+    const fotos = (n.galeria||[]).map(g=> typeof g === "string" ? g : (g && (g.imagen||g.url)) ).filter(Boolean);
+    body.querySelectorAll(".article-gallery-item").forEach(btn=>{
+      btn.addEventListener("click", ()=>{
+        const i = Number(btn.dataset.index)||0;
+        if(window.GatoLab && window.GatoLab.openLightbox) window.GatoLab.openLightbox(fotos, i, tx(n,"titulo"));
+        else window.open(fotos[i], "_blank", "noopener");
+      });
+    });
+    const box = body.querySelector(".article-video");
+    if(box){
+      box.querySelector(".article-video-btn").addEventListener("click", ()=>{
+        const id = box.dataset.yt;
+        box.innerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${id}?autoplay=1&rel=0" title="${attr(tx(n,"titulo"))}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
+      });
+    }
+  }
+
   function renderArticlePage(body, slug){
     const n = NEWS.find(x=>x.slug===slug);
     if(!n){
@@ -323,6 +383,10 @@
 
         ${productCardHTML}
 
+        ${galleryHTML(n)}
+
+        ${videoHTML(n)}
+
         <div class="article-section">
           <h2>${ui("specs")}</h2>
           <div class="article-spec-grid">${specHTML}</div>
@@ -372,6 +436,7 @@
         window.GatoLab.openDetail(shoe.id);
       });
     }
+    bindArticleMedia(body, n);
     bindNewsCardNav(body);
   }
 

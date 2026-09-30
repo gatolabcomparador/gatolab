@@ -99,6 +99,12 @@ collections:
                 required: false
                 field: { label: "Imagen", name: "imagen", widget: "image" }
 
+              - label: "Vídeo de YouTube"
+                name: "video"
+                widget: "string"
+                required: false
+                hint: "Pega el enlace del vídeo (youtube.com/watch?v=… o youtu.be/…). En el artículo aparecerá su miniatura con un botón de reproducir, y el vídeo se verá dentro de la propia página."
+
               - label: "Texto del artículo"
                 name: "texto"
                 widget: "list"
